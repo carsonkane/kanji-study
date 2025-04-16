@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Radicals Explorer</title>
+    <title>Kanji Radicals Explorer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,18 +19,20 @@
         #loadingMessage { text-align: center; padding: 2rem; color: #667eea; }
         #errorMessage { text-align: center; padding: 2rem; color: #e53e3e; background-color: #fed7d7; border: 1px solid #f56565; border-radius: 0.5rem; margin: 1rem; }
         .nav-link-active { font-weight: 600; border-bottom: 2px solid white; }
-        /* --- New Style for clickable radical/kanji in modal --- */
-        .clickable-char {
-            cursor: pointer;
-            transition: background-color 0.2s ease, color 0.2s ease;
-        }
-        .clickable-char:hover {
-            background-color: #ccfbf1; /* Lighter cyan background on hover */
-            color: #0d9488; /* Teal text on hover */
-        }
-        /* Remove default link styles */
-        #modalKanjiList a {
-            text-decoration: none;
+        .clickable-char { cursor: pointer; transition: background-color 0.2s ease, color 0.2s ease; }
+        .clickable-char:hover { background-color: #ccfbf1; color: #0d9488; }
+        #modalKanjiList a { text-decoration: none; }
+        #modalRadicalVariants span { display: inline-block; }
+        /* Optional: Style for frequency count on card */
+        .radical-count {
+            position: absolute;
+            top: 2px;
+            right: 4px;
+            font-size: 0.65rem; /* Tiny */
+            color: #9ca3af; /* Gray-400 */
+            background-color: rgba(243, 244, 246, 0.7); /* Gray-100 with transparency */
+            padding: 0 3px;
+            border-radius: 3px;
         }
     </style>
 </head>
@@ -38,7 +40,7 @@
 
     <header class="bg-gradient-to-r from-teal-500 to-cyan-600 text-white p-6 shadow-md">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-3xl font-bold">Kanji Radicals</h1>
+            <h1 class="text-3xl font-bold">Kanji Radicals Explorer</h1>
             <nav>
                 <ul class="flex space-x-6">
                     <li><a href="index.html" class="hover:text-cyan-200">Kanji</a></li>
@@ -46,15 +48,16 @@
                 </ul>
             </nav>
         </div>
-        <p class="text-center text-cyan-100 mt-2">Discover the building blocks of Kanji</p>
+        <p class="text-center text-cyan-100 mt-2">Discover the building blocks of Kanji (Ordered by Frequency)</p> <!-- Updated subtitle -->
     </header>
 
     <main class="container mx-auto p-4 md:p-8">
-        <div id="loadingMessage" class="text-lg font-semibold">Loading radical data...</div>
+        <div id="loadingMessage" class="text-lg font-semibold">Loading and processing radical data...</div>
         <div id="errorMessage" class="hidden font-medium"></div>
         <section id="radicalGrid" class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-4 md:gap-6"></section>
     </main>
 
+    <!-- Modal for Radical Details -->
     <div id="radicalModal" class="modal modal-hidden fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center p-4 z-50">
         <div class="bg-white rounded-lg shadow-xl max-w-lg w-full max-h-[90vh] overflow-y-auto p-6 relative">
             <button id="closeRadicalModal" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-2xl font-bold">×</button>
@@ -63,9 +66,11 @@
                     <span id="modalRadicalChar"></span>
                 </div>
                 <h2 id="modalRadicalName" class="text-2xl font-semibold text-gray-900 text-center"></h2>
+                <!-- Added Frequency Count Display in Modal -->
+                <p class="text-sm text-gray-500 -mt-2 mb-2">Frequency Count: <span id="modalRadicalCount" class="font-medium"></span></p>
+                <div id="modalRadicalVariants" class="w-full mt-2 text-center"></div>
                 <div class="w-full mt-4">
                     <h4 class="font-semibold mb-2 text-gray-700 text-center border-t pt-4">Used in Kanji:</h4>
-                    <!-- Kanji will be links now -->
                     <div id="modalKanjiList" class="flex flex-wrap justify-center gap-2 text-center"></div>
                 </div>
             </div>
@@ -79,13 +84,22 @@
         const closeModalBtn = document.getElementById('closeRadicalModal');
         const modalRadicalChar = document.getElementById('modalRadicalChar');
         const modalRadicalName = document.getElementById('modalRadicalName');
+        const modalRadicalCount = document.getElementById('modalRadicalCount'); // Added
         const modalKanjiList = document.getElementById('modalKanjiList');
+        const modalRadicalVariants = document.getElementById('modalRadicalVariants');
         const loadingMessage = document.getElementById('loadingMessage');
         const errorMessage = document.getElementById('errorMessage');
 
         // --- Global Variables ---
         let allKanjiData = [];
         let uniqueRadicalsData = [];
+
+        // --- Radical Variant Mapping ---
+        const radicalVariantsMap = {
+            '人': ['亻'], '水': ['氵'], '心': ['忄', '⺗'], '手': ['扌'], '犬': ['犭'],
+            '示': ['礻'], '食': ['飠'], '艸': ['艹'], '刀': ['刂'], '邑': ['阝'],
+            '阜': ['阝'], '衣': ['衤'], '玉': ['王'], '言': ['訁'], '金': ['釒'],
+        };
 
         // --- Functions ---
         function displayError(message) {
@@ -95,30 +109,43 @@
             radicalGrid.innerHTML = '';
         }
 
+        // --- MODIFIED: processRadicals to count frequency and sort ---
         function processRadicals(kanjiData) {
+            // Map: Key: radical char, Value: { name: '...', kanjiList: Set<string>, count: number }
             const radicalsMap = new Map();
             if (!kanjiData || kanjiData.length === 0) return [];
 
+            // Iterate through Kanji to populate map and count frequency
             kanjiData.forEach(kanjiItem => {
                 if (kanjiItem && kanjiItem.kanji && Array.isArray(kanjiItem.radicals)) {
                     kanjiItem.radicals.forEach(rad => {
                         if (rad && rad.char) {
                             if (!radicalsMap.has(rad.char)) {
-                                radicalsMap.set(rad.char, { name: rad.name || 'Unknown', kanjiList: new Set() });
+                                // Initialize with count 0 if new
+                                radicalsMap.set(rad.char, { name: rad.name || 'Unknown', kanjiList: new Set(), count: 0 });
                             }
+                            // Add Kanji to the list for this radical
                             radicalsMap.get(rad.char).kanjiList.add(kanjiItem.kanji);
+                            // Increment the frequency count for this radical
+                            radicalsMap.get(rad.char).count++;
                         }
                     });
                 }
             });
 
+            // Convert Map to array, include count, and sort
             return Array.from(radicalsMap.entries()).map(([char, data]) => ({
                 char: char,
                 name: data.name,
-                kanjiList: Array.from(data.kanjiList).sort()
-            })).sort((a, b) => a.char.localeCompare(b.char));
+                kanjiList: Array.from(data.kanjiList).sort(), // Sort Kanji list alphabetically
+                count: data.count // Include the frequency count
+            }))
+            // Sort primarily by count (descending), secondarily by character (ascending) for stability
+            .sort((a, b) => b.count - a.count || a.char.localeCompare(b.char));
         }
+        // --- END MODIFICATION ---
 
+        // --- MODIFIED: renderRadicalGrid to optionally show count ---
         function renderRadicalGrid(data) {
              if (!data || data.length === 0) {
                  displayError("No unique radicals found or data is empty.");
@@ -134,40 +161,64 @@
                      return;
                  }
                 const card = document.createElement('div');
-                card.className = 'radical-card bg-white p-3 rounded-lg shadow-md hover:shadow-lg cursor-pointer transition-all duration-300 ease-in-out flex flex-col items-center justify-center aspect-square';
+                // Added relative positioning for the count badge
+                card.className = 'radical-card relative bg-white p-3 rounded-lg shadow-md hover:shadow-lg cursor-pointer transition-all duration-300 ease-in-out flex flex-col items-center justify-center aspect-square';
                 card.innerHTML = `
                     <span class="kanji-font text-4xl md:text-5xl text-gray-800">${item.char}</span>
                     <span class="text-xs text-gray-500 mt-1 text-center truncate w-full px-1" title="${item.name}">${item.name}</span>
+                    <!-- Optional: Display frequency count on card -->
+                    <span class="radical-count" title="Frequency Count">${item.count}</span>
                 `;
                 card.addEventListener('click', () => showModal(item));
                 radicalGrid.appendChild(card);
             });
         }
+        // --- END MODIFICATION ---
 
+        // --- MODIFIED: showModal to display count ---
         function showModal(radicalItem) {
             modalRadicalChar.textContent = radicalItem.char || '?';
             modalRadicalName.textContent = radicalItem.name || 'Unknown Radical';
+            modalRadicalCount.textContent = radicalItem.count !== undefined ? radicalItem.count : 'N/A'; // Display count
 
-            // --- MODIFIED: Populate Kanji list as links ---
+            // Display Variants
+            modalRadicalVariants.innerHTML = '';
+            const variants = radicalVariantsMap[radicalItem.char];
+            if (variants && variants.length > 0) {
+                const variantsTitle = document.createElement('h5');
+                variantsTitle.className = 'text-sm font-semibold text-gray-600 mb-1';
+                variantsTitle.textContent = 'Common Forms:';
+                modalRadicalVariants.appendChild(variantsTitle);
+
+                const variantsList = document.createElement('div');
+                variantsList.className = 'flex flex-wrap justify-center gap-2';
+                variants.forEach(variantChar => {
+                    const variantEl = document.createElement('span');
+                    variantEl.className = 'kanji-font bg-gray-100 text-gray-700 text-lg px-3 py-1 rounded shadow-sm';
+                    variantEl.textContent = variantChar;
+                    variantsList.appendChild(variantEl);
+                });
+                modalRadicalVariants.appendChild(variantsList);
+            }
+
+            // Populate Kanji list as links
             modalKanjiList.innerHTML = '';
             if (radicalItem.kanjiList && radicalItem.kanjiList.length > 0) {
                 radicalItem.kanjiList.forEach(kanjiChar => {
                     const kanjiLink = document.createElement('a');
-                    // Added 'clickable-char' class for styling
                     kanjiLink.className = 'kanji-font bg-gray-100 text-gray-700 text-lg px-3 py-1 rounded shadow-sm clickable-char';
                     kanjiLink.textContent = kanjiChar;
-                    // Set the href to index.html with the kanji character as a parameter
                     kanjiLink.href = `index.html?kanji=${encodeURIComponent(kanjiChar)}`;
                     modalKanjiList.appendChild(kanjiLink);
                 });
             } else {
                 modalKanjiList.innerHTML = '<span class="text-sm text-gray-500 italic">Not found in loaded Kanji data.</span>';
             }
-            // --- END MODIFICATION ---
 
             modal.classList.remove('modal-hidden');
             modal.classList.add('modal-visible');
         }
+        // --- END MODIFICATION ---
 
         function hideModal() {
              modal.classList.add('modal-hidden');
@@ -185,25 +236,38 @@
                 const response = await fetch('kanji-data.json');
                 if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
                 allKanjiData = await response.json();
+                // Process radicals (now includes counting and sorting by frequency)
                 uniqueRadicalsData = processRadicals(allKanjiData);
+                // Render the grid (now sorted by frequency)
                 renderRadicalGrid(uniqueRadicalsData);
 
-                 // --- ADDED: Check for URL parameter on load ---
                  const urlParams = new URLSearchParams(window.location.search);
                  const radicalParam = urlParams.get('radical');
                  if (radicalParam) {
-                     // Decode the parameter
                      const decodedRadical = decodeURIComponent(radicalParam);
-                     // Find the radical data object
                      const radicalToShow = uniqueRadicalsData.find(item => item.char === decodedRadical);
                      if (radicalToShow) {
-                         // Use setTimeout to ensure the page rendering is complete
-                         setTimeout(() => showModal(radicalToShow), 100); // Small delay
+                         setTimeout(() => showModal(radicalToShow), 100);
                      } else {
-                         console.warn(`Radical "${decodedRadical}" not found in processed data.`);
+                         let primaryRadicalChar = null;
+                         for (const [primary, variants] of Object.entries(radicalVariantsMap)) {
+                             if (variants.includes(decodedRadical)) {
+                                 primaryRadicalChar = primary;
+                                 break;
+                             }
+                         }
+                         if(primaryRadicalChar) {
+                             const primaryRadicalToShow = uniqueRadicalsData.find(item => item.char === primaryRadicalChar);
+                             if (primaryRadicalToShow) {
+                                 setTimeout(() => showModal(primaryRadicalToShow), 100);
+                             } else {
+                                console.warn(`Primary radical "${primaryRadicalChar}" for variant "${decodedRadical}" not found.`);
+                             }
+                         } else {
+                            console.warn(`Radical or variant "${decodedRadical}" not found.`);
+                         }
                      }
                  }
-                 // --- END ADDITION ---
 
             } catch (error) {
                 console.error("Failed to load or process data:", error);
