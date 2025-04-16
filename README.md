@@ -58,3 +58,4 @@
 
 to do:
 add https://youglish.com/ to kanji.
+add pictograph images
