@@ -24,14 +24,21 @@
         #loadingMessage { text-align: center; padding: 2rem; color: #667eea; }
         #errorMessage { text-align: center; padding: 2rem; color: #e53e3e; background-color: #fed7d7; border: 1px solid #f56565; border-radius: 0.5rem; margin: 1rem; }
         .nav-link-active { font-weight: 600; border-bottom: 2px solid white; }
-        /* --- New Style for clickable radical/kanji in modal --- */
-        .clickable-char {
-            cursor: pointer;
-            transition: background-color 0.2s ease, color 0.2s ease;
+        .clickable-char { cursor: pointer; transition: background-color 0.2s ease, color 0.2s ease; }
+        .clickable-char:hover { background-color: #e0e7ff; color: #4f46e5; }
+        /* Style for sentence examples */
+        .sentence-example {
+             background-color: #f9fafb; /* Very light gray */
+             border-left: 3px solid;
+             padding: 0.5rem 0.75rem;
+             margin-bottom: 0.5rem;
+             border-radius: 0 0.25rem 0.25rem 0; /* Rounded corners except top-left */
         }
-        .clickable-char:hover {
-            background-color: #e0e7ff; /* Lighter indigo background on hover */
-            color: #4f46e5; /* Indigo text on hover */
+        .sentence-casual { border-color: #a78bfa; } /* Purple */
+        .sentence-formal { border-color: #2dd4bf; } /* Teal */
+        /* Ensure strong tags within sentences are bold */
+        .sentence-example p strong {
+            font-weight: 700; /* Or 600 if you prefer */
         }
     </style>
 </head>
@@ -56,41 +63,64 @@
         <section id="kanjiGrid" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 md:gap-6"></section>
     </main>
 
+    <!-- Kanji Modal -->
     <div id="kanjiModal" class="modal modal-hidden fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center p-4 z-50">
         <div class="bg-white rounded-lg shadow-xl max-w-xl w-full max-h-[90vh] overflow-y-auto p-6 relative">
             <button id="closeModal" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-2xl font-bold">×</button>
             <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
-                <div class="kanji-font text-8xl md:text-9xl text-indigo-600 bg-indigo-50 p-4 rounded-lg shadow-inner text-center min-w-[120px]">
+                <!-- Kanji Character Display -->
+                <div class="kanji-font text-7xl md:text-8xl text-indigo-600 bg-indigo-50 p-4 rounded-lg shadow-inner text-center min-w-[120px]">
                     <span id="modalKanjiChar"></span>
                 </div>
+                <!-- Details Column -->
                 <div class="flex-grow text-center md:text-left">
                     <h2 id="modalMeaning" class="text-2xl font-semibold text-gray-900 mb-2"></h2>
                     <p class="text-sm text-gray-500 mb-3">Frequency Rank: <span id="modalRank" class="font-medium"></span></p>
+                    <!-- Readings -->
                     <div class="mb-4 text-sm">
                         <h4 class="font-semibold mb-1 text-gray-700">Readings:</h4>
                         <p><span class="font-medium text-red-600">On'yomi:</span> <span id="modalOnyomi" class="kanji-font"></span></p>
                         <p><span class="font-medium text-blue-600">Kun'yomi:</span> <span id="modalKunyomi" class="kanji-font"></span></p>
                     </div>
+                    <!-- Pronounce Button -->
                      <button id="pronounceButton" class="pronounce-button text-white font-semibold py-2 px-5 rounded-full mb-4 inline-flex items-center gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM12.293 7.293a1 1 0 011.414 0L15 8.586l1.293-1.293a1 1 0 111.414 1.414L16.414 10l1.293 1.293a1 1 0 01-1.414 1.414L15 11.414l-1.293 1.293a1 1 0 01-1.414-1.414L13.586 10l-1.293-1.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
                         Pronounce
                     </button>
+                    <!-- Story -->
                     <div class="mb-4">
                         <h4 class="font-semibold mb-1 text-gray-700">Story / Mnemonic:</h4>
                         <p id="modalStory" class="text-gray-600 text-sm leading-relaxed"></p>
                     </div>
+                    <!-- Radicals -->
                     <div class="mb-4">
                         <h4 class="font-semibold mb-1 text-gray-700">Radicals:</h4>
-                        <!-- Radicals will be links now -->
                         <div id="modalRadicals" class="flex flex-wrap gap-2"></div>
                     </div>
-                    <div>
+
+                    <!-- Example Sentences Section -->
+                    <div id="sentenceSection" class="mt-4 pt-4 border-t">
+                        <h4 class="font-semibold mb-2 text-gray-700">Example Sentences:</h4>
+                        <div class="space-y-2 text-sm">
+                            <div class="sentence-example sentence-casual">
+                                <span class="font-medium text-purple-700">Casual:</span>
+                                <p id="modalCasualSentence" class="kanji-font text-gray-700 leading-relaxed inline"></p>
+                            </div>
+                            <div class="sentence-example sentence-formal">
+                                <span class="font-medium text-teal-700">Formal:</span>
+                                <p id="modalFormalSentence" class="kanji-font text-gray-700 leading-relaxed inline"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END Example Sentences Section -->
+
+                    <!-- YouTube Link -->
+                    <div class="mt-4 pt-4 border-t">
                         <h4 class="font-semibold mb-1 text-gray-700">See it in action:</h4>
                         <a id="modalYoutubeLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-block bg-red-600 hover:bg-red-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 shadow hover:shadow-md">
                             Watch on YouTube
                         </a>
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -112,6 +142,9 @@
         const pronounceButton = document.getElementById('pronounceButton');
         const loadingMessage = document.getElementById('loadingMessage');
         const errorMessage = document.getElementById('errorMessage');
+        const sentenceSection = document.getElementById('sentenceSection');
+        const modalCasualSentence = document.getElementById('modalCasualSentence');
+        const modalFormalSentence = document.getElementById('modalFormalSentence');
 
         // --- Global Variable ---
         let allKanjiData = [];
@@ -152,6 +185,7 @@
         }
 
         function showModal(kanjiItem) {
+            // Populate existing fields
             modalKanjiChar.textContent = kanjiItem.kanji || '?';
             modalMeaning.textContent = kanjiItem.meaning || 'Meaning not available';
             modalRank.textContent = kanjiItem.frequencyRank || 'N/A';
@@ -159,17 +193,15 @@
             modalKunyomi.textContent = kanjiItem.readings?.kunyomi || 'N/A';
             modalStory.textContent = kanjiItem.story || 'Story coming soon!';
 
-            // --- MODIFIED: Populate radicals as links ---
+            // Populate radicals as links
             modalRadicals.innerHTML = '';
             if (kanjiItem.radicals && kanjiItem.radicals.length > 0) {
                 kanjiItem.radicals.forEach(rad => {
-                    if (rad && rad.char) { // Check if radical and char exist
+                    if (rad && rad.char) {
                         const radicalLink = document.createElement('a');
-                        // Added 'clickable-char' class for styling
-                        radicalLink.className = 'kanji-font bg-gray-100 text-gray-700 text-sm px-2 py-1 rounded clickable-char no-underline'; // Added no-underline
+                        radicalLink.className = 'kanji-font bg-gray-100 text-gray-700 text-sm px-2 py-1 rounded clickable-char no-underline';
                         radicalLink.textContent = `${rad.char} (${rad.name || 'unknown'})`;
                         radicalLink.title = rad.name || 'Unknown Radical';
-                        // Set the href to radicals.html with the radical character as a parameter
                         radicalLink.href = `radicals.html?radical=${encodeURIComponent(rad.char)}`;
                         modalRadicals.appendChild(radicalLink);
                     }
@@ -177,12 +209,13 @@
             } else {
                 modalRadicals.innerHTML = '<span class="text-sm text-gray-500">No radical info</span>';
             }
-            // --- END MODIFICATION ---
 
+            // Populate YouTube link
             const searchTerm = kanjiItem.youtubeSearchTerm || `日本語 漢字 ${kanjiItem.kanji}`;
             const youtubeUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(searchTerm)}`;
             modalYoutubeLink.href = youtubeUrl;
 
+            // Set data for pronounce button
             pronounceButton.dataset.kanji = kanjiItem.kanji || '';
             const kunReadings = (kanjiItem.readings?.kunyomi || '').split(',');
             const onReadings = (kanjiItem.readings?.onyomi || '').split(',');
@@ -190,6 +223,38 @@
             const firstOn = onReadings[0]?.split('.')[0]?.trim();
             pronounceButton.dataset.reading = firstKun || firstOn || '';
 
+            // --- Populate Sentences ---
+            let casualSentenceText = kanjiItem.casualSentence || '';
+            let formalSentenceText = kanjiItem.formalSentence || '';
+
+            // REVERTED: Removed the lines that stripped Hiragana
+            // const hiraganaRegex = /\s*\([^)]*\)/g;
+            // casualSentenceText = casualSentenceText.replace(hiraganaRegex, '').trim();
+            // formalSentenceText = formalSentenceText.replace(hiraganaRegex, '').trim();
+
+            // Function to convert markdown bold (**text**) to HTML strong tags
+            const formatSentence = (text) => {
+                 return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            };
+
+            // Use innerHTML to render the strong tags
+            modalCasualSentence.innerHTML = casualSentenceText ? formatSentence(casualSentenceText) : 'N/A';
+            modalFormalSentence.innerHTML = formalSentenceText ? formatSentence(formalSentenceText) : 'N/A';
+
+
+            // Optionally hide the entire sentence section if both are empty
+            if (!casualSentenceText && !formalSentenceText) {
+                sentenceSection.classList.add('hidden');
+            } else {
+                sentenceSection.classList.remove('hidden');
+                // Optionally hide individual lines if only one is present
+                 modalCasualSentence.closest('.sentence-example').style.display = casualSentenceText ? '' : 'none';
+                 modalFormalSentence.closest('.sentence-example').style.display = formalSentenceText ? '' : 'none';
+            }
+            // --- END Populate Sentences ---
+
+
+            // Show modal
             modal.classList.remove('modal-hidden');
             modal.classList.add('modal-visible');
         }
@@ -227,29 +292,23 @@
 
         // --- Initial Data Load ---
         async function loadKanjiData() {
-            try {
+             try {
                 const response = await fetch('kanji-data.json');
                 if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
                 allKanjiData = await response.json();
                 renderKanjiGrid(allKanjiData);
 
-                // --- ADDED: Check for URL parameter on load ---
                 const urlParams = new URLSearchParams(window.location.search);
                 const kanjiParam = urlParams.get('kanji');
                 if (kanjiParam) {
-                    // Decode the parameter in case it was encoded
                     const decodedKanji = decodeURIComponent(kanjiParam);
-                    // Find the kanji data object
                     const kanjiToShow = allKanjiData.find(item => item.kanji === decodedKanji);
                     if (kanjiToShow) {
-                        // Use setTimeout to ensure the page rendering is complete before showing modal
-                        setTimeout(() => showModal(kanjiToShow), 100); // Small delay
+                        setTimeout(() => showModal(kanjiToShow), 100);
                     } else {
                         console.warn(`Kanji "${decodedKanji}" not found in data.`);
                     }
                 }
-                // --- END ADDITION ---
-
             } catch (error) {
                 console.error("Failed to load or parse kanji-data.json:", error);
                 displayError(`Could not load Kanji data. Error: ${error.message}`);

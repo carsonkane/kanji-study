@@ -1,662 +1,2990 @@
 [
-    {
-      "kanji": "日",
-      "frequencyRank": 1,
-      "meaning": "Sun, Day",
-      "story": "Imagine the sun, a perfect circle with a line inside representing its radiant energy.",
-      "radicals": [ { "char": "日", "name": "sun/day" } ],
-      "readings": { "onyomi": "ニチ, ジツ", "kunyomi": "ひ, -び, -か" },
-      "youtubeSearchTerm": "日本語 漢字 日",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "誕生**日**おめでとう！３**日**（みっか）だっけ？ (たんじょうび おめでとう！ みっか だっけ？)",
-      "formalSentence": "本**日**（ほんじつ）は晴天なり。 (ほんじつ は せいてん なり。)"
+  {
+    "kanji": "日",
+    "frequencyRank": 1,
+    "meaning": "Sun, Day",
+    "story": "Imagine the sun, a perfect circle with a line inside representing its radiant energy.",
+    "radicals": [ { "char": "日", "name": "sun/day" } ],
+    "readings": { "onyomi": "ニチ, ジツ", "kunyomi": "ひ, -び, -か" },
+    "youtubeSearchTerm": "日本語 漢字 日",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "誕生**日**おめでとう！３**日**（みっか）だっけ？ (たんじょうび おめでとう！ みっか だっけ？)",
+    "formalSentence": "本**日**（ほんじつ）は晴天なり。 (ほんじつ は せいてん なり。)"
+  },
+  {
+    "kanji": "一",
+    "frequencyRank": 2,
+    "meaning": "One",
+    "story": "A single horizontal stroke, representing the number one, like laying one finger flat.",
+    "radicals": [ { "char": "一", "name": "one" } ],
+    "readings": { "onyomi": "イチ, イツ", "kunyomi": "ひと-, ひと.つ" },
+    "youtubeSearchTerm": "日本語 漢字 一",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**一**つちょうだい！**一**人で行くの？ (ひとつ ちょうだい！ ひとり で いく の？)",
+    "formalSentence": "この問題は**一**般的に、同**一**の解決策で統**一**されます。(この もんだい は いっぱんてき に、 どういつ の かいけつさく で とういつ されます)"
+  },
+  {
+    "kanji": "国",
+    "frequencyRank": 3,
+    "meaning": "Country",
+    "story": "Inside a boundary (囗), there's a jewel (玉) representing the treasure or sovereignty of a nation.",
+    "radicals": [ { "char": "囗", "name": "enclosure" }, { "char": "玉", "name": "jewel" } ],
+    "readings": { "onyomi": "コク", "kunyomi": "くに" },
+    "youtubeSearchTerm": "日本語 漢字 国",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "どの**国**から来たの？ (どの くに から きた の？)",
+    "formalSentence": "貴社は**国**際的な事業を展開されていますね。 (きしゃ は こくさいてき な じぎょう を てんかい されて います ね。)"
+  },
+  {
+    "kanji": "人",
+    "frequencyRank": 4,
+    "meaning": "Person",
+    "story": "Looks like a person walking, with two legs.",
+    "radicals": [ { "char": "人", "name": "person" } ],
+    "readings": { "onyomi": "ジン, ニン", "kunyomi": "ひと, -り, -と" },
+    "youtubeSearchTerm": "日本語 漢字 人",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "二**人**で何**人**分の料理作ったの？素**人**じゃないね！ (ふたり で なんにんぶん の りょうり つくった の？ しろうと じゃない ね！)",
+    "formalSentence": "日本**人**として、この国の**人**生観を理解することが重要です。(にほんじん として、 この くに の じんせいかん を りかい する こと が じゅうよう です)"
+  },
+  {
+    "kanji": "年",
+    "frequencyRank": 5,
+    "meaning": "Year",
+    "story": "A person (人 modified) carrying a shield (干 modified), perhaps marking the passage of a year or a harvest cycle.",
+    "radicals": [ { "char": "干", "name": "dry" } ],
+    "readings": { "onyomi": "ネン", "kunyomi": "とし" },
+    "youtubeSearchTerm": "日本語 漢字 年",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "来**年**で何**年**目？**年**取るの早いね！ (らいねん で なんねんめ？ とし とる の はやい ね！)",
+    "formalSentence": "**年**の瀬も押し迫ってまいりました。(とし の せ も おしせまって まいりました)"
+  },
+  {
+    "kanji": "大",
+    "frequencyRank": 6,
+    "meaning": "Big, Large",
+    "story": "A person (人) stretching their arms out wide to show how big something is.",
+    "radicals": [ { "char": "大", "name": "big" } ],
+    "readings": { "onyomi": "ダイ, タイ", "kunyomi": "おお-, おお.きい, -おお.いに" },
+    "youtubeSearchTerm": "日本語 漢字 大",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "このピザ、めっちゃ**大**きいね！ (この ぴざ、 めっちゃ おおきい ね！)",
+    "formalSentence": "**大**学への進学を**大**いに期待しております。 (だいがく への しんがく を おおいに きたい して おります。)"
+  },
+  {
+    "kanji": "十",
+    "frequencyRank": 7,
+    "meaning": "Ten",
+    "story": "A vertical stroke crossing a horizontal one, like crossing off ten items or forming a plus sign.",
+    "radicals": [ { "char": "十", "name": "ten" } ],
+    "readings": { "onyomi": "ジュウ, ジッ", "kunyomi": "とお, と" },
+    "youtubeSearchTerm": "日本語 漢字 十",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "あと**十**分で着くよ。 (あと じゅっぷん で つく よ。)",
+    "formalSentence": "**十**月**十**日は体育の日でした。 (じゅうがつ とおか は たいいく の ひ でした。)"
+  },
+  {
+    "kanji": "二",
+    "frequencyRank": 8,
+    "meaning": "Two",
+    "story": "Two horizontal strokes, representing the number two.",
+    "radicals": [ { "char": "一", "name": "one" } ],
+    "readings": { "onyomi": "ニ, ジ", "kunyomi": "ふた, ふた.つ, ふたた.び" },
+    "youtubeSearchTerm": "日本語 漢字 二",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**二**つください。**二**度としないでね！ (ふたつ ください。 にど と しないで ね！)",
+    "formalSentence": "**二**月は短いですね。 (にがつ は みじかい です ね。)"
+  },
+  {
+    "kanji": "本",
+    "frequencyRank": 9,
+    "meaning": "Book, Origin, Root",
+    "story": "A tree (木) with a line marking its base or root (本), signifying origin or the source (like a book).",
+    "radicals": [ { "char": "木", "name": "tree" } ],
+    "readings": { "onyomi": "ホン", "kunyomi": "もと" },
+    "youtubeSearchTerm": "日本語 漢字 本",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "この**本**、面白そう！ (この ほん、 おもしろそう！)",
+    "formalSentence": "事の**本**（もと）をたどれば、誤解があったようです。 (こと の もと を たどれば、 ごかい が あった よう です。)"
+  },
+  {
+    "kanji": "中",
+    "frequencyRank": 10,
+    "meaning": "Middle, Inside",
+    "story": "A line (丨) passing through the exact center of a mouth or box (口).",
+    "radicals": [ { "char": "口", "name": "mouth" }, { "char": "丨", "name": "vertical stroke" } ],
+    "readings": { "onyomi": "チュウ", "kunyomi": "なか, うち, あた.る" },
+    "youtubeSearchTerm": "日本語 漢字 中",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "箱の**中**に何が入ってるの？ (はこ の なか に なに が はいってる の？)",
+    "formalSentence": "会議は午前**中**（ごぜんちゅう）に終了する予定です。 (かいぎ は ごぜんちゅう に しゅうりょう する よてい です。)"
+  },
+  {
+    "kanji": "長",
+    "frequencyRank": 11,
+    "meaning": "Long, Leader",
+    "story": "Depicts long hair flowing down, symbolizing length or seniority (leader).",
+    "radicals": [ { "char": "長", "name": "long" } ],
+    "readings": { "onyomi": "チョウ", "kunyomi": "なが.い, おさ" },
+    "youtubeSearchTerm": "日本語 漢字 長",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "髪、**長**いね！ (かみ、 ながい ね！)",
+    "formalSentence": "彼はチームの**長**（おさ）としてリーダーシップを発揮しました。 (かれ は ちーむ の おさ として りーだーしっぷ を はっき しました。)"
+  },
+  {
+    "kanji": "出",
+    "frequencyRank": 12,
+    "meaning": "Exit, Go out",
+    "story": "Two mountains (山) stacked, perhaps representing emerging or going out from between them.",
+    "radicals": [ { "char": "凵", "name": "container" }, { "char": "山", "name": "mountain" } ],
+    "readings": { "onyomi": "シュツ, スイ", "kunyomi": "で.る, -で, だ.す, -だ.す, い.でる" },
+    "youtubeSearchTerm": "日本語 漢字 出",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "早く**出**てきて！ゴミ**出**しといてね。 (はやく でてきて！ ごみだし といて ね。)",
+    "formalSentence": "会議に**出**席（しゅっせき）いただけますでしょうか。 (かいぎ に しゅっせき いただけます でしょう か。)"
+  },
+  {
+    "kanji": "三",
+    "frequencyRank": 13,
+    "meaning": "Three",
+    "story": "Three horizontal strokes, representing the number three.",
+    "radicals": [ { "char": "一", "name": "one" } ],
+    "readings": { "onyomi": "サン, ゾウ", "kunyomi": "み, み.つ, みっ.つ" },
+    "youtubeSearchTerm": "日本語 漢字 三",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "りんご**三**つください。 (りんご みっつ ください。)",
+    "formalSentence": "**三**月**三**日はひな祭りです。 (さんがつ みっか は ひなまつり です。)"
+  },
+  {
+    "kanji": "時",
+    "frequencyRank": 14,
+    "meaning": "Time, Hour",
+    "story": "The sun (日) moving over a temple (寺), marking the passage of time.",
+    "radicals": [ { "char": "日", "name": "sun" }, { "char": "寺", "name": "temple" } ],
+    "readings": { "onyomi": "ジ", "kunyomi": "とき, -どき" },
+    "youtubeSearchTerm": "日本語 漢字 時",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "今、何**時**？ (いま、 なんじ？)",
+    "formalSentence": "その**時**は、大変お世話になりました。 (その とき は、 たいへん おせわ に なりました。)"
+  },
+  {
+    "kanji": "行",
+    "frequencyRank": 15,
+    "meaning": "Go, Journey, Conduct",
+    "story": "Depicts intersecting roads or a crossroads, symbolizing movement or action.",
+    "radicals": [ { "char": "行", "name": "go" } ],
+    "readings": { "onyomi": "コウ, ギョウ, アン", "kunyomi": "い.く, ゆ.く, -ゆ.き, -い.き, おこな.う" },
+    "youtubeSearchTerm": "日本語 漢字 行",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "明日、どこ**行**く？ (あした、 どこ いく？)",
+    "formalSentence": "調査を**行**います。銀**行**はどちらですか？ (ちょうさ を おこないます。 ぎんこう は どちら です か？)"
+  },
+  {
+    "kanji": "見",
+    "frequencyRank": 16,
+    "meaning": "See, Look",
+    "story": "An eye (目) on legs (儿), representing the act of seeing or looking around.",
+    "radicals": [ { "char": "目", "name": "eye" }, { "char": "儿", "name": "legs" } ],
+    "readings": { "onyomi": "ケン", "kunyomi": "み.る, み.える, み.せる" },
+    "youtubeSearchTerm": "日本語 漢字 見",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "あれ**見**て！花火が**見**えるよ！ (あれ みて！ はなび が みえる よ！)",
+    "formalSentence": "ご意**見**（いけん）をお聞かせください。 (ごいけん を おきかせ ください。)"
+  },
+  {
+    "kanji": "月",
+    "frequencyRank": 17,
+    "meaning": "Month, Moon",
+    "story": "Picture of a crescent moon.",
+    "radicals": [ { "char": "月", "name": "moon/month/flesh" } ],
+    "readings": { "onyomi": "ゲツ, ガツ", "kunyomi": "つき" },
+    "youtubeSearchTerm": "日本語 漢字 月",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "今**月**、忙しい？ (こんげつ、 いそがしい？)",
+    "formalSentence": "今晩は**月**が綺麗ですね。 (こんばんは つき が きれい です ね。)"
+  },
+  {
+    "kanji": "分",
+    "frequencyRank": 18,
+    "meaning": "Minute, Understand, Divide",
+    "story": "A knife (刀) dividing something in half (八), representing division or understanding (breaking down).",
+    "radicals": [ { "char": "八", "name": "eight" }, { "char": "刀", "name": "sword/knife" } ],
+    "readings": { "onyomi": "ブン, フン, ブ", "kunyomi": "わ.ける, わ.け, わ.かれる, わ.かる, わ.かつ" },
+    "youtubeSearchTerm": "日本語 漢字 分",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "あと５**分**で着く。意味**分**かる？ (あと ごふん で つく。 いみ わかる？)",
+    "formalSentence": "資料を**分**けていただけますか。 (しりょう を わけて いただけます か。)"
+  },
+  {
+    "kanji": "後",
+    "frequencyRank": 19,
+    "meaning": "Behind, After",
+    "story": "Walking (彳) with a thread (幺) trailing behind, tied to something small (口 phonetic?), indicating 'after' or 'behind'.",
+    "radicals": [ { "char": "彳", "name": "step" }, { "char": "幺", "name": "thread" }, { "char": "口", "name": "mouth" } ],
+    "readings": { "onyomi": "ゴ, コウ", "kunyomi": "のち, うし.ろ, うしろ, あと, おく.れる" },
+    "youtubeSearchTerm": "日本語 漢字 後",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "また**後**でね！**後**ろ見て！ (また あとで ね！ うしろ みて！)",
+    "formalSentence": "午**後**（ごご）の予定はいかがなさいますか。 (ごご の よてい は いかが なさいます か。)"
+  },
+  {
+    "kanji": "前",
+    "frequencyRank": 20,
+    "meaning": "Before, Front",
+    "story": "Horns (丷) over a moon/flesh (月) being cut by a knife (刀刂), perhaps preparing something *beforehand*.",
+    "radicals": [ { "char": "丷", "name": "horns" }, { "char": "月", "name": "flesh" }, { "char": "刀", "name": "knife" } ],
+    "readings": { "onyomi": "ゼン", "kunyomi": "まえ, -まえ" },
+    "youtubeSearchTerm": "日本語 漢字 前",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "駅の**前**で待ってるね。 (えき の まえ で まってる ね。)",
+    "formalSentence": "午**前**（ごぜん）中にご連絡いたします。 (ごぜんちゅう に ごれんらく いたします。)"
+  },
+  {
+    "kanji": "生",
+    "frequencyRank": 21,
+    "meaning": "Life, Birth, Genuine",
+    "story": "A sprout (生) pushing up from the ground, symbolizing life and birth.",
+    "radicals": [ { "char": "生", "name": "life" } ],
+    "readings": { "onyomi": "セイ, ショウ", "kunyomi": "い.きる, い.かす, い.ける, う.まれる, うま.れる, う.まれ, うまれ, う.む, お.う, は.える, は.やす, き, なま, なま-, な.る, な.す, む.す, -う" },
+    "youtubeSearchTerm": "日本語 漢字 生",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**生**ビールください！庭に草が**生**えてる。 (なまびーる ください！ にわ に くさ が はえてる。)",
+    "formalSentence": "先生は学**生**（がくせい）たちに**生**きる意味を教えました。 (せんせい は がくせい たち に いきる いみ を おしえました。)"
+  },
+  {
+    "kanji": "高",
+    "frequencyRank": 22,
+    "meaning": "Tall, High, Expensive",
+    "story": "Picture a tall building (高) reaching high into the sky, representing height and, by extension, high cost.",
+    "radicals": [ { "char": "高", "name": "tall" } ],
+    "readings": { "onyomi": "コウ", "kunyomi": "たか.い, たか, -だか, たか.まる, たか.める" },
+    "youtubeSearchTerm": "日本語 漢字 高",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "このビル、**高**いね！ (この びる、 たかい ね！)",
+    "formalSentence": "**高**校（こうこう）時代の友人と再会しました。 (こうこう じだい の ゆうじん と さいかい しました。)"
+  },
+  {
+    "kanji": "自",
+    "frequencyRank": 23,
+    "meaning": "Self, Oneself",
+    "story": "Originally a picture of a nose (自), which people point to when referring to themselves. Hence, 'self'.",
+    "radicals": [ { "char": "自", "name": "self/nose" } ],
+    "readings": { "onyomi": "ジ, シ", "kunyomi": "みずか.ら, おの.ずから, おの.ずと" },
+    "youtubeSearchTerm": "日本語 漢字 自",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**自**分でやったの？すごい！ (じぶん で やった の？ すごい！)",
+    "formalSentence": "結果は**おのずから**明らかになるでしょう。 (けっか は おのずから あきらか に なる でしょう。)"
+  },
+  {
+    "kanji": "学",
+    "frequencyRank": 24,
+    "meaning": "Study, Learning, Science",
+    "story": "A child (子) under a roof or being guided by hands (龸), engaged in learning or study.",
+    "radicals": [ { "char": "龸", "name": "hands/roof" }, { "char": "子", "name": "child" } ],
+    "readings": { "onyomi": "ガク", "kunyomi": "まな.ぶ" },
+    "youtubeSearchTerm": "日本語 漢字 学",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "何を**学**んでるの？ (なに を まなんでる の？)",
+    "formalSentence": "彼は大**学**（だいがく）で経済**学**（けいざいがく）を専攻しています。 (かれ は だいがく で けいざいがく を せんこう して います。)"
+  },
+  {
+    "kanji": "校",
+    "frequencyRank": 25,
+    "meaning": "School, Exam, Proofread",
+    "story": "A place with trees (木) where people mix and associate (交) for learning - a school.",
+    "radicals": [ { "char": "木", "name": "tree" }, { "char": "交", "name": "intersect/mix" } ],
+    "readings": { "onyomi": "コウ, キョウ", "kunyomi": "" },
+    "youtubeSearchTerm": "日本語 漢字 校",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "明日の**校**外学習、楽しみ！ (あした の こうがいがくしゅう、 たのしみ！)",
+    "formalSentence": "この文書の**校**正（こうせい）をお願いできますか。 (この ぶんしょ の こうせい を おねがい できます か。)"
+  },
+  {
+    "kanji": "東",
+    "frequencyRank": 26,
+    "meaning": "East",
+    "story": "The sun (日) rising behind a tree (木), representing the direction East.",
+    "radicals": [ { "char": "木", "name": "tree" }, { "char": "日", "name": "sun" } ],
+    "readings": { "onyomi": "トウ", "kunyomi": "ひがし" },
+    "youtubeSearchTerm": "日本語 漢字 東",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**東**の空が明るくなってきたね。 (ひがし の そら が あかるく なってきた ね。)",
+    "formalSentence": "**東**京（とうきょう）行きの新幹線はこちらです。 (とうきょう ゆき の しんかんせん は こちら です。)"
+  },
+  {
+    "kanji": "京",
+    "frequencyRank": 27,
+    "meaning": "Capital",
+    "story": "A tall building (亠, 口, 小) representing the grandeur of a capital city.",
+    "radicals": [ { "char": "亠", "name": "lid" }, { "char": "口", "name": "mouth" }, { "char": "小", "name": "small" } ],
+    "readings": { "onyomi": "キョウ, ケイ, キン", "kunyomi": "みやこ" },
+    "youtubeSearchTerm": "日本語 漢字 京",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "東**京**タワー行ったことある？ (とうきょうたわー いった こと ある？)",
+    "formalSentence": "古（いにしえ）の**都**（みやこ）に思いを馳せます。 (いにしえ の みやこ に おもい を はせます。)"
+  },
+  {
+    "kanji": "間",
+    "frequencyRank": 28,
+    "meaning": "Interval, Space, Between",
+    "story": "The sun (日) seen through a gap in a gate (門), indicating a space or interval.",
+    "radicals": [ { "char": "門", "name": "gate" }, { "char": "日", "name": "sun" } ],
+    "readings": { "onyomi": "カン, ケン", "kunyomi": "あいだ, ま, あい" },
+    "youtubeSearchTerm": "日本語 漢字 間",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "ちょっとの**間**、待ってて。 (ちょっと の あいだ、 まってて。)",
+    "formalSentence": "この部**屋**（へや）は**間**（ま）が広いですね。 (この へや は ま が ひろい です ね。)"
+  },
+  {
+    "kanji": "北",
+    "frequencyRank": 29,
+    "meaning": "North",
+    "story": "Two people (匕) back-to-back, perhaps turning away from the sun, indicating North.",
+    "radicals": [ { "char": "匕", "name": "spoon/person" } ],
+    "readings": { "onyomi": "ホク", "kunyomi": "きた" },
+    "youtubeSearchTerm": "日本語 漢字 北",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**北**風が強いね。 (きたかぜ が つよい ね。)",
+    "formalSentence": "**北**海道（ほっかいどう）は冬が厳しいことで知られています。 (ほっかいどう は ふゆ が きびしい こと で しられて います。)"
+  },
+  {
+    "kanji": "五",
+    "frequencyRank": 30,
+    "meaning": "Five",
+    "story": "Two strokes crossing like an 'X' between heaven and earth (represented by top and bottom lines), symbolizing the number five.",
+    "radicals": [ { "char": "二", "name": "two" }, { "char": "乂", "name": "cross" } ],
+    "readings": { "onyomi": "ゴ", "kunyomi": "いつ, いつ.つ" },
+    "youtubeSearchTerm": "日本語 漢字 五",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "ケーキを**五**つください。 (けーき を いつつ ください。)",
+    "formalSentence": "**五**月（ごがつ）人形を飾る季節となりました。 (ごがつ にんぎょう を かざる きせつ と なりました。)"
+  },
+  {
+    "kanji": "今",
+    "frequencyRank": 31,
+    "meaning": "Now",
+    "story": "A gathering (人 + 一) under a roof (ラ), indicating the present moment, 'now'.",
+    "radicals": [ { "char": "人", "name": "person" }, { "char": "ラ", "name": "katakana ra/roof" } ],
+    "readings": { "onyomi": "コン, キン", "kunyomi": "いま" },
+    "youtubeSearchTerm": "日本語 漢字 今",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**今**、何してるの？ (いま、 なに してる の？)",
+    "formalSentence": "**今**日（こんにち）の世界情勢は複雑です。 (こんにち の せかいじょうせい は ふくざつ です。)"
+  },
+  {
+    "kanji": "金",
+    "frequencyRank": 32,
+    "meaning": "Gold, Money, Metal",
+    "story": "Earth (土) containing sparkling nuggets (dots 丶) under a roof (人 + 一), representing metal or gold found in the ground.",
+    "radicals": [ { "char": "金", "name": "gold" } ],
+    "readings": { "onyomi": "キン, コン, ゴン", "kunyomi": "かね, かな-, -がね" },
+    "youtubeSearchTerm": "日本語 漢字 金",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "お**金**、足りる？**金**曜日、空いてる？ (おかね、 たりる？ きんようび、 あいてる？)",
+    "formalSentence": "純**金**（じゅんきん）のネックレスを贈りました。 (じゅんきん の ねっくれす を おくりました。)"
+  },
+  {
+    "kanji": "九",
+    "frequencyRank": 33,
+    "meaning": "Nine",
+    "story": "A hook or curve, perhaps representing the final single digit before ten, 'nine'.",
+    "radicals": [ { "char": "九", "name": "nine" } ],
+    "readings": { "onyomi": "キュウ, ク", "kunyomi": "ここの, ここの.つ" },
+    "youtubeSearchTerm": "日本語 漢字 九",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "クッキーが**九**つあるよ。 (くっきー が ここのつ ある よ。)",
+    "formalSentence": "**九**時（くじ）に会議室へお集まりください。 (くじ に かいぎしつ へ おあつまり ください。)"
+  },
+  {
+    "kanji": "入",
+    "frequencyRank": 34,
+    "meaning": "Enter, Insert",
+    "story": "Looks like a wedge or arrow pointing downwards and inwards, signifying entry.",
+    "radicals": [ { "char": "入", "name": "enter" } ],
+    "readings": { "onyomi": "ニュウ, ジュ", "kunyomi": "い.る, -い.る, -い.り, い.れる, -い.れ, はい.る" },
+    "youtubeSearchTerm": "日本語 漢字 入",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "早く**入**って！名前を**入**れてね。 (はやく はいって！ なまえ を いれて ね。)",
+    "formalSentence": "新**入**（しんにゅう）社員向けの研修を行います。 (しんにゅう しゃいん むけ の けんしゅう を おこないます。)"
+  },
+  {
+    "kanji": "円",
+    "frequencyRank": 35,
+    "meaning": "Yen, Circle, Round",
+    "story": "An enclosure (冂) around a component (元 without top line), representing a coin (Yen) or something round.",
+    "radicals": [ { "char": "冂", "name": "border" }, { "char": "二", "name": "two" }, { "char": "儿", "name": "legs" } ],
+    "readings": { "onyomi": "エン", "kunyomi": "まる.い, まる, まど, まど.か, まろ.やか" },
+    "youtubeSearchTerm": "日本語 漢字 円",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "これ、いくら？ 100**円**？ (これ、 いくら？ ひゃくえん？)",
+    "formalSentence": "テーブルが**円**いので、皆の顔が見えますね。 (てーぶる が まるい ので、 みんな の かお が みえます ね。)"
+  },
+  {
+    "kanji": "子",
+    "frequencyRank": 36,
+    "meaning": "Child",
+    "story": "A simple pictograph of a child with arms outstretched.",
+    "radicals": [ { "char": "子", "name": "child" } ],
+    "readings": { "onyomi": "シ, ス, ツ", "kunyomi": "こ, -こ, ね" },
+    "youtubeSearchTerm": "日本語 漢字 子",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "うちの**子**、元気だよ！ (うち の こ、 げんき だ よ！)",
+    "formalSentence": "椅**子**（いす）にお掛けください。 (いす に おかけ ください。)"
+  },
+  {
+    "kanji": "会",
+    "frequencyRank": 37,
+    "meaning": "Meet, Society, Association",
+    "story": "People (人) gathering under a roof (云 simplified) to meet or form an association.",
+    "radicals": [ { "char": "人", "name": "person" }, { "char": "云", "name": "say/cloud" } ],
+    "readings": { "onyomi": "カイ, エ", "kunyomi": "あ.う, あ.わせる, あつ.まる" },
+    "youtubeSearchTerm": "日本語 漢字 会",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "明日、駅で**会**おう！ (あした、 えき で あおう！)",
+    "formalSentence": "本日の**会**議（かいぎ）は以上となります。 (ほんじつ の かいぎ は いじょう と なります。)"
+  },
+  {
+    "kanji": "内",
+    "frequencyRank": 38,
+    "meaning": "Inside, Within, Secret",
+    "story": "A person (人) entering (入) into an enclosure (冂), signifying 'inside'.",
+    "radicals": [ { "char": "冂", "name": "border" }, { "char": "人", "name": "person" } ],
+    "readings": { "onyomi": "ナイ, ダイ", "kunyomi": "うち" },
+    "youtubeSearchTerm": "日本語 漢字 内",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "これは**内**緒だよ。 (これ は ないしょ だ よ。)",
+    "formalSentence": "家の**内**（うち）はいつもきれいにしています。 (いえ の うち は いつも きれい に して います。)"
+  },
+  {
+    "kanji": "社",
+    "frequencyRank": 39,
+    "meaning": "Company, Firm, Office, Shrine",
+    "story": "An altar (示) on the earth (土), representing a sacred place (shrine) or a gathering place for a common purpose (company).",
+    "radicals": [ { "char": "示", "name": "altar" }, { "char": "土", "name": "earth" } ],
+    "readings": { "onyomi": "シャ", "kunyomi": "やしろ" },
+    "youtubeSearchTerm": "日本語 漢字 社",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "うちの会**社**、結構大きいんだ。 (うち の かいしゃ、 けっこう おおきい ん だ。)",
+    "formalSentence": "森の中に古い**社**（やしろ）がたたずんでいます。 (もり の なか に ふるい やしろ が たたずんで います。)"
+  },
+  {
+    "kanji": "手",
+    "frequencyRank": 40,
+    "meaning": "Hand",
+    "story": "A pictograph of a hand with fingers.",
+    "radicals": [ { "char": "手", "name": "hand" } ],
+    "readings": { "onyomi": "シュ, ズ", "kunyomi": "て, て-, -て, た-" },
+    "youtubeSearchTerm": "日本語 漢字 手",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**手**伝ってくれる？歌が上**手**だね！ (てつだって くれる？ うた が じょうず だ ね！)",
+    "formalSentence": "拍**手**（はくしゅ）をお願いいたします。 (はくしゅ を おねがい いたします。)"
+  },
+  {
+    "kanji": "員",
+    "frequencyRank": 41,
+    "meaning": "Member, Employee",
+    "story": "A mouth/person (口) over a shell/money (貝), representing a person who handles money or is counted as part of a group - a member.",
+    "radicals": [ { "char": "口", "name": "mouth" }, { "char": "貝", "name": "shell" } ],
+    "readings": { "onyomi": "イン", "kunyomi": "" },
+    "youtubeSearchTerm": "日本語 漢字 員",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "クラスの委**員**になったよ。 (くらす の いいん に なった よ。)",
+    "formalSentence": "全社**員**（ぜんしゃいん）が参加する会議です。 (ぜんしゃいん が さんか する かいぎ です。)"
+  },
+  {
+    "kanji": "下",
+    "frequencyRank": 42,
+    "meaning": "Below, Down, Under, Give",
+    "story": "A horizontal line (一) with a vertical line pointing down (卜) from it, indicating 'below'.",
+    "radicals": [ { "char": "一", "name": "one" }, { "char": "卜", "name": "divination" } ],
+    "readings": { "onyomi": "カ, ゲ", "kunyomi": "した, しも, もと, さ.げる, さ.がる, くだ.る, くだ.す, くだ.さる, お.ろす, お.りる" },
+    "youtubeSearchTerm": "日本語 漢字 下",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "テーブルの**下**に猫がいる！値段、**下**がった？ (てーぶる の した に ねこ が いる！ ねだん、 さがった？)",
+    "formalSentence": "地**下**鉄（ちかてつ）でお越しください。 (ちかてつ で おこし ください。)"
+  },
+  {
+    "kanji": "地",
+    "frequencyRank": 43,
+    "meaning": "Ground, Earth",
+    "story": "Earth/soil (土) combined with a scorpion (也 - phonetic/semantic element), representing the ground or earth itself.",
+    "radicals": [ { "char": "土", "name": "earth" }, { "char": "也", "name": "also/scorpion" } ],
+    "readings": { "onyomi": "チ, ジ", "kunyomi": "" },
+    "youtubeSearchTerm": "日本語 漢字 地",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**地**図、読める？ (ちず、 よめる？)",
+    "formalSentence": "この土**地**（とち）は古くから**地**元（じもと）の人々に愛されています。 (この とち は ふるく から じもと の ひとびと に あいされて います。)"
+  },
+  {
+    "kanji": "主",
+    "frequencyRank": 44,
+    "meaning": "Master, Lord, Main Thing",
+    "story": "A drop (丶) above 'king' (王), signifying the main point or the master/lord.",
+    "radicals": [ { "char": "丶", "name": "drop" }, { "char": "王", "name": "king" } ],
+    "readings": { "onyomi": "シュ, ス, シュウ", "kunyomi": "ぬし, おも, あるじ" },
+    "youtubeSearchTerm": "日本語 漢字 主",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "この家の**主**（ぬし）は誰？ (この いえ の ぬし は だれ？)",
+    "formalSentence": "**主**（おも）な議題は予算についてです。 (おも な ぎだい は よさん について です。)"
+  },
+  {
+    "kanji": "小",
+    "frequencyRank": 45,
+    "meaning": "Small, Little",
+    "story": "Three small strokes, representing something divided into small parts or just 'small'.",
+    "radicals": [ { "char": "小", "name": "small" } ],
+    "readings": { "onyomi": "ショウ", "kunyomi": "ちい.さい, こ-, お-, さ-" },
+    "youtubeSearchTerm": "日本語 漢字 小",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "この服、ちょっと**小**さいかも。 (この ふく、 ちょっと ちいさい かも。)",
+    "formalSentence": "**小**学校（しょうがっこう）の頃の思い出です。 (しょうがっこう の ころ の おもいで です。)"
+  },
+  {
+    "kanji": "場",
+    "frequencyRank": 46,
+    "meaning": "Location, Place, Scene",
+    "story": "Earth/ground (土) where the sun (日) shines brightly (昜 - phonetic/semantic), indicating a specific location or place.",
+    "radicals": [ { "char": "土", "name": "earth" }, { "char": "昜", "name": "sunshine/positive" } ],
+    "readings": { "onyomi": "ジョウ, チョウ", "kunyomi": "ば" },
+    "youtubeSearchTerm": "日本語 漢字 場",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "この**場**所、知ってる？ (この ばしょ、 しってる？)",
+    "formalSentence": "会**場**（かいじょう）はこちらでございます。 (かいじょう は こちら で ございます。)"
+  },
+  {
+    "kanji": "方",
+    "frequencyRank": 47,
+    "meaning": "Direction, Way, Person (polite)",
+    "story": "A person (亠 + 人 simplified) carrying a plow (万 simplified), indicating direction or method ('way').",
+    "radicals": [ { "char": "方", "name": "direction" } ],
+    "readings": { "onyomi": "ホウ", "kunyomi": "かた, -かた, -がた" },
+    "youtubeSearchTerm": "日本語 漢字 方",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "こっちの**方**がいいんじゃない？ (こっち の ほう が いい ん じゃない？)",
+    "formalSentence": "あちらの**方**（かた）が田中様です。 (あちら の かた が たなかさま です。)"
+  },
+  {
+    "kanji": "者",
+    "frequencyRank": 48,
+    "meaning": "Someone, Person (suffix)",
+    "story": "An old man (耂) holding something (日 - possibly a container or symbol), representing 'someone' or 'person'.",
+    "radicals": [ { "char": "耂", "name": "old" }, { "char": "日", "name": "sun/day" } ],
+    "readings": { "onyomi": "シャ", "kunyomi": "もの" },
+    "youtubeSearchTerm": "日本語 漢字 者",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "若い**者**には負けん！ (わかい もの に は まけん！)",
+    "formalSentence": "関係**者**（かんけいしゃ）以外立ち入り禁止です。 (かんけいしゃ いがい たちいりきんし です。)"
+  },
+  {
+    "kanji": "上",
+    "frequencyRank": 49,
+    "meaning": "Above, Up, Top",
+    "story": "A vertical line (卜) above a horizontal line (一), indicating 'above' or 'up'.",
+    "radicals": [ { "char": "卜", "name": "divination" }, { "char": "一", "name": "one" } ],
+    "readings": { "onyomi": "ジョウ, ショウ, シャン", "kunyomi": "うえ, -うえ, うわ-, かみ, あ.げる, -あ.げる, あ.がる, -あ.がる, あ.がり, -あ.がり, のぼ.る, のぼ.り, のぼ.せる, のぼ.す, よ.す" },
+    "youtubeSearchTerm": "日本語 漢字 上",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "机の**上**に本があるよ。手を**上**げて！ (つくえ の うえ に ほん が ある よ。 て を あげて！)",
+    "formalSentence": "品質の向**上**（こうじょう）に努めております。 (ひんしつ の こうじょう に つとめて おります。)"
+  },
+  {
+    "kanji": "市",
+    "frequencyRank": 50,
+    "meaning": "Market, City",
+    "story": "A lid (亠) over a towel (巾), perhaps representing goods covered in a market stall, hence 'market' or 'city'.",
+    "radicals": [ { "char": "亠", "name": "lid" }, { "char": "巾", "name": "towel" } ],
+    "readings": { "onyomi": "シ", "kunyomi": "いち" },
+    "youtubeSearchTerm": "日本語 漢字 市",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "週末、**市**（いち）に行かない？ (しゅうまつ、 いち に いかない？)",
+    "formalSentence": "当**市**（とうし）では、市民サービスの向上に努めております。 (とうし では、 しみんさーびす の こうじょう に つとめて おります。)"
+  },
+  {
+    "kanji": "業",
+    "frequencyRank": 51,
+    "meaning": "Business, Vocation, Arts, Performance",
+    "story": "Looks like musical instruments (业 - top part) on a stand (木 simplified), representing performance, arts, or skilled work (business/vocation).",
+    "radicals": [ { "char": "业", "name": "business/art" }, { "char": "木", "name": "tree" } ],
+    "readings": { "onyomi": "ギョウ, ゴウ", "kunyomi": "わざ" },
+    "youtubeSearchTerm": "日本語 漢字 業",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "宿題、終わった？授**業**（じゅぎょう）中に寝ちゃった。 (しゅくだい、 おわった？ じゅぎょうちゅう に ねちゃった。)",
+    "formalSentence": "彼の**業**（わざ）はまさに神**業**（かみわざ）です。 (かれ の わざ は まさに かみわざ です。)"
+  },
+  {
+    "kanji": "代",
+    "frequencyRank": 52,
+    "meaning": "Substitute, Change, Period, Age, Fee",
+    "story": "A person (亻) using a ceremonial weapon or tool (弋), perhaps indicating taking someone's place (substitute) or marking a change or period.",
+    "radicals": [ { "char": "亻", "name": "person radical" }, { "char": "弋", "name": "ceremony/shoot" } ],
+    "readings": { "onyomi": "ダイ, タイ", "kunyomi": "か.わる, かわ.る, かわ.り, か.わり, -がわ.り, -が.わり, か.える, よ, しろ" },
+    "youtubeSearchTerm": "日本語 漢字 代",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "私の**代**わりに**行**ってくれる？電話**代**が高い！ (わたし の かわりに いって くれる？ でんわだい が たかい！)",
+    "formalSentence": "時**代**（じだい）は常に変化しています。 (じだい は つねに へんか して います。)"
+  },
+  {
+    "kanji": "西",
+    "frequencyRank": 53,
+    "meaning": "West",
+    "story": "Originally a bird (酉 without the bottom line) returning to its nest (enclosure 囗), symbolizing the direction the sun sets - West.",
+    "radicals": [ { "char": "西", "name": "west" } ],
+    "readings": { "onyomi": "セイ, サイ, ス", "kunyomi": "にし" },
+    "youtubeSearchTerm": "日本語 漢字 西",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**西**日がまぶしいね。 (にしび が まぶしい ね。)",
+    "formalSentence": "関**西**（かんさい）地方への旅行を計画しています。 (かんさい ちほう へ の りょこう を けいかく して います。)"
+  },
+  {
+    "kanji": "事",
+    "frequencyRank": 54,
+    "meaning": "Matter, Thing, Fact, Business",
+    "story": "A flag or banner (彐) held by a hand (亅) over a mouth (口), representing an official declaration or matter.",
+    "radicals": [ { "char": "亅", "name": "hook" }, { "char": "口", "name": "mouth" }, { "char": "彐", "name": "pig snout/banner" } ],
+    "readings": { "onyomi": "ジ, ズ", "kunyomi": "こと, つか.う, つか.える" },
+    "youtubeSearchTerm": "日本語 漢字 事",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "大変な**事**になった！ (たいへん な こと に なった！)",
+    "formalSentence": "この件に関する**事**務（じむ）手続きを進めてください。 (この けん に かんする じむ てつづき を すすめて ください。)"
+  },
+  {
+    "kanji": "電",
+    "frequencyRank": 55,
+    "meaning": "Electricity",
+    "story": "Rain (雨) causing lightning (申 extended), representing electricity.",
+    "radicals": [ { "char": "雨", "name": "rain" }, { "char": "申", "name": "speak/sign of monkey" } ],
+    "readings": { "onyomi": "デン", "kunyomi": "" },
+    "youtubeSearchTerm": "日本語 漢字 電",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "携帯の**電**池、もうない！ (けいたい の でんち、 もう ない！)",
+    "formalSentence": "**電**車（でんしゃ）は時間通りに運行しております。 (でんしゃ は じかんどおり に うんこう して おります。)"
+  },
+  {
+    "kanji": "気",
+    "frequencyRank": 56,
+    "meaning": "Spirit, Mind, Air, Atmosphere",
+    "story": "Steam or vapor (气) rising from rice (米), representing energy, spirit, or air.",
+    "radicals": [ { "char": "气", "name": "steam/spirit" }, { "char": "米", "name": "rice" } ],
+    "readings": { "onyomi": "キ, ケ", "kunyomi": "いき" },
+    "youtubeSearchTerm": "日本語 漢字 気",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "元**気**？**気**にしないで！ (げんき？ きに しないで！)",
+    "formalSentence": "空**気**（くうき）が澄んでいて気持ちがいいですね。 (くうき が すんでいて きもち が いい です ね。)"
+  },
+  {
+    "kanji": "四",
+    "frequencyRank": 57,
+    "meaning": "Four",
+    "story": "An enclosure (囗) with legs (儿) inside, perhaps representing the four corners or four legs.",
+    "radicals": [ { "char": "囗", "name": "enclosure" }, { "char": "儿", "name": "legs" } ],
+    "readings": { "onyomi": "シ", "kunyomi": "よ, よ.つ, よっ.つ, よん" },
+    "youtubeSearchTerm": "日本語 漢字 四",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "りんごを**四**つください。 (りんご を よっつ ください。)",
+    "formalSentence": "**四**月（しがつ）は新年度の始まりです。 (しがつ は しんねんど の はじまり です。)"
+  },
+  {
+    "kanji": "不",
+    "frequencyRank": 58,
+    "meaning": "Not, Un-, Bad",
+    "story": "Pictograph of roots spreading underground, unable to grow upwards, representing negation 'not'.",
+    "radicals": [ { "char": "一", "name": "one" }, { "char": "小", "name": "small" } ],
+    "readings": { "onyomi": "フ, ブ", "kunyomi": "" },
+    "youtubeSearchTerm": "日本語 漢字 不",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "ちょっと**不**安だな。 (ちょっと ふあん だ な。)",
+    "formalSentence": "**不**明な点がございましたら、お問い合わせください。 (ふめい な てん が ございましたら、 おといあわせ ください。)"
+  },
+  {
+    "kanji": "立",
+    "frequencyRank": 59,
+    "meaning": "Stand, Establish",
+    "story": "Pictograph of a person standing firmly on the ground (一).",
+    "radicals": [ { "char": "立", "name": "stand" } ],
+    "readings": { "onyomi": "リツ, リュウ", "kunyomi": "た.つ, -た.つ, た.ち-, た.てる, -た.てる, た.て-, たて-, -たて, -だ.て, -だ.てる" },
+    "youtubeSearchTerm": "日本語 漢字 立",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "そこに**立**ってて。 (そこ に たってて。)",
+    "formalSentence": "新しい会社を設**立**（せつりつ）しました。 (あたらしい かいしゃ を せつりつ しました。)"
+  },
+  {
+    "kanji": "六",
+    "frequencyRank": 60,
+    "meaning": "Six",
+    "story": "Top part (亠) represents a roof, bottom part (八) represents division or spreading out, perhaps related to counting.",
+    "radicals": [ { "char": "亠", "name": "lid" }, { "char": "八", "name": "eight" } ],
+    "readings": { "onyomi": "ロク, リク", "kunyomi": "む, む.つ, むっ.つ, むい" },
+    "youtubeSearchTerm": "日本語 漢字 六",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "クッキーを**六**つください。 (くっきー を むっつ ください。)",
+    "formalSentence": "**六**月（ろくがつ）は梅雨の季節です。 (ろくがつ は つゆ の きせつ です。)"
+  },
+  {
+    "kanji": "民",
+    "frequencyRank": 61,
+    "meaning": "People, Nation, Subjects",
+    "story": "Originally depicted a blinded eye, representing common people or subjects without sight/power.",
+    "radicals": [ { "char": "氏", "name": "clan" } ],
+    "readings": { "onyomi": "ミン", "kunyomi": "たみ" },
+    "youtubeSearchTerm": "日本語 漢字 民",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "市**民**プールに行こうよ。 (しみんぷーる に いこう よ。)",
+    "formalSentence": "国**民**（こくみん）の皆様のご理解とご協力をお願いいたします。 (こくみん の みなさま の ごりかい と ごきょうりょく を おねがい いたします。)"
+  },
+  {
+    "kanji": "力",
+    "frequencyRank": 62,
+    "meaning": "Power, Strength, Force",
+    "story": "Pictograph of a muscular arm or a plow, representing strength or effort.",
+    "radicals": [ { "char": "力", "name": "power" } ],
+    "readings": { "onyomi": "リョク, リキ", "kunyomi": "ちから" },
+    "youtubeSearchTerm": "日本語 漢字 力",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "もっと**力**を入れて！ (もっと ちから を いれて！)",
+    "formalSentence": "協**力**（きょうりょく）をお願いいたします。 (きょうりょく を おねがい いたします。)"
+  },
+  {
+    "kanji": "発",
+    "frequencyRank": 63,
+    "meaning": "Departure, Emit, Start, Publish",
+    "story": "Two feet stepping out (癶) from perhaps a bow or shelter, signifying departure or starting out.",
+    "radicals": [ { "char": "癶", "name": "footsteps" } ],
+    "readings": { "onyomi": "ハツ, ホツ", "kunyomi": "た.つ, あば.く, おこ.る, つか.わす, はな.つ" },
+    "youtubeSearchTerm": "日本語 漢字 発",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "アイデアを**発**見した！ (あいであ を はっけん した！)",
+    "formalSentence": "新製品を**発**売（はつばい）します。 (しんせいひん を はつばい します。)"
+  },
+  {
+    "kanji": "七",
+    "frequencyRank": 64,
+    "meaning": "Seven",
+    "story": "A bent line, possibly representing cutting or counting.",
+    "radicals": [ { "char": "一", "name": "one" }, { "char": "乚", "name": "hook" } ],
+    "readings": { "onyomi": "シチ", "kunyomi": "なな, なな.つ, なの" },
+    "youtubeSearchTerm": "日本語 漢字 七",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "りんごを**七**つください。 (りんご を ななつ ください。)",
+    "formalSentence": "**七**月（しちがつ）は夏の盛りです。 (しちがつ は なつ の さかり です。)"
+  },
+  {
+    "kanji": "心",
+    "frequencyRank": 65,
+    "meaning": "Heart, Mind, Spirit",
+    "story": "Pictograph of a human heart.",
+    "radicals": [ { "char": "心", "name": "heart" } ],
+    "readings": { "onyomi": "シン", "kunyomi": "こころ" },
+    "youtubeSearchTerm": "日本語 漢字 心",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**心**配しないで、大丈夫だよ。 (しんぱい しないで、 だいじょうぶ だ よ。)",
+    "formalSentence": "皆様の真**心**（まごころ）に感謝いたします。 (みなさま の まごころ に かんしゃ いたします。)"
+  },
+  {
+    "kanji": "実",
+    "frequencyRank": 66,
+    "meaning": "Reality, Truth, Fruit",
+    "story": "A roof (宀) over strung coins or valuables (貫 simplified), representing something substantial, real, or fruitful.",
+    "radicals": [ { "char": "宀", "name": "roof" }, { "char": "実", "name": "fruit/reality" } ],
+    "readings": { "onyomi": "ジツ, シツ", "kunyomi": "み, みの.る" },
+    "youtubeSearchTerm": "日本語 漢字 実",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "それは**実**話なの？ (それ は じつわ な の？)",
+    "formalSentence": "事**実**（じじつ）に基づいて判断します。 (じじつ に もとづいて はんだん します。)"
+  },
+  {
+    "kanji": "合",
+    "frequencyRank": 67,
+    "meaning": "Fit, Join, Suit",
+    "story": "A lid (亼) fitting perfectly onto a mouth or container (口), signifying joining or fitting together.",
+    "radicals": [ { "char": "亼", "name": "gather" }, { "char": "口", "name": "mouth" } ],
+    "readings": { "onyomi": "ゴウ, ガッ, カッ", "kunyomi": "あ.う, -あ.う, あ.い, あい-, -あ.い, -あい, あ.わす, あ.わせる, -あ.わせる" },
+    "youtubeSearchTerm": "日本語 漢字 合",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "これでサイズ、**合**ってる？ (これ で さいず、 あってる？)",
+    "formalSentence": "会議の時間が**合**いません。 (かいぎ の じかん が あいません。)"
+  },
+  {
+    "kanji": "部",
+    "frequencyRank": 68,
+    "meaning": "Section, Department, Part",
+    "story": "A stand (咅 phonetic) combined with a city/village (阝), representing a division or section of a larger entity.",
+    "radicals": [ { "char": "咅", "name": "spit" }, { "char": "阝", "name": "village" } ],
+    "readings": { "onyomi": "ブ", "kunyomi": "-べ" },
+    "youtubeSearchTerm": "日本語 漢字 部",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "どのクラブに**部**活入ってる？ (どの くらぶ に ぶかつ はいってる？)",
+    "formalSentence": "営業**部**（えいぎょうぶ）に所属しています。 (えいぎょうぶ に しょぞく して います。)"
+  },
+  {
+    "kanji": "用",
+    "frequencyRank": 69,
+    "meaning": "Use, Business, Task",
+    "story": "Pictograph of a bucket or container, implying something to be used.",
+    "radicals": [ { "char": "用", "name": "use" } ],
+    "readings": { "onyomi": "ヨウ", "kunyomi": "もち.いる" },
+    "youtubeSearchTerm": "日本語 漢字 用",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "これ、何に**用**いるの？ (これ、 なに に もちいる の？)",
+    "formalSentence": "会議室をご利**用**（りよう）いただけます。 (かいぎしつ を ごりよう いただけます。)"
+  },
+  {
+    "kanji": "持",
+    "frequencyRank": 70,
+    "meaning": "Hold, Have",
+    "story": "A hand (扌) at a temple (寺), perhaps holding something important or maintaining the temple, signifying 'hold' or 'have'.",
+    "radicals": [ { "char": "扌", "name": "hand" }, { "char": "寺", "name": "temple" } ],
+    "readings": { "onyomi": "ジ", "kunyomi": "も.つ, も.ち" },
+    "youtubeSearchTerm": "日本語 漢字 持",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "傘、**持**ってる？ (かさ、 もってる？)",
+    "formalSentence": "資格を**持**っていることが条件です。 (しかく を もっている こと が じょうけん です。)"
+  },
+  {
+    "kanji": "開",
+    "frequencyRank": 71,
+    "meaning": "Open, Unseal",
+    "story": "A gate (門) with two hands (廾 shape below) pushing it open.",
+    "radicals": [ { "char": "門", "name": "gate" }, { "char": "廾", "name": "two hands" } ],
+    "readings": { "onyomi": "カイ", "kunyomi": "ひら.く, ひら.き, -びら.き, ひら.ける, あ.く, あ.ける" },
+    "youtubeSearchTerm": "日本語 漢字 開",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "ドアを**開**けてください。 (どあ を あけて ください。)",
+    "formalSentence": "会議を**開**催（かいさい）いたします。 (かいぎ を かいさい いたします。)"
+  },
+  {
+    "kanji": "新",
+    "frequencyRank": 72,
+    "meaning": "New",
+    "story": "Standing tree (立), axe (斤), combined perhaps suggesting cutting wood to build something new.",
+    "radicals": [ { "char": "立", "name": "stand" }, { "char": "木", "name": "tree" }, { "char": "斤", "name": "axe" } ],
+    "readings": { "onyomi": "シン", "kunyomi": "あたら.しい, あら.た, にい-" },
+    "youtubeSearchTerm": "日本語 漢字 新",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**新**しい服を買ったんだ。 (あたらしい ふく を かった ん だ。)",
+    "formalSentence": "**新**年（しんねん）あけましておめでとうございます。 (しんねん あけまして おめでとう ございます。)"
+  },
+  {
+    "kanji": "度",
+    "frequencyRank": 73,
+    "meaning": "Degree, Time(s), Measure",
+    "story": "A shelter (广) containing a complex element (庶 phonetic/meaning 'many'), possibly measuring the extent or frequency under a roof.",
+    "radicals": [ { "char": "广", "name": "dotted cliff" }, { "char": "廿", "name": "twenty" }, { "char": "又", "name": "again" } ],
+    "readings": { "onyomi": "ド, ト, タク", "kunyomi": "たび" },
+    "youtubeSearchTerm": "日本語 漢字 度",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "今**度**、一緒に映画行こうよ。 (こんど、 いっしょ に えいが いこう よ。)",
+    "formalSentence": "温**度**（おんど）を測定してください。 (おんど を そくてい して ください。)"
+  },
+  {
+    "kanji": "明",
+    "frequencyRank": 74,
+    "meaning": "Bright, Light, Clear",
+    "story": "The sun (日) and the moon (月) together make things bright and clear.",
+    "radicals": [ { "char": "日", "name": "sun" }, { "char": "月", "name": "moon" } ],
+    "readings": { "onyomi": "メイ, ミョウ", "kunyomi": "あ.かり, あか.るい, あか.るむ, あか.らむ, あき.らか, あ.ける, あ.く, あ.くる, あ.かす" },
+    "youtubeSearchTerm": "日本語 漢字 明",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**明**日は晴れるといいね。 (あした は はれる と いい ね。)",
+    "formalSentence": "事の真相を**明**らかにしてください。 (こと の しんそう を あきらか に して ください。)"
+  },
+  {
+    "kanji": "通",
+    "frequencyRank": 75,
+    "meaning": "Pass Through, Commute, Avenue",
+    "story": "Movement (辶) combined with a phonetic element (甬) suggesting piercing through, meaning to pass or commute.",
+    "radicals": [ { "char": "甬", "name": "bucket" }, { "char": "辶", "name": "walk" } ],
+    "readings": { "onyomi": "ツウ, ツ", "kunyomi": "とお.る, とお.り, -どお.り, とお.す, -どお.し, かよ.う" },
+    "youtubeSearchTerm": "日本語 漢字 通",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "この道をまっすぐ**通**って。 (この みち を まっすぐ とおって。)",
+    "formalSentence": "普**通**（ふつう）列車は各駅に停車します。 (ふつう れっしゃ は かくえき に ていしゃ します。)"
+  },
+  {
+    "kanji": "理",
+    "frequencyRank": 76,
+    "meaning": "Reason, Logic, Principle",
+    "story": "A king (王) or jade (玉) in its village (里), implying the inherent pattern or principle of things, like polishing jade.",
+    "radicals": [ { "char": "王", "name": "king" }, { "char": "里", "name": "village" } ],
+    "readings": { "onyomi": "リ", "kunyomi": "ことわり" },
+    "youtubeSearchTerm": "日本語 漢字 理",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "彼の言うことにも一**理**ある。 (かれ の いう こと に も いちり ある。)",
+    "formalSentence": "物事の道**理**（どうり）を理解することが大切です。 (ものごと の どうり を りかい する こと が たいせつ です。)"
+  },
+  {
+    "kanji": "体",
+    "frequencyRank": 77,
+    "meaning": "Body, Substance, Object",
+    "story": "A person (亻) and a root/origin (本), representing the physical body as the root of a person.",
+    "radicals": [ { "char": "亻", "name": "person" }, { "char": "本", "name": "book/origin" } ],
+    "readings": { "onyomi": "タイ, テイ", "kunyomi": "からだ" },
+    "youtubeSearchTerm": "日本語 漢字 体",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**体**の調子はどう？ (からだ の ちょうし は どう？)",
+    "formalSentence": "具**体**的（ぐたいてき）に説明してください。 (ぐたいてき に せつめい して ください。)"
+  },
+  {
+    "kanji": "田",
+    "frequencyRank": 78,
+    "meaning": "Rice Field",
+    "story": "Pictograph of a rice field divided into sections.",
+    "radicals": [ { "char": "田", "name": "rice field" } ],
+    "readings": { "onyomi": "デン", "kunyomi": "た" },
+    "youtubeSearchTerm": "日本語 漢字 田",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "おばあちゃんの家の**田**んぼ、広いんだ。 (おばあちゃん の いえ の たんぼ、 ひろい ん だ。)",
+    "formalSentence": "**田**中（たなか）様、お見えになりました。 (たなか さま、 おみえ に なり ました。)"
+  },
+  {
+    "kanji": "目",
+    "frequencyRank": 79,
+    "meaning": "Eye, Look, Item",
+    "story": "Pictograph of an eye.",
+    "radicals": [ { "char": "目", "name": "eye" } ],
+    "readings": { "onyomi": "モク, ボク", "kunyomi": "め, -め, ま-" },
+    "youtubeSearchTerm": "日本語 漢字 目",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**目**がかゆい。 (め が かゆい。)",
+    "formalSentence": "会議の**目**的（もくてき）は何ですか？ (かいぎ の もくてき は なん です か？)"
+  },
+  {
+    "kanji": "言",
+    "frequencyRank": 80,
+    "meaning": "Say, Word",
+    "story": "A mouth (口) with lines coming out, representing speech or words.",
+    "radicals": [ { "char": "言", "name": "say" } ],
+    "readings": { "onyomi": "ゲン, ゴン", "kunyomi": "い.う, こと" },
+    "youtubeSearchTerm": "日本語 漢字 言",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "思ったことを**言**っていいよ。 (おもった こと を いって いい よ。)",
+    "formalSentence": "彼の**言**葉（ことば）には重みがあります。 (かれ の ことば に は おもみ が あります。)"
+  },
+  {
+    "kanji": "作",
+    "frequencyRank": 81,
+    "meaning": "Make, Create, Work",
+    "story": "A person (亻) using their skill or craft (乍 phonetic element) to make something.",
+    "radicals": [ { "char": "亻", "name": "person" }, { "char": "乍", "name": "suddenly" } ],
+    "readings": { "onyomi": "サク, サ", "kunyomi": "つく.る" },
+    "youtubeSearchTerm": "日本語 漢字 作",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "夕食を**作**るね。 (ゆうしょく を つくる ね。)",
+    "formalSentence": "新しい法律が**作**成（さくせい）されました。 (あたらしい ほうりつ が さくせい されました。)"
+  },
+  {
+    "kanji": "文",
+    "frequencyRank": 82,
+    "meaning": "Sentence, Literature, Culture",
+    "story": "Pictograph of a pattern or tattoo, representing writing, literature, or culture.",
+    "radicals": [ { "char": "文", "name": "sentence/literature" } ],
+    "readings": { "onyomi": "ブン, モン", "kunyomi": "ふみ, あや" },
+    "youtubeSearchTerm": "日本語 漢字 文",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "この**文**章、ちょっと変じゃない？ (この ぶんしょう、 ちょっと へん じゃない？)",
+    "formalSentence": "日本**文**化（にほんぶんか）に興味があります。 (にほんぶんか に きょうみ が あります。)"
+  },
+  {
+    "kanji": "八",
+    "frequencyRank": 83,
+    "meaning": "Eight",
+    "story": "Two lines spreading apart, symbolizing division or the number eight.",
+    "radicals": [ { "char": "八", "name": "eight" } ],
+    "readings": { "onyomi": "ハチ", "kunyomi": "や, や.つ, やっ.つ, よう" },
+    "youtubeSearchTerm": "日本語 漢字 八",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "りんごを**八**つください。 (りんご を やっつ ください。)",
+    "formalSentence": "**八**月（はちがつ）はお盆休みがあります。 (はちがつ は おぼんやすみ が あります。)"
+  },
+  {
+    "kanji": "料",
+    "frequencyRank": 84,
+    "meaning": "Fee, Materials, Measure",
+    "story": "Rice (米) being measured with a dipper (斗), representing materials or fees (measured amount).",
+    "radicals": [ { "char": "米", "name": "rice" }, { "char": "斗", "name": "dipper" } ],
+    "readings": { "onyomi": "リョウ", "kunyomi": "" },
+    "youtubeSearchTerm": "日本語 漢字 料",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "今日の晩御飯の材**料**、何？ (きょう の ばんごはん の ざいりょう、 なに？)",
+    "formalSentence": "手数**料**（てすうりょう）は別途申し受けます。 (てすうりょう は べっと もうしうけます。)"
+  },
+  {
+    "kanji": "元",
+    "frequencyRank": 85,
+    "meaning": "Origin, Source, Base, Former",
+    "story": "Two (二) legs (儿) representing the base or origin.",
+    "radicals": [ { "char": "二", "name": "two" }, { "char": "儿", "name": "legs" } ],
+    "readings": { "onyomi": "ゲン, ガン", "kunyomi": "もと" },
+    "youtubeSearchTerm": "日本語 漢字 元",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**元**気？ (げんき？)",
+    "formalSentence": "計画の**元**（もと）となる資料はこちらです。 (けいかく の もと と なる しりょう は こちら です。)"
+  },
+  {
+    "kanji": "重",
+    "frequencyRank": 86,
+    "meaning": "Heavy, Important, Pile up",
+    "story": "A person (人) carrying a heavy load (東 simplified), representing 'heavy' or 'important'.",
+    "radicals": [ { "char": "里", "name": "village" } ],
+    "readings": { "onyomi": "ジュウ, チョウ", "kunyomi": "え, おも.い, おも.り, おも.なう, かさ.ねる, かさ.なる, おも" },
+    "youtubeSearchTerm": "日本語 漢字 重",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "この荷物、**重**い！ (この にもつ、 おもい！)",
+    "formalSentence": "これは**重**要（じゅうよう）な問題です。 (これ は じゅうよう な もんだい です。)"
+  },
+  {
+    "kanji": "近",
+    "frequencyRank": 87,
+    "meaning": "Near, Close",
+    "story": "Movement (辶) combined with an axe (斤), perhaps suggesting chopping nearby trees, hence 'near'.",
+    "radicals": [ { "char": "斤", "name": "axe" }, { "char": "辶", "name": "walk" } ],
+    "readings": { "onyomi": "キン, コン", "kunyomi": "ちか.い" },
+    "youtubeSearchTerm": "日本語 漢字 近",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "駅はここから**近**いよ。 (えき は ここ から ちかい よ。)",
+    "formalSentence": "最**近**（さいきん）、景気が回復しつつあります。 (さいきん、 けいき が かいふく しつつ あります。)"
+  },
+  {
+    "kanji": "動",
+    "frequencyRank": 88,
+    "meaning": "Move, Motion",
+    "story": "Heavy (重) combined with strength (力), representing the effort needed to move something heavy, hence 'move'.",
+    "radicals": [ { "char": "重", "name": "heavy" }, { "char": "力", "name": "power" } ],
+    "readings": { "onyomi": "ドウ", "kunyomi": "うご.く, うご.かす" },
+    "youtubeSearchTerm": "日本語 漢字 動",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "ちょっと、それ**動**かさないで！ (ちょっと、 それ うごかさないで！)",
+    "formalSentence": "物体は外力が加わらない限り静止し続けるか等速直線運**動**（うんどう）を続けます。 (ぶったい は がいりょく が くわわらない かぎり せいし しつづける か とうそくちょくせんうんどう を つづけます。)"
+  },
+  {
+    "kanji": "公",
+    "frequencyRank": 89,
+    "meaning": "Public, Official",
+    "story": "To divide (八) private interests (厶), making something public.",
+    "radicals": [ { "char": "八", "name": "eight" }, { "char": "厶", "name": "private" } ],
+    "readings": { "onyomi": "コウ, ク", "kunyomi": "おおやけ" },
+    "youtubeSearchTerm": "日本語 漢字 公",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**公**園で遊ぼう！ (こうえん で あそぼう！)",
+    "formalSentence": "これは**公**（おおやけ）の文書です。 (これ は おおやけ の ぶんしょ です。)"
+  },
+  {
+    "kanji": "安",
+    "frequencyRank": 90,
+    "meaning": "Peaceful, Cheap, Rest",
+    "story": "A woman (女) under a roof (宀), signifying safety, peace, and therefore ease or cheapness.",
+    "radicals": [ { "char": "宀", "name": "roof" }, { "char": "女", "name": "woman" } ],
+    "readings": { "onyomi": "アン", "kunyomi": "やす.い, やす.まる, やす, やす.らか" },
+    "youtubeSearchTerm": "日本語 漢字 安",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "この店、**安**いね！ (この みせ、 やすい ね！)",
+    "formalSentence": "皆様のご**安**全（あんぜん）をお祈りします。 (みなさま の ごあんぜん を おいのり します。)"
+  },
+  {
+    "kanji": "回",
+    "frequencyRank": 91,
+    "meaning": "Times, Round, Turn",
+    "story": "An enclosure (囗) containing another enclosure (口), representing something turning or revolving.",
+    "radicals": [ { "char": "囗", "name": "enclosure" }, { "char": "口", "name": "mouth" } ],
+    "readings": { "onyomi": "カイ, エ", "kunyomi": "まわ.る, -まわ.る, -まわ.り, まわ.す, -まわ.す, まわ.し-, -まわ.し, もとお.る, か.える" },
+    "youtubeSearchTerm": "日本語 漢字 回",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "もう一**回**やってみよう。 (もう いっかい やってみよう。)",
+    "formalSentence": "次**回**（じかい）の会議は来週です。 (じかい の かいぎ は らいしゅう です。)"
+  },
+  {
+    "kanji": "思",
+    "frequencyRank": 92,
+    "meaning": "Think",
+    "story": "A heart (心) contemplating a rice field (田) – deep in thought.",
+    "radicals": [ { "char": "田", "name": "rice field" }, { "char": "心", "name": "heart" } ],
+    "readings": { "onyomi": "シ", "kunyomi": "おも.う" },
+    "youtubeSearchTerm": "日本語 漢字 思",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "君のことを**思**っているよ。 (きみ の こと を おもっている よ。)",
+    "formalSentence": "将来について深く**思**考（しこう）します。 (しょうらい について ふかく しこう します。)"
+  },
+  {
+    "kanji": "海",
+    "frequencyRank": 93,
+    "meaning": "Sea, Ocean",
+    "story": "Water (氵) combined with 'every' (毎), suggesting the vastness where all waters gather – the sea.",
+    "radicals": [ { "char": "氵", "name": "water" }, { "char": "毎", "name": "every" } ],
+    "readings": { "onyomi": "カイ", "kunyomi": "うみ" },
+    "youtubeSearchTerm": "日本語 漢字 海",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "夏は**海**に行きたい！ (なつ は うみ に いきたい！)",
+    "formalSentence": "**海**外（かいがい）旅行の計画を立てています。 (かいがい りょこう の けいかく を たてて います。)"
+  },
+  {
+    "kanji": "全",
+    "frequencyRank": 94,
+    "meaning": "All, Whole, Entire",
+    "story": "A person (人) under a cover or roof (入 shape on top), with a king (王) or jade (玉) inside, signifying completeness or wholeness.",
+    "radicals": [ { "char": "入", "name": "enter" }, { "char": "王", "name": "king" } ],
+    "readings": { "onyomi": "ゼン", "kunyomi": "まった.く, すべ.て" },
+    "youtubeSearchTerm": "日本語 漢字 全",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "**全**然大丈夫だよ。 (ぜんぜん だいじょうぶ だ よ。)",
+    "formalSentence": "**全**て（すべて）の書類に目を通しました。 (すべて の しょるい に め を とおしました。)"
+  },
+  {
+    "kanji": "工",
+    "frequencyRank": 95,
+    "meaning": "Work, Construction, Craft",
+    "story": "Pictograph of a tool, possibly a carpenter's square, representing craft or construction.",
+    "radicals": [ { "char": "工", "name": "work" } ],
+    "readings": { "onyomi": "コウ, ク", "kunyomi": "" },
+    "youtubeSearchTerm": "日本語 漢字 工",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "この橋の**工**事はいつ終わるの？ (この はし の こうじ は いつ おわる の？)",
+    "formalSentence": "彼は大**工**（だいく）として長年働いています。 (かれ は だいく として ながねん はたらいて います。)"
+  },
+  {
+    "kanji": "向",
+    "frequencyRank": 96,
+    "meaning": "Facing, Direction, Tend Toward",
+    "story": "A roof (冂) over a mouth (口), perhaps indicating a window or opening facing a certain direction.",
+    "radicals": [ { "char": "冂", "name": "upside-down box" }, { "char": "口", "name": "mouth" } ],
+    "readings": { "onyomi": "コウ", "kunyomi": "む.く, む.い, -む.き, む.ける, -む.け, む.かう, む.かい, む.こう, むこ" },
+    "youtubeSearchTerm": "日本語 漢字 向",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "駅に**向**かってるよ。 (えき に むかってる よ。)",
+    "formalSentence": "今後の**向**上（こうじょう）が期待されます。 (こんご の こうじょう が きたい されます。)"
+  },
+  {
+    "kanji": "信",
+    "frequencyRank": 97,
+    "meaning": "Trust, Faith, Believe",
+    "story": "A person (亻) and their word (言), signifying that trustworthy words build faith.",
+    "radicals": [ { "char": "亻", "name": "person" }, { "char": "言", "name": "say" } ],
+    "readings": { "onyomi": "シン", "kunyomi": "" },
+    "youtubeSearchTerm": "日本語 漢字 信",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "彼のことを**信**じてる。 (かれ の こと を しんじてる。)",
+    "formalSentence": "相**信**頼（そうしんらい）の関係を築くことが重要です。 (そうしんらい の かんけい を きずく こと が じゅうよう です。)"
+  },
+  {
+    "kanji": "多",
+    "frequencyRank": 98,
+    "meaning": "Many, Much",
+    "story": "Two evenings (夕) stacked on top of each other signifies many evenings, hence 'many'.",
+    "radicals": [ { "char": "夕", "name": "evening" } ],
+    "readings": { "onyomi": "タ", "kunyomi": "おお.い" },
+    "youtubeSearchTerm": "日本語 漢字 多",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "今日はやることが**多**い。 (きょう は やる こと が おおい。)",
+    "formalSentence": "**多**く（おおく）の方々にご支援いただきました。 (おおく の かたがた に ごしえん いただき ました。)"
+  },
+  {
+    "kanji": "問",
+    "frequencyRank": 99,
+    "meaning": "Question, Ask, Problem",
+    "story": "A mouth (口) inside a gate (門), representing asking a question at a gate or inquiry.",
+    "radicals": [ { "char": "門", "name": "gate" }, { "char": "口", "name": "mouth" } ],
+    "readings": { "onyomi": "モン", "kunyomi": "と.う, と.い, とん" },
+    "youtubeSearchTerm": "日本語 漢字 問",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "ちょっと**問**題があるんだ。 (ちょっと もんだい が ある ん だ。)",
+    "formalSentence": "ご質**問**（しつもん）はございますか？ (ごしつもん は ございます か？)"
+  },
+  {
+    "kanji": "正",
+    "frequencyRank": 100,
+    "meaning": "Correct, Justice, Right",
+    "story": "One (一) foot stopping (止) at the correct line or target, signifying 'correct'.",
+    "radicals": [ { "char": "一", "name": "one" }, { "char": "止", "name": "stop" } ],
+    "readings": { "onyomi": "セイ, ショウ", "kunyomi": "ただ.しい, ただ.す, まさ" },
+    "youtubeSearchTerm": "日本語 漢字 正",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
+    "casualSentence": "これが**正**しい答え？ (これ が ただしい こたえ？)",
+    "formalSentence": "**正**式（せいしき）な手続きが必要です。 (せいしき な てつづき が ひつよう です。)"
+  },
+  {
+    "kanji": "思",
+    "frequencyRank": 101,
+    "meaning": "Think",
+    "readings": {
+      "onyomi": "シ",
+      "kunyomi": "おも.う"
     },
-    {
-      "kanji": "一",
-      "frequencyRank": 2,
-      "meaning": "One",
-      "story": "A single horizontal stroke, representing the number one, like laying one finger flat.",
-      "radicals": [ { "char": "一", "name": "one" } ],
-      "readings": { "onyomi": "イチ, イツ", "kunyomi": "ひと-, ひと.つ" },
-      "youtubeSearchTerm": "日本語 漢字 一",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "**一**つちょうだい！**一**人で行くの？ (ひとつ ちょうだい！ ひとり で いく の？)",
-      "formalSentence": "この問題は**一**般的に、同**一**の解決策で統**一**されます。(この もんだい は いっぱんてき に、 どういつ の かいけつさく で とういつ されます)"
+    "story": "A heart (心) contemplating a rice field (田) – deep in thought.",
+    "radicals": [
+      { "char": "田", "name": "rice field" },
+      { "char": "心", "name": "heart" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 思",
+    "casualSentence": "君のことを**思**っているよ。",
+    "formalSentence": "将来について深く**思**考します。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "家",
+    "frequencyRank": 102,
+    "meaning": "House, Family",
+    "readings": {
+      "onyomi": "カ, ケ",
+      "kunyomi": "いえ, や, うち"
     },
-    {
-      "kanji": "国",
-      "frequencyRank": 3,
-      "meaning": "Country",
-      "story": "Inside a boundary (囗), there's a jewel (玉) representing the treasure or sovereignty of a nation.",
-      "radicals": [ { "char": "囗", "name": "enclosure" }, { "char": "玉", "name": "jewel" } ],
-      "readings": { "onyomi": "コク", "kunyomi": "くに" },
-      "youtubeSearchTerm": "日本語 漢字 国",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "どの**国**から来たの？ (どの くに から きた の？)",
-      "formalSentence": "貴社は**国**際的な事業を展開されていますね。 (きしゃ は こくさいてき な じぎょう を てんかい されて います ね。)"
+    "story": "A pig (豕) under a roof (宀) represents a traditional home or family.",
+    "radicals": [
+      { "char": "宀", "name": "roof" },
+      { "char": "豕", "name": "pig" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 家",
+    "casualSentence": "早く**家**に帰りたいな。",
+    "formalSentence": "田中**家**は代々続く名家です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "多",
+    "frequencyRank": 103,
+    "meaning": "Many, Much",
+    "readings": {
+      "onyomi": "タ",
+      "kunyomi": "おお.い"
     },
-    {
-      "kanji": "人",
-      "frequencyRank": 4,
-      "meaning": "Person",
-      "story": "Looks like a person walking, with two legs.",
-      "radicals": [ { "char": "人", "name": "person" } ],
-      "readings": { "onyomi": "ジン, ニン", "kunyomi": "ひと, -り, -と" },
-      "youtubeSearchTerm": "日本語 漢字 人",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "二**人**で何**人**分の料理作ったの？素**人**じゃないね！ (ふたり で なんにんぶん の りょうり つくった の？ しろうと じゃない ね！)",
-      "formalSentence": "日本**人**として、この国の**人**生観を理解することが重要です。(にほんじん として、 この くに の じんせいかん を りかい する こと が じゅうよう です)"
+    "story": "Two evenings (夕) stacked on top of each other signifies many evenings, hence 'many'.",
+    "radicals": [
+      { "char": "夕", "name": "evening" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 多",
+    "casualSentence": "今日はやることが**多**い。",
+    "formalSentence": "**多**くの方々にご支援いただきました。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "言",
+    "frequencyRank": 104,
+    "meaning": "Say, Word",
+    "readings": {
+      "onyomi": "ゲン, ゴン",
+      "kunyomi": "い.う, こと"
     },
-    {
-      "kanji": "年",
-      "frequencyRank": 5,
-      "meaning": "Year",
-      "story": "A person (人 modified) carrying a shield (干 modified), perhaps marking the passage of a year or a harvest cycle.",
-      "radicals": [ { "char": "干", "name": "dry" } ],
-      "readings": { "onyomi": "ネン", "kunyomi": "とし" },
-      "youtubeSearchTerm": "日本語 漢字 年",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "来**年**で何**年**目？**年**取るの早いね！ (らいねん で なんねんめ？ とし とる の はやい ね！)",
-      "formalSentence": "**年**の瀬も押し迫ってまいりました。(とし の せ も おしせまって まいりました)"
+    "story": "A mouth (口) with lines coming out, representing speech or words.",
+    "radicals": [
+      { "char": "言", "name": "say" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 言",
+    "casualSentence": "思ったことを**言**っていいよ。",
+    "formalSentence": "彼の**言**葉には重みがあります。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "明",
+    "frequencyRank": 105,
+    "meaning": "Bright, Light, Clear",
+    "readings": {
+      "onyomi": "メイ, ミョウ",
+      "kunyomi": "あ.かり, あか.るい, あか.るむ, あか.らむ, あき.らか, あ.ける, あ.く, あ.くる, あ.かす"
     },
-    {
-      "kanji": "大",
-      "frequencyRank": 6,
-      "meaning": "Big, Large",
-      "story": "A person (人) stretching their arms out wide to show how big something is.",
-      "radicals": [ { "char": "大", "name": "big" } ],
-      "readings": { "onyomi": "ダイ, タイ", "kunyomi": "おお-, おお.きい, -おお.いに" },
-      "youtubeSearchTerm": "日本語 漢字 大",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "このピザ、めっちゃ**大**きいね！ (この ぴざ、 めっちゃ おおきい ね！)",
-      "formalSentence": "**大**学への進学を**大**いに期待しております。 (だいがく への しんがく を おおいに きたい して おります。)"
+    "story": "The sun (日) and the moon (月) together make things bright and clear.",
+    "radicals": [
+      { "char": "日", "name": "sun" },
+      { "char": "月", "name": "moon" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 明",
+    "casualSentence": "**明**日は晴れるといいね。",
+    "formalSentence": "事の真相を**明**らかにしてください。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "作",
+    "frequencyRank": 106,
+    "meaning": "Make, Create, Work",
+    "readings": {
+      "onyomi": "サク, サ",
+      "kunyomi": "つく.る"
     },
-    {
-      "kanji": "十",
-      "frequencyRank": 7,
-      "meaning": "Ten",
-      "story": "A vertical stroke crossing a horizontal one, like crossing off ten items or forming a plus sign.",
-      "radicals": [ { "char": "十", "name": "ten" } ],
-      "readings": { "onyomi": "ジュウ, ジッ", "kunyomi": "とお, と" },
-      "youtubeSearchTerm": "日本語 漢字 十",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "あと**十**分で着くよ。 (あと じゅっぷん で つく よ。)",
-      "formalSentence": "**十**月**十**日は体育の日でした。 (じゅうがつ とおか は たいいく の ひ でした。)"
+    "story": "A person (亻) using their skill or craft (乍 phonetic element) to make something.",
+    "radicals": [
+      { "char": "亻", "name": "person" },
+      { "char": "乍", "name": "suddenly" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 作",
+    "casualSentence": "夕食を**作**るね。",
+    "formalSentence": "新しい法律が**作**成されました。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "方",
+    "frequencyRank": 107,
+    "meaning": "Direction, Way, Person (polite)",
+    "readings": {
+      "onyomi": "ホウ",
+      "kunyomi": "かた, -がた"
     },
-    {
-      "kanji": "二",
-      "frequencyRank": 8,
-      "meaning": "Two",
-      "story": "Two horizontal strokes, representing the number two.",
-      "radicals": [ { "char": "一", "name": "one" } ],
-      "readings": { "onyomi": "ニ, ジ", "kunyomi": "ふた, ふた.つ, ふたた.び" },
-      "youtubeSearchTerm": "日本語 漢字 二",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "**二**つください。**二**度としないでね！ (ふたつ ください。 にど と しないで ね！)",
-      "formalSentence": "**二**月は短いですね。 (にがつ は みじかい です ね。)"
+    "story": "Originally depicted a plow, indicating direction or method. Also used politely for 'person'.",
+    "radicals": [
+      { "char": "方", "name": "direction" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 方",
+    "casualSentence": "こっちの**方**がいいよ。",
+    "formalSentence": "あちらの**方**が田中様です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "用",
+    "frequencyRank": 108,
+    "meaning": "Use, Business, Task",
+    "readings": {
+      "onyomi": "ヨウ",
+      "kunyomi": "もち.いる"
     },
-    {
-      "kanji": "本",
-      "frequencyRank": 9,
-      "meaning": "Book, Origin, Root",
-      "story": "A tree (木) with a line marking its base or root (本), signifying origin or the source (like a book).",
-      "radicals": [ { "char": "木", "name": "tree" } ],
-      "readings": { "onyomi": "ホン", "kunyomi": "もと" },
-      "youtubeSearchTerm": "日本語 漢字 本",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "この**本**、面白そう！ (この ほん、 おもしろそう！)",
-      "formalSentence": "事の**本**（もと）をたどれば、誤解があったようです。 (こと の もと を たどれば、 ごかい が あった よう です。)"
+    "story": "Pictograph of a bucket or container, implying something to be used.",
+    "radicals": [
+      { "char": "用", "name": "use" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 用",
+    "casualSentence": "これ、何に**用**いるの？",
+    "formalSentence": "会議室をご利**用**いただけます。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "主",
+    "frequencyRank": 109,
+    "meaning": "Master, Lord, Main",
+    "readings": {
+      "onyomi": "シュ, ス",
+      "kunyomi": "ぬし, おも"
     },
-    {
-      "kanji": "中",
-      "frequencyRank": 10,
-      "meaning": "Middle, Inside",
-      "story": "A line (丨) passing through the exact center of a mouth or box (口).",
-      "radicals": [ { "char": "口", "name": "mouth" }, { "char": "丨", "name": "vertical stroke" } ],
-      "readings": { "onyomi": "チュウ", "kunyomi": "なか, うち, あた.る" },
-      "youtubeSearchTerm": "日本語 漢字 中",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "箱の**中**に何が入ってるの？ (はこ の なか に なに が はいってる の？)",
-      "formalSentence": "会議は午前**中**（ごぜんちゅう）に終了する予定です。 (かいぎ は ごぜんちゅう に しゅうりょう する よてい です。)"
+    "story": "A drop (丶) on top of a king (王) or a lampstand, signifying the main point or master.",
+    "radicals": [
+      { "char": "丶", "name": "dot" },
+      { "char": "王", "name": "king" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 主",
+    "casualSentence": "この家の**主**は誰？",
+    "formalSentence": "**主**な議題は予算についてです。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "場",
+    "frequencyRank": 110,
+    "meaning": "Place, Location, Scene",
+    "readings": {
+      "onyomi": "ジョウ, チョウ",
+      "kunyomi": "ば"
     },
-    {
-      "kanji": "長",
-      "frequencyRank": 11,
-      "meaning": "Long, Leader",
-      "story": "Depicts long hair flowing down, symbolizing length or seniority (leader).",
-      "radicals": [ { "char": "長", "name": "long" } ],
-      "readings": { "onyomi": "チョウ", "kunyomi": "なが.い, おさ" },
-      "youtubeSearchTerm": "日本語 漢字 長",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "髪、**長**いね！ (かみ、 ながい ね！)",
-      "formalSentence": "彼はチームの**長**（おさ）としてリーダーシップを発揮しました。 (かれ は ちーむ の おさ として りーだーしっぷ を はっき しました。)"
+    "story": "Earth/soil (土) where the sun shines (昜 phonetic/meaning element), indicating an open place or location.",
+    "radicals": [
+      { "char": "土", "name": "earth" },
+      { "char": "昜", "name": "sunshine" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 場",
+    "casualSentence": "待ち合わせの**場**所はどこ？",
+    "formalSentence": "会議の**場**で意見を述べました。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "地",
+    "frequencyRank": 111,
+    "meaning": "Ground, Earth",
+    "readings": {
+      "onyomi": "チ, ジ",
+      "kunyomi": ""
     },
-    {
-      "kanji": "出",
-      "frequencyRank": 12,
-      "meaning": "Exit, Go out",
-      "story": "Two mountains (山) stacked, perhaps representing emerging or going out from between them.",
-      "radicals": [ { "char": "凵", "name": "container" }, { "char": "山", "name": "mountain" } ],
-      "readings": { "onyomi": "シュツ, スイ", "kunyomi": "で.る, -で, だ.す, -だ.す, い.でる" },
-      "youtubeSearchTerm": "日本語 漢字 出",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "早く**出**てきて！ゴミ**出**しといてね。 (はやく でてきて！ ごみだし といて ね。)",
-      "formalSentence": "会議に**出**席（しゅっせき）いただけますでしょうか。 (かいぎ に しゅっせき いただけます でしょう か。)"
+    "story": "Earth/soil (土) combined with a phonetic element (也) also suggesting extension, representing the ground.",
+    "radicals": [
+      { "char": "土", "name": "earth" },
+      { "char": "也", "name": "also" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 地",
+    "casualSentence": "**地**震があったみたい。",
+    "formalSentence": "この土**地**の価格は上昇しています。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "理",
+    "frequencyRank": 112,
+    "meaning": "Reason, Logic, Principle",
+    "readings": {
+      "onyomi": "リ",
+      "kunyomi": "ことわり"
     },
-    {
-      "kanji": "三",
-      "frequencyRank": 13,
-      "meaning": "Three",
-      "story": "Three horizontal strokes, representing the number three.",
-      "radicals": [ { "char": "一", "name": "one" } ],
-      "readings": { "onyomi": "サン, ゾウ", "kunyomi": "み, み.つ, みっ.つ" },
-      "youtubeSearchTerm": "日本語 漢字 三",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "りんご**三**つください。 (りんご みっつ ください。)",
-      "formalSentence": "**三**月**三**日はひな祭りです。 (さんがつ みっか は ひなまつり です。)"
+    "story": "A king (王) or jade (玉) in its village (里), implying the inherent pattern or principle of things, like polishing jade.",
+    "radicals": [
+      { "char": "王", "name": "king" },
+      { "char": "里", "name": "village" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 理",
+    "casualSentence": "彼の言うことにも一**理**ある。",
+    "formalSentence": "物事の道**理**を理解することが大切です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "社",
+    "frequencyRank": 113,
+    "meaning": "Company, Society, Shrine",
+    "readings": {
+      "onyomi": "シャ",
+      "kunyomi": "やしろ"
     },
-    {
-      "kanji": "時",
-      "frequencyRank": 14,
-      "meaning": "Time, Hour",
-      "story": "The sun (日) moving over a temple (寺), marking the passage of time.",
-      "radicals": [ { "char": "日", "name": "sun" }, { "char": "寺", "name": "temple" } ],
-      "readings": { "onyomi": "ジ", "kunyomi": "とき, -どき" },
-      "youtubeSearchTerm": "日本語 漢字 時",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "今、何**時**？ (いま、 なんじ？)",
-      "formalSentence": "その**時**は、大変お世話になりました。 (その とき は、 たいへん おせわ に なりました。)"
+    "story": "An altar (示) on the earth (土), originally meaning an earth god shrine, extended to society or company.",
+    "radicals": [
+      { "char": "礻", "name": "altar" },
+      { "char": "土", "name": "earth" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 社",
+    "casualSentence": "今日、**社**長に会ったよ。",
+    "formalSentence": "当**社**の製品をご愛顧いただきありがとうございます。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "員",
+    "frequencyRank": 114,
+    "meaning": "Member, Employee",
+    "readings": {
+      "onyomi": "イン",
+      "kunyomi": ""
     },
-    {
-      "kanji": "行",
-      "frequencyRank": 15,
-      "meaning": "Go, Journey, Conduct",
-      "story": "Depicts intersecting roads or a crossroads, symbolizing movement or action.",
-      "radicals": [ { "char": "行", "name": "go" } ],
-      "readings": { "onyomi": "コウ, ギョウ, アン", "kunyomi": "い.く, ゆ.く, -ゆ.き, -い.き, おこな.う" },
-      "youtubeSearchTerm": "日本語 漢字 行",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "明日、どこ**行**く？ (あした、 どこ いく？)",
-      "formalSentence": "調査を**行**います。銀**行**はどちらですか？ (ちょうさ を おこないます。 ぎんこう は どちら です か？)"
+    "story": "A mouth (口) over a shell/money (貝), representing someone counted as part of a group, like an employee receiving pay.",
+    "radicals": [
+      { "char": "口", "name": "mouth" },
+      { "char": "貝", "name": "shellfish" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 員",
+    "casualSentence": "クラスの委**員**になった。",
+    "formalSentence": "全社**員**が会議に参加します。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "図",
+    "frequencyRank": 115,
+    "meaning": "Diagram, Plan, Map",
+    "readings": {
+      "onyomi": "ズ, ト",
+      "kunyomi": "え, はか.る"
     },
-    {
-      "kanji": "見",
-      "frequencyRank": 16,
-      "meaning": "See, Look",
-      "story": "An eye (目) on legs (儿), representing the act of seeing or looking around.",
-      "radicals": [ { "char": "目", "name": "eye" }, { "char": "儿", "name": "legs" } ],
-      "readings": { "onyomi": "ケン", "kunyomi": "み.る, み.える, み.せる" },
-      "youtubeSearchTerm": "日本語 漢字 見",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "あれ**見**て！花火が**見**えるよ！ (あれ みて！ はなび が みえる よ！)",
-      "formalSentence": "ご意**見**（いけん）をお聞かせください。 (ごいけん を おきかせ ください。)"
+    "story": "An enclosure (囗) containing a complex shape (为 phonetic), representing a drawing or plan.",
+    "radicals": [
+      { "char": "囗", "name": "enclosure" },
+      { "char": "为", "name": "do" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 図",
+    "casualSentence": "この地**図**、ちょっと古いね。",
+    "formalSentence": "計画の概略を**図**示します。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "心",
+    "frequencyRank": 116,
+    "meaning": "Heart, Mind, Spirit",
+    "readings": {
+      "onyomi": "シン",
+      "kunyomi": "こころ"
     },
-    {
-      "kanji": "月",
-      "frequencyRank": 17,
-      "meaning": "Month, Moon",
-      "story": "Picture of a crescent moon.",
-      "radicals": [ { "char": "月", "name": "moon/month/flesh" } ],
-      "readings": { "onyomi": "ゲツ, ガツ", "kunyomi": "つき" },
-      "youtubeSearchTerm": "日本語 漢字 月",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "今**月**、忙しい？ (こんげつ、 いそがしい？)",
-      "formalSentence": "今晩は**月**が綺麗ですね。 (こんばんは つき が きれい です ね。)"
+    "story": "Pictograph of a human heart.",
+    "radicals": [
+      { "char": "心", "name": "heart" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 心",
+    "casualSentence": "**心**配しないで、大丈夫だよ。",
+    "formalSentence": "皆様の真**心**に感謝いたします。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "教",
+    "frequencyRank": 117,
+    "meaning": "Teach, Faith, Doctrine",
+    "readings": {
+      "onyomi": "キョウ",
+      "kunyomi": "おし.える, おそ.わる"
     },
-    {
-      "kanji": "分",
-      "frequencyRank": 18,
-      "meaning": "Minute, Understand, Divide",
-      "story": "A knife (刀) dividing something in half (八), representing division or understanding (breaking down).",
-      "radicals": [ { "char": "八", "name": "eight" }, { "char": "刀", "name": "sword/knife" } ],
-      "readings": { "onyomi": "ブン, フン, ブ", "kunyomi": "わ.ける, わ.け, わ.かれる, わ.かる, わ.かつ" },
-      "youtubeSearchTerm": "日本語 漢字 分",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "あと５**分**で着く。意味**分**かる？ (あと ごふん で つく。 いみ わかる？)",
-      "formalSentence": "資料を**分**けていただけますか。 (しりょう を わけて いただけます か。)"
+    "story": "A filial piety element (孝) combined with a hand holding a stick (攵), representing teaching or guiding.",
+    "radicals": [
+      { "char": "孝", "name": "filial piety" },
+      { "char": "攵", "name": "strike" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 教",
+    "casualSentence": "日本語を**教**えてくれる？",
+    "formalSentence": "**教**育は国の未来を左右します。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "京",
+    "frequencyRank": 118,
+    "meaning": "Capital City",
+    "readings": {
+      "onyomi": "キョウ, ケイ, キン",
+      "kunyomi": "みやこ"
     },
-    {
-      "kanji": "後",
-      "frequencyRank": 19,
-      "meaning": "Behind, After",
-      "story": "Walking (彳) with a thread (幺) trailing behind, tied to something small (口 phonetic?), indicating 'after' or 'behind'.",
-      "radicals": [ { "char": "彳", "name": "step" }, { "char": "幺", "name": "thread" }, { "char": "口", "name": "mouth" } ],
-      "readings": { "onyomi": "ゴ, コウ", "kunyomi": "のち, うし.ろ, うしろ, あと, おく.れる" },
-      "youtubeSearchTerm": "日本語 漢字 後",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "また**後**でね！**後**ろ見て！ (また あとで ね！ うしろ みて！)",
-      "formalSentence": "午**後**（ごご）の予定はいかがなさいますか。 (ごご の よてい は いかが なさいます か。)"
+    "story": "Pictograph of a tall building on a hill, representing the capital.",
+    "radicals": [
+      { "char": "亠", "name": "lid" },
+      { "char": "口", "name": "mouth" },
+      { "char": "小", "name": "small" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 京",
+    "casualSentence": "来週、東**京**に行くんだ。",
+    "formalSentence": "古**京**の街並みを散策しました。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "通",
+    "frequencyRank": 119,
+    "meaning": "Pass Through, Commute, Avenue",
+    "readings": {
+      "onyomi": "ツウ, ツ",
+      "kunyomi": "とお.る, とお.り, -どお.り, とお.す, -どお.し, かよ.う"
     },
-    {
-      "kanji": "前",
-      "frequencyRank": 20,
-      "meaning": "Before, Front",
-      "story": "Horns (丷) over a moon/flesh (月) being cut by a knife (刀刂), perhaps preparing something *beforehand*.",
-      "radicals": [ { "char": "丷", "name": "horns" }, { "char": "月", "name": "flesh" }, { "char": "刀", "name": "knife" } ],
-      "readings": { "onyomi": "ゼン", "kunyomi": "まえ, -まえ" },
-      "youtubeSearchTerm": "日本語 漢字 前",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "駅の**前**で待ってるね。 (えき の まえ で まってる ね。)",
-      "formalSentence": "午**前**（ごぜん）中にご連絡いたします。 (ごぜんちゅう に ごれんらく いたします。)"
+    "story": "Movement (辶) combined with a phonetic element (甬) suggesting piercing through, meaning to pass or commute.",
+    "radicals": [
+      { "char": "甬", "name": "bucket" },
+      { "char": "辶", "name": "walk" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 通",
+    "casualSentence": "この道をまっすぐ**通**って。",
+    "formalSentence": "普**通**列車は各駅に停車します。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "界",
+    "frequencyRank": 120,
+    "meaning": "World, Boundary",
+    "readings": {
+      "onyomi": "カイ",
+      "kunyomi": ""
     },
-    {
-      "kanji": "生",
-      "frequencyRank": 21,
-      "meaning": "Life, Birth, Genuine",
-      "story": "A sprout (生) pushing up from the ground, symbolizing life and birth.",
-      "radicals": [ { "char": "生", "name": "life" } ],
-      "readings": { "onyomi": "セイ, ショウ", "kunyomi": "い.きる, い.かす, い.ける, う.まれる, うま.れる, う.まれ, うまれ, う.む, お.う, は.える, は.やす, き, なま, なま-, な.る, な.す, む.す, -う" },
-      "youtubeSearchTerm": "日本語 漢字 生",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "**生**ビールください！庭に草が**生**えてる。 (なまびーる ください！ にわ に くさ が はえてる。)",
-      "formalSentence": "先生は学**生**（がくせい）たちに**生**きる意味を教えました。 (せんせい は がくせい たち に いきる いみ を おしえました。)"
+    "story": "A field (田) with lines (介 phonetic/meaning element) marking boundaries, extending to mean 'world'.",
+    "radicals": [
+      { "char": "田", "name": "rice field" },
+      { "char": "介", "name": "mediate" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 界",
+    "casualSentence": "世**界**は広いなあ。",
+    "formalSentence": "科学の世**界**は常に進歩しています。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "門",
+    "frequencyRank": 121,
+    "meaning": "Gate",
+    "readings": {
+      "onyomi": "モン",
+      "kunyomi": "かど"
     },
-    {
-      "kanji": "高",
-      "frequencyRank": 22,
-      "meaning": "Tall, High, Expensive",
-      "story": "Picture a tall building (高) reaching high into the sky, representing height and, by extension, high cost.",
-      "radicals": [ { "char": "高", "name": "tall" } ],
-      "readings": { "onyomi": "コウ", "kunyomi": "たか.い, たか, -だか, たか.まる, たか.める" },
-      "youtubeSearchTerm": "日本語 漢字 高",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "このビル、**高**いね！ (この びる、 たかい ね！)",
-      "formalSentence": "**高**校（こうこう）時代の友人と再会しました。 (こうこう じだい の ゆうじん と さいかい しました。)"
+    "story": "Pictograph of a two-paneled gate.",
+    "radicals": [
+      { "char": "門", "name": "gate" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 門",
+    "casualSentence": "家の**門**の前で待ってるね。",
+    "formalSentence": "専**門**的な知識が必要です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "安",
+    "frequencyRank": 122,
+    "meaning": "Peaceful, Cheap, Rest",
+    "readings": {
+      "onyomi": "アン",
+      "kunyomi": "やす.い, やす.まる, やす, やす.らか"
     },
-    {
-      "kanji": "自",
-      "frequencyRank": 23,
-      "meaning": "Self, Oneself",
-      "story": "Originally a picture of a nose (自), which people point to when referring to themselves. Hence, 'self'.",
-      "radicals": [ { "char": "自", "name": "self/nose" } ],
-      "readings": { "onyomi": "ジ, シ", "kunyomi": "みずか.ら, おの.ずから, おの.ずと" },
-      "youtubeSearchTerm": "日本語 漢字 自",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "**自**分でやったの？すごい！ (じぶん で やった の？ すごい！)",
-      "formalSentence": "結果は**おのずから**明らかになるでしょう。 (けっか は おのずから あきらか に なる でしょう。)"
+    "story": "A woman (女) under a roof (宀), signifying safety, peace, and therefore ease or cheapness.",
+    "radicals": [
+      { "char": "宀", "name": "roof" },
+      { "char": "女", "name": "woman" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 安",
+    "casualSentence": "この店、**安**いね！",
+    "formalSentence": "皆様のご**安**全をお祈りします。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "動",
+    "frequencyRank": 123,
+    "meaning": "Move, Motion",
+    "readings": {
+      "onyomi": "ドウ",
+      "kunyomi": "うご.く, うご.かす"
     },
-    {
-      "kanji": "学",
-      "frequencyRank": 24,
-      "meaning": "Study, Learning, Science",
-      "story": "A child (子) under a roof or being guided by hands (龸), engaged in learning or study.",
-      "radicals": [ { "char": "龸", "name": "hands/roof" }, { "char": "子", "name": "child" } ],
-      "readings": { "onyomi": "ガク", "kunyomi": "まな.ぶ" },
-      "youtubeSearchTerm": "日本語 漢字 学",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "何を**学**んでるの？ (なに を まなんでる の？)",
-      "formalSentence": "彼は大**学**（だいがく）で経済**学**（けいざいがく）を専攻しています。 (かれ は だいがく で けいざいがく を せんこう して います。)"
+    "story": "Heavy (重) combined with strength (力), representing the effort needed to move something heavy, hence 'move'.",
+    "radicals": [
+      { "char": "重", "name": "heavy" },
+      { "char": "力", "name": "power" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 動",
+    "casualSentence": "ちょっと、それ**動**かさないで！",
+    "formalSentence": "物体は外力が加わらない限り静止し続けるか等速直線運**動**を続けます。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "全",
+    "frequencyRank": 124,
+    "meaning": "All, Whole, Entire",
+    "readings": {
+      "onyomi": "ゼン",
+      "kunyomi": "まった.く, すべ.て"
     },
-    {
-      "kanji": "校",
-      "frequencyRank": 25,
-      "meaning": "School, Exam, Proofread",
-      "story": "A place with trees (木) where people mix and associate (交) for learning - a school.",
-      "radicals": [ { "char": "木", "name": "tree" }, { "char": "交", "name": "intersect/mix" } ],
-      "readings": { "onyomi": "コウ, キョウ", "kunyomi": "" },
-      "youtubeSearchTerm": "日本語 漢字 校",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "明日の**校**外学習、楽しみ！ (あした の こうがいがくしゅう、 たのしみ！)",
-      "formalSentence": "この文書の**校**正（こうせい）をお願いできますか。 (この ぶんしょ の こうせい を おねがい できます か。)"
+    "story": "A person (人) under a cover or roof (入 shape on top), with a king (王) or jade (玉) inside, signifying completeness or wholeness.",
+    "radicals": [
+      { "char": "入", "name": "enter" },
+      { "char": "王", "name": "king" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 全",
+    "casualSentence": "**全**然大丈夫だよ。",
+    "formalSentence": "**全**ての書類に目を通しました。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "信",
+    "frequencyRank": 125,
+    "meaning": "Trust, Faith, Believe",
+    "readings": {
+      "onyomi": "シン",
+      "kunyomi": ""
     },
-    {
-      "kanji": "東",
-      "frequencyRank": 26,
-      "meaning": "East",
-      "story": "The sun (日) rising behind a tree (木), representing the direction East.",
-      "radicals": [ { "char": "木", "name": "tree" }, { "char": "日", "name": "sun" } ],
-      "readings": { "onyomi": "トウ", "kunyomi": "ひがし" },
-      "youtubeSearchTerm": "日本語 漢字 東",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "**東**の空が明るくなってきたね。 (ひがし の そら が あかるく なってきた ね。)",
-      "formalSentence": "**東**京（とうきょう）行きの新幹線はこちらです。 (とうきょう ゆき の しんかんせん は こちら です。)"
+    "story": "A person (亻) and their word (言), signifying that trustworthy words build faith.",
+    "radicals": [
+      { "char": "亻", "name": "person" },
+      { "char": "言", "name": "say" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 信",
+    "casualSentence": "彼のことを**信**じてる。",
+    "formalSentence": "相**信**頼の関係を築くことが重要です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "工",
+    "frequencyRank": 126,
+    "meaning": "Work, Construction, Craft",
+    "readings": {
+      "onyomi": "コウ, ク",
+      "kunyomi": ""
     },
-    {
-      "kanji": "京",
-      "frequencyRank": 27,
-      "meaning": "Capital",
-      "story": "A tall building (亠, 口, 小) representing the grandeur of a capital city.",
-      "radicals": [ { "char": "亠", "name": "lid" }, { "char": "口", "name": "mouth" }, { "char": "小", "name": "small" } ],
-      "readings": { "onyomi": "キョウ, ケイ, キン", "kunyomi": "みやこ" },
-      "youtubeSearchTerm": "日本語 漢字 京",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "東**京**タワー行ったことある？ (とうきょうたわー いった こと ある？)",
-      "formalSentence": "古（いにしえ）の**都**（みやこ）に思いを馳せます。 (いにしえ の みやこ に おもい を はせます。)"
+    "story": "Pictograph of a tool, possibly a carpenter's square, representing craft or construction.",
+    "radicals": [
+      { "char": "工", "name": "work" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 工",
+    "casualSentence": "この橋の**工**事はいつ終わるの？",
+    "formalSentence": "彼は大**工**として長年働いています。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "持",
+    "frequencyRank": 127,
+    "meaning": "Hold, Have",
+    "readings": {
+      "onyomi": "ジ",
+      "kunyomi": "も.つ, も.ち"
     },
-    {
-      "kanji": "間",
-      "frequencyRank": 28,
-      "meaning": "Interval, Space, Between",
-      "story": "The sun (日) seen through a gap in a gate (門), indicating a space or interval.",
-      "radicals": [ { "char": "門", "name": "gate" }, { "char": "日", "name": "sun" } ],
-      "readings": { "onyomi": "カン, ケン", "kunyomi": "あいだ, ま, あい" },
-      "youtubeSearchTerm": "日本語 漢字 間",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "ちょっとの**間**、待ってて。 (ちょっと の あいだ、 まってて。)",
-      "formalSentence": "この部**屋**（へや）は**間**（ま）が広いですね。 (この へや は ま が ひろい です ね。)"
+    "story": "A hand (扌) at a temple (寺), perhaps holding something important or maintaining the temple, signifying 'hold' or 'have'.",
+    "radicals": [
+      { "char": "扌", "name": "hand" },
+      { "char": "寺", "name": "temple" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 持",
+    "casualSentence": "傘、**持**ってる？",
+    "formalSentence": "資格を**持**っていることが条件です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "数",
+    "frequencyRank": 128,
+    "meaning": "Number, Count",
+    "readings": {
+      "onyomi": "スウ, ス",
+      "kunyomi": "かず, かぞ.える"
     },
-    {
-      "kanji": "北",
-      "frequencyRank": 29,
-      "meaning": "North",
-      "story": "Two people (匕) back-to-back, perhaps turning away from the sun, indicating North.",
-      "radicals": [ { "char": "匕", "name": "spoon/person" } ],
-      "readings": { "onyomi": "ホク", "kunyomi": "きた" },
-      "youtubeSearchTerm": "日本語 漢字 北",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "**北**風が強いね。 (きたかぜ が つよい ね。)",
-      "formalSentence": "**北**海道（ほっかいどう）は冬が厳しいことで知られています。 (ほっかいどう は ふゆ が きびしい こと で しられて います。)"
+    "story": "A woman (女) under a rice field (米) being struck (攵), possibly representing tallying or counting harvested rice, hence 'number'.",
+    "radicals": [
+      { "char": "米", "name": "rice" },
+      { "char": "攵", "name": "strike" }
+
+    ],
+    "youtubeSearchTerm": "日本語 漢字 数",
+    "casualSentence": "星の**数**をかぞえよう。",
+    "formalSentence": "参加者の人**数**を確認してください。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "新",
+    "frequencyRank": 129,
+    "meaning": "New",
+    "readings": {
+      "onyomi": "シン",
+      "kunyomi": "あたら.しい, あら.た, にい-"
     },
-    {
-      "kanji": "五",
-      "frequencyRank": 30,
-      "meaning": "Five",
-      "story": "Two strokes crossing like an 'X' between heaven and earth (represented by top and bottom lines), symbolizing the number five.",
-      "radicals": [ { "char": "二", "name": "two" }, { "char": "乂", "name": "cross" } ],
-      "readings": { "onyomi": "ゴ", "kunyomi": "いつ, いつ.つ" },
-      "youtubeSearchTerm": "日本語 漢字 五",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "ケーキを**五**つください。 (けーき を いつつ ください。)",
-      "formalSentence": "**五**月（ごがつ）人形を飾る季節となりました。 (ごがつ にんぎょう を かざる きせつ と なりました。)"
+    "story": "Standing tree (立), axe (斤), combined perhaps suggesting cutting wood to build something new.",
+    "radicals": [
+      { "char": "立", "name": "stand" },
+      { "char": "木", "name": "tree" },
+      { "char": "斤", "name": "axe" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 新",
+    "casualSentence": "**新**しい服を買ったんだ。",
+    "formalSentence": "**新**年あけましておめでとうございます。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "度",
+    "frequencyRank": 130,
+    "meaning": "Degree, Time(s), Measure",
+    "readings": {
+      "onyomi": "ド, ト, タク",
+      "kunyomi": "たび"
     },
-    {
-      "kanji": "今",
-      "frequencyRank": 31,
-      "meaning": "Now",
-      "story": "A gathering (人 + 一) under a roof (ラ), indicating the present moment, 'now'.",
-      "radicals": [ { "char": "人", "name": "person" }, { "char": "ラ", "name": "katakana ra/roof" } ],
-      "readings": { "onyomi": "コン, キン", "kunyomi": "いま" },
-      "youtubeSearchTerm": "日本語 漢字 今",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "**今**、何してるの？ (いま、 なに してる の？)",
-      "formalSentence": "**今**日（こんにち）の世界情勢は複雑です。 (こんにち の せかいじょうせい は ふくざつ です。)"
+    "story": "A shelter (广) containing a complex element (庶 phonetic/meaning 'many'), possibly measuring the extent or frequency under a roof.",
+    "radicals": [
+      { "char": "广", "name": "dotted cliff" },
+      { "char": "廿", "name": "twenty" },
+      { "char": "又", "name": "again" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 度",
+    "casualSentence": "今**度**、一緒に映画行こうよ。",
+    "formalSentence": "温**度**を測定してください。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "強",
+    "frequencyRank": 131,
+    "meaning": "Strong",
+    "readings": {
+      "onyomi": "キョウ, ゴウ",
+      "kunyomi": "つよ.い, つよ.まる, つよ.める, し.いる"
     },
-    {
-      "kanji": "金",
-      "frequencyRank": 32,
-      "meaning": "Gold, Money, Metal",
-      "story": "Earth (土) containing sparkling nuggets (dots 丶) under a roof (人 + 一), representing metal or gold found in the ground.",
-      "radicals": [ { "char": "金", "name": "gold" } ],
-      "readings": { "onyomi": "キン, コン, ゴン", "kunyomi": "かね, かな-, -がね" },
-      "youtubeSearchTerm": "日本語 漢字 金",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "お**金**、足りる？**金**曜日、空いてる？ (おかね、 たりる？ きんようび、 あいてる？)",
-      "formalSentence": "純**金**（じゅんきん）のネックレスを贈りました。 (じゅんきん の ねっくれす を おくりました。)"
+    "story": "A bow (弓) and an insect (虫), perhaps suggesting the surprising strength of an insect or the tension of a strong bow.",
+    "radicals": [
+      { "char": "弓", "name": "bow" },
+      { "char": "厶", "name": "private" },
+      { "char": "虫", "name": "insect" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 強",
+    "casualSentence": "彼はとても**強**い人だ。",
+    "formalSentence": "**強**力なリーダーシップが求められます。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "楽",
+    "frequencyRank": 132,
+    "meaning": "Comfort, Ease, Music",
+    "readings": {
+      "onyomi": "ガク, ラク",
+      "kunyomi": "たの.しい, たの.しむ"
     },
-    {
-      "kanji": "九",
-      "frequencyRank": 33,
-      "meaning": "Nine",
-      "story": "A hook or curve, perhaps representing the final single digit before ten, 'nine'.",
-      "radicals": [ { "char": "九", "name": "nine" } ],
-      "readings": { "onyomi": "キュウ, ク", "kunyomi": "ここの, ここの.つ" },
-      "youtubeSearchTerm": "日本語 漢字 九",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "クッキーが**九**つあるよ。 (くっきー が ここのつ ある よ。)",
-      "formalSentence": "**九**時（くじ）に会議室へお集まりください。 (くじ に かいぎしつ へ おあつまり ください。)"
+    "story": "Bells or drums (幺 elements) on a wooden stand (木), representing music, which brings comfort and enjoyment.",
+    "radicals": [
+      { "char": "白", "name": "white" },
+      { "char": "木", "name": "tree" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 楽",
+    "casualSentence": "休みの日は**楽**しいな。",
+    "formalSentence": "音**楽**を聴くのが趣味です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "代",
+    "frequencyRank": 133,
+    "meaning": "Substitute, Generation, Age, Price",
+    "readings": {
+      "onyomi": "ダイ, タイ",
+      "kunyomi": "か.わる, かわ.る, かわ.り, -がわ.り, か.える, よ, しろ"
     },
-    {
-      "kanji": "入",
-      "frequencyRank": 34,
-      "meaning": "Enter, Insert",
-      "story": "Looks like a wedge or arrow pointing downwards and inwards, signifying entry.",
-      "radicals": [ { "char": "入", "name": "enter" } ],
-      "readings": { "onyomi": "ニュウ, ジュ", "kunyomi": "い.る, -い.る, -い.り, い.れる, -い.れ, はい.る" },
-      "youtubeSearchTerm": "日本語 漢字 入",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "早く**入**って！名前を**入**れてね。 (はやく はいって！ なまえ を いれて ね。)",
-      "formalSentence": "新**入**（しんにゅう）社員向けの研修を行います。 (しんにゅう しゃいん むけ の けんしゅう を おこないます。)"
+    "story": "A person (亻) using a ceremonial weapon or tool (弋), suggesting taking someone's place or representing an era.",
+    "radicals": [
+      { "char": "亻", "name": "person" },
+      { "char": "弋", "name": "ceremony" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 代",
+    "casualSentence": "私の**代**わりに会議に出てくれる？",
+    "formalSentence": "時**代**は常に変化しています。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "聞",
+    "frequencyRank": 134,
+    "meaning": "Hear, Listen, Ask",
+    "readings": {
+      "onyomi": "ブン, モン",
+      "kunyomi": "き.く, き.こえる"
     },
-    {
-      "kanji": "円",
-      "frequencyRank": 35,
-      "meaning": "Yen, Circle, Round",
-      "story": "An enclosure (冂) around a component (元 without top line), representing a coin (Yen) or something round.",
-      "radicals": [ { "char": "冂", "name": "border" }, { "char": "二", "name": "two" }, { "char": "儿", "name": "legs" } ],
-      "readings": { "onyomi": "エン", "kunyomi": "まる.い, まる, まど, まど.か, まろ.やか" },
-      "youtubeSearchTerm": "日本語 漢字 円",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "これ、いくら？ 100**円**？ (これ、 いくら？ ひゃくえん？)",
-      "formalSentence": "テーブルが**円**いので、皆の顔が見えますね。 (てーぶる が まるい ので、 みんな の かお が みえます ね。)"
+    "story": "A gate (門) with an ear (耳) inside, representing listening at the gate or hearing news.",
+    "radicals": [
+      { "char": "門", "name": "gate" },
+      { "char": "耳", "name": "ear" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 聞",
+    "casualSentence": "何か変な音が**聞**こえる。",
+    "formalSentence": "ご意見を**聞**かせていただけますか。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "海",
+    "frequencyRank": 135,
+    "meaning": "Sea, Ocean",
+    "readings": {
+      "onyomi": "カイ",
+      "kunyomi": "うみ"
     },
-    {
-      "kanji": "子",
-      "frequencyRank": 36,
-      "meaning": "Child",
-      "story": "A simple pictograph of a child with arms outstretched.",
-      "radicals": [ { "char": "子", "name": "child" } ],
-      "readings": { "onyomi": "シ, ス, ツ", "kunyomi": "こ, -こ, ね" },
-      "youtubeSearchTerm": "日本語 漢字 子",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "うちの**子**、元気だよ！ (うち の こ、 げんき だ よ！)",
-      "formalSentence": "椅**子**（いす）にお掛けください。 (いす に おかけ ください。)"
+    "story": "Water (氵) combined with 'every' (毎), suggesting the vastness where all waters gather – the sea.",
+    "radicals": [
+      { "char": "氵", "name": "water" },
+      { "char": "毎", "name": "every" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 海",
+    "casualSentence": "夏は**海**に行きたい！",
+    "formalSentence": "**海**外旅行の計画を立てています。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "記",
+    "frequencyRank": 136,
+    "meaning": "Write Down, Record, Chronicle",
+    "readings": {
+      "onyomi": "キ",
+      "kunyomi": "しる.す"
     },
-    {
-      "kanji": "会",
-      "frequencyRank": 37,
-      "meaning": "Meet, Society, Association",
-      "story": "People (人) gathering under a roof (云 simplified) to meet or form an association.",
-      "radicals": [ { "char": "人", "name": "person" }, { "char": "云", "name": "say/cloud" } ],
-      "readings": { "onyomi": "カイ, エ", "kunyomi": "あ.う, あ.わせる, あつ.まる" },
-      "youtubeSearchTerm": "日本語 漢字 会",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "明日、駅で**会**おう！ (あした、 えき で あおう！)",
-      "formalSentence": "本日の**会**議（かいぎ）は以上となります。 (ほんじつ の かいぎ は いじょう と なります。)"
+    "story": "Words (言) combined with self (己), meaning to record words or one's own thoughts.",
+    "radicals": [
+      { "char": "言", "name": "say" },
+      { "char": "己", "name": "self" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 記",
+    "casualSentence": "大事なことはメモに**記**しておこう。",
+    "formalSentence": "会議の議事録を**記**録します。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "広",
+    "frequencyRank": 137,
+    "meaning": "Wide, Broad, Spacious",
+    "readings": {
+      "onyomi": "コウ",
+      "kunyomi": "ひろ.い, ひろ.まる, ひろ.める, ひろ.がる, ひろ.げる"
     },
-    {
-      "kanji": "内",
-      "frequencyRank": 38,
-      "meaning": "Inside, Within, Secret",
-      "story": "A person (人) entering (入) into an enclosure (冂), signifying 'inside'.",
-      "radicals": [ { "char": "冂", "name": "border" }, { "char": "人", "name": "person" } ],
-      "readings": { "onyomi": "ナイ, ダイ", "kunyomi": "うち" },
-      "youtubeSearchTerm": "日本語 漢字 内",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "これは**内**緒だよ。 (これ は ないしょ だ よ。)",
-      "formalSentence": "家の**内**（うち）はいつもきれいにしています。 (いえ の うち は いつも きれい に して います。)"
+    "story": "A shelter (广) with a yellow (黄 phonetic) element inside, suggesting an open, wide space.",
+    "radicals": [
+      { "char": "广", "name": "dotted cliff" },
+      { "char": "厶", "name": "private" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 広",
+    "casualSentence": "この部屋は**広**いね。",
+    "formalSentence": "**広**告代理店に勤務しています。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "点",
+    "frequencyRank": 138,
+    "meaning": "Point, Dot, Mark, Score",
+    "readings": {
+      "onyomi": "テン",
+      "kunyomi": "つ.ける, つ.く, た.てる, さ.す, とぼ.す, とも.す, ぼち"
     },
-    {
-      "kanji": "社",
-      "frequencyRank": 39,
-      "meaning": "Company, Firm, Office, Shrine",
-      "story": "An altar (示) on the earth (土), representing a sacred place (shrine) or a gathering place for a common purpose (company).",
-      "radicals": [ { "char": "示", "name": "altar" }, { "char": "土", "name": "earth" } ],
-      "readings": { "onyomi": "シャ", "kunyomi": "やしろ" },
-      "youtubeSearchTerm": "日本語 漢字 社",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "うちの会**社**、結構大きいんだ。 (うち の かいしゃ、 けっこう おおきい ん だ。)",
-      "formalSentence": "森の中に古い**社**（やしろ）がたたずんでいます。 (もり の なか に ふるい やしろ が たたずんで います。)"
+    "story": "Black (黒) combined with divination (占), perhaps marking a point during fortune-telling, hence 'point' or 'mark'.",
+    "radicals": [
+      { "char": "占", "name": "fortune telling" },
+      { "char": "灬", "name": "fire" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 点",
+    "casualSentence": "テストで満**点**取った！",
+    "formalSentence": "問題**点**をいくつか指摘させていただきます。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "少",
+    "frequencyRank": 139,
+    "meaning": "Few, Little",
+    "readings": {
+      "onyomi": "ショウ",
+      "kunyomi": "すく.ない, すこ.し"
     },
-    {
-      "kanji": "手",
-      "frequencyRank": 40,
-      "meaning": "Hand",
-      "story": "A pictograph of a hand with fingers.",
-      "radicals": [ { "char": "手", "name": "hand" } ],
-      "readings": { "onyomi": "シュ, ズ", "kunyomi": "て, て-, -て, た-" },
-      "youtubeSearchTerm": "日本語 漢字 手",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "**手**伝ってくれる？歌が上**手**だね！ (てつだって くれる？ うた が じょうず だ ね！)",
-      "formalSentence": "拍**手**（はくしゅ）をお願いいたします。 (はくしゅ を おねがい いたします。)"
+    "story": "Small (小) with an extra stroke, emphasizing the smallness or fewness.",
+    "radicals": [
+      { "char": "小", "name": "small" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 少",
+    "casualSentence": "時間が**少**ししかない。",
+    "formalSentence": "参加者は**少**数でした。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "使",
+    "frequencyRank": 140,
+    "meaning": "Use, Messenger",
+    "readings": {
+      "onyomi": "シ",
+      "kunyomi": "つか.う, つか.い"
     },
-    {
-      "kanji": "員",
-      "frequencyRank": 41,
-      "meaning": "Member, Employee",
-      "story": "A mouth/person (口) over a shell/money (貝), representing a person who handles money or is counted as part of a group - a member.",
-      "radicals": [ { "char": "口", "name": "mouth" }, { "char": "貝", "name": "shell" } ],
-      "readings": { "onyomi": "イン", "kunyomi": "" },
-      "youtubeSearchTerm": "日本語 漢字 員",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "クラスの委**員**になったよ。 (くらす の いいん に なった よ。)",
-      "formalSentence": "全社**員**（ぜんしゃいん）が参加する会議です。 (ぜんしゃいん が さんか する かいぎ です。)"
+    "story": "A person (亻) serving an official (吏), implying being used or acting as a messenger.",
+    "radicals": [
+      { "char": "亻", "name": "person" },
+      { "char": "吏", "name": "officer" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 使",
+    "casualSentence": "このペン、**使**ってもいい？",
+    "formalSentence": "大使館は外交官を派**使**します。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "風",
+    "frequencyRank": 141,
+    "meaning": "Wind, Style, Manner",
+    "readings": {
+      "onyomi": "フウ, フ",
+      "kunyomi": "かぜ, かざ-"
     },
-    {
-      "kanji": "下",
-      "frequencyRank": 42,
-      "meaning": "Below, Down, Under, Give",
-      "story": "A horizontal line (一) with a vertical line pointing down (卜) from it, indicating 'below'.",
-      "radicals": [ { "char": "一", "name": "one" }, { "char": "卜", "name": "divination" } ],
-      "readings": { "onyomi": "カ, ゲ", "kunyomi": "した, しも, もと, さ.げる, さ.がる, くだ.る, くだ.す, くだ.さる, お.ろす, お.りる" },
-      "youtubeSearchTerm": "日本語 漢字 下",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "テーブルの**下**に猫がいる！値段、**下**がった？ (てーぶる の した に ねこ が いる！ ねだん、 さがった？)",
-      "formalSentence": "地**下**鉄（ちかてつ）でお越しください。 (ちかてつ で おこし ください。)"
+    "story": "An enclosure (几) containing an insect (虫), perhaps representing something that moves like an insect, carried everywhere - the wind.",
+    "radicals": [
+      { "char": "几", "name": "table" },
+      { "char": "虫", "name": "insect" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 風",
+    "casualSentence": "今日は**風**が強いね。",
+    "formalSentence": "昔ながらの**風**習が残っています。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "切",
+    "frequencyRank": 142,
+    "meaning": "Cut, End, Be Sharp",
+    "readings": {
+      "onyomi": "セツ, サイ",
+      "kunyomi": "き.る, き.り, き.れる, -き.れる, き.れ, -き.れ, -ぎ.れ"
     },
-    {
-      "kanji": "地",
-      "frequencyRank": 43,
-      "meaning": "Ground, Earth",
-      "story": "Earth/soil (土) combined with a scorpion (也 - phonetic/semantic element), representing the ground or earth itself.",
-      "radicals": [ { "char": "土", "name": "earth" }, { "char": "也", "name": "also/scorpion" } ],
-      "readings": { "onyomi": "チ, ジ", "kunyomi": "" },
-      "youtubeSearchTerm": "日本語 漢字 地",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "**地**図、読める？ (ちず、 よめる？)",
-      "formalSentence": "この土**地**（とち）は古くから**地**元（じもと）の人々に愛されています。 (この とち は ふるく から じもと の ひとびと に あいされて います。)"
+    "story": "Seven (七) and a knife (刀), suggesting cutting something into seven pieces, hence 'cut'.",
+    "radicals": [
+      { "char": "七", "name": "seven" },
+      { "char": "刀", "name": "knife" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 切",
+    "casualSentence": "紙をハサミで**切**って。",
+    "formalSentence": "締め**切**りは明日です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "品",
+    "frequencyRank": 143,
+    "meaning": "Goods, Article, Quality",
+    "readings": {
+      "onyomi": "ヒン, ホン",
+      "kunyomi": "しな"
     },
-    {
-      "kanji": "主",
-      "frequencyRank": 44,
-      "meaning": "Master, Lord, Main Thing",
-      "story": "A drop (丶) above 'king' (王), signifying the main point or the master/lord.",
-      "radicals": [ { "char": "丶", "name": "drop" }, { "char": "王", "name": "king" } ],
-      "readings": { "onyomi": "シュ, ス, シュウ", "kunyomi": "ぬし, おも, あるじ" },
-      "youtubeSearchTerm": "日本語 漢字 主",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "この家の**主**（ぬし）は誰？ (この いえ の ぬし は だれ？)",
-      "formalSentence": "**主**（おも）な議題は予算についてです。 (おも な ぎだい は よさん について です。)"
+    "story": "Three mouths (口) stacked together, representing many items or goods being discussed or evaluated for quality.",
+    "radicals": [
+      { "char": "口", "name": "mouth" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 品",
+    "casualSentence": "この商**品**、人気あるみたい。",
+    "formalSentence": "製**品**の品質管理を徹底しています。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "近",
+    "frequencyRank": 144,
+    "meaning": "Near, Close",
+    "readings": {
+      "onyomi": "キン, コン",
+      "kunyomi": "ちか.い"
     },
-    {
-      "kanji": "小",
-      "frequencyRank": 45,
-      "meaning": "Small, Little",
-      "story": "Three small strokes, representing something divided into small parts or just 'small'.",
-      "radicals": [ { "char": "小", "name": "small" } ],
-      "readings": { "onyomi": "ショウ", "kunyomi": "ちい.さい, こ-, お-, さ-" },
-      "youtubeSearchTerm": "日本語 漢字 小",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "この服、ちょっと**小**さいかも。 (この ふく、 ちょっと ちいさい かも。)",
-      "formalSentence": "**小**学校（しょうがっこう）の頃の思い出です。 (しょうがっこう の ころ の おもいで です。)"
+    "story": "Movement (辶) combined with an axe (斤), perhaps suggesting chopping nearby trees, hence 'near'.",
+    "radicals": [
+      { "char": "斤", "name": "axe" },
+      { "char": "辶", "name": "walk" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 近",
+    "casualSentence": "駅はここから**近**いよ。",
+    "formalSentence": "最**近**、景気が回復しつつあります。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "不",
+    "frequencyRank": 145,
+    "meaning": "Not, Un-, Bad",
+    "readings": {
+      "onyomi": "フ, ブ",
+      "kunyomi": ""
     },
-    {
-      "kanji": "場",
-      "frequencyRank": 46,
-      "meaning": "Location, Place, Scene",
-      "story": "Earth/ground (土) where the sun (日) shines brightly (昜 - phonetic/semantic), indicating a specific location or place.",
-      "radicals": [ { "char": "土", "name": "earth" }, { "char": "昜", "name": "sunshine/positive" } ],
-      "readings": { "onyomi": "ジョウ, チョウ", "kunyomi": "ば" },
-      "youtubeSearchTerm": "日本語 漢字 場",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "この**場**所、知ってる？ (この ばしょ、 しってる？)",
-      "formalSentence": "会**場**（かいじょう）はこちらでございます。 (かいじょう は こちら で ございます。)"
+    "story": "Pictograph of roots spreading underground, unable to grow upwards, representing negation 'not'.",
+    "radicals": [
+      { "char": "一", "name": "one" },
+      { "char": "小", "name": "small" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 不",
+    "casualSentence": "ちょっと**不**安だな。",
+    "formalSentence": "**不**明な点がございましたら、お問い合わせください。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "者",
+    "frequencyRank": 146,
+    "meaning": "Person (expert, someone who does)",
+    "readings": {
+      "onyomi": "シャ",
+      "kunyomi": "もの"
     },
-    {
-      "kanji": "方",
-      "frequencyRank": 47,
-      "meaning": "Direction, Way, Person (polite)",
-      "story": "A person (亠 + 人 simplified) carrying a plow (万 simplified), indicating direction or method ('way').",
-      "radicals": [ { "char": "方", "name": "direction" } ],
-      "readings": { "onyomi": "ホウ", "kunyomi": "かた, -かた, -がた" },
-      "youtubeSearchTerm": "日本語 漢字 方",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "こっちの**方**がいいんじゃない？ (こっち の ほう が いい ん じゃない？)",
-      "formalSentence": "あちらの**方**（かた）が田中様です。 (あちら の かた が たなかさま です。)"
+    "story": "An old man (耂) holding something (perhaps wood 日 shape), representing a person, often with expertise.",
+    "radicals": [
+      { "char": "耂", "name": "old" },
+      { "char": "日", "name": "sun" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 者",
+    "casualSentence": "彼は医**者**なんだ。",
+    "formalSentence": "関係**者**以外立ち入り禁止です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "高",
+    "frequencyRank": 147,
+    "meaning": "High, Tall, Expensive",
+    "readings": {
+      "onyomi": "コウ",
+      "kunyomi": "たか.い, たか, -だか, たか.まる, たか.める"
     },
-    {
-      "kanji": "者",
-      "frequencyRank": 48,
-      "meaning": "Someone, Person (suffix)",
-      "story": "An old man (耂) holding something (日 - possibly a container or symbol), representing 'someone' or 'person'.",
-      "radicals": [ { "char": "耂", "name": "old" }, { "char": "日", "name": "sun/day" } ],
-      "readings": { "onyomi": "シャ", "kunyomi": "もの" },
-      "youtubeSearchTerm": "日本語 漢字 者",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "若い**者**には負けん！ (わかい もの に は まけん！)",
-      "formalSentence": "関係**者**（かんけいしゃ）以外立ち入り禁止です。 (かんけいしゃ いがい たちいりきんし です。)"
+    "story": "Pictograph of a tall building with a roof, representing height.",
+    "radicals": [
+      { "char": "亠", "name": "lid" },
+      { "char": "口", "name": "mouth" },
+      { "char": "冂", "name": "upside-down box" },
+      { "char": "口", "name": "mouth" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 高",
+    "casualSentence": "このビル、すごく**高**いね！",
+    "formalSentence": "**高**級ホテルに宿泊しました。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "合",
+    "frequencyRank": 148,
+    "meaning": "Fit, Join, Suit",
+    "readings": {
+      "onyomi": "ゴウ, ガッ, カッ",
+      "kunyomi": "あ.う, -あ.う, あ.い, あい-, -あ.い, -あい, あ.わす, あ.わせる, -あ.わせる"
     },
-    {
-      "kanji": "上",
-      "frequencyRank": 49,
-      "meaning": "Above, Up, Top",
-      "story": "A vertical line (卜) above a horizontal line (一), indicating 'above' or 'up'.",
-      "radicals": [ { "char": "卜", "name": "divination" }, { "char": "一", "name": "one" } ],
-      "readings": { "onyomi": "ジョウ, ショウ, シャン", "kunyomi": "うえ, -うえ, うわ-, かみ, あ.げる, -あ.げる, あ.がる, -あ.がる, あ.がり, -あ.がり, のぼ.る, のぼ.り, のぼ.せる, のぼ.す, よ.す" },
-      "youtubeSearchTerm": "日本語 漢字 上",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "机の**上**に本があるよ。手を**上**げて！ (つくえ の うえ に ほん が ある よ。 て を あげて！)",
-      "formalSentence": "品質の向**上**（こうじょう）に努めております。 (ひんしつ の こうじょう に つとめて おります。)"
+    "story": "A lid (亼) fitting perfectly onto a mouth or container (口), signifying joining or fitting together.",
+    "radicals": [
+      { "char": "亼", "name": "gather" },
+      { "char": "口", "name": "mouth" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 合",
+    "casualSentence": "これでサイズ、**合**ってる？",
+    "formalSentence": "会議の時間が**合**いません。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "手",
+    "frequencyRank": 149,
+    "meaning": "Hand",
+    "readings": {
+      "onyomi": "シュ",
+      "kunyomi": "て, た-"
     },
-    {
-      "kanji": "市",
-      "frequencyRank": 50,
-      "meaning": "Market, City",
-      "story": "A lid (亠) over a towel (巾), perhaps representing goods covered in a market stall, hence 'market' or 'city'.",
-      "radicals": [ { "char": "亠", "name": "lid" }, { "char": "巾", "name": "towel" } ],
-      "readings": { "onyomi": "シ", "kunyomi": "いち" },
-      "youtubeSearchTerm": "日本語 漢字 市",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "週末、**市**（いち）に行かない？ (しゅうまつ、 いち に いかない？)",
-      "formalSentence": "当**市**（とうし）では、市民サービスの向上に努めております。 (とうし では、 しみんさーびす の こうじょう に つとめて おります。)"
+    "story": "Pictograph of a hand with fingers.",
+    "radicals": [
+      { "char": "手", "name": "hand" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 手",
+    "casualSentence": "**手**を洗ってきてね。",
+    "formalSentence": "彼は歌**手**として有名です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "意",
+    "frequencyRank": 150,
+    "meaning": "Idea, Mind, Meaning",
+    "readings": {
+      "onyomi": "イ",
+      "kunyomi": ""
     },
-    {
-      "kanji": "業",
-      "frequencyRank": 51,
-      "meaning": "Business, Vocation, Arts, Performance",
-      "story": "Looks like musical instruments (业 - top part) on a stand (木 simplified), representing performance, arts, or skilled work (business/vocation).",
-      "radicals": [ { "char": "业", "name": "business/art" }, { "char": "木", "name": "tree" } ],
-      "readings": { "onyomi": "ギョウ, ゴウ", "kunyomi": "わざ" },
-      "youtubeSearchTerm": "日本語 漢字 業",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "宿題、終わった？授**業**（じゅぎょう）中に寝ちゃった。 (しゅくだい、 おわった？ じゅぎょうちゅう に ねちゃった。)",
-      "formalSentence": "彼の**業**（わざ）はまさに神**業**（かみわざ）です。 (かれ の わざ は まさに かみわざ です。)"
+    "story": "Sound (音) coming from the heart (心), representing thoughts, ideas, or intentions.",
+    "radicals": [
+      { "char": "音", "name": "sound" },
+      { "char": "心", "name": "heart" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 意",
+    "casualSentence": "どういう**意**味？",
+    "formalSentence": "彼の**意**見に賛成します。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "開",
+    "frequencyRank": 151,
+    "meaning": "Open, Unseal",
+    "readings": {
+      "onyomi": "カイ",
+      "kunyomi": "ひら.く, ひら.き, -びら.き, ひら.ける, あ.く, あ.ける"
     },
-    {
-      "kanji": "代",
-      "frequencyRank": 52,
-      "meaning": "Substitute, Change, Period, Age, Fee",
-      "story": "A person (亻) using a ceremonial weapon or tool (弋), perhaps indicating taking someone's place (substitute) or marking a change or period.",
-      "radicals": [ { "char": "亻", "name": "person radical" }, { "char": "弋", "name": "ceremony/shoot" } ],
-      "readings": { "onyomi": "ダイ, タイ", "kunyomi": "か.わる, かわ.る, かわ.り, か.わり, -がわ.り, -が.わり, か.える, よ, しろ" },
-      "youtubeSearchTerm": "日本語 漢字 代",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "私の**代**わりに**行**ってくれる？電話**代**が高い！ (わたし の かわりに いって くれる？ でんわだい が たかい！)",
-      "formalSentence": "時**代**（じだい）は常に変化しています。 (じだい は つねに へんか して います。)"
+    "story": "A gate (門) with two hands (廾 shape below) pushing it open.",
+    "radicals": [
+      { "char": "門", "name": "gate" },
+      { "char": "廾", "name": "two hands" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 開",
+    "casualSentence": "ドアを**開**けてください。",
+    "formalSentence": "会議を**開**催いたします。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "力",
+    "frequencyRank": 152,
+    "meaning": "Power, Strength, Force",
+    "readings": {
+      "onyomi": "リョク, リキ",
+      "kunyomi": "ちから"
     },
-    {
-      "kanji": "西",
-      "frequencyRank": 53,
-      "meaning": "West",
-      "story": "Originally a bird (酉 without the bottom line) returning to its nest (enclosure 囗), symbolizing the direction the sun sets - West.",
-      "radicals": [ { "char": "西", "name": "west" } ],
-      "readings": { "onyomi": "セイ, サイ, ス", "kunyomi": "にし" },
-      "youtubeSearchTerm": "日本語 漢字 西",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "**西**日がまぶしいね。 (にしび が まぶしい ね。)",
-      "formalSentence": "関**西**（かんさい）地方への旅行を計画しています。 (かんさい ちほう へ の りょこう を けいかく して います。)"
+    "story": "Pictograph of a muscular arm or a plow, representing strength or effort.",
+    "radicals": [
+      { "char": "力", "name": "power" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 力",
+    "casualSentence": "もっと**力**を入れて！",
+    "formalSentence": "協**力**をお願いいたします。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "問",
+    "frequencyRank": 153,
+    "meaning": "Question, Ask, Problem",
+    "readings": {
+      "onyomi": "モン",
+      "kunyomi": "と.う, と.い, とん"
     },
-    {
-      "kanji": "事",
-      "frequencyRank": 54,
-      "meaning": "Matter, Thing, Fact, Business",
-      "story": "A flag or banner (彐) held by a hand (亅) over a mouth (口), representing an official declaration or matter.",
-      "radicals": [ { "char": "亅", "name": "hook" }, { "char": "口", "name": "mouth" }, { "char": "彐", "name": "pig snout/banner" } ],
-      "readings": { "onyomi": "ジ, ズ", "kunyomi": "こと, つか.う, つか.える" },
-      "youtubeSearchTerm": "日本語 漢字 事",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "大変な**事**になった！ (たいへん な こと に なった！)",
-      "formalSentence": "この件に関する**事**務（じむ）手続きを進めてください。 (この けん に かんする じむ てつづき を すすめて ください。)"
+    "story": "A mouth (口) inside a gate (門), representing asking a question at a gate or inquiry.",
+    "radicals": [
+      { "char": "門", "name": "gate" },
+      { "char": "口", "name": "mouth" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 問",
+    "casualSentence": "ちょっと**問**題があるんだ。",
+    "formalSentence": "ご質**問**はございますか？",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "正",
+    "frequencyRank": 154,
+    "meaning": "Correct, Justice, Right",
+    "readings": {
+      "onyomi": "セイ, ショウ",
+      "kunyomi": "ただ.しい, ただ.す, まさ"
     },
-    {
-      "kanji": "電",
-      "frequencyRank": 55,
-      "meaning": "Electricity",
-      "story": "Rain (雨) causing lightning (申 extended), representing electricity.",
-      "radicals": [ { "char": "雨", "name": "rain" }, { "char": "申", "name": "speak/sign of monkey" } ],
-      "readings": { "onyomi": "デン", "kunyomi": "" },
-      "youtubeSearchTerm": "日本語 漢字 電",
-      "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
-      "casualSentence": "携帯の**電**池、もうない！ (けいたい の でんち、 もう ない！)",
-      "formalSentence": "**電**車（でんしゃ）は時間通りに運行しております。 (でんしゃ は じかんどおり に うんこう して おります。)"
-    }
+    "story": "One (一) foot stopping (止) at the correct line or target, signifying 'correct'.",
+    "radicals": [
+      { "char": "一", "name": "one" },
+      { "char": "止", "name": "stop" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 正",
+    "casualSentence": "これが**正**しい答え？",
+    "formalSentence": "**正**式な手続きが必要です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "長",
+    "frequencyRank": 155,
+    "meaning": "Long, Leader, Senior",
+    "readings": {
+      "onyomi": "チョウ",
+      "kunyomi": "なが.い, おさ"
+    },
+    "story": "Pictograph of an old person with long hair, signifying 'long' or 'senior'.",
+    "radicals": [
+      { "char": "長", "name": "long" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 長",
+    "casualSentence": "髪が**長**いね。",
+    "formalSentence": "彼は会社の社**長**です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "回",
+    "frequencyRank": 156,
+    "meaning": "Times, Round, Turn, Counter for occurrences",
+    "readings": {
+      "onyomi": "カイ, エ",
+      "kunyomi": "まわ.る, -まわ.る, -まわ.り, まわ.す, -まわ.す, まわ.し-, -まわ.し, もとお.る, か.える"
+    },
+    "story": "An enclosure (囗) containing another enclosure (口), representing something turning or revolving.",
+    "radicals": [
+      { "char": "囗", "name": "enclosure" },
+      { "char": "口", "name": "mouth" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 回",
+    "casualSentence": "もう一**回**やってみよう。",
+    "formalSentence": "次**回**の会議は来週です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "同",
+    "frequencyRank": 157,
+    "meaning": "Same, Agree, Equal",
+    "readings": {
+      "onyomi": "ドウ",
+      "kunyomi": "おな.じ"
+    },
+    "story": "An enclosure (冂) with a mouth (口) inside, perhaps representing people gathered under one roof speaking the same thing, hence 'same'.",
+    "radicals": [
+      { "char": "冂", "name": "upside-down box" },
+      { "char": "一", "name": "one" },
+      { "char": "口", "name": "mouth" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 同",
+    "casualSentence": "僕も**同**じ意見だよ。",
+    "formalSentence": "**同**意書にご署名ください。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "自",
+    "frequencyRank": 158,
+    "meaning": "Self, Oneself",
+    "readings": {
+      "onyomi": "ジ, シ",
+      "kunyomi": "みずか.ら, おの.ずから, おの.ずと"
+    },
+    "story": "Pictograph of a nose, which points to oneself when referring to 'me' in some cultures, hence 'self'.",
+    "radicals": [
+      { "char": "自", "name": "self" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 自",
+    "casualSentence": "**自**分でできるよ。",
+    "formalSentence": "**自**動車産業は国の基幹産業です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "事",
+    "frequencyRank": 159,
+    "meaning": "Thing, Matter, Affair, Fact",
+    "readings": {
+      "onyomi": "ジ, ズ",
+      "kunyomi": "こと, つか.う, つか.える"
+    },
+    "story": "A hand holding a scribe's tool (史 related shape), recording events or matters.",
+    "radicals": [
+      { "char": "亅", "name": "hook" },
+      { "char": "口", "name": "mouth" },
+      { "char": "⺕", "name": "brush" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 事",
+    "casualSentence": "大**事**な話があるんだ。",
+    "formalSentence": "この件に関する**事**務連絡です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "市",
+    "frequencyRank": 160,
+    "meaning": "City, Market",
+    "readings": {
+      "onyomi": "シ",
+      "kunyomi": "いち"
+    },
+    "story": "A lid (亠) over a towel (巾), perhaps representing goods displayed under a cover at a market.",
+    "radicals": [
+      { "char": "亠", "name": "lid" },
+      { "char": "巾", "name": "towel" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 市",
+    "casualSentence": "日曜日に**市**場に行ったよ。",
+    "formalSentence": "横浜**市**に住んでいます。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "業",
+    "frequencyRank": 161,
+    "meaning": "Business, Vocation, Arts, Performance",
+    "readings": {
+      "onyomi": "ギョウ, ゴウ",
+      "kunyomi": "わざ"
+    },
+    "story": "Complex structure involving plants (业 shape) and possibly tools, representing skilled work, craft, or business.",
+    "radicals": [
+
+      { "char": "业", "name": "business" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 業",
+    "casualSentence": "卒**業**おめでとう！",
+    "formalSentence": "企**業**の社会的責任が問われています。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "見",
+    "frequencyRank": 162,
+    "meaning": "See, Look, View, Opinion",
+    "readings": {
+      "onyomi": "ケン",
+      "kunyomi": "み.る, み.える, み.せる"
+    },
+    "story": "An eye (目) on legs (儿), representing a person looking around or seeing.",
+    "radicals": [
+      { "char": "目", "name": "eye" },
+      { "char": "儿", "name": "legs" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 見",
+    "casualSentence": "ほら、あれを**見**て！",
+    "formalSentence": "私の意**見**を述べさせていただきます。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "定",
+    "frequencyRank": 163,
+    "meaning": "Decide, Determine, Fix, Establish",
+    "readings": {
+      "onyomi": "テイ, ジョウ",
+      "kunyomi": "さだ.める, さだ.まる, さだ.か"
+    },
+    "story": "A roof (宀) over 'correct' (正), signifying establishing or fixing something correctly under authority.",
+    "radicals": [
+      { "char": "宀", "name": "roof" },
+      { "char": "疋", "name": "bolt of cloth" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 定",
+    "casualSentence": "旅行の予**定**は決まった？",
+    "formalSentence": "規**定**に従ってください。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "行",
+    "frequencyRank": 164,
+    "meaning": "Go, Journey, Carry Out, Line (of text)",
+    "readings": {
+      "onyomi": "コウ, ギョウ, アン",
+      "kunyomi": "い.く, ゆ.く, -ゆ.き, -ゆき, -い.き, -いき, おこな.う, おこ.なう"
+    },
+    "story": "Pictograph of a crossroads, representing movement or going.",
+    "radicals": [
+      { "char": "行", "name": "go" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 行",
+    "casualSentence": "どこに**行**くの？",
+    "formalSentence": "計画を実**行**に移します。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "感",
+    "frequencyRank": 165,
+    "meaning": "Feel, Sense, Emotion",
+    "readings": {
+      "onyomi": "カン",
+      "kunyomi": ""
+    },
+    "story": "A mouth (口) within a weapon (戈) over a heart (心), representing a strong feeling or sensation that strikes the heart.",
+    "radicals": [
+      { "char": "戈", "name": "halberd" },
+      { "char": "口", "name": "mouth" },
+      { "char": "心", "name": "heart" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 感",
+    "casualSentence": "なんだかいい**感**じだね。",
+    "formalSentence": "皆様のご支援に深く**感**謝いたします。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "発",
+    "frequencyRank": 166,
+    "meaning": "Departure, Emit, Start, Publish",
+    "readings": {
+      "onyomi": "ハツ, ホツ",
+      "kunyomi": "た.つ, あば.く, おこ.る, つか.わす, はな.つ"
+    },
+    "story": "Two feet stepping out (癶) from perhaps a bow or shelter, signifying departure or starting out.",
+    "radicals": [
+      { "char": "癶", "name": "footsteps" }
+
+    ],
+    "youtubeSearchTerm": "日本語 漢字 発",
+    "casualSentence": "アイデアを**発**見した！",
+    "formalSentence": "新製品を**発**売します。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "間",
+    "frequencyRank": 167,
+    "meaning": "Interval, Space, Between",
+    "readings": {
+      "onyomi": "カン, ケン",
+      "kunyomi": "あいだ, ま, あい"
+    },
+    "story": "A sun (日) seen through a gate (門), representing the space or interval within the gate.",
+    "radicals": [
+      { "char": "門", "name": "gate" },
+      { "char": "日", "name": "sun" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 間",
+    "casualSentence": "少しの**間**、待っていてください。",
+    "formalSentence": "人間関係は複雑です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "部",
+    "frequencyRank": 168,
+    "meaning": "Section, Department, Part, Counter for copies",
+    "readings": {
+      "onyomi": "ブ",
+      "kunyomi": "-べ"
+    },
+    "story": "A stand (咅 phonetic) combined with a city/village (阝), representing a division or section of a larger entity.",
+    "radicals": [
+      { "char": "咅", "name": "spit" },
+      { "char": "阝", "name": "village" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 部",
+    "casualSentence": "どのクラブに**部**活入ってる？",
+    "formalSentence": "営業**部**に所属しています。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "無",
+    "frequencyRank": 169,
+    "meaning": "Nothing, None, Not",
+    "readings": {
+      "onyomi": "ム, ブ",
+      "kunyomi": "な.い"
+    },
+    "story": "Originally depicted a person dancing with ornaments, later used phonetically for 'nothingness'. Often visualized as a forest (林 shape) being burned away (灬).",
+    "radicals": [
+
+      { "char": "灬", "name": "fire" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 無",
+    "casualSentence": "**無**理しないでね。",
+    "formalSentence": "**無**料でご利用いただけます。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "前",
+    "frequencyRank": 170,
+    "meaning": "Before, Front, Previous",
+    "readings": {
+      "onyomi": "ゼン",
+      "kunyomi": "まえ, -まえ"
+    },
+    "story": "A boat (舟 shape at bottom, simplified to 月) being cut (刂) perhaps to stop it, or horns (丷) over stopping (止) and knife (刂), signifying 'before' or 'front'.",
+    "radicals": [
+      { "char": "丷", "name": "horns" },
+      { "char": "月", "name": "moon" },
+      { "char": "刂", "name": "knife" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 前",
+    "casualSentence": "駅の**前**で会おう。",
+    "formalSentence": "以**前**にも同じ問題がありました。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "相",
+    "frequencyRank": 171,
+    "meaning": "Mutual, Together, Minister, Aspect",
+    "readings": {
+      "onyomi": "ソウ, ショウ",
+      "kunyomi": "あい-"
+    },
+    "story": "A tree (木) and an eye (目), representing looking closely at a tree, or looking at each other, hence 'mutual' or 'aspect'.",
+    "radicals": [
+      { "char": "木", "name": "tree" },
+      { "char": "目", "name": "eye" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 相",
+    "casualSentence": "**相**手は誰だったの？",
+    "formalSentence": "首**相**が会見を行いました。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "書",
+    "frequencyRank": 172,
+    "meaning": "Write, Book",
+    "readings": {
+      "onyomi": "ショ",
+      "kunyomi": "か.く, -が.き, -がき"
+    },
+    "story": "A hand holding a brush (聿) over 'say' (曰), representing the act of writing down words.",
+    "radicals": [
+      { "char": "聿", "name": "brush" },
+      { "char": "曰", "name": "say" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 書",
+    "casualSentence": "手紙を**書**いたよ。",
+    "formalSentence": "図**書**館で本を借りました。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "電",
+    "frequencyRank": 173,
+    "meaning": "Electricity",
+    "readings": {
+      "onyomi": "デン",
+      "kunyomi": ""
+    },
+    "story": "Rain (雨) with a hook/lightning bolt (申 shape), representing lightning and thus electricity.",
+    "radicals": [
+      { "char": "雨", "name": "rain" },
+      { "char": "申", "name": "monkey" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 電",
+    "casualSentence": "**電**話してもいい？",
+    "formalSentence": "**電**気製品の取り扱いには注意してください。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "実",
+    "frequencyRank": 174,
+    "meaning": "Reality, Truth, Fruit",
+    "readings": {
+      "onyomi": "ジツ, シツ",
+      "kunyomi": "み, みの.る"
+    },
+    "story": "A roof (宀) over strung coins or valuables (貫 simplified), representing something substantial, real, or fruitful.",
+    "radicals": [
+      { "char": "宀", "name": "roof" }
+
+    ],
+    "youtubeSearchTerm": "日本語 漢字 実",
+    "casualSentence": "それは**実**話なの？",
+    "formalSentence": "事**実**に基づいて判断します。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "産",
+    "frequencyRank": 175,
+    "meaning": "Produce, Give Birth, Products",
+    "readings": {
+      "onyomi": "サン",
+      "kunyomi": "う.む, う.まれる, うぶ-, む.す"
+    },
+    "story": "Life (生) emerging from a cliff (产 top part), representing birth or production.",
+    "radicals": [
+      { "char": "亠", "name": "lid" },
+      { "char": "生", "name": "life" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 産",
+    "casualSentence": "赤ちゃんが**産**まれた！",
+    "formalSentence": "国内**産**の野菜を使っています。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "入",
+    "frequencyRank": 176,
+    "meaning": "Enter, Insert",
+    "readings": {
+      "onyomi": "ニュウ, ジュ",
+      "kunyomi": "い.る, -い.る, -い.り, い.れる, -い.れ, はい.る"
+    },
+    "story": "Pictograph of an arrowhead or something entering, representing 'enter'.",
+    "radicals": [
+      { "char": "入", "name": "enter" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 入",
+    "casualSentence": "どうぞ、**入**って。",
+    "formalSentence": "会員に**入**会しませんか？",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "道",
+    "frequencyRank": 177,
+    "meaning": "Road, Way, Path, Street",
+    "readings": {
+      "onyomi": "ドウ, トウ",
+      "kunyomi": "みち"
+    },
+    "story": "Movement (辶) combined with a head (首), representing the path or way one's head faces when moving.",
+    "radicals": [
+      { "char": "首", "name": "neck" },
+      { "char": "辶", "name": "walk" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 道",
+    "casualSentence": "この**道**をまっすぐ行って。",
+    "formalSentence": "武士**道**は日本の伝統的な精神です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "科",
+    "frequencyRank": 178,
+    "meaning": "Department, Course, Section, Branch",
+    "readings": {
+      "onyomi": "カ",
+      "kunyomi": ""
+    },
+    "story": "Grain (禾) measured with a dipper (斗), representing classification or sorting into sections.",
+    "radicals": [
+      { "char": "禾", "name": "grain" },
+      { "char": "斗", "name": "dipper" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 科",
+    "casualSentence": "理**科**の実験、楽しかったね。",
+    "formalSentence": "彼は外**科**医です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "名",
+    "frequencyRank": 179,
+    "meaning": "Name, Famous, Reputation",
+    "readings": {
+      "onyomi": "メイ, ミョウ",
+      "kunyomi": "な, -な"
+    },
+    "story": "An evening (夕) and a mouth (口), representing calling someone's name in the evening.",
+    "radicals": [
+      { "char": "夕", "name": "evening" },
+      { "char": "口", "name": "mouth" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 名",
+    "casualSentence": "あなたの**名**前は何ですか？",
+    "formalSentence": "著**名**な作家の講演会があります。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "金",
+    "frequencyRank": 180,
+    "meaning": "Gold, Money, Metal",
+    "readings": {
+      "onyomi": "キン, コン",
+      "kunyomi": "かね, かな-, -がね"
+    },
+    "story": "A cover (亼) over earth (土) with nuggets (丶丶), representing metal found in the earth, especially gold.",
+    "radicals": [
+      { "char": "金", "name": "gold" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 金",
+    "casualSentence": "お**金**が足りない！",
+    "formalSentence": "**金**曜日に会議があります。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "週",
+    "frequencyRank": 181,
+    "meaning": "Week",
+    "readings": {
+      "onyomi": "シュウ",
+      "kunyomi": ""
+    },
+    "story": "Movement (辶) combined with 'cycle' (周 phonetic), representing the cycle of a week.",
+    "radicals": [
+      { "char": "周", "name": "circumference" },
+      { "char": "辶", "name": "walk" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 週",
+    "casualSentence": "来**週**、テストがある。",
+    "formalSentence": "一**週**間の予定を確認します。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "活",
+    "frequencyRank": 182,
+    "meaning": "Lively, Active, Live",
+    "readings": {
+      "onyomi": "カツ",
+      "kunyomi": "い.きる, い.かす, い.ける"
+    },
+    "story": "Water (氵) combined with 'tongue' (舌 phonetic), suggesting the lively movement of water or speech, hence 'active'.",
+    "radicals": [
+      { "char": "氵", "name": "water" },
+      { "char": "舌", "name": "tongue" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 活",
+    "casualSentence": "もっと生**活**を楽しもう！",
+    "formalSentence": "地域経済の**活**性化が課題です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "山",
+    "frequencyRank": 183,
+    "meaning": "Mountain",
+    "readings": {
+      "onyomi": "サン, セン",
+      "kunyomi": "やま"
+    },
+    "story": "Pictograph of a mountain with three peaks.",
+    "radicals": [
+      { "char": "山", "name": "mountain" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 山",
+    "casualSentence": "**山**登りは楽しいよ。",
+    "formalSentence": "富士**山**は日本の象徴です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "集",
+    "frequencyRank": 184,
+    "meaning": "Gather, Collect, Meet",
+    "readings": {
+      "onyomi": "シュウ",
+      "kunyomi": "あつ.まる, あつ.める, つど.う"
+    },
+    "story": "Birds (隹) on a tree (木), representing birds gathering together.",
+    "radicals": [
+      { "char": "隹", "name": "old bird" },
+      { "char": "木", "name": "tree" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 集",
+    "casualSentence": "みんなで**集**まろう！",
+    "formalSentence": "情報を収**集**しています。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "別",
+    "frequencyRank": 185,
+    "meaning": "Separate, Another, Different",
+    "readings": {
+      "onyomi": "ベツ",
+      "kunyomi": "わか.れる, わ.ける"
+    },
+    "story": "A mouth (口) and a knife (刂) separating bones (冎 shape), representing separation or distinction.",
+    "radicals": [
+      { "char": "冎", "name": "bone" },
+      { "char": "刂", "name": "knife" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 別",
+    "casualSentence": "これは**別**の問題だよ。",
+    "formalSentence": "特**別**な配慮が必要です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "物",
+    "frequencyRank": 186,
+    "meaning": "Thing, Object, Matter",
+    "readings": {
+      "onyomi": "ブツ, モツ",
+      "kunyomi": "もの"
+    },
+    "story": "A cow (牛) and a phonetic element (勿) suggesting variety, representing tangible things or objects.",
+    "radicals": [
+      { "char": "牛", "name": "cow" },
+      { "char": "勿", "name": "not" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 物",
+    "casualSentence": "忘れ**物**ない？",
+    "formalSentence": "この建**物**は歴史があります。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "始",
+    "frequencyRank": 187,
+    "meaning": "Begin, Start",
+    "readings": {
+      "onyomi": "シ",
+      "kunyomi": "はじ.める, -はじ.める, はじ.まる"
+    },
+    "story": "A woman (女) at a platform or stand (台), perhaps signifying the beginning of a performance or ceremony.",
+    "radicals": [
+      { "char": "女", "name": "woman" },
+      { "char": "台", "name": "platform" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 始",
+    "casualSentence": "さあ、**始**めよう！",
+    "formalSentence": "会議は午後一時に開**始**します。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "朝",
+    "frequencyRank": 188,
+    "meaning": "Morning, Dynasty",
+    "readings": {
+      "onyomi": "チョウ",
+      "kunyomi": "あさ"
+    },
+    "story": "The sun (日) rising through the mist or grass (十, 十) over the moon (月), representing morning.",
+    "radicals": [
+      { "char": "十", "name": "ten" },
+      { "char": "日", "name": "sun" },
+      { "char": "十", "name": "ten" },
+      { "char": "月", "name": "moon" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 朝",
+    "casualSentence": "明日の**朝**、早く起きなきゃ。",
+    "formalSentence": "毎**朝**、新聞を読みます。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "首",
+    "frequencyRank": 189,
+    "meaning": "Neck, Head, Leader",
+    "readings": {
+      "onyomi": "シュ",
+      "kunyomi": "くび"
+    },
+    "story": "Pictograph of a head with hair.",
+    "radicals": [
+      { "char": "首", "name": "neck" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 首",
+    "casualSentence": "**首**が痛い。",
+    "formalSentence": "彼はチームの**首**領です。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "目",
+    "frequencyRank": 190,
+    "meaning": "Eye, Look, Item",
+    "readings": {
+      "onyomi": "モク, ボク",
+      "kunyomi": "め, -め, ま-"
+    },
+    "story": "Pictograph of an eye.",
+    "radicals": [
+      { "char": "目", "name": "eye" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 目",
+    "casualSentence": "**目**がかゆい。",
+    "formalSentence": "会議の**目**的は何ですか？",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "立",
+    "frequencyRank": 191,
+    "meaning": "Stand, Establish, Set Up",
+    "readings": {
+      "onyomi": "リツ, リュウ",
+      "kunyomi": "た.つ, -た.つ, た.ち-, た.てる, -た.てる, た.て-, たて-, -たて, -だ.て, -だ.てる"
+    },
+    "story": "Pictograph of a person standing on the ground (一).",
+    "radicals": [
+      { "char": "立", "name": "stand" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 立",
+    "casualSentence": "そこに**立**ってて。",
+    "formalSentence": "新しい会社を設**立**しました。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "考",
+    "frequencyRank": 192,
+    "meaning": "Think, Consider",
+    "readings": {
+      "onyomi": "コウ",
+      "kunyomi": "かんが.える, かんが.え"
+    },
+    "story": "An old person (耂) leaning on a stick, deep in thought or consideration.",
+    "radicals": [
+      { "char": "耂", "name": "old" }
+
+    ],
+    "youtubeSearchTerm": "日本語 漢字 考",
+    "casualSentence": "ちょっと**考**えさせて。",
+    "formalSentence": "この問題を深く**考**察する必要があります。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "米",
+    "frequencyRank": 193,
+    "meaning": "Rice, America",
+    "readings": {
+      "onyomi": "ベイ, マイ",
+      "kunyomi": "こめ, よね"
+    },
+    "story": "Pictograph of a rice plant with grains.",
+    "radicals": [
+      { "char": "米", "name": "rice" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 米",
+    "casualSentence": "今晩は**米**を炊こう。",
+    "formalSentence": "**米**国との貿易交渉が行われています。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "色",
+    "frequencyRank": 194,
+    "meaning": "Color, Lust, Appearance",
+    "readings": {
+      "onyomi": "ショク, シキ",
+      "kunyomi": "いろ"
+    },
+    "story": "A person (人 shape on top) bending over another (巴 shape), perhaps related to appearance or intimacy, hence 'color' or 'lust'.",
+    "radicals": [
+      { "char": "色", "name": "color" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 色",
+    "casualSentence": "好きな**色**は何？",
+    "formalSentence": "様**々**な意見があります。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "何",
+    "frequencyRank": 195,
+    "meaning": "What",
+    "readings": {
+      "onyomi": "カ",
+      "kunyomi": "なに, なん"
+    },
+    "story": "A person (亻) carrying something (可 phonetic), asking 'what' they are carrying.",
+    "radicals": [
+      { "char": "亻", "name": "person" },
+      { "char": "可", "name": "possible" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 何",
+    "casualSentence": "これは**何**？",
+    "formalSentence": "**何**かご不明な点はございますか？",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "体",
+    "frequencyRank": 196,
+    "meaning": "Body, Substance, Object",
+    "readings": {
+      "onyomi": "タイ, テイ",
+      "kunyomi": "からだ"
+    },
+    "story": "A person (亻) and a root/origin (本), representing the physical body as the root of a person.",
+    "radicals": [
+      { "char": "亻", "name": "person" },
+      { "char": "本", "name": "book" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 体",
+    "casualSentence": "**体**の調子はどう？",
+    "formalSentence": "具体的に説明してください。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "音",
+    "frequencyRank": 197,
+    "meaning": "Sound, Noise",
+    "readings": {
+      "onyomi": "オン, イン",
+      "kunyomi": "おと, ね"
+    },
+    "story": "Stand (立) over 'say' (曰), representing sound produced or standing out.",
+    "radicals": [
+      { "char": "音", "name": "sound" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 音",
+    "casualSentence": "何の**音**？",
+    "formalSentence": "音楽を聴くのが好きです。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "内",
+    "frequencyRank": 198,
+    "meaning": "Inside, Within, Secret",
+    "readings": {
+      "onyomi": "ナイ, ダイ",
+      "kunyomi": "うち"
+    },
+    "story": "A person (人) entering (入) an enclosure (冂), representing 'inside'.",
+    "radicals": [
+      { "char": "冂", "name": "upside-down box" },
+      { "char": "人", "name": "person" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 内",
+    "casualSentence": "家の中にいるよ。",
+    "formalSentence": "詳細については、案**内**をご覧ください。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "止",
+    "frequencyRank": 199,
+    "meaning": "Stop, Halt",
+    "readings": {
+      "onyomi": "シ",
+      "kunyomi": "と.まる, -ど.まり, と.める, -と.める, -ど.め, とど.める, とど.め, とど.まる, や.める, や.む, -や.む, よ.す, -さ.す, -さ.し"
+    },
+    "story": "Pictograph of a foot, representing stopping.",
+    "radicals": [
+      { "char": "止", "name": "stop" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 止",
+    "casualSentence": "ここで**止**まって！",
+    "formalSentence": "作業を中**止**してください。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  },
+  {
+    "kanji": "林",
+    "frequencyRank": 200,
+    "meaning": "Woods, Forest, Grove",
+    "readings": {
+      "onyomi": "リン",
+      "kunyomi": "はやし"
+    },
+    "story": "Two trees (木) together, representing a small woods or grove.",
+    "radicals": [
+      { "char": "木", "name": "tree" }
+    ],
+    "youtubeSearchTerm": "日本語 漢字 林",
+    "casualSentence": "**林**の中を散歩しよう。",
+    "formalSentence": "小**林**さんにお伝えください。",
+    "kunyomiAudioUrl": "", "onyomiAudioUrl": ""
+  }
 ]
