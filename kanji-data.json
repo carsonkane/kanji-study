@@ -4,10 +4,13 @@
     "frequencyRank": 1,
     "meaning": "Sun, Day",
     "story": "Imagine the sun, a perfect circle with a line inside representing its radiant energy.",
-    "radicals": [ { "char": "日", "name": "sun/day" } ],
+    "radicals": [
+      { "char": "日", "name": "sun/day", "jpName": "ひ, にち, ひへん" }
+    ],
     "readings": { "onyomi": "ニチ, ジツ", "kunyomi": "ひ, -び, -か" },
     "kamae": {
       "type": "Single Component",
+      "jpName": null,
       "explanation": "The character 日 is a pictograph and radical itself, representing the sun or a day."
     },
     "youtubeSearchTerm": "日本語 漢字 日",
@@ -20,10 +23,13 @@
     "frequencyRank": 2,
     "meaning": "One",
     "story": "A single horizontal stroke, representing the number one, like laying one finger flat.",
-    "radicals": [ { "char": "一", "name": "one" } ],
+    "radicals": [
+      { "char": "一", "name": "one", "jpName": "いち" }
+    ],
     "readings": { "onyomi": "イチ, イツ", "kunyomi": "ひと-, ひと.つ" },
     "kamae": {
       "type": "Single Component",
+      "jpName": null,
       "explanation": "The character 一 is a simple ideograph and radical itself, representing the number one."
     },
     "youtubeSearchTerm": "日本語 漢字 一",
@@ -36,11 +42,15 @@
     "frequencyRank": 3,
     "meaning": "Country",
     "story": "Inside a boundary (囗), there's a jewel (玉) representing the treasure or sovereignty of a nation.",
-    "radicals": [ { "char": "囗", "name": "enclosure" }, { "char": "玉", "name": "jewel" } ],
+    "radicals": [
+      { "char": "囗", "name": "enclosure", "jpName": "くにがまえ" },
+      { "char": "玉", "name": "jewel", "jpName": "たま" }
+    ],
     "readings": { "onyomi": "コク", "kunyomi": "くに" },
     "kamae": {
-      "type": "Enclosure (Kunigamae)",
-      "explanation": "The radical 囗 (enclosure) surrounds the radical 玉 (jewel), representing a nation's treasure or sovereignty within its borders."
+      "type": "Enclosure",
+      "jpName": "かまえ (くにがまえ)",
+      "explanation": "The radical 囗 (kunigamae) surrounds the component 玉 (jewel), representing a nation's treasure within its borders."
     },
     "youtubeSearchTerm": "日本語 漢字 国",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -52,11 +62,14 @@
     "frequencyRank": 4,
     "meaning": "Person",
     "story": "Looks like a person walking, with two legs.",
-    "radicals": [ { "char": "人", "name": "person" } ],
+    "radicals": [
+      { "char": "人", "name": "person", "jpName": "ひと, にんべん, ひとやね" }
+    ],
     "readings": { "onyomi": "ジン, ニン", "kunyomi": "ひと, -り, -と" },
     "kamae": {
       "type": "Single Component",
-      "explanation": "The character 人 is a pictograph and radical itself, depicting a person walking."
+      "jpName": null,
+      "explanation": "The character 人 is a pictograph and radical itself. Common radical forms include 亻 (ninben - left side) and 人 (hitoyane - top)."
     },
     "youtubeSearchTerm": "日本語 漢字 人",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -68,11 +81,14 @@
     "frequencyRank": 5,
     "meaning": "Year",
     "story": "A person (人 modified) carrying a shield (干 modified), perhaps marking the passage of a year or a harvest cycle.",
-    "radicals": [ { "char": "干", "name": "dry" } ],
+    "radicals": [
+      { "char": "干", "name": "dry", "jpName": "かん" }
+    ],
     "readings": { "onyomi": "ネン", "kunyomi": "とし" },
     "kamae": {
       "type": "Top-Bottom",
-      "explanation": "The character 年 is composed of elements often related to a person or grain (top part, modified from 禾) and 干 (dry/shield, bottom part), signifying the passage of time or a harvest cycle."
+      "jpName": "じょうげ (かんむり + あし)",
+      "explanation": "Composed of elements stacked vertically. The top part (kanmuri) is often related to 禾 (grain) and the bottom part (ashi) is 干 (dry/shield)."
     },
     "youtubeSearchTerm": "日本語 漢字 年",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -84,11 +100,14 @@
     "frequencyRank": 6,
     "meaning": "Big, Large",
     "story": "A person (人) stretching their arms out wide to show how big something is.",
-    "radicals": [ { "char": "大", "name": "big" } ],
+    "radicals": [
+      { "char": "大", "name": "big", "jpName": "だい" }
+    ],
     "readings": { "onyomi": "ダイ, タイ", "kunyomi": "おお-, おお.きい, -おお.いに" },
     "kamae": {
       "type": "Single Component",
-      "explanation": "The character 大 is a pictograph and radical itself, showing a person with arms outstretched to indicate 'big'."
+      "jpName": null,
+      "explanation": "The character 大 is a pictograph and radical itself, showing a person with arms outstretched."
     },
     "youtubeSearchTerm": "日本語 漢字 大",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -100,11 +119,14 @@
     "frequencyRank": 7,
     "meaning": "Ten",
     "story": "A vertical stroke crossing a horizontal one, like crossing off ten items or forming a plus sign.",
-    "radicals": [ { "char": "十", "name": "ten" } ],
+    "radicals": [
+      { "char": "十", "name": "ten", "jpName": "じゅう" }
+    ],
     "readings": { "onyomi": "ジュウ, ジッ", "kunyomi": "とお, と" },
     "kamae": {
       "type": "Single Component",
-      "explanation": "The character 十 is a simple ideograph and radical itself, representing the number ten."
+      "jpName": null,
+      "explanation": "The character 十 is a simple ideograph and radical itself."
     },
     "youtubeSearchTerm": "日本語 漢字 十",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -116,11 +138,14 @@
     "frequencyRank": 8,
     "meaning": "Two",
     "story": "Two horizontal strokes, representing the number two.",
-    "radicals": [ { "char": "一", "name": "one" } ],
+    "radicals": [
+      { "char": "一", "name": "one", "jpName": "いち" }
+    ],
     "readings": { "onyomi": "ニ, ジ", "kunyomi": "ふた, ふた.つ, ふたた.び" },
     "kamae": {
       "type": "Single Component",
-      "explanation": "The character 二 is composed of two horizontal strokes (一), representing the number two. The radical 一 forms its basis."
+      "jpName": null,
+      "explanation": "Composed of two horizontal strokes (一). The radical 一 forms its basis."
     },
     "youtubeSearchTerm": "日本語 漢字 二",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -132,11 +157,14 @@
     "frequencyRank": 9,
     "meaning": "Book, Origin, Root",
     "story": "A tree (木) with a line marking its base or root (本), signifying origin or the source (like a book).",
-    "radicals": [ { "char": "木", "name": "tree" } ],
+    "radicals": [
+      { "char": "木", "name": "tree", "jpName": "き, きへん" }
+    ],
     "readings": { "onyomi": "ホン", "kunyomi": "もと" },
     "kamae": {
       "type": "Modified Single Component",
-      "explanation": "Based on the radical 木 (tree), with an added horizontal stroke at the bottom to emphasize the 'root' or 'origin'."
+      "jpName": null,
+      "explanation": "Based on the radical 木 (tree), with an added horizontal stroke at the bottom."
     },
     "youtubeSearchTerm": "日本語 漢字 本",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -148,11 +176,15 @@
     "frequencyRank": 10,
     "meaning": "Middle, Inside",
     "story": "A line (丨) passing through the exact center of a mouth or box (口).",
-    "radicals": [ { "char": "口", "name": "mouth" }, { "char": "丨", "name": "vertical stroke" } ],
+    "radicals": [
+      { "char": "口", "name": "mouth", "jpName": "くち, くちへん" },
+      { "char": "丨", "name": "vertical stroke", "jpName": "ぼう" }
+    ],
     "readings": { "onyomi": "チュウ", "kunyomi": "なか, うち, あた.る" },
     "kamae": {
       "type": "Combination",
-      "explanation": "The radical 丨 (vertical stroke) pierces through the center of the radical 口 (mouth/box), indicating 'middle' or 'inside'."
+      "jpName": null,
+      "explanation": "Combines 口 (mouth/box) and 丨 (vertical stroke) piercing the center."
     },
     "youtubeSearchTerm": "日本語 漢字 中",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -164,11 +196,14 @@
     "frequencyRank": 11,
     "meaning": "Long, Leader",
     "story": "Depicts long hair flowing down, symbolizing length or seniority (leader).",
-    "radicals": [ { "char": "長", "name": "long" } ],
+    "radicals": [
+      { "char": "長", "name": "long", "jpName": "ながい" }
+    ],
     "readings": { "onyomi": "チョウ", "kunyomi": "なが.い, おさ" },
     "kamae": {
       "type": "Single Component",
-      "explanation": "The character 長 is a pictograph/ideograph and radical itself, depicting long hair or signifying length/seniority."
+      "jpName": null,
+      "explanation": "The character 長 is a pictograph/ideograph and radical itself."
     },
     "youtubeSearchTerm": "日本語 漢字 長",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -180,11 +215,15 @@
     "frequencyRank": 12,
     "meaning": "Exit, Go out",
     "story": "Two mountains (山) stacked, perhaps representing emerging or going out from between them.",
-    "radicals": [ { "char": "凵", "name": "container" }, { "char": "山", "name": "mountain" } ],
+    "radicals": [
+      { "char": "凵", "name": "container", "jpName": "かんにょう, うけばこ" },
+      { "char": "山", "name": "mountain", "jpName": "やま, やまへん, やまかんむり" }
+    ],
     "readings": { "onyomi": "シュツ, スイ", "kunyomi": "で.る, -で, だ.す, -だ.す, い.でる" },
     "kamae": {
-      "type": "Top-Bottom (Stacked)",
-      "explanation": "The character 出 stacks two 山-like shapes (often analyzed with 凵 'container' forming the base of the top shape over 山 'mountain'), suggesting emerging or going 'out'."
+      "type": "Top-Bottom",
+      "jpName": "じょうげ (かんむり + あし)",
+      "explanation": "Stacks two 山-like shapes vertically (top 'kanmuri', bottom 'ashi')."
     },
     "youtubeSearchTerm": "日本語 漢字 出",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -196,11 +235,14 @@
     "frequencyRank": 13,
     "meaning": "Three",
     "story": "Three horizontal strokes, representing the number three.",
-    "radicals": [ { "char": "一", "name": "one" } ],
+    "radicals": [
+      { "char": "一", "name": "one", "jpName": "いち" }
+    ],
     "readings": { "onyomi": "サン, ゾウ", "kunyomi": "み, み.つ, みっ.つ" },
     "kamae": {
       "type": "Single Component",
-      "explanation": "The character 三 is composed of three horizontal strokes (一), representing the number three. The radical 一 forms its basis."
+      "jpName": null,
+      "explanation": "Composed of three horizontal strokes (一)."
     },
     "youtubeSearchTerm": "日本語 漢字 三",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -212,11 +254,15 @@
     "frequencyRank": 14,
     "meaning": "Time, Hour",
     "story": "The sun (日) moving over a temple (寺), marking the passage of time.",
-    "radicals": [ { "char": "日", "name": "sun" }, { "char": "寺", "name": "temple" } ],
+    "radicals": [
+      { "char": "日", "name": "sun", "jpName": "ひへん" },
+      { "char": "寺", "name": "temple", "jpName": "てら" }
+    ],
     "readings": { "onyomi": "ジ", "kunyomi": "とき, -どき" },
     "kamae": {
-      "type": "Left-Right (Hen-Tsukuri)",
-      "explanation": "The radical 日 (sun) on the left (hen) provides meaning related to time, combined with 寺 (temple) on the right (tsukuri) which acts phonetically and suggests a place where time is marked."
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Combines a left part (hen へん - 日) and a right part (tsukuri つくり - 寺)."
     },
     "youtubeSearchTerm": "日本語 漢字 時",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -228,11 +274,14 @@
     "frequencyRank": 15,
     "meaning": "Go, Journey, Conduct",
     "story": "Depicts intersecting roads or a crossroads, symbolizing movement or action.",
-    "radicals": [ { "char": "行", "name": "go" } ],
+    "radicals": [
+      { "char": "行", "name": "go", "jpName": "ぎょうがまえ, ゆきがまえ" }
+    ],
     "readings": { "onyomi": "コウ, ギョウ, アン", "kunyomi": "い.く, ゆ.く, -ゆ.き, -い.き, おこな.う" },
     "kamae": {
-      "type": "Single Component",
-      "explanation": "The character 行 is a pictograph and radical itself, representing a crossroads and thus movement or 'going'."
+      "type": "Enclosure (Acting)",
+      "jpName": "かまえ (ぎょうがまえ)",
+      "explanation": "The character 行 itself acts as an enclosure (gyōgamae) in some other Kanji like 術 or 街."
     },
     "youtubeSearchTerm": "日本語 漢字 行",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -244,11 +293,15 @@
     "frequencyRank": 16,
     "meaning": "See, Look",
     "story": "An eye (目) on legs (儿), representing the act of seeing or looking around.",
-    "radicals": [ { "char": "目", "name": "eye" }, { "char": "儿", "name": "legs" } ],
+    "radicals": [
+      { "char": "目", "name": "eye", "jpName": "め, めへん" },
+      { "char": "儿", "name": "legs", "jpName": "ひとあし" }
+    ],
     "readings": { "onyomi": "ケン", "kunyomi": "み.る, み.える, み.せる" },
     "kamae": {
       "type": "Top-Bottom",
-      "explanation": "The radical 目 (eye) sits atop the radical 儿 (legs), depicting an eye on legs, signifying 'seeing' or 'looking'."
+      "jpName": "じょうげ (かんむり + あし)",
+      "explanation": "Combines a top part (kanmuri かんむり - 目) and a bottom part (ashi あし - 儿)."
     },
     "youtubeSearchTerm": "日本語 漢字 見",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -260,11 +313,14 @@
     "frequencyRank": 17,
     "meaning": "Month, Moon",
     "story": "Picture of a crescent moon.",
-    "radicals": [ { "char": "月", "name": "moon/month/flesh" } ],
+    "radicals": [
+      { "char": "月", "name": "moon/month/flesh", "jpName": "つき, つきへん, にくづき" }
+    ],
     "readings": { "onyomi": "ゲツ, ガツ", "kunyomi": "つき" },
     "kamae": {
       "type": "Single Component",
-      "explanation": "The character 月 is a pictograph and radical itself, representing the moon or a month. It can also represent flesh (肉) when used as a radical in other kanji."
+      "jpName": null,
+      "explanation": "The character 月 is a pictograph and radical itself. As a radical, it's often called tsukihen (left) or nikuzuki (flesh component)."
     },
     "youtubeSearchTerm": "日本語 漢字 月",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -276,11 +332,15 @@
     "frequencyRank": 18,
     "meaning": "Minute, Understand, Divide",
     "story": "A knife (刀) dividing something in half (八), representing division or understanding (breaking down).",
-    "radicals": [ { "char": "八", "name": "eight" }, { "char": "刀", "name": "sword/knife" } ],
+    "radicals": [
+      { "char": "八", "name": "eight", "jpName": "はち, はちがしら" },
+      { "char": "刀", "name": "sword/knife", "jpName": "かたな, りっとう" }
+    ],
     "readings": { "onyomi": "ブン, フン, ブ", "kunyomi": "わ.ける, わ.け, わ.かれる, わ.かる, わ.かつ" },
     "kamae": {
       "type": "Top-Bottom",
-      "explanation": "The radical 八 (eight/divide) sits above the radical 刀 (knife), suggesting the act of dividing something with a knife."
+      "jpName": "じょうげ (かんむり + あし)",
+      "explanation": "Combines a top part (kanmuri かんむり - 八) and a bottom part (ashi あし - 刀)."
     },
     "youtubeSearchTerm": "日本語 漢字 分",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -292,11 +352,16 @@
     "frequencyRank": 19,
     "meaning": "Behind, After",
     "story": "Walking (彳) with a thread (幺) trailing behind, tied to something small (口 phonetic?), indicating 'after' or 'behind'.",
-    "radicals": [ { "char": "彳", "name": "step" }, { "char": "幺", "name": "thread" }, { "char": "口", "name": "mouth" } ],
+    "radicals": [
+      { "char": "彳", "name": "step", "jpName": "ぎょうにんべん" },
+      { "char": "幺", "name": "thread", "jpName": "いとがしら" },
+      { "char": "口", "name": "mouth", "jpName": "くち" }
+    ],
     "readings": { "onyomi": "ゴ, コウ", "kunyomi": "のち, うし.ろ, うしろ, あと, おく.れる" },
     "kamae": {
-      "type": "Left-Right (Hen-Tsukuri)",
-      "explanation": "The radical 彳 (step/walk) on the left combines with a complex component on the right (containing 幺 'thread' over a shape related to 口 'mouth'), suggesting following 'behind' or coming 'after'."
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Combines a left part (hen へん - 彳) and a right part (tsukuri つくり - complex component)."
     },
     "youtubeSearchTerm": "日本語 漢字 後",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -308,11 +373,16 @@
     "frequencyRank": 20,
     "meaning": "Before, Front",
     "story": "Horns (丷) over a moon/flesh (月) being cut by a knife (刀刂), perhaps preparing something *beforehand*.",
-    "radicals": [ { "char": "丷", "name": "horns" }, { "char": "月", "name": "flesh" }, { "char": "刀", "name": "knife" } ],
+    "radicals": [
+      { "char": "丷", "name": "horns", "jpName": "はちがしら" },
+      { "char": "月", "name": "flesh", "jpName": "にくづき" },
+      { "char": "刀", "name": "knife", "jpName": "りっとう" }
+    ],
     "readings": { "onyomi": "ゼン", "kunyomi": "まえ, -まえ" },
     "kamae": {
-      "type": "Top-Bottom Combination",
-      "explanation": "Composed of 丷 (horns/top) above 月 (flesh/boat) which sits to the left of 刂 (knife radical, variant of 刀). The combination signifies 'front' or 'before'."
+      "type": "Top-Left-Right Combination",
+      "jpName": null,
+      "explanation": "Complex structure combining elements at the top (丷), bottom-left (月), and bottom-right (刂)."
     },
     "youtubeSearchTerm": "日本語 漢字 前",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",

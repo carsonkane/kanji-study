@@ -40,23 +40,40 @@
         .sentence-example p strong {
             font-weight: 700; /* Or 600 if you prefer */
         }
-        /* Kamae section styling */
-        #modalKamaeInfo {
+        /* Structure/Position section styling */
+        #modalStructureInfo { /* Renamed from modalKamaeInfo */
             margin-bottom: 1rem; /* Consistent spacing */
         }
-        #modalKamaeInfo h4 {
+        #modalStructureInfo h4 {
             font-weight: 600; /* Semibold */
             margin-bottom: 0.25rem; /* Space below heading */
             color: #4a5568; /* Gray-700 */
         }
-        #modalKamaeInfo p {
+        #modalStructureInfo p {
             color: #4a5568; /* Gray-700 */
             font-size: 0.875rem; /* text-sm */
             line-height: 1.4; /* Slightly increased line height */
         }
-         #modalKamaeInfo p strong {
+         #modalStructureInfo p strong {
              font-weight: 600; /* Semibold */
              color: #2d3748; /* Gray-800 */
+         }
+         /* Style for Japanese names (used for radicals and positions) */
+         .jp-name {
+            font-family: 'Noto Sans JP', sans-serif;
+            color: #5a67d8; /* Indigo-500 */
+            font-style: italic;
+            margin-left: 0.25rem; /* Add small space */
+         }
+         /* Style for position terms */
+         .position-term {
+             font-weight: 600;
+             color: #2d3748;
+         }
+         .position-jp {
+             font-family: 'Noto Sans JP', sans-serif;
+             color: #5a67d8;
+             font-style: italic;
          }
     </style>
 </head>
@@ -81,50 +98,39 @@
         <section id="kanjiGrid" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 md:gap-6"></section>
     </main>
 
-    <!-- Kanji Modal -->
     <div id="kanjiModal" class="modal modal-hidden fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center p-4 z-50">
         <div class="bg-white rounded-lg shadow-xl max-w-xl w-full max-h-[90vh] overflow-y-auto p-6 relative">
             <button id="closeModal" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-2xl font-bold">×</button>
             <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
-                <!-- Kanji Character Display -->
                 <div class="kanji-font text-7xl md:text-8xl text-indigo-600 bg-indigo-50 p-4 rounded-lg shadow-inner text-center min-w-[120px]">
                     <span id="modalKanjiChar"></span>
                 </div>
-                <!-- Details Column -->
                 <div class="flex-grow text-center md:text-left">
                     <h2 id="modalMeaning" class="text-2xl font-semibold text-gray-900 mb-2"></h2>
                     <p class="text-sm text-gray-500 mb-3">Frequency Rank: <span id="modalRank" class="font-medium"></span></p>
-                    <!-- Readings -->
                     <div class="mb-4 text-sm">
                         <h4 class="font-semibold mb-1 text-gray-700">Readings:</h4>
                         <p><span class="font-medium text-red-600">On'yomi:</span> <span id="modalOnyomi" class="kanji-font"></span></p>
                         <p><span class="font-medium text-blue-600">Kun'yomi:</span> <span id="modalKunyomi" class="kanji-font"></span></p>
                     </div>
-                    <!-- Pronounce Button -->
-                     <button id="pronounceButton" class="pronounce-button text-white font-semibold py-2 px-5 rounded-full mb-4 inline-flex items-center gap-2">
+                    <button id="pronounceButton" class="pronounce-button text-white font-semibold py-2 px-5 rounded-full mb-4 inline-flex items-center gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM12.293 7.293a1 1 0 011.414 0L15 8.586l1.293-1.293a1 1 0 111.414 1.414L16.414 10l1.293 1.293a1 1 0 01-1.414 1.414L15 11.414l-1.293 1.293a1 1 0 01-1.414-1.414L13.586 10l-1.293-1.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
                         Pronounce
                     </button>
-                    <!-- Story -->
                     <div class="mb-4">
                         <h4 class="font-semibold mb-1 text-gray-700">Story / Mnemonic:</h4>
                         <p id="modalStory" class="text-gray-600 text-sm leading-relaxed"></p>
                     </div>
-                    <!-- Radicals -->
                     <div class="mb-4">
-                        <h4 class="font-semibold mb-1 text-gray-700">Radicals:</h4>
+                        <h4 class="font-semibold mb-1 text-gray-700">Radicals / Components:</h4>
                         <div id="modalRadicals" class="flex flex-wrap gap-2"></div>
                     </div>
 
-                    <!-- START: Added Kamae Section -->
-                    <div id="modalKamaeInfo" class="mb-4">
-                         <h4>構え (Structure)</h4>
-                         <p><strong id="modalKamaeType"></strong></p>
-                         <p id="modalKamaeExplanation" class="text-sm"></p>
+                    <div id="modalStructureInfo" class="mb-4">
+                         <h4 class="font-semibold mb-1 text-gray-700">Structure / Radical Positions:</h4>
+                         <p id="modalStructureType" class="font-medium text-gray-800"></p>
+                         <p id="modalStructureExplanation" class="text-sm"></p>
                     </div>
-                    <!-- END: Added Kamae Section -->
-
-                    <!-- Example Sentences Section -->
                     <div id="sentenceSection" class="mt-4 pt-4 border-t">
                         <h4 class="font-semibold mb-2 text-gray-700">Example Sentences:</h4>
                         <div class="space-y-2 text-sm">
@@ -138,9 +144,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- END Example Sentences Section -->
-
-                    <!-- YouTube Link -->
                     <div class="mt-4 pt-4 border-t">
                         <h4 class="font-semibold mb-1 text-gray-700">See it in action:</h4>
                         <a id="modalYoutubeLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-block bg-red-600 hover:bg-red-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 shadow hover:shadow-md">
@@ -163,7 +166,7 @@
         const modalOnyomi = document.getElementById('modalOnyomi');
         const modalKunyomi = document.getElementById('modalKunyomi');
         const modalStory = document.getElementById('modalStory');
-        const modalRadicals = document.getElementById('modalRadicals');
+        const modalRadicals = document.getElementById('modalRadicals'); // Container for radical links
         const modalYoutubeLink = document.getElementById('modalYoutubeLink');
         const pronounceButton = document.getElementById('pronounceButton');
         const loadingMessage = document.getElementById('loadingMessage');
@@ -171,10 +174,10 @@
         const sentenceSection = document.getElementById('sentenceSection');
         const modalCasualSentence = document.getElementById('modalCasualSentence');
         const modalFormalSentence = document.getElementById('modalFormalSentence');
-        // Added Kamae elements
-        const modalKamaeInfo = document.getElementById('modalKamaeInfo');
-        const modalKamaeType = document.getElementById('modalKamaeType');
-        const modalKamaeExplanation = document.getElementById('modalKamaeExplanation');
+        // Structure/Position elements (renamed from Kamae)
+        const modalStructureInfo = document.getElementById('modalStructureInfo');
+        const modalStructureType = document.getElementById('modalStructureType'); // Was modalKamaeType
+        const modalStructureExplanation = document.getElementById('modalStructureExplanation'); // Was modalKamaeExplanation
 
 
         // --- Global Variable ---
@@ -215,8 +218,66 @@
                 });
         }
 
+        // Function to get positional information based on kamae type
+        function getPositionalInfo(kamae) {
+            let typeDesc = kamae.type || "Unknown Structure";
+            let explanation = ""; // Start with empty explanation, build based on type
+            let positionInfo = "";
+
+            // Define styled positional terms
+            const hen = `<span class="position-term">Left (hen <span class="position-jp">へん</span>)</span>`;
+            const tsukuri = `<span class="position-term">Right (tsukuri <span class="position-jp">つくり</span>)</span>`;
+            const kanmuri = `<span class="position-term">Top (kanmuri <span class="position-jp">かんむり</span>)</span>`;
+            const ashi = `<span class="position-term">Bottom (ashi <span class="position-jp">あし</span>)</span>`;
+            const kamaePos = `<span class="position-term">Enclosure (kamae <span class="position-jp">かまえ</span>)</span>`;
+            const tare = `<span class="position-term">Top-Left Enclosure (tare <span class="position-jp">たれ</span>)</span>`;
+            const nyo = `<span class="position-term">Left-Bottom Enclosure (nyō <span class="position-jp">にょう</span>)</span>`;
+
+            // Generate description based on kamae.type
+            if (kamae.type) {
+                const lowerCaseType = kamae.type.toLowerCase();
+                if (lowerCaseType.includes("left-right")) {
+                    positionInfo = `Combines ${hen} and ${tsukuri} components.`;
+                    typeDesc = `Left-Right Structure (${kamae.jpName || 'へんつくり'})`;
+                } else if (lowerCaseType.includes("top-bottom")) {
+                    positionInfo = `Stacks ${kanmuri} and ${ashi} components.`;
+                     typeDesc = `Top-Bottom Structure (${kamae.jpName || 'じょうげ'})`;
+                } else if (lowerCaseType.includes("enclosure")) {
+                     // Check for more specific enclosure types if data allows, otherwise use general kamae
+                     if (kamae.jpName && kamae.jpName.includes("たれ")) {
+                         positionInfo = `Features a ${tare}.`;
+                         typeDesc = `Tare Enclosure Structure (${kamae.jpName})`;
+                     } else if (kamae.jpName && kamae.jpName.includes("にょう")) {
+                         positionInfo = `Features a ${nyo}.`;
+                          typeDesc = `Nyō Enclosure Structure (${kamae.jpName})`;
+                     } else {
+                         positionInfo = `Features an ${kamaePos}.`;
+                         typeDesc = `Enclosure Structure (${kamae.jpName || 'かまえ'})`;
+                     }
+                } else if (lowerCaseType.includes("single component")) {
+                     positionInfo = "Consists of a single primary component or radical.";
+                     typeDesc = "Single Component Structure";
+                } else if (lowerCaseType.includes("combination")) {
+                     positionInfo = "Combines multiple components in a complex arrangement.";
+                     typeDesc = "Complex Combination Structure";
+                     // Add specific explanation for known complex types like '前'
+                     if (kamae.type.includes("Top-Left-Right Combination")) {
+                         positionInfo += ` Typically involves ${kanmuri}, bottom-left, and bottom-right parts.`
+                     }
+                } else {
+                     positionInfo = kamae.explanation || "General structure description."; // Fallback
+                }
+            }
+
+            // Set the final explanation focusing on positions
+            explanation = positionInfo;
+
+            return { typeDesc, explanation };
+        }
+
+
         function showModal(kanjiItem) {
-            // Populate existing fields
+            // Populate basic fields
             modalKanjiChar.textContent = kanjiItem.kanji || '?';
             modalMeaning.textContent = kanjiItem.meaning || 'Meaning not available';
             modalRank.textContent = kanjiItem.frequencyRank || 'N/A';
@@ -224,15 +285,23 @@
             modalKunyomi.textContent = kanjiItem.readings?.kunyomi || 'N/A';
             modalStory.textContent = kanjiItem.story || 'Story coming soon!';
 
-            // Populate radicals as links
-            modalRadicals.innerHTML = '';
+            // --- Populate Radicals with Japanese Names (including positional ones) ---
+            modalRadicals.innerHTML = ''; // Clear previous radicals
             if (kanjiItem.radicals && kanjiItem.radicals.length > 0) {
                 kanjiItem.radicals.forEach(rad => {
                     if (rad && rad.char) {
                         const radicalLink = document.createElement('a');
-                        radicalLink.className = 'kanji-font bg-gray-100 text-gray-700 text-sm px-2 py-1 rounded clickable-char no-underline';
-                        radicalLink.textContent = `${rad.char} (${rad.name || 'unknown'})`;
-                        radicalLink.title = rad.name || 'Unknown Radical';
+                        radicalLink.className = 'kanji-font bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded clickable-char no-underline inline-block';
+
+                        // Build the text content, including JP name if available
+                        let radicalText = `${rad.char} (${rad.name || 'unknown'}`;
+                        if (rad.jpName) {
+                            radicalText += ` / <span class="jp-name">${rad.jpName}</span>`;
+                        }
+                        radicalText += ')';
+
+                        radicalLink.innerHTML = radicalText;
+                        radicalLink.title = `${rad.name || 'Unknown Radical'}${rad.jpName ? ' (' + rad.jpName + ')' : ''}`;
                         radicalLink.href = `radicals.html?radical=${encodeURIComponent(rad.char)}`;
                         modalRadicals.appendChild(radicalLink);
                     }
@@ -240,18 +309,23 @@
             } else {
                 modalRadicals.innerHTML = '<span class="text-sm text-gray-500">No radical info</span>';
             }
+            // --- END Populate Radicals ---
 
-            // --- START: Populate Kamae Info ---
-            if (kanjiItem.kamae && kanjiItem.kamae.type) {
-                modalKamaeType.textContent = kanjiItem.kamae.type;
-                modalKamaeExplanation.textContent = kanjiItem.kamae.explanation || '';
-                modalKamaeInfo.classList.remove('hidden'); // Show the section
+
+            // --- Populate Structure / Position Info ---
+            if (kanjiItem.kamae) {
+                // Get the descriptions focused on position
+                const { typeDesc, explanation } = getPositionalInfo(kanjiItem.kamae);
+                modalStructureType.textContent = typeDesc; // Display the structure type name
+                modalStructureExplanation.innerHTML = explanation; // Display the explanation focusing on positions
+                modalStructureInfo.classList.remove('hidden'); // Show the section
             } else {
-                modalKamaeType.textContent = ''; // Clear previous content
-                modalKamaeExplanation.textContent = '';
-                modalKamaeInfo.classList.add('hidden'); // Hide the section if no data
+                // Hide the section if no kamae info
+                modalStructureType.textContent = '';
+                modalStructureExplanation.innerHTML = '';
+                modalStructureInfo.classList.add('hidden');
             }
-            // --- END: Populate Kamae Info ---
+            // --- END Populate Structure / Position Info ---
 
 
             // Populate YouTube link
@@ -270,22 +344,13 @@
             // --- Populate Sentences ---
             let casualSentenceText = kanjiItem.casualSentence || '';
             let formalSentenceText = kanjiItem.formalSentence || '';
-
-            // Function to convert markdown bold (**text**) to HTML strong tags
-            const formatSentence = (text) => {
-                 return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-            };
-
-            // Use innerHTML to render the strong tags
+            const formatSentence = (text) => text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
             modalCasualSentence.innerHTML = casualSentenceText ? formatSentence(casualSentenceText) : 'N/A';
             modalFormalSentence.innerHTML = formalSentenceText ? formatSentence(formalSentenceText) : 'N/A';
-
-            // Optionally hide the entire sentence section if both are empty
             if (!casualSentenceText && !formalSentenceText) {
                 sentenceSection.classList.add('hidden');
             } else {
                 sentenceSection.classList.remove('hidden');
-                // Optionally hide individual lines if only one is present
                  modalCasualSentence.closest('.sentence-example').style.display = casualSentenceText ? '' : 'none';
                  modalFormalSentence.closest('.sentence-example').style.display = formalSentenceText ? '' : 'none';
             }
@@ -306,20 +371,23 @@
             const kanjiToSpeak = pronounceButton.dataset.kanji;
             const readingToSpeak = pronounceButton.dataset.reading;
             const textToSpeak = readingToSpeak || kanjiToSpeak;
-
-            if (!textToSpeak || !window.speechSynthesis) return;
-
+            if (!textToSpeak || !window.speechSynthesis) {
+                console.warn("Speech synthesis not available or no text to speak.");
+                return;
+            }
             window.speechSynthesis.cancel();
             const utterance = new SpeechSynthesisUtterance(textToSpeak);
             utterance.lang = 'ja-JP';
             utterance.rate = 0.8;
             window.speechSynthesis.speak(utterance);
-
             pronounceButton.classList.add('animate-pulse-simple');
             const removePulse = () => pronounceButton.classList.remove('animate-pulse-simple');
             utterance.onend = removePulse;
-            utterance.onerror = removePulse;
-            setTimeout(removePulse, 2000); // Fallback
+            utterance.onerror = (event) => {
+                console.error('SpeechSynthesisUtterance.onerror', event);
+                removePulse();
+            };
+            setTimeout(removePulse, 2000);
         }
 
         // --- Event Listeners ---
@@ -331,27 +399,24 @@
         // --- Initial Data Load ---
         async function loadKanjiData() {
              try {
-                const response = await fetch('kanji-data.json'); // Ensure this path is correct
+                const response = await fetch('kanji-data.json');
                 if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
                 allKanjiData = await response.json();
                 renderKanjiGrid(allKanjiData);
-
-                // Handle direct linking via URL parameter
                 const urlParams = new URLSearchParams(window.location.search);
                 const kanjiParam = urlParams.get('kanji');
                 if (kanjiParam) {
                     const decodedKanji = decodeURIComponent(kanjiParam);
                     const kanjiToShow = allKanjiData.find(item => item.kanji === decodedKanji);
                     if (kanjiToShow) {
-                        // Use setTimeout to ensure the grid is rendered before showing modal
                         setTimeout(() => showModal(kanjiToShow), 100);
                     } else {
-                        console.warn(`Kanji "${decodedKanji}" not found in data.`);
+                        console.warn(`Kanji "${decodedKanji}" from URL parameter not found in data.`);
                     }
                 }
             } catch (error) {
                 console.error("Failed to load or parse kanji-data.json:", error);
-                displayError(`Could not load Kanji data. Error: ${error.message}`);
+                displayError(`Could not load Kanji data. Please check if 'kanji-data.json' is available. Error: ${error.message}`);
             }
         }
 
