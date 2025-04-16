@@ -279,9 +279,9 @@
     ],
     "readings": { "onyomi": "コウ, ギョウ, アン", "kunyomi": "い.く, ゆ.く, -ゆ.き, -い.き, おこな.う" },
     "kamae": {
-      "type": "Enclosure (Acting)",
-      "jpName": "かまえ (ぎょうがまえ)",
-      "explanation": "The character 行 itself acts as an enclosure (gyōgamae) in some other Kanji like 術 or 街."
+      "type": "Single Component",
+      "jpName": null,
+      "explanation": "The character 行 itself is a single component representing crossroads. It can act as an enclosure (gyōgamae ぎょうがまえ) in other characters like 術 or 街."
     },
     "youtubeSearchTerm": "日本語 漢字 行",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -351,17 +351,17 @@
     "kanji": "後",
     "frequencyRank": 19,
     "meaning": "Behind, After",
-    "story": "Walking (彳) with a thread (幺) trailing behind, tied to something small (口 phonetic?), indicating 'after' or 'behind'.",
+    "story": "Walking (彳) with a thread (幺) trailing behind, ending with 'go slowly' (夂), indicating 'after' or 'behind'.",
     "radicals": [
       { "char": "彳", "name": "step", "jpName": "ぎょうにんべん" },
       { "char": "幺", "name": "thread", "jpName": "いとがしら" },
-      { "char": "口", "name": "mouth", "jpName": "くち" }
+      { "char": "夂", "name": "go slowly", "jpName": "ふゆがしら, ちいさい" }
     ],
     "readings": { "onyomi": "ゴ, コウ", "kunyomi": "のち, うし.ろ, うしろ, あと, おく.れる" },
     "kamae": {
       "type": "Left-Right",
       "jpName": "へんつくり",
-      "explanation": "Combines a left part (hen へん - 彳) and a right part (tsukuri つくり - complex component)."
+      "explanation": "Combines a left part (hen へん - 彳) and a right part (tsukuri つくり - 幺 over 夂)."
     },
     "youtubeSearchTerm": "日本語 漢字 後",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
