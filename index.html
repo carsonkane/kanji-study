@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Kanji Learner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light background */
+        }
+        .kanji-font {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .modal {
+            transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        }
+        .modal-hidden {
+            opacity: 0;
+            transform: scale(0.95);
+            pointer-events: none;
+        }
+        .modal-visible {
+            opacity: 1;
+            transform: scale(1);
+            pointer-events: auto;
+        }
+        .kanji-card:hover {
+            transform: translateY(-5px) scale(1.03);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: .7; }
+        }
+        .animate-pulse-simple {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        .pronounce-button {
+             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+             transition: all 0.3s ease;
+             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .pronounce-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+         .pronounce-button:active {
+            transform: translateY(0px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+         }
+         /* Loading/Error Message Style */
+        #loadingMessage {
+            text-align: center;
+            padding: 2rem;
+            color: #667eea; /* Indigo */
+        }
+        #errorMessage {
+             text-align: center;
+             padding: 2rem;
+             color: #e53e3e; /* Red */
+             background-color: #fed7d7; /* Light Red */
+             border: 1px solid #f56565; /* Red border */
+             border-radius: 0.5rem; /* Rounded corners */
+             margin: 1rem;
+         }
+
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+
+    <header class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white p-6 shadow-md">
+        <h1 class="text-3xl font-bold text-center">Kanji Adventure</h1>
+        <p class="text-center text-indigo-100 mt-1">Explore Kanji with Stories and Sounds</p>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+        <div id="loadingMessage" class="text-lg font-semibold">Loading Kanji data...</div>
+        <div id="errorMessage" class="hidden font-medium"></div>
+
+        <section id="kanjiGrid" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 md:gap-6">
+            </section>
+
+    </main>
+
+    <div id="kanjiModal" class="modal modal-hidden fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-lg shadow-xl max-w-xl w-full max-h-[90vh] overflow-y-auto p-6 relative">
+            <button id="closeModal" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-2xl font-bold">×</button>
+
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
+                <div class="kanji-font text-8xl md:text-9xl text-indigo-600 bg-indigo-50 p-4 rounded-lg shadow-inner text-center min-w-[120px]">
+                    <span id="modalKanjiChar"></span>
+                </div>
+
+                <div class="flex-grow text-center md:text-left">
+                    <h2 id="modalMeaning" class="text-2xl font-semibold text-gray-900 mb-2"></h2>
+                    <p class="text-sm text-gray-500 mb-3">Frequency Rank: <span id="modalRank" class="font-medium"></span></p>
+
+                    <div class="mb-4 text-sm">
+                        <h4 class="font-semibold mb-1 text-gray-700">Readings:</h4>
+                        <p><span class="font-medium text-red-600">On'yomi:</span> <span id="modalOnyomi" class="kanji-font"></span></p>
+                        <p><span class="font-medium text-blue-600">Kun'yomi:</span> <span id="modalKunyomi" class="kanji-font"></span></p>
+                    </div>
+
+                     <button id="pronounceButton" class="pronounce-button text-white font-semibold py-2 px-5 rounded-full mb-4 inline-flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM12.293 7.293a1 1 0 011.414 0L15 8.586l1.293-1.293a1 1 0 111.414 1.414L16.414 10l1.293 1.293a1 1 0 01-1.414 1.414L15 11.414l-1.293 1.293a1 1 0 01-1.414-1.414L13.586 10l-1.293-1.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                        Pronounce
+                    </button>
+
+                    <div class="mb-4">
+                        <h4 class="font-semibold mb-1 text-gray-700">Story / Mnemonic:</h4>
+                        <p id="modalStory" class="text-gray-600 text-sm leading-relaxed"></p>
+                    </div>
+
+                    <div class="mb-4">
+                        <h4 class="font-semibold mb-1 text-gray-700">Radicals:</h4>
+                        <div id="modalRadicals" class="flex flex-wrap gap-2">
+                           </div>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold mb-1 text-gray-700">See it in action:</h4>
+                        <a id="modalYoutubeLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-block bg-red-600 hover:bg-red-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 shadow hover:shadow-md">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- DOM Elements ---
+        const kanjiGrid = document.getElementById('kanjiGrid');
+        const modal = document.getElementById('kanjiModal');
+        const closeModalBtn = document.getElementById('closeModal');
+        const modalKanjiChar = document.getElementById('modalKanjiChar');
+        const modalMeaning = document.getElementById('modalMeaning');
+        const modalRank = document.getElementById('modalRank');
+        const modalOnyomi = document.getElementById('modalOnyomi');
+        const modalKunyomi = document.getElementById('modalKunyomi');
+        const modalStory = document.getElementById('modalStory');
+        const modalRadicals = document.getElementById('modalRadicals');
+        const modalYoutubeLink = document.getElementById('modalYoutubeLink');
+        const pronounceButton = document.getElementById('pronounceButton');
+        const loadingMessage = document.getElementById('loadingMessage');
+        const errorMessage = document.getElementById('errorMessage');
+
+        // --- Global Variable for Kanji Data ---
+        let allKanjiData = []; // To store the loaded data
+
+        // --- Functions ---
+
+        // Function to display error message
+        function displayError(message) {
+            loadingMessage.classList.add('hidden'); // Hide loading message
+            errorMessage.textContent = message;
+            errorMessage.classList.remove('hidden'); // Show error message
+             kanjiGrid.innerHTML = ''; // Clear grid if error occurs
+        }
+
+        // Function to render Kanji cards
+        function renderKanjiGrid(data) {
+            if (!data || data.length === 0) {
+                 displayError("No Kanji data found or data is empty.");
+                 return;
+             }
+            kanjiGrid.innerHTML = ''; // Clear existing grid
+            errorMessage.classList.add('hidden'); // Hide error message if rendering starts
+            loadingMessage.classList.add('hidden'); // Hide loading message
+
+            data
+                .sort((a, b) => a.frequencyRank - b.frequencyRank) // Sort by frequency rank
+                .forEach(item => {
+                    // Basic validation for essential fields
+                    if (!item.kanji || !item.frequencyRank) {
+                        console.warn("Skipping item due to missing kanji or frequencyRank:", item);
+                        return; // Skip rendering this card
+                    }
+
+                    const card = document.createElement('div');
+                    card.className = 'kanji-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg cursor-pointer transition-all duration-300 ease-in-out flex flex-col items-center justify-center aspect-square';
+                    card.innerHTML = `
+                        <span class="kanji-font text-4xl md:text-5xl text-gray-800">${item.kanji}</span>
+                        <span class="text-xs text-gray-500 mt-2">#${item.frequencyRank}</span>
+                    `;
+                    // Add event listener to show modal, passing the specific item
+                    card.addEventListener('click', () => showModal(item));
+                    kanjiGrid.appendChild(card);
+                });
+        }
+
+        // Function to show the modal with Kanji details
+        function showModal(kanjiItem) {
+            // Populate modal fields (ensure defaults for missing data)
+            modalKanjiChar.textContent = kanjiItem.kanji || '?';
+            modalMeaning.textContent = kanjiItem.meaning || 'Meaning not available';
+            modalRank.textContent = kanjiItem.frequencyRank || 'N/A';
+            modalOnyomi.textContent = kanjiItem.readings?.onyomi || 'N/A'; // Use optional chaining
+            modalKunyomi.textContent = kanjiItem.readings?.kunyomi || 'N/A'; // Use optional chaining
+            modalStory.textContent = kanjiItem.story || 'Story coming soon!';
+
+            // Populate radicals
+            modalRadicals.innerHTML = ''; // Clear previous radicals
+            if (kanjiItem.radicals && kanjiItem.radicals.length > 0) {
+                kanjiItem.radicals.forEach(rad => {
+                    const radicalEl = document.createElement('span');
+                    radicalEl.className = 'kanji-font bg-gray-100 text-gray-700 text-sm px-2 py-1 rounded';
+                    radicalEl.textContent = `${rad.char || '?'} (${rad.name || 'unknown'})`;
+                    radicalEl.title = rad.name || 'Unknown Radical';
+                    modalRadicals.appendChild(radicalEl);
+                });
+            } else {
+                modalRadicals.innerHTML = '<span class="text-sm text-gray-500">No radical info</span>';
+            }
+
+            // Set YouTube link (using a search query)
+            const searchTerm = kanjiItem.youtubeSearchTerm || `日本語 漢字 ${kanjiItem.kanji}`; // Fallback search term
+            const youtubeUrl = `https://www.youtube.com/results?search_query=$${encodeURIComponent(searchTerm)}`; // Corrected URL encoding
+            modalYoutubeLink.href = youtubeUrl;
+
+            // Store current Kanji and reading for pronunciation
+            pronounceButton.dataset.kanji = kanjiItem.kanji || '';
+            // Try to get the first Kun'yomi, then first On'yomi as fallback
+            const kunReadings = (kanjiItem.readings?.kunyomi || '').split(',');
+            const onReadings = (kanjiItem.readings?.onyomi || '').split(',');
+            pronounceButton.dataset.reading = (kunReadings[0]?.split('.')[0] || onReadings[0]?.split('.')[0] || '').trim();
+
+
+            // Show modal with transition
+            modal.classList.remove('modal-hidden');
+            modal.classList.add('modal-visible');
+        }
+
+        // Function to hide the modal
+        function hideModal() {
+             modal.classList.add('modal-hidden');
+             modal.classList.remove('modal-visible');
+        }
+
+        // Function to pronounce Kanji using Web Speech API (no changes needed for voice quality)
+        function pronounceKanji() {
+            const kanjiToSpeak = pronounceButton.dataset.kanji;
+            const readingToSpeak = pronounceButton.dataset.reading;
+            const textToSpeak = readingToSpeak || kanjiToSpeak; // Speak reading if available, else the kanji
+
+            if (!textToSpeak) {
+                 console.warn("No text available to pronounce.");
+                 // Maybe disable the button if no data is available?
+                 return;
+            }
+
+            if (!window.speechSynthesis) {
+                console.warn("Speech Synthesis not supported.");
+                alert("Sorry, your browser doesn't support text-to-speech.");
+                return;
+            }
+
+            // Create a new utterance
+            const utterance = new SpeechSynthesisUtterance(textToSpeak);
+            utterance.lang = 'ja-JP'; // Set language to Japanese
+            utterance.pitch = 1; // Default pitch
+            utterance.rate = 0.8; // Slightly slower rate
+
+            // Speak the utterance
+            window.speechSynthesis.speak(utterance);
+
+             // Add a visual cue to the button
+             pronounceButton.classList.add('animate-pulse-simple');
+             setTimeout(() => {
+                 pronounceButton.classList.remove('animate-pulse-simple');
+             }, 1500);
+        }
+
+        // --- Event Listeners ---
+        closeModalBtn.addEventListener('click', hideModal);
+        modal.addEventListener('click', (event) => {
+            if (event.target === modal) hideModal();
+        });
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && modal.classList.contains('modal-visible')) hideModal();
+        });
+        pronounceButton.addEventListener('click', pronounceKanji);
+
+        // --- Initial Data Load ---
+        async function loadKanjiData() {
+            try {
+                // Attempt to fetch data from the JSON file
+                const response = await fetch('kanji-data.json'); // Assumes kanji-data.json is in the same directory
+                if (!response.ok) {
+                    // Handle HTTP errors (like 404 Not Found)
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                allKanjiData = await response.json(); // Parse the JSON data
+                renderKanjiGrid(allKanjiData); // Render the grid with the loaded data
+            } catch (error) {
+                // Catch fetch errors (network issue, file not found) or JSON parsing errors
+                console.error("Failed to load or parse kanji-data.json:", error);
+                displayError(`Could not load Kanji data. Please ensure 'kanji-data.json' exists and is valid. Error: ${error.message}`);
+                // Optionally, load fallback data here if needed
+                // renderKanjiGrid(fallbackKanjiData); // Where fallbackKanjiData is your original sample array
+            }
+        }
+
+        // --- Initialize ---
+        document.addEventListener('DOMContentLoaded', loadKanjiData); // Load data when the page content is ready
+
+    </script>
+
+</body>
+</html>

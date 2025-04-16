@@ -1,0 +1,585 @@
+[
+    {
+      "kanji": "日",
+      "frequencyRank": 1,
+      "meaning": "Sun, Day",
+      "story": "Imagine the sun, a perfect circle with a line inside representing its radiant energy.",
+      "radicals": [
+        { "char": "日", "name": "sun/day" }
+      ],
+      "readings": {
+        "onyomi": "ニチ, ジツ",
+        "kunyomi": "ひ, -び, -か"
+      },
+      "youtubeSearchTerm": "日本語 漢字 日"
+    },
+    {
+      "kanji": "一",
+      "frequencyRank": 2,
+      "meaning": "One",
+      "story": "A single horizontal stroke, representing the number one, like laying one finger flat.",
+      "radicals": [
+        { "char": "一", "name": "one" }
+      ],
+      "readings": {
+        "onyomi": "イチ, イツ",
+        "kunyomi": "ひと-, ひと.つ"
+      },
+      "youtubeSearchTerm": "日本語 漢字 一"
+    },
+    {
+      "kanji": "国",
+      "frequencyRank": 3,
+      "meaning": "Country",
+      "story": "Inside a boundary (囗), there's a jewel (玉) representing the treasure or sovereignty of a nation.",
+      "radicals": [
+        { "char": "囗", "name": "enclosure" },
+        { "char": "玉", "name": "jewel" }
+      ],
+      "readings": {
+        "onyomi": "コク",
+        "kunyomi": "くに"
+      },
+      "youtubeSearchTerm": "日本語 漢字 国"
+    },
+    {
+      "kanji": "人",
+      "frequencyRank": 4,
+      "meaning": "Person",
+      "story": "Looks like a person walking, with two legs.",
+      "radicals": [
+        { "char": "人", "name": "person" }
+      ],
+      "readings": {
+        "onyomi": "ジン, ニン",
+        "kunyomi": "ひと, -り, -と"
+      },
+      "youtubeSearchTerm": "日本語 漢字 人"
+    },
+    {
+      "kanji": "年",
+      "frequencyRank": 5,
+      "meaning": "Year",
+      "story": "A person (人 modified) carrying a shield (干 modified), perhaps marking the passage of a year or a harvest cycle.",
+      "radicals": [
+        { "char": "干", "name": "dry" }
+      ],
+      "readings": {
+        "onyomi": "ネン",
+        "kunyomi": "とし"
+      },
+      "youtubeSearchTerm": "日本語 漢字 年"
+    },
+    {
+      "kanji": "大",
+      "frequencyRank": 6,
+      "meaning": "Big, Large",
+      "story": "A person (人) stretching their arms out wide to show how big something is.",
+      "radicals": [
+        { "char": "大", "name": "big" }
+      ],
+      "readings": {
+        "onyomi": "ダイ, タイ",
+        "kunyomi": "おお-, おお.きい, -おお.いに"
+      },
+      "youtubeSearchTerm": "日本語 漢字 大"
+    },
+    {
+      "kanji": "十",
+      "frequencyRank": 7,
+      "meaning": "Ten",
+      "story": "A vertical stroke crossing a horizontal one, like crossing off ten items or forming a plus sign.",
+      "radicals": [
+        { "char": "十", "name": "ten" }
+      ],
+      "readings": {
+        "onyomi": "ジュウ, ジッ",
+        "kunyomi": "とお, と"
+      },
+      "youtubeSearchTerm": "日本語 漢字 十"
+    },
+    {
+      "kanji": "二",
+      "frequencyRank": 8,
+      "meaning": "Two",
+      "story": "Two horizontal strokes, representing the number two.",
+      "radicals": [
+        { "char": "一", "name": "one" }
+      ],
+      "readings": {
+        "onyomi": "ニ, ジ",
+        "kunyomi": "ふた, ふた.つ, ふたた.び"
+      },
+      "youtubeSearchTerm": "日本語 漢字 二"
+    },
+    {
+      "kanji": "本",
+      "frequencyRank": 9,
+      "meaning": "Book, Origin, Root",
+      "story": "A tree (木) with a line marking its base or root (本), signifying origin or the source (like a book).",
+      "radicals": [
+        { "char": "木", "name": "tree" }
+      ],
+      "readings": {
+        "onyomi": "ホン",
+        "kunyomi": "もと"
+      },
+      "youtubeSearchTerm": "日本語 漢字 本"
+    },
+    {
+      "kanji": "中",
+      "frequencyRank": 10,
+      "meaning": "Middle, Inside",
+      "story": "A line (丨) passing through the exact center of a mouth or box (口).",
+      "radicals": [
+        { "char": "口", "name": "mouth" },
+        { "char": "丨", "name": "vertical stroke" }
+      ],
+      "readings": {
+        "onyomi": "チュウ",
+        "kunyomi": "なか, うち, あた.る"
+      },
+      "youtubeSearchTerm": "日本語 漢字 中"
+    },
+    {
+      "kanji": "長",
+      "frequencyRank": 11,
+      "meaning": "Long, Leader",
+      "story": "Depicts long hair flowing down, symbolizing length or seniority (leader).",
+      "radicals": [
+        { "char": "長", "name": "long" }
+      ],
+      "readings": {
+        "onyomi": "チョウ",
+        "kunyomi": "なが.い, おさ"
+      },
+      "youtubeSearchTerm": "日本語 漢字 長"
+    },
+    {
+      "kanji": "出",
+      "frequencyRank": 12,
+      "meaning": "Exit, Go out",
+      "story": "Two mountains (山) stacked, perhaps representing emerging or going out from between them.",
+      "radicals": [
+        { "char": "凵", "name": "container" },
+        { "char": "山", "name": "mountain" }
+      ],
+      "readings": {
+        "onyomi": "シュツ, スイ",
+        "kunyomi": "で.る, -で, だ.す, -だ.す, い.でる"
+      },
+      "youtubeSearchTerm": "日本語 漢字 出"
+    },
+    {
+      "kanji": "三",
+      "frequencyRank": 13,
+      "meaning": "Three",
+      "story": "Three horizontal strokes, representing the number three.",
+      "radicals": [
+        { "char": "一", "name": "one" }
+      ],
+      "readings": {
+        "onyomi": "サン, ゾウ",
+        "kunyomi": "み, み.つ, みっ.つ"
+      },
+      "youtubeSearchTerm": "日本語 漢字 三"
+    },
+    {
+      "kanji": "時",
+      "frequencyRank": 14,
+      "meaning": "Time, Hour",
+      "story": "The sun (日) moving over a temple (寺), marking the passage of time.",
+      "radicals": [
+        { "char": "日", "name": "sun" },
+        { "char": "寺", "name": "temple" }
+      ],
+      "readings": {
+        "onyomi": "ジ",
+        "kunyomi": "とき, -どき"
+      },
+      "youtubeSearchTerm": "日本語 漢字 時"
+    },
+    {
+      "kanji": "行",
+      "frequencyRank": 15,
+      "meaning": "Go, Journey, Conduct",
+      "story": "Depicts intersecting roads or a crossroads, symbolizing movement or action.",
+      "radicals": [
+        { "char": "行", "name": "go" }
+      ],
+      "readings": {
+        "onyomi": "コウ, ギョウ, アン",
+        "kunyomi": "い.く, ゆ.く, -ゆ.き, -い.き, おこな.う"
+      },
+      "youtubeSearchTerm": "日本語 漢字 行"
+    },
+    {
+      "kanji": "見",
+      "frequencyRank": 16,
+      "meaning": "See, Look",
+      "story": "An eye (目) on legs (儿), representing the act of seeing or looking around.",
+      "radicals": [
+        { "char": "目", "name": "eye" },
+        { "char": "儿", "name": "legs" }
+      ],
+      "readings": {
+        "onyomi": "ケン",
+        "kunyomi": "み.る, み.える, み.せる"
+      },
+      "youtubeSearchTerm": "日本語 漢字 見"
+    },
+    {
+      "kanji": "月",
+      "frequencyRank": 17,
+      "meaning": "Month, Moon",
+      "story": "Picture of a crescent moon.",
+      "radicals": [
+        { "char": "月", "name": "moon/month/flesh" }
+      ],
+      "readings": {
+        "onyomi": "ゲツ, ガツ",
+        "kunyomi": "つき"
+      },
+      "youtubeSearchTerm": "日本語 漢字 月"
+    },
+    {
+      "kanji": "分",
+      "frequencyRank": 18,
+      "meaning": "Minute, Understand, Divide",
+      "story": "A knife (刀) dividing something in half (八), representing division or understanding (breaking down).",
+      "radicals": [
+        { "char": "八", "name": "eight" },
+        { "char": "刀", "name": "sword/knife" }
+      ],
+      "readings": {
+        "onyomi": "ブン, フン, ブ",
+        "kunyomi": "わ.ける, わ.け, わ.かれる, わ.かる, わ.かつ"
+      },
+      "youtubeSearchTerm": "日本語 漢字 分"
+    },
+    {
+      "kanji": "後",
+      "frequencyRank": 19,
+      "meaning": "Behind, After",
+      "story": "Walking (彳) with a thread (幺) trailing behind, tied to something small (口 phonetic?), indicating 'after' or 'behind'.",
+      "radicals": [
+        { "char": "彳", "name": "step" },
+        { "char": "幺", "name": "thread" },
+        { "char": "口", "name": "mouth" }
+      ],
+      "readings": {
+        "onyomi": "ゴ, コウ",
+        "kunyomi": "のち, うし.ろ, うしろ, あと, おく.れる"
+      },
+      "youtubeSearchTerm": "日本語 漢字 後"
+    },
+    {
+      "kanji": "前",
+      "frequencyRank": 20,
+      "meaning": "Before, Front",
+      "story": "Horns (丷) over a moon/flesh (月) being cut by a knife (刀刂), perhaps preparing something *beforehand*.",
+      "radicals": [
+        { "char": "丷", "name": "horns" },
+        { "char": "月", "name": "flesh" },
+        { "char": "刀", "name": "knife" }
+      ],
+      "readings": {
+        "onyomi": "ゼン",
+        "kunyomi": "まえ, -まえ"
+      },
+      "youtubeSearchTerm": "日本語 漢字 前"
+    },
+    {
+      "kanji": "生",
+      "frequencyRank": 21,
+      "meaning": "Life, Birth, Genuine",
+      "story": "A sprout (生) pushing up from the ground, symbolizing life and birth.",
+      "radicals": [
+        { "char": "生", "name": "life" }
+      ],
+      "readings": {
+        "onyomi": "セイ, ショウ",
+        "kunyomi": "い.きる, い.かす, い.ける, う.まれる, うま.れる, う.まれ, うまれ, う.む, お.う, は.える, は.やす, き, なま, なま-, な.る, な.す, む.す, -う"
+      },
+      "youtubeSearchTerm": "日本語 漢字 生"
+    },
+    {
+      "kanji": "高",
+      "frequencyRank": 22,
+      "meaning": "Tall, High, Expensive",
+      "story": "Picture a tall building (高) reaching high into the sky, representing height and, by extension, high cost.",
+      "radicals": [
+        { "char": "高", "name": "tall" }
+      ],
+      "readings": {
+        "onyomi": "コウ",
+        "kunyomi": "たか.い, たか, -だか, たか.まる, たか.める"
+      },
+      "youtubeSearchTerm": "日本語 漢字 高"
+    },
+    {
+      "kanji": "自",
+      "frequencyRank": 23,
+      "meaning": "Self, Oneself",
+      "story": "Originally a picture of a nose (自), which people point to when referring to themselves. Hence, 'self'.",
+      "radicals": [
+        { "char": "自", "name": "self/nose" }
+      ],
+      "readings": {
+        "onyomi": "ジ, シ",
+        "kunyomi": "みずか.ら, おの.ずから, おの.ずと"
+      },
+      "youtubeSearchTerm": "日本語 漢字 自"
+    },
+    {
+      "kanji": "学",
+      "frequencyRank": 24,
+      "meaning": "Study, Learning, Science",
+      "story": "A child (子) under a roof or being guided by hands (龸), engaged in learning or study.",
+      "radicals": [
+        { "char": "龸", "name": "hands/roof" },
+        { "char": "子", "name": "child" }
+      ],
+      "readings": {
+        "onyomi": "ガク",
+        "kunyomi": "まな.ぶ"
+      },
+      "youtubeSearchTerm": "日本語 漢字 学"
+    },
+    {
+      "kanji": "校",
+      "frequencyRank": 25,
+      "meaning": "School, Exam, Proofread",
+      "story": "A place with trees (木) where people mix and associate (交) for learning - a school.",
+      "radicals": [
+        { "char": "木", "name": "tree" },
+        { "char": "交", "name": "intersect/mix" }
+      ],
+      "readings": {
+        "onyomi": "コウ, キョウ",
+        "kunyomi": ""
+      },
+      "youtubeSearchTerm": "日本語 漢字 校"
+    },
+    {
+      "kanji": "東",
+      "frequencyRank": 26,
+      "meaning": "East",
+      "story": "The sun (日) rising behind a tree (木), representing the direction East.",
+      "radicals": [
+        { "char": "木", "name": "tree" },
+        { "char": "日", "name": "sun" }
+      ],
+      "readings": {
+        "onyomi": "トウ",
+        "kunyomi": "ひがし"
+      },
+      "youtubeSearchTerm": "日本語 漢字 東"
+    },
+    {
+      "kanji": "京",
+      "frequencyRank": 27,
+      "meaning": "Capital",
+      "story": "A tall building (亠, 口, 小) representing the grandeur of a capital city.",
+      "radicals": [
+        { "char": "亠", "name": "lid" },
+        { "char": "口", "name": "mouth" },
+        { "char": "小", "name": "small" }
+      ],
+      "readings": {
+        "onyomi": "キョウ, ケイ, キン",
+        "kunyomi": "みやこ"
+      },
+      "youtubeSearchTerm": "日本語 漢字 京"
+    },
+    {
+      "kanji": "間",
+      "frequencyRank": 28,
+      "meaning": "Interval, Space, Between",
+      "story": "The sun (日) seen through a gap in a gate (門), indicating a space or interval.",
+      "radicals": [
+        { "char": "門", "name": "gate" },
+        { "char": "日", "name": "sun" }
+      ],
+      "readings": {
+        "onyomi": "カン, ケン",
+        "kunyomi": "あいだ, ま, あい"
+      },
+      "youtubeSearchTerm": "日本語 漢字 間"
+    },
+    {
+      "kanji": "北",
+      "frequencyRank": 29,
+      "meaning": "North",
+      "story": "Two people (匕) back-to-back, perhaps turning away from the sun, indicating North.",
+      "radicals": [
+        { "char": "匕", "name": "spoon/person" }
+      ],
+      "readings": {
+        "onyomi": "ホク",
+        "kunyomi": "きた"
+      },
+      "youtubeSearchTerm": "日本語 漢字 北"
+    },
+    {
+      "kanji": "五",
+      "frequencyRank": 30,
+      "meaning": "Five",
+      "story": "Two strokes crossing like an 'X' between heaven and earth (represented by top and bottom lines), symbolizing the number five.",
+      "radicals": [
+        { "char": "二", "name": "two" },
+        { "char": "乂", "name": "cross" }
+      ],
+      "readings": {
+        "onyomi": "ゴ",
+        "kunyomi": "いつ, いつ.つ"
+      },
+      "youtubeSearchTerm": "日本語 漢字 五"
+    },
+    {
+      "kanji": "今",
+      "frequencyRank": 31,
+      "meaning": "Now",
+      "story": "A gathering (人 + 一) under a roof (ラ), indicating the present moment, 'now'.",
+      "radicals": [
+        { "char": "人", "name": "person" },
+        { "char": "ラ", "name": "katakana ra/roof" }
+      ],
+      "readings": {
+        "onyomi": "コン, キン",
+        "kunyomi": "いま"
+      },
+      "youtubeSearchTerm": "日本語 漢字 今"
+    },
+    {
+      "kanji": "金",
+      "frequencyRank": 32,
+      "meaning": "Gold, Money, Metal",
+      "story": "Earth (土) containing sparkling nuggets (dots 丶) under a roof (人 + 一), representing metal or gold found in the ground.",
+      "radicals": [
+        { "char": "金", "name": "gold" }
+      ],
+      "readings": {
+        "onyomi": "キン, コン, ゴン",
+        "kunyomi": "かね, かな-, -がね"
+      },
+      "youtubeSearchTerm": "日本語 漢字 金"
+    },
+    {
+      "kanji": "九",
+      "frequencyRank": 33,
+      "meaning": "Nine",
+      "story": "A hook or curve, perhaps representing the final single digit before ten, 'nine'.",
+      "radicals": [
+        { "char": "九", "name": "nine" }
+      ],
+      "readings": {
+        "onyomi": "キュウ, ク",
+        "kunyomi": "ここの, ここの.つ"
+      },
+      "youtubeSearchTerm": "日本語 漢字 九"
+    },
+    {
+      "kanji": "入",
+      "frequencyRank": 34,
+      "meaning": "Enter, Insert",
+      "story": "Looks like a wedge or arrow pointing downwards and inwards, signifying entry.",
+      "radicals": [
+        { "char": "入", "name": "enter" }
+      ],
+      "readings": {
+        "onyomi": "ニュウ, ジュ",
+        "kunyomi": "い.る, -い.る, -い.り, い.れる, -い.れ, はい.る"
+      },
+      "youtubeSearchTerm": "日本語 漢字 入"
+    },
+    {
+      "kanji": "円",
+      "frequencyRank": 35,
+      "meaning": "Yen, Circle, Round",
+      "story": "An enclosure (冂) around a component (元 without top line), representing a coin (Yen) or something round.",
+      "radicals": [
+        { "char": "冂", "name": "border" },
+        { "char": "二", "name": "two" },
+        { "char": "儿", "name": "legs" }
+      ],
+      "readings": {
+        "onyomi": "エン",
+        "kunyomi": "まる.い, まる, まど, まど.か, まろ.やか"
+      },
+      "youtubeSearchTerm": "日本語 漢字 円"
+    },
+    {
+      "kanji": "子",
+      "frequencyRank": 36,
+      "meaning": "Child",
+      "story": "A simple pictograph of a child with arms outstretched.",
+      "radicals": [
+        { "char": "子", "name": "child" }
+      ],
+      "readings": {
+        "onyomi": "シ, ス, ツ",
+        "kunyomi": "こ, -こ, ね"
+      },
+      "youtubeSearchTerm": "日本語 漢字 子"
+    },
+    {
+      "kanji": "会",
+      "frequencyRank": 37,
+      "meaning": "Meet, Society, Association",
+      "story": "People (人) gathering under a roof (云 simplified) to meet or form an association.",
+      "radicals": [
+        { "char": "人", "name": "person" },
+        { "char": "云", "name": "say/cloud" }
+      ],
+      "readings": {
+        "onyomi": "カイ, エ",
+        "kunyomi": "あ.う, あ.わせる, あつ.まる"
+      },
+      "youtubeSearchTerm": "日本語 漢字 会"
+    },
+    {
+      "kanji": "内",
+      "frequencyRank": 38,
+      "meaning": "Inside, Within, Secret",
+      "story": "A person (人) entering (入) into an enclosure (冂), signifying 'inside'.",
+      "radicals": [
+        { "char": "冂", "name": "border" },
+        { "char": "人", "name": "person" }
+      ],
+      "readings": {
+        "onyomi": "ナイ, ダイ",
+        "kunyomi": "うち"
+      },
+      "youtubeSearchTerm": "日本語 漢字 内"
+    },
+    {
+      "kanji": "社",
+      "frequencyRank": 39,
+      "meaning": "Company, Firm, Office, Shrine",
+      "story": "An altar (示) on the earth (土), representing a sacred place (shrine) or a gathering place for a common purpose (company).",
+      "radicals": [
+        { "char": "示", "name": "altar" },
+        { "char": "土", "name": "earth" }
+      ],
+      "readings": {
+        "onyomi": "シャ",
+        "kunyomi": "やしろ"
+      },
+      "youtubeSearchTerm": "日本語 漢字 社"
+    },
+    {
+      "kanji": "手",
+      "frequencyRank": 40,
+      "meaning": "Hand",
+      "story": "A pictograph of a hand with fingers.",
+      "radicals": [
+        { "char": "手", "name": "hand" }
+      ],
+      "readings": {
+        "onyomi": "シュ, ズ",
+        "kunyomi": "て, て-, -て, た-"
+      },
+      "youtubeSearchTerm": "日本語 漢字 手"
+    }
+  ]
