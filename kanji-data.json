@@ -11,7 +11,9 @@
         "onyomi": "ニチ, ジツ",
         "kunyomi": "ひ, -び, -か"
       },
-      "youtubeSearchTerm": "日本語 漢字 日"
+      "youtubeSearchTerm": "日本語 漢字 日",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "一",
@@ -25,7 +27,9 @@
         "onyomi": "イチ, イツ",
         "kunyomi": "ひと-, ひと.つ"
       },
-      "youtubeSearchTerm": "日本語 漢字 一"
+      "youtubeSearchTerm": "日本語 漢字 一",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "国",
@@ -40,7 +44,9 @@
         "onyomi": "コク",
         "kunyomi": "くに"
       },
-      "youtubeSearchTerm": "日本語 漢字 国"
+      "youtubeSearchTerm": "日本語 漢字 国",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "人",
@@ -54,7 +60,9 @@
         "onyomi": "ジン, ニン",
         "kunyomi": "ひと, -り, -と"
       },
-      "youtubeSearchTerm": "日本語 漢字 人"
+      "youtubeSearchTerm": "日本語 漢字 人",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "年",
@@ -68,7 +76,9 @@
         "onyomi": "ネン",
         "kunyomi": "とし"
       },
-      "youtubeSearchTerm": "日本語 漢字 年"
+      "youtubeSearchTerm": "日本語 漢字 年",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "大",
@@ -82,7 +92,9 @@
         "onyomi": "ダイ, タイ",
         "kunyomi": "おお-, おお.きい, -おお.いに"
       },
-      "youtubeSearchTerm": "日本語 漢字 大"
+      "youtubeSearchTerm": "日本語 漢字 大",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "十",
@@ -96,7 +108,9 @@
         "onyomi": "ジュウ, ジッ",
         "kunyomi": "とお, と"
       },
-      "youtubeSearchTerm": "日本語 漢字 十"
+      "youtubeSearchTerm": "日本語 漢字 十",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "二",
@@ -110,7 +124,9 @@
         "onyomi": "ニ, ジ",
         "kunyomi": "ふた, ふた.つ, ふたた.び"
       },
-      "youtubeSearchTerm": "日本語 漢字 二"
+      "youtubeSearchTerm": "日本語 漢字 二",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "本",
@@ -124,7 +140,9 @@
         "onyomi": "ホン",
         "kunyomi": "もと"
       },
-      "youtubeSearchTerm": "日本語 漢字 本"
+      "youtubeSearchTerm": "日本語 漢字 本",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "中",
@@ -139,7 +157,9 @@
         "onyomi": "チュウ",
         "kunyomi": "なか, うち, あた.る"
       },
-      "youtubeSearchTerm": "日本語 漢字 中"
+      "youtubeSearchTerm": "日本語 漢字 中",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "長",
@@ -153,7 +173,9 @@
         "onyomi": "チョウ",
         "kunyomi": "なが.い, おさ"
       },
-      "youtubeSearchTerm": "日本語 漢字 長"
+      "youtubeSearchTerm": "日本語 漢字 長",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "出",
@@ -168,7 +190,9 @@
         "onyomi": "シュツ, スイ",
         "kunyomi": "で.る, -で, だ.す, -だ.す, い.でる"
       },
-      "youtubeSearchTerm": "日本語 漢字 出"
+      "youtubeSearchTerm": "日本語 漢字 出",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "三",
@@ -182,7 +206,9 @@
         "onyomi": "サン, ゾウ",
         "kunyomi": "み, み.つ, みっ.つ"
       },
-      "youtubeSearchTerm": "日本語 漢字 三"
+      "youtubeSearchTerm": "日本語 漢字 三",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "時",
@@ -197,7 +223,9 @@
         "onyomi": "ジ",
         "kunyomi": "とき, -どき"
       },
-      "youtubeSearchTerm": "日本語 漢字 時"
+      "youtubeSearchTerm": "日本語 漢字 時",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "行",
@@ -211,7 +239,9 @@
         "onyomi": "コウ, ギョウ, アン",
         "kunyomi": "い.く, ゆ.く, -ゆ.き, -い.き, おこな.う"
       },
-      "youtubeSearchTerm": "日本語 漢字 行"
+      "youtubeSearchTerm": "日本語 漢字 行",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "見",
@@ -226,7 +256,9 @@
         "onyomi": "ケン",
         "kunyomi": "み.る, み.える, み.せる"
       },
-      "youtubeSearchTerm": "日本語 漢字 見"
+      "youtubeSearchTerm": "日本語 漢字 見",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "月",
@@ -240,7 +272,9 @@
         "onyomi": "ゲツ, ガツ",
         "kunyomi": "つき"
       },
-      "youtubeSearchTerm": "日本語 漢字 月"
+      "youtubeSearchTerm": "日本語 漢字 月",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "分",
@@ -255,7 +289,9 @@
         "onyomi": "ブン, フン, ブ",
         "kunyomi": "わ.ける, わ.け, わ.かれる, わ.かる, わ.かつ"
       },
-      "youtubeSearchTerm": "日本語 漢字 分"
+      "youtubeSearchTerm": "日本語 漢字 分",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "後",
@@ -271,7 +307,9 @@
         "onyomi": "ゴ, コウ",
         "kunyomi": "のち, うし.ろ, うしろ, あと, おく.れる"
       },
-      "youtubeSearchTerm": "日本語 漢字 後"
+      "youtubeSearchTerm": "日本語 漢字 後",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "前",
@@ -287,7 +325,9 @@
         "onyomi": "ゼン",
         "kunyomi": "まえ, -まえ"
       },
-      "youtubeSearchTerm": "日本語 漢字 前"
+      "youtubeSearchTerm": "日本語 漢字 前",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "生",
@@ -301,7 +341,9 @@
         "onyomi": "セイ, ショウ",
         "kunyomi": "い.きる, い.かす, い.ける, う.まれる, うま.れる, う.まれ, うまれ, う.む, お.う, は.える, は.やす, き, なま, なま-, な.る, な.す, む.す, -う"
       },
-      "youtubeSearchTerm": "日本語 漢字 生"
+      "youtubeSearchTerm": "日本語 漢字 生",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "高",
@@ -315,7 +357,9 @@
         "onyomi": "コウ",
         "kunyomi": "たか.い, たか, -だか, たか.まる, たか.める"
       },
-      "youtubeSearchTerm": "日本語 漢字 高"
+      "youtubeSearchTerm": "日本語 漢字 高",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "自",
@@ -329,7 +373,9 @@
         "onyomi": "ジ, シ",
         "kunyomi": "みずか.ら, おの.ずから, おの.ずと"
       },
-      "youtubeSearchTerm": "日本語 漢字 自"
+      "youtubeSearchTerm": "日本語 漢字 自",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "学",
@@ -344,7 +390,9 @@
         "onyomi": "ガク",
         "kunyomi": "まな.ぶ"
       },
-      "youtubeSearchTerm": "日本語 漢字 学"
+      "youtubeSearchTerm": "日本語 漢字 学",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "校",
@@ -359,7 +407,9 @@
         "onyomi": "コウ, キョウ",
         "kunyomi": ""
       },
-      "youtubeSearchTerm": "日本語 漢字 校"
+      "youtubeSearchTerm": "日本語 漢字 校",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "東",
@@ -374,7 +424,9 @@
         "onyomi": "トウ",
         "kunyomi": "ひがし"
       },
-      "youtubeSearchTerm": "日本語 漢字 東"
+      "youtubeSearchTerm": "日本語 漢字 東",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "京",
@@ -390,7 +442,9 @@
         "onyomi": "キョウ, ケイ, キン",
         "kunyomi": "みやこ"
       },
-      "youtubeSearchTerm": "日本語 漢字 京"
+      "youtubeSearchTerm": "日本語 漢字 京",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "間",
@@ -405,7 +459,9 @@
         "onyomi": "カン, ケン",
         "kunyomi": "あいだ, ま, あい"
       },
-      "youtubeSearchTerm": "日本語 漢字 間"
+      "youtubeSearchTerm": "日本語 漢字 間",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "北",
@@ -419,7 +475,9 @@
         "onyomi": "ホク",
         "kunyomi": "きた"
       },
-      "youtubeSearchTerm": "日本語 漢字 北"
+      "youtubeSearchTerm": "日本語 漢字 北",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "五",
@@ -434,7 +492,9 @@
         "onyomi": "ゴ",
         "kunyomi": "いつ, いつ.つ"
       },
-      "youtubeSearchTerm": "日本語 漢字 五"
+      "youtubeSearchTerm": "日本語 漢字 五",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "今",
@@ -449,7 +509,9 @@
         "onyomi": "コン, キン",
         "kunyomi": "いま"
       },
-      "youtubeSearchTerm": "日本語 漢字 今"
+      "youtubeSearchTerm": "日本語 漢字 今",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "金",
@@ -463,7 +525,9 @@
         "onyomi": "キン, コン, ゴン",
         "kunyomi": "かね, かな-, -がね"
       },
-      "youtubeSearchTerm": "日本語 漢字 金"
+      "youtubeSearchTerm": "日本語 漢字 金",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "九",
@@ -477,7 +541,9 @@
         "onyomi": "キュウ, ク",
         "kunyomi": "ここの, ここの.つ"
       },
-      "youtubeSearchTerm": "日本語 漢字 九"
+      "youtubeSearchTerm": "日本語 漢字 九",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "入",
@@ -491,7 +557,9 @@
         "onyomi": "ニュウ, ジュ",
         "kunyomi": "い.る, -い.る, -い.り, い.れる, -い.れ, はい.る"
       },
-      "youtubeSearchTerm": "日本語 漢字 入"
+      "youtubeSearchTerm": "日本語 漢字 入",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "円",
@@ -507,7 +575,9 @@
         "onyomi": "エン",
         "kunyomi": "まる.い, まる, まど, まど.か, まろ.やか"
       },
-      "youtubeSearchTerm": "日本語 漢字 円"
+      "youtubeSearchTerm": "日本語 漢字 円",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "子",
@@ -521,7 +591,9 @@
         "onyomi": "シ, ス, ツ",
         "kunyomi": "こ, -こ, ね"
       },
-      "youtubeSearchTerm": "日本語 漢字 子"
+      "youtubeSearchTerm": "日本語 漢字 子",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "会",
@@ -536,7 +608,9 @@
         "onyomi": "カイ, エ",
         "kunyomi": "あ.う, あ.わせる, あつ.まる"
       },
-      "youtubeSearchTerm": "日本語 漢字 会"
+      "youtubeSearchTerm": "日本語 漢字 会",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "内",
@@ -551,7 +625,9 @@
         "onyomi": "ナイ, ダイ",
         "kunyomi": "うち"
       },
-      "youtubeSearchTerm": "日本語 漢字 内"
+      "youtubeSearchTerm": "日本語 漢字 内",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "社",
@@ -566,7 +642,9 @@
         "onyomi": "シャ",
         "kunyomi": "やしろ"
       },
-      "youtubeSearchTerm": "日本語 漢字 社"
+      "youtubeSearchTerm": "日本語 漢字 社",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "手",
@@ -580,7 +658,9 @@
         "onyomi": "シュ, ズ",
         "kunyomi": "て, て-, -て, た-"
       },
-      "youtubeSearchTerm": "日本語 漢字 手"
+      "youtubeSearchTerm": "日本語 漢字 手",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "員",
@@ -595,7 +675,9 @@
         "onyomi": "イン",
         "kunyomi": ""
       },
-      "youtubeSearchTerm": "日本語 漢字 員"
+      "youtubeSearchTerm": "日本語 漢字 員",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "下",
@@ -610,7 +692,9 @@
         "onyomi": "カ, ゲ",
         "kunyomi": "した, しも, もと, さ.げる, さ.がる, くだ.る, くだ.す, くだ.さる, お.ろす, お.りる"
       },
-      "youtubeSearchTerm": "日本語 漢字 下"
+      "youtubeSearchTerm": "日本語 漢字 下",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "地",
@@ -625,7 +709,9 @@
         "onyomi": "チ, ジ",
         "kunyomi": ""
       },
-      "youtubeSearchTerm": "日本語 漢字 地"
+      "youtubeSearchTerm": "日本語 漢字 地",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "主",
@@ -640,7 +726,9 @@
         "onyomi": "シュ, ス, シュウ",
         "kunyomi": "ぬし, おも, あるじ"
       },
-      "youtubeSearchTerm": "日本語 漢字 主"
+      "youtubeSearchTerm": "日本語 漢字 主",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "小",
@@ -654,7 +742,9 @@
         "onyomi": "ショウ",
         "kunyomi": "ちい.さい, こ-, お-, さ-"
       },
-      "youtubeSearchTerm": "日本語 漢字 小"
+      "youtubeSearchTerm": "日本語 漢字 小",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "場",
@@ -669,7 +759,9 @@
         "onyomi": "ジョウ, チョウ",
         "kunyomi": "ば"
       },
-      "youtubeSearchTerm": "日本語 漢字 場"
+      "youtubeSearchTerm": "日本語 漢字 場",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "方",
@@ -683,7 +775,9 @@
         "onyomi": "ホウ",
         "kunyomi": "かた, -かた, -がた"
       },
-      "youtubeSearchTerm": "日本語 漢字 方"
+      "youtubeSearchTerm": "日本語 漢字 方",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "者",
@@ -698,7 +792,9 @@
         "onyomi": "シャ",
         "kunyomi": "もの"
       },
-      "youtubeSearchTerm": "日本語 漢字 者"
+      "youtubeSearchTerm": "日本語 漢字 者",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "上",
@@ -713,7 +809,9 @@
         "onyomi": "ジョウ, ショウ, シャン",
         "kunyomi": "うえ, -うえ, うわ-, かみ, あ.げる, -あ.げる, あ.がる, -あ.がる, あ.がり, -あ.がり, のぼ.る, のぼ.り, のぼ.せる, のぼ.す, よ.す"
       },
-      "youtubeSearchTerm": "日本語 漢字 上"
+      "youtubeSearchTerm": "日本語 漢字 上",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "市",
@@ -728,7 +826,9 @@
         "onyomi": "シ",
         "kunyomi": "いち"
       },
-      "youtubeSearchTerm": "日本語 漢字 市"
+      "youtubeSearchTerm": "日本語 漢字 市",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "業",
@@ -743,7 +843,9 @@
         "onyomi": "ギョウ, ゴウ",
         "kunyomi": "わざ"
       },
-      "youtubeSearchTerm": "日本語 漢字 業"
+      "youtubeSearchTerm": "日本語 漢字 業",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "代",
@@ -758,7 +860,9 @@
         "onyomi": "ダイ, タイ",
         "kunyomi": "か.わる, かわ.る, かわ.り, か.わり, -がわ.り, -が.わり, か.える, よ, しろ"
       },
-      "youtubeSearchTerm": "日本語 漢字 代"
+      "youtubeSearchTerm": "日本語 漢字 代",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "西",
@@ -772,7 +876,9 @@
         "onyomi": "セイ, サイ, ス",
         "kunyomi": "にし"
       },
-      "youtubeSearchTerm": "日本語 漢字 西"
+      "youtubeSearchTerm": "日本語 漢字 西",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "事",
@@ -788,7 +894,9 @@
         "onyomi": "ジ, ズ",
         "kunyomi": "こと, つか.う, つか.える"
       },
-      "youtubeSearchTerm": "日本語 漢字 事"
+      "youtubeSearchTerm": "日本語 漢字 事",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     },
     {
       "kanji": "電",
@@ -803,6 +911,8 @@
         "onyomi": "デン",
         "kunyomi": ""
       },
-      "youtubeSearchTerm": "日本語 漢字 電"
+      "youtubeSearchTerm": "日本語 漢字 電",
+      "kunyomiAudioUrl": "",
+      "onyomiAudioUrl": ""
     }
   ]
