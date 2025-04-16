@@ -6,6 +6,10 @@
     "story": "Imagine the sun, a perfect circle with a line inside representing its radiant energy.",
     "radicals": [ { "char": "日", "name": "sun/day" } ],
     "readings": { "onyomi": "ニチ, ジツ", "kunyomi": "ひ, -び, -か" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 日 is a pictograph and radical itself, representing the sun or a day."
+    },
     "youtubeSearchTerm": "日本語 漢字 日",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "誕生**日**おめでとう！３**日**（みっか）だっけ？ (たんじょうび おめでとう！ みっか だっけ？)",
@@ -18,6 +22,10 @@
     "story": "A single horizontal stroke, representing the number one, like laying one finger flat.",
     "radicals": [ { "char": "一", "name": "one" } ],
     "readings": { "onyomi": "イチ, イツ", "kunyomi": "ひと-, ひと.つ" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 一 is a simple ideograph and radical itself, representing the number one."
+    },
     "youtubeSearchTerm": "日本語 漢字 一",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**一**つちょうだい！**一**人で行くの？ (ひとつ ちょうだい！ ひとり で いく の？)",
@@ -30,6 +38,10 @@
     "story": "Inside a boundary (囗), there's a jewel (玉) representing the treasure or sovereignty of a nation.",
     "radicals": [ { "char": "囗", "name": "enclosure" }, { "char": "玉", "name": "jewel" } ],
     "readings": { "onyomi": "コク", "kunyomi": "くに" },
+    "kamae": {
+      "type": "Enclosure (Kunigamae)",
+      "explanation": "The radical 囗 (enclosure) surrounds the radical 玉 (jewel), representing a nation's treasure or sovereignty within its borders."
+    },
     "youtubeSearchTerm": "日本語 漢字 国",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "どの**国**から来たの？ (どの くに から きた の？)",
@@ -42,6 +54,10 @@
     "story": "Looks like a person walking, with two legs.",
     "radicals": [ { "char": "人", "name": "person" } ],
     "readings": { "onyomi": "ジン, ニン", "kunyomi": "ひと, -り, -と" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 人 is a pictograph and radical itself, depicting a person walking."
+    },
     "youtubeSearchTerm": "日本語 漢字 人",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "二**人**で何**人**分の料理作ったの？素**人**じゃないね！ (ふたり で なんにんぶん の りょうり つくった の？ しろうと じゃない ね！)",
@@ -54,6 +70,10 @@
     "story": "A person (人 modified) carrying a shield (干 modified), perhaps marking the passage of a year or a harvest cycle.",
     "radicals": [ { "char": "干", "name": "dry" } ],
     "readings": { "onyomi": "ネン", "kunyomi": "とし" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The character 年 is composed of elements often related to a person or grain (top part, modified from 禾) and 干 (dry/shield, bottom part), signifying the passage of time or a harvest cycle."
+    },
     "youtubeSearchTerm": "日本語 漢字 年",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "来**年**で何**年**目？**年**取るの早いね！ (らいねん で なんねんめ？ とし とる の はやい ね！)",
@@ -66,6 +86,10 @@
     "story": "A person (人) stretching their arms out wide to show how big something is.",
     "radicals": [ { "char": "大", "name": "big" } ],
     "readings": { "onyomi": "ダイ, タイ", "kunyomi": "おお-, おお.きい, -おお.いに" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 大 is a pictograph and radical itself, showing a person with arms outstretched to indicate 'big'."
+    },
     "youtubeSearchTerm": "日本語 漢字 大",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "このピザ、めっちゃ**大**きいね！ (この ぴざ、 めっちゃ おおきい ね！)",
@@ -78,6 +102,10 @@
     "story": "A vertical stroke crossing a horizontal one, like crossing off ten items or forming a plus sign.",
     "radicals": [ { "char": "十", "name": "ten" } ],
     "readings": { "onyomi": "ジュウ, ジッ", "kunyomi": "とお, と" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 十 is a simple ideograph and radical itself, representing the number ten."
+    },
     "youtubeSearchTerm": "日本語 漢字 十",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "あと**十**分で着くよ。 (あと じゅっぷん で つく よ。)",
@@ -90,6 +118,10 @@
     "story": "Two horizontal strokes, representing the number two.",
     "radicals": [ { "char": "一", "name": "one" } ],
     "readings": { "onyomi": "ニ, ジ", "kunyomi": "ふた, ふた.つ, ふたた.び" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 二 is composed of two horizontal strokes (一), representing the number two. The radical 一 forms its basis."
+    },
     "youtubeSearchTerm": "日本語 漢字 二",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**二**つください。**二**度としないでね！ (ふたつ ください。 にど と しないで ね！)",
@@ -102,6 +134,10 @@
     "story": "A tree (木) with a line marking its base or root (本), signifying origin or the source (like a book).",
     "radicals": [ { "char": "木", "name": "tree" } ],
     "readings": { "onyomi": "ホン", "kunyomi": "もと" },
+    "kamae": {
+      "type": "Modified Single Component",
+      "explanation": "Based on the radical 木 (tree), with an added horizontal stroke at the bottom to emphasize the 'root' or 'origin'."
+    },
     "youtubeSearchTerm": "日本語 漢字 本",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "この**本**、面白そう！ (この ほん、 おもしろそう！)",
@@ -114,6 +150,10 @@
     "story": "A line (丨) passing through the exact center of a mouth or box (口).",
     "radicals": [ { "char": "口", "name": "mouth" }, { "char": "丨", "name": "vertical stroke" } ],
     "readings": { "onyomi": "チュウ", "kunyomi": "なか, うち, あた.る" },
+    "kamae": {
+      "type": "Combination",
+      "explanation": "The radical 丨 (vertical stroke) pierces through the center of the radical 口 (mouth/box), indicating 'middle' or 'inside'."
+    },
     "youtubeSearchTerm": "日本語 漢字 中",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "箱の**中**に何が入ってるの？ (はこ の なか に なに が はいってる の？)",
@@ -126,6 +166,10 @@
     "story": "Depicts long hair flowing down, symbolizing length or seniority (leader).",
     "radicals": [ { "char": "長", "name": "long" } ],
     "readings": { "onyomi": "チョウ", "kunyomi": "なが.い, おさ" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 長 is a pictograph/ideograph and radical itself, depicting long hair or signifying length/seniority."
+    },
     "youtubeSearchTerm": "日本語 漢字 長",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "髪、**長**いね！ (かみ、 ながい ね！)",
@@ -138,6 +182,10 @@
     "story": "Two mountains (山) stacked, perhaps representing emerging or going out from between them.",
     "radicals": [ { "char": "凵", "name": "container" }, { "char": "山", "name": "mountain" } ],
     "readings": { "onyomi": "シュツ, スイ", "kunyomi": "で.る, -で, だ.す, -だ.す, い.でる" },
+    "kamae": {
+      "type": "Top-Bottom (Stacked)",
+      "explanation": "The character 出 stacks two 山-like shapes (often analyzed with 凵 'container' forming the base of the top shape over 山 'mountain'), suggesting emerging or going 'out'."
+    },
     "youtubeSearchTerm": "日本語 漢字 出",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "早く**出**てきて！ゴミ**出**しといてね。 (はやく でてきて！ ごみだし といて ね。)",
@@ -150,6 +198,10 @@
     "story": "Three horizontal strokes, representing the number three.",
     "radicals": [ { "char": "一", "name": "one" } ],
     "readings": { "onyomi": "サン, ゾウ", "kunyomi": "み, み.つ, みっ.つ" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 三 is composed of three horizontal strokes (一), representing the number three. The radical 一 forms its basis."
+    },
     "youtubeSearchTerm": "日本語 漢字 三",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "りんご**三**つください。 (りんご みっつ ください。)",
@@ -162,6 +214,10 @@
     "story": "The sun (日) moving over a temple (寺), marking the passage of time.",
     "radicals": [ { "char": "日", "name": "sun" }, { "char": "寺", "name": "temple" } ],
     "readings": { "onyomi": "ジ", "kunyomi": "とき, -どき" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 日 (sun) on the left (hen) provides meaning related to time, combined with 寺 (temple) on the right (tsukuri) which acts phonetically and suggests a place where time is marked."
+    },
     "youtubeSearchTerm": "日本語 漢字 時",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "今、何**時**？ (いま、 なんじ？)",
@@ -174,6 +230,10 @@
     "story": "Depicts intersecting roads or a crossroads, symbolizing movement or action.",
     "radicals": [ { "char": "行", "name": "go" } ],
     "readings": { "onyomi": "コウ, ギョウ, アン", "kunyomi": "い.く, ゆ.く, -ゆ.き, -い.き, おこな.う" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 行 is a pictograph and radical itself, representing a crossroads and thus movement or 'going'."
+    },
     "youtubeSearchTerm": "日本語 漢字 行",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "明日、どこ**行**く？ (あした、 どこ いく？)",
@@ -186,6 +246,10 @@
     "story": "An eye (目) on legs (儿), representing the act of seeing or looking around.",
     "radicals": [ { "char": "目", "name": "eye" }, { "char": "儿", "name": "legs" } ],
     "readings": { "onyomi": "ケン", "kunyomi": "み.る, み.える, み.せる" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 目 (eye) sits atop the radical 儿 (legs), depicting an eye on legs, signifying 'seeing' or 'looking'."
+    },
     "youtubeSearchTerm": "日本語 漢字 見",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "あれ**見**て！花火が**見**えるよ！ (あれ みて！ はなび が みえる よ！)",
@@ -198,6 +262,10 @@
     "story": "Picture of a crescent moon.",
     "radicals": [ { "char": "月", "name": "moon/month/flesh" } ],
     "readings": { "onyomi": "ゲツ, ガツ", "kunyomi": "つき" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 月 is a pictograph and radical itself, representing the moon or a month. It can also represent flesh (肉) when used as a radical in other kanji."
+    },
     "youtubeSearchTerm": "日本語 漢字 月",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "今**月**、忙しい？ (こんげつ、 いそがしい？)",
@@ -210,6 +278,10 @@
     "story": "A knife (刀) dividing something in half (八), representing division or understanding (breaking down).",
     "radicals": [ { "char": "八", "name": "eight" }, { "char": "刀", "name": "sword/knife" } ],
     "readings": { "onyomi": "ブン, フン, ブ", "kunyomi": "わ.ける, わ.け, わ.かれる, わ.かる, わ.かつ" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 八 (eight/divide) sits above the radical 刀 (knife), suggesting the act of dividing something with a knife."
+    },
     "youtubeSearchTerm": "日本語 漢字 分",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "あと５**分**で着く。意味**分**かる？ (あと ごふん で つく。 いみ わかる？)",
@@ -222,6 +294,10 @@
     "story": "Walking (彳) with a thread (幺) trailing behind, tied to something small (口 phonetic?), indicating 'after' or 'behind'.",
     "radicals": [ { "char": "彳", "name": "step" }, { "char": "幺", "name": "thread" }, { "char": "口", "name": "mouth" } ],
     "readings": { "onyomi": "ゴ, コウ", "kunyomi": "のち, うし.ろ, うしろ, あと, おく.れる" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 彳 (step/walk) on the left combines with a complex component on the right (containing 幺 'thread' over a shape related to 口 'mouth'), suggesting following 'behind' or coming 'after'."
+    },
     "youtubeSearchTerm": "日本語 漢字 後",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "また**後**でね！**後**ろ見て！ (また あとで ね！ うしろ みて！)",
@@ -234,6 +310,10 @@
     "story": "Horns (丷) over a moon/flesh (月) being cut by a knife (刀刂), perhaps preparing something *beforehand*.",
     "radicals": [ { "char": "丷", "name": "horns" }, { "char": "月", "name": "flesh" }, { "char": "刀", "name": "knife" } ],
     "readings": { "onyomi": "ゼン", "kunyomi": "まえ, -まえ" },
+    "kamae": {
+      "type": "Top-Bottom Combination",
+      "explanation": "Composed of 丷 (horns/top) above 月 (flesh/boat) which sits to the left of 刂 (knife radical, variant of 刀). The combination signifies 'front' or 'before'."
+    },
     "youtubeSearchTerm": "日本語 漢字 前",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "駅の**前**で待ってるね。 (えき の まえ で まってる ね。)",
@@ -246,6 +326,10 @@
     "story": "A sprout (生) pushing up from the ground, symbolizing life and birth.",
     "radicals": [ { "char": "生", "name": "life" } ],
     "readings": { "onyomi": "セイ, ショウ", "kunyomi": "い.きる, い.かす, い.ける, う.まれる, うま.れる, う.まれ, うまれ, う.む, お.う, は.える, は.やす, き, なま, なま-, な.る, な.す, む.す, -う" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 生 is a pictograph and radical itself, depicting a plant sprouting, representing 'life' or 'birth'."
+    },
     "youtubeSearchTerm": "日本語 漢字 生",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**生**ビールください！庭に草が**生**えてる。 (なまびーる ください！ にわ に くさ が はえてる。)",
@@ -258,6 +342,10 @@
     "story": "Picture a tall building (高) reaching high into the sky, representing height and, by extension, high cost.",
     "radicals": [ { "char": "高", "name": "tall" } ],
     "readings": { "onyomi": "コウ", "kunyomi": "たか.い, たか, -だか, たか.まる, たか.める" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 高 is a pictograph and radical itself, resembling a tall building, signifying 'high' or 'tall'."
+    },
     "youtubeSearchTerm": "日本語 漢字 高",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "このビル、**高**いね！ (この びる、 たかい ね！)",
@@ -270,6 +358,10 @@
     "story": "Originally a picture of a nose (自), which people point to when referring to themselves. Hence, 'self'.",
     "radicals": [ { "char": "自", "name": "self/nose" } ],
     "readings": { "onyomi": "ジ, シ", "kunyomi": "みずか.ら, おの.ずから, おの.ずと" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 自 is a pictograph and radical itself, originally depicting a nose, used to mean 'self'."
+    },
     "youtubeSearchTerm": "日本語 漢字 自",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**自**分でやったの？すごい！ (じぶん で やった の？ すごい！)",
@@ -282,6 +374,10 @@
     "story": "A child (子) under a roof or being guided by hands (龸), engaged in learning or study.",
     "radicals": [ { "char": "龸", "name": "hands/roof" }, { "char": "子", "name": "child" } ],
     "readings": { "onyomi": "ガク", "kunyomi": "まな.ぶ" },
+    "kamae": {
+      "type": "Top-Bottom (Kanmuri-Ashi)",
+      "explanation": "The component 龸 (representing hands or a roof) sits above the radical 子 (child), depicting a child learning under guidance."
+    },
     "youtubeSearchTerm": "日本語 漢字 学",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "何を**学**んでるの？ (なに を まなんでる の？)",
@@ -294,6 +390,10 @@
     "story": "A place with trees (木) where people mix and associate (交) for learning - a school.",
     "radicals": [ { "char": "木", "name": "tree" }, { "char": "交", "name": "intersect/mix" } ],
     "readings": { "onyomi": "コウ, キョウ", "kunyomi": "" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 木 (tree) on the left combines with 交 (intersect/mix) on the right. 交 acts phonetically and suggests a place of interaction (school)."
+    },
     "youtubeSearchTerm": "日本語 漢字 校",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "明日の**校**外学習、楽しみ！ (あした の こうがいがくしゅう、 たのしみ！)",
@@ -306,6 +406,10 @@
     "story": "The sun (日) rising behind a tree (木), representing the direction East.",
     "radicals": [ { "char": "木", "name": "tree" }, { "char": "日", "name": "sun" } ],
     "readings": { "onyomi": "トウ", "kunyomi": "ひがし" },
+    "kamae": {
+      "type": "Combination (Through)",
+      "explanation": "The radical 日 (sun) is positioned within the radical 木 (tree), depicting the sun rising behind a tree, signifying 'East'."
+    },
     "youtubeSearchTerm": "日本語 漢字 東",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**東**の空が明るくなってきたね。 (ひがし の そら が あかるく なってきた ね。)",
@@ -318,6 +422,10 @@
     "story": "A tall building (亠, 口, 小) representing the grandeur of a capital city.",
     "radicals": [ { "char": "亠", "name": "lid" }, { "char": "口", "name": "mouth" }, { "char": "小", "name": "small" } ],
     "readings": { "onyomi": "キョウ, ケイ, キン", "kunyomi": "みやこ" },
+    "kamae": {
+      "type": "Top-Middle-Bottom",
+      "explanation": "Composed of 亠 (lid) at the top, 口 (mouth) in the middle, and 小 (small) at the bottom, forming a pictograph of a tall capital building."
+    },
     "youtubeSearchTerm": "日本語 漢字 京",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "東**京**タワー行ったことある？ (とうきょうたわー いった こと ある？)",
@@ -330,6 +438,10 @@
     "story": "The sun (日) seen through a gap in a gate (門), indicating a space or interval.",
     "radicals": [ { "char": "門", "name": "gate" }, { "char": "日", "name": "sun" } ],
     "readings": { "onyomi": "カン, ケン", "kunyomi": "あいだ, ま, あい" },
+    "kamae": {
+      "type": "Enclosure (Mongamae)",
+      "explanation": "The radical 門 (gate) encloses the radical 日 (sun), representing the sun seen through a gate, indicating the 'space' or 'interval' between."
+    },
     "youtubeSearchTerm": "日本語 漢字 間",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "ちょっとの**間**、待ってて。 (ちょっと の あいだ、 まってて。)",
@@ -342,6 +454,10 @@
     "story": "Two people (匕) back-to-back, perhaps turning away from the sun, indicating North.",
     "radicals": [ { "char": "匕", "name": "spoon/person" } ],
     "readings": { "onyomi": "ホク", "kunyomi": "きた" },
+    "kamae": {
+      "type": "Combination",
+      "explanation": "Composed of two 匕 components (representing people) back-to-back, signifying 'North'."
+    },
     "youtubeSearchTerm": "日本語 漢字 北",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**北**風が強いね。 (きたかぜ が つよい ね。)",
@@ -354,6 +470,10 @@
     "story": "Two strokes crossing like an 'X' between heaven and earth (represented by top and bottom lines), symbolizing the number five.",
     "radicals": [ { "char": "二", "name": "two" }, { "char": "乂", "name": "cross" } ],
     "readings": { "onyomi": "ゴ", "kunyomi": "いつ, いつ.つ" },
+    "kamae": {
+      "type": "Combination",
+      "explanation": "Composed of two horizontal strokes (二) intersected by a cross (乂), representing the number 'five'."
+    },
     "youtubeSearchTerm": "日本語 漢字 五",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "ケーキを**五**つください。 (けーき を いつつ ください。)",
@@ -366,6 +486,10 @@
     "story": "A gathering (人 + 一) under a roof (ラ), indicating the present moment, 'now'.",
     "radicals": [ { "char": "人", "name": "person" }, { "char": "ラ", "name": "katakana ra/roof" } ],
     "readings": { "onyomi": "コン, キン", "kunyomi": "いま" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The top part (combining 人 and 一) sits above the bottom stroke (ラ), representing gathering or the present moment 'now'."
+    },
     "youtubeSearchTerm": "日本語 漢字 今",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**今**、何してるの？ (いま、 なに してる の？)",
@@ -378,6 +502,10 @@
     "story": "Earth (土) containing sparkling nuggets (dots 丶) under a roof (人 + 一), representing metal or gold found in the ground.",
     "radicals": [ { "char": "金", "name": "gold" } ],
     "readings": { "onyomi": "キン, コン, ゴン", "kunyomi": "かね, かな-, -がね" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 金 is a complex pictograph and radical itself, representing metal (especially gold) found under the earth (土) with nuggets (dots)."
+    },
     "youtubeSearchTerm": "日本語 漢字 金",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "お**金**、足りる？**金**曜日、空いてる？ (おかね、 たりる？ きんようび、 あいてる？)",
@@ -390,6 +518,10 @@
     "story": "A hook or curve, perhaps representing the final single digit before ten, 'nine'.",
     "radicals": [ { "char": "九", "name": "nine" } ],
     "readings": { "onyomi": "キュウ, ク", "kunyomi": "ここの, ここの.つ" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 九 is a simple ideograph and radical itself, representing the number nine."
+    },
     "youtubeSearchTerm": "日本語 漢字 九",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "クッキーが**九**つあるよ。 (くっきー が ここのつ ある よ。)",
@@ -402,6 +534,10 @@
     "story": "Looks like a wedge or arrow pointing downwards and inwards, signifying entry.",
     "radicals": [ { "char": "入", "name": "enter" } ],
     "readings": { "onyomi": "ニュウ, ジュ", "kunyomi": "い.る, -い.る, -い.り, い.れる, -い.れ, はい.る" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 入 is a pictograph and radical itself, depicting something entering or going inwards."
+    },
     "youtubeSearchTerm": "日本語 漢字 入",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "早く**入**って！名前を**入**れてね。 (はやく はいって！ なまえ を いれて ね。)",
@@ -414,6 +550,10 @@
     "story": "An enclosure (冂) around a component (元 without top line), representing a coin (Yen) or something round.",
     "radicals": [ { "char": "冂", "name": "border" }, { "char": "二", "name": "two" }, { "char": "儿", "name": "legs" } ],
     "readings": { "onyomi": "エン", "kunyomi": "まる.い, まる, まど, まど.か, まろ.やか" },
+    "kamae": {
+      "type": "Enclosure",
+      "explanation": "The radical 冂 (border) encloses a component derived from 元 (containing 二 and 儿), representing a round coin (Yen) or circle."
+    },
     "youtubeSearchTerm": "日本語 漢字 円",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "これ、いくら？ 100**円**？ (これ、 いくら？ ひゃくえん？)",
@@ -426,6 +566,10 @@
     "story": "A simple pictograph of a child with arms outstretched.",
     "radicals": [ { "char": "子", "name": "child" } ],
     "readings": { "onyomi": "シ, ス, ツ", "kunyomi": "こ, -こ, ね" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 子 is a pictograph and radical itself, depicting a child."
+    },
     "youtubeSearchTerm": "日本語 漢字 子",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "うちの**子**、元気だよ！ (うち の こ、 げんき だ よ！)",
@@ -438,6 +582,10 @@
     "story": "People (人) gathering under a roof (云 simplified) to meet or form an association.",
     "radicals": [ { "char": "人", "name": "person" }, { "char": "云", "name": "say/cloud" } ],
     "readings": { "onyomi": "カイ, エ", "kunyomi": "あ.う, あ.わせる, あつ.まる" },
+    "kamae": {
+      "type": "Top-Bottom (Kanmuri-Ashi)",
+      "explanation": "The radical 人 (person, modified as a roof/gathering symbol) sits atop 云 (say/cloud, phonetic/meaning component), suggesting people gathering to meet or talk."
+    },
     "youtubeSearchTerm": "日本語 漢字 会",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "明日、駅で**会**おう！ (あした、 えき で あおう！)",
@@ -450,6 +598,10 @@
     "story": "A person (人) entering (入) into an enclosure (冂), signifying 'inside'.",
     "radicals": [ { "char": "冂", "name": "border" }, { "char": "人", "name": "person" } ],
     "readings": { "onyomi": "ナイ, ダイ", "kunyomi": "うち" },
+    "kamae": {
+      "type": "Enclosure",
+      "explanation": "The radical 冂 (border/enclosure) contains the radical 人 (person, entering 入), signifying 'inside'."
+    },
     "youtubeSearchTerm": "日本語 漢字 内",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "これは**内**緒だよ。 (これ は ないしょ だ よ。)",
@@ -462,6 +614,10 @@
     "story": "An altar (示) on the earth (土), representing a sacred place (shrine) or a gathering place for a common purpose (company).",
     "radicals": [ { "char": "示", "name": "altar" }, { "char": "土", "name": "earth" } ],
     "readings": { "onyomi": "シャ", "kunyomi": "やしろ" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 示 (altar, often ネ form on left) combines with the radical 土 (earth) on the right, originally signifying an earth shrine, extended to 'society' or 'company'."
+    },
     "youtubeSearchTerm": "日本語 漢字 社",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "うちの会**社**、結構大きいんだ。 (うち の かいしゃ、 けっこう おおきい ん だ。)",
@@ -474,6 +630,10 @@
     "story": "A pictograph of a hand with fingers.",
     "radicals": [ { "char": "手", "name": "hand" } ],
     "readings": { "onyomi": "シュ, ズ", "kunyomi": "て, て-, -て, た-" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 手 is a pictograph and radical itself, depicting a hand."
+    },
     "youtubeSearchTerm": "日本語 漢字 手",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**手**伝ってくれる？歌が上**手**だね！ (てつだって くれる？ うた が じょうず だ ね！)",
@@ -486,6 +646,10 @@
     "story": "A mouth/person (口) over a shell/money (貝), representing a person who handles money or is counted as part of a group - a member.",
     "radicals": [ { "char": "口", "name": "mouth" }, { "char": "貝", "name": "shell" } ],
     "readings": { "onyomi": "イン", "kunyomi": "" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 口 (mouth/person count) sits above the radical 貝 (shell/money), signifying a 'member' counted or associated with value/payment."
+    },
     "youtubeSearchTerm": "日本語 漢字 員",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "クラスの委**員**になったよ。 (くらす の いいん に なった よ。)",
@@ -498,6 +662,10 @@
     "story": "A horizontal line (一) with a vertical line pointing down (卜) from it, indicating 'below'.",
     "radicals": [ { "char": "一", "name": "one" }, { "char": "卜", "name": "divination" } ],
     "readings": { "onyomi": "カ, ゲ", "kunyomi": "した, しも, もと, さ.げる, さ.がる, くだ.る, くだ.す, くだ.さる, お.ろす, お.りる" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 一 (one/horizontal line) is positioned above the radical 卜 (vertical line/downward indicator), signifying 'below'."
+    },
     "youtubeSearchTerm": "日本語 漢字 下",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "テーブルの**下**に猫がいる！値段、**下**がった？ (てーぶる の した に ねこ が いる！ ねだん、 さがった？)",
@@ -510,6 +678,10 @@
     "story": "Earth/soil (土) combined with a scorpion (也 - phonetic/semantic element), representing the ground or earth itself.",
     "radicals": [ { "char": "土", "name": "earth" }, { "char": "也", "name": "also/scorpion" } ],
     "readings": { "onyomi": "チ, ジ", "kunyomi": "" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 土 (earth) on the left combines with the phonetic/semantic component 也 (also/scorpion shape) on the right, representing 'ground' or 'earth'."
+    },
     "youtubeSearchTerm": "日本語 漢字 地",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**地**図、読める？ (ちず、 よめる？)",
@@ -522,6 +694,10 @@
     "story": "A drop (丶) above 'king' (王), signifying the main point or the master/lord.",
     "radicals": [ { "char": "丶", "name": "drop" }, { "char": "王", "name": "king" } ],
     "readings": { "onyomi": "シュ, ス, シュウ", "kunyomi": "ぬし, おも, あるじ" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 丶 (drop/dot) sits atop the radical 王 (king), signifying the 'main' point or the 'master'."
+    },
     "youtubeSearchTerm": "日本語 漢字 主",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "この家の**主**（ぬし）は誰？ (この いえ の ぬし は だれ？)",
@@ -534,6 +710,10 @@
     "story": "Three small strokes, representing something divided into small parts or just 'small'.",
     "radicals": [ { "char": "小", "name": "small" } ],
     "readings": { "onyomi": "ショウ", "kunyomi": "ちい.さい, こ-, お-, さ-" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 小 is a pictograph and radical itself, representing 'small'."
+    },
     "youtubeSearchTerm": "日本語 漢字 小",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "この服、ちょっと**小**さいかも。 (この ふく、 ちょっと ちいさい かも。)",
@@ -546,6 +726,10 @@
     "story": "Earth/ground (土) where the sun (日) shines brightly (昜 - phonetic/semantic), indicating a specific location or place.",
     "radicals": [ { "char": "土", "name": "earth" }, { "char": "昜", "name": "sunshine/positive" } ],
     "readings": { "onyomi": "ジョウ, チョウ", "kunyomi": "ば" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 土 (earth) on the left combines with the component 昜 (sunshine/positive, phonetic/semantic) on the right, indicating an open 'place' or 'location'."
+    },
     "youtubeSearchTerm": "日本語 漢字 場",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "この**場**所、知ってる？ (この ばしょ、 しってる？)",
@@ -558,6 +742,10 @@
     "story": "A person (亠 + 人 simplified) carrying a plow (万 simplified), indicating direction or method ('way').",
     "radicals": [ { "char": "方", "name": "direction" } ],
     "readings": { "onyomi": "ホウ", "kunyomi": "かた, -かた, -がた" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 方 is an ideograph and radical itself, representing 'direction' or 'way'."
+    },
     "youtubeSearchTerm": "日本語 漢字 方",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "こっちの**方**がいいんじゃない？ (こっち の ほう が いい ん じゃない？)",
@@ -570,6 +758,10 @@
     "story": "An old man (耂) holding something (日 - possibly a container or symbol), representing 'someone' or 'person'.",
     "radicals": [ { "char": "耂", "name": "old" }, { "char": "日", "name": "sun/day" } ],
     "readings": { "onyomi": "シャ", "kunyomi": "もの" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 耂 (old) sits above the radical 日 (sun/day, here a component part), together representing 'someone' or a 'person' (often with experience)."
+    },
     "youtubeSearchTerm": "日本語 漢字 者",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "若い**者**には負けん！ (わかい もの に は まけん！)",
@@ -582,6 +774,10 @@
     "story": "A vertical line (卜) above a horizontal line (一), indicating 'above' or 'up'.",
     "radicals": [ { "char": "卜", "name": "divination" }, { "char": "一", "name": "one" } ],
     "readings": { "onyomi": "ジョウ, ショウ, シャン", "kunyomi": "うえ, -うえ, うわ-, かみ, あ.げる, -あ.げる, あ.がる, -あ.がる, あ.がり, -あ.がり, のぼ.る, のぼ.り, のぼ.せる, のぼ.す, よ.す" },
+    "kamae": {
+      "type": "Bottom-Top",
+      "explanation": "The radical 一 (one/horizontal line) forms the base, with the radical 卜 (vertical line/upward indicator) positioned above it, signifying 'above'."
+    },
     "youtubeSearchTerm": "日本語 漢字 上",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "机の**上**に本があるよ。手を**上**げて！ (つくえ の うえ に ほん が ある よ。 て を あげて！)",
@@ -594,6 +790,10 @@
     "story": "A lid (亠) over a towel (巾), perhaps representing goods covered in a market stall, hence 'market' or 'city'.",
     "radicals": [ { "char": "亠", "name": "lid" }, { "char": "巾", "name": "towel" } ],
     "readings": { "onyomi": "シ", "kunyomi": "いち" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 亠 (lid) sits above the radical 巾 (towel), representing goods displayed at a 'market' or 'city'."
+    },
     "youtubeSearchTerm": "日本語 漢字 市",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "週末、**市**（いち）に行かない？ (しゅうまつ、 いち に いかない？)",
@@ -606,6 +806,10 @@
     "story": "Looks like musical instruments (业 - top part) on a stand (木 simplified), representing performance, arts, or skilled work (business/vocation).",
     "radicals": [ { "char": "业", "name": "business/art" }, { "char": "木", "name": "tree" } ],
     "readings": { "onyomi": "ギョウ, ゴウ", "kunyomi": "わざ" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The complex component 业 (related to music/art) sits above a structure containing 木 (tree/stand), representing skilled 'work', 'vocation', or 'performance'."
+    },
     "youtubeSearchTerm": "日本語 漢字 業",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "宿題、終わった？授**業**（じゅぎょう）中に寝ちゃった。 (しゅくだい、 おわった？ じゅぎょうちゅう に ねちゃった。)",
@@ -618,6 +822,10 @@
     "story": "A person (亻) using a ceremonial weapon or tool (弋), perhaps indicating taking someone's place (substitute) or marking a change or period.",
     "radicals": [ { "char": "亻", "name": "person radical" }, { "char": "弋", "name": "ceremony/shoot" } ],
     "readings": { "onyomi": "ダイ, タイ", "kunyomi": "か.わる, かわ.る, かわ.り, か.わり, -がわ.り, -が.わり, か.える, よ, しろ" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 亻 (person) on the left combines with the radical 弋 (ceremony/shoot) on the right, suggesting substitution or representing an era/generation."
+    },
     "youtubeSearchTerm": "日本語 漢字 代",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "私の**代**わりに**行**ってくれる？電話**代**が高い！ (わたし の かわりに いって くれる？ でんわだい が たかい！)",
@@ -630,6 +838,10 @@
     "story": "Originally a bird (酉 without the bottom line) returning to its nest (enclosure 囗), symbolizing the direction the sun sets - West.",
     "radicals": [ { "char": "西", "name": "west" } ],
     "readings": { "onyomi": "セイ, サイ, ス", "kunyomi": "にし" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 西 is a pictograph and radical itself, representing 'West'."
+    },
     "youtubeSearchTerm": "日本語 漢字 西",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**西**日がまぶしいね。 (にしび が まぶしい ね。)",
@@ -642,6 +854,10 @@
     "story": "A flag or banner (彐) held by a hand (亅) over a mouth (口), representing an official declaration or matter.",
     "radicals": [ { "char": "亅", "name": "hook" }, { "char": "口", "name": "mouth" }, { "char": "彐", "name": "pig snout/banner" } ],
     "readings": { "onyomi": "ジ, ズ", "kunyomi": "こと, つか.う, つか.える" },
+    "kamae": {
+      "type": "Complex Combination",
+      "explanation": "A complex structure often analyzed with a top component (related to a scribe or banner 史/彐), a middle 口 (mouth), and a bottom hook 亅 (hand/action), representing a recorded 'matter' or 'thing'."
+    },
     "youtubeSearchTerm": "日本語 漢字 事",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "大変な**事**になった！ (たいへん な こと に なった！)",
@@ -654,6 +870,10 @@
     "story": "Rain (雨) causing lightning (申 extended), representing electricity.",
     "radicals": [ { "char": "雨", "name": "rain" }, { "char": "申", "name": "speak/sign of monkey" } ],
     "readings": { "onyomi": "デン", "kunyomi": "" },
+    "kamae": {
+      "type": "Top-Bottom (Kanmuri-Ashi)",
+      "explanation": "The radical 雨 (rain) sits above the component 申 (speak/monkey sign, phonetic/lightning shape), representing 'electricity' associated with thunderstorms."
+    },
     "youtubeSearchTerm": "日本語 漢字 電",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "携帯の**電**池、もうない！ (けいたい の でんち、 もう ない！)",
@@ -666,6 +886,10 @@
     "story": "Steam or vapor (气) rising from rice (米), representing energy, spirit, or air.",
     "radicals": [ { "char": "气", "name": "steam/spirit" }, { "char": "米", "name": "rice" } ],
     "readings": { "onyomi": "キ, ケ", "kunyomi": "いき" },
+    "kamae": {
+      "type": "Enclosure (Kigamae)",
+      "explanation": "The radical 气 (steam/spirit) encloses the radical 米 (rice), representing the energy or 'spirit' derived from food (rice)."
+    },
     "youtubeSearchTerm": "日本語 漢字 気",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "元**気**？**気**にしないで！ (げんき？ きに しないで！)",
@@ -678,6 +902,10 @@
     "story": "An enclosure (囗) with legs (儿) inside, perhaps representing the four corners or four legs.",
     "radicals": [ { "char": "囗", "name": "enclosure" }, { "char": "儿", "name": "legs" } ],
     "readings": { "onyomi": "シ", "kunyomi": "よ, よ.つ, よっ.つ, よん" },
+    "kamae": {
+      "type": "Enclosure (Kunigamae)",
+      "explanation": "The radical 囗 (enclosure) surrounds the radical 儿 (legs/human shape), representing the number 'four'."
+    },
     "youtubeSearchTerm": "日本語 漢字 四",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "りんごを**四**つください。 (りんご を よっつ ください。)",
@@ -690,6 +918,10 @@
     "story": "Pictograph of roots spreading underground, unable to grow upwards, representing negation 'not'.",
     "radicals": [ { "char": "一", "name": "one" }, { "char": "小", "name": "small" } ],
     "readings": { "onyomi": "フ, ブ", "kunyomi": "" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "Composed of 一 (one) at the top and a shape resembling 小 (small) below, representing negation ('not')."
+    },
     "youtubeSearchTerm": "日本語 漢字 不",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "ちょっと**不**安だな。 (ちょっと ふあん だ な。)",
@@ -702,6 +934,10 @@
     "story": "Pictograph of a person standing firmly on the ground (一).",
     "radicals": [ { "char": "立", "name": "stand" } ],
     "readings": { "onyomi": "リツ, リュウ", "kunyomi": "た.つ, -た.つ, た.ち-, た.てる, -た.てる, た.て-, たて-, -たて, -だ.て, -だ.てる" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 立 is a pictograph and radical itself, depicting a person standing on the ground, signifying 'stand'."
+    },
     "youtubeSearchTerm": "日本語 漢字 立",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "そこに**立**ってて。 (そこ に たってて。)",
@@ -714,6 +950,10 @@
     "story": "Top part (亠) represents a roof, bottom part (八) represents division or spreading out, perhaps related to counting.",
     "radicals": [ { "char": "亠", "name": "lid" }, { "char": "八", "name": "eight" } ],
     "readings": { "onyomi": "ロク, リク", "kunyomi": "む, む.つ, むっ.つ, むい" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 亠 (lid) sits above the radical 八 (eight/divide), forming the character for 'six'."
+    },
     "youtubeSearchTerm": "日本語 漢字 六",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "クッキーを**六**つください。 (くっきー を むっつ ください。)",
@@ -726,6 +966,10 @@
     "story": "Originally depicted a blinded eye, representing common people or subjects without sight/power.",
     "radicals": [ { "char": "氏", "name": "clan" } ],
     "readings": { "onyomi": "ミン", "kunyomi": "たみ" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 民 is often analyzed with the radical 氏 (clan/family name), representing 'people' or 'nation'."
+    },
     "youtubeSearchTerm": "日本語 漢字 民",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "市**民**プールに行こうよ。 (しみんぷーる に いこう よ。)",
@@ -738,6 +982,10 @@
     "story": "Pictograph of a muscular arm or a plow, representing strength or effort.",
     "radicals": [ { "char": "力", "name": "power" } ],
     "readings": { "onyomi": "リョク, リキ", "kunyomi": "ちから" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 力 is a pictograph and radical itself, representing 'power' or 'strength'."
+    },
     "youtubeSearchTerm": "日本語 漢字 力",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "もっと**力**を入れて！ (もっと ちから を いれて！)",
@@ -750,6 +998,10 @@
     "story": "Two feet stepping out (癶) from perhaps a bow or shelter, signifying departure or starting out.",
     "radicals": [ { "char": "癶", "name": "footsteps" } ],
     "readings": { "onyomi": "ハツ, ホツ", "kunyomi": "た.つ, あば.く, おこ.る, つか.わす, はな.つ" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 癶 (footsteps/departure) sits above a complex lower component (related to bow/springing), signifying 'departure', 'emission', or 'starting'."
+    },
     "youtubeSearchTerm": "日本語 漢字 発",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "アイデアを**発**見した！ (あいであ を はっけん した！)",
@@ -762,6 +1014,10 @@
     "story": "A bent line, possibly representing cutting or counting.",
     "radicals": [ { "char": "一", "name": "one" }, { "char": "乚", "name": "hook" } ],
     "readings": { "onyomi": "シチ", "kunyomi": "なな, なな.つ, なの" },
+    "kamae": {
+      "type": "Combination",
+      "explanation": "Composed of a horizontal stroke (一) crossed by a hooked stroke (乚), representing the number 'seven'."
+    },
     "youtubeSearchTerm": "日本語 漢字 七",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "りんごを**七**つください。 (りんご を ななつ ください。)",
@@ -774,6 +1030,10 @@
     "story": "Pictograph of a human heart.",
     "radicals": [ { "char": "心", "name": "heart" } ],
     "readings": { "onyomi": "シン", "kunyomi": "こころ" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 心 is a pictograph and radical itself, representing the 'heart' or 'mind'."
+    },
     "youtubeSearchTerm": "日本語 漢字 心",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**心**配しないで、大丈夫だよ。 (しんぱい しないで、 だいじょうぶ だ よ。)",
@@ -786,6 +1046,10 @@
     "story": "A roof (宀) over strung coins or valuables (貫 simplified), representing something substantial, real, or fruitful.",
     "radicals": [ { "char": "宀", "name": "roof" }, { "char": "実", "name": "fruit/reality" } ],
     "readings": { "onyomi": "ジツ, シツ", "kunyomi": "み, みの.る" },
+    "kamae": {
+      "type": "Top-Bottom (Kanmuri-Ashi)",
+      "explanation": "The radical 宀 (roof) sits above a complex component (related to 貫 - strung coins/valuables), signifying 'reality', 'truth', or 'fruit' (something substantial)."
+    },
     "youtubeSearchTerm": "日本語 漢字 実",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "それは**実**話なの？ (それ は じつわ な の？)",
@@ -798,6 +1062,10 @@
     "story": "A lid (亼) fitting perfectly onto a mouth or container (口), signifying joining or fitting together.",
     "radicals": [ { "char": "亼", "name": "gather" }, { "char": "口", "name": "mouth" } ],
     "readings": { "onyomi": "ゴウ, ガッ, カッ", "kunyomi": "あ.う, -あ.う, あ.い, あい-, -あ.い, -あい, あ.わす, あ.わせる, -あ.わせる" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The component 亼 (gather/lid) sits above the radical 口 (mouth/opening), representing things coming together or 'fitting'."
+    },
     "youtubeSearchTerm": "日本語 漢字 合",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "これでサイズ、**合**ってる？ (これ で さいず、 あってる？)",
@@ -810,6 +1078,10 @@
     "story": "A stand (咅 phonetic) combined with a city/village (阝), representing a division or section of a larger entity.",
     "radicals": [ { "char": "咅", "name": "spit" }, { "char": "阝", "name": "village" } ],
     "readings": { "onyomi": "ブ", "kunyomi": "-べ" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The phonetic component 咅 (stand/spit) on the left combines with the radical 阝 (village/city) on the right, signifying a 'section' or 'department' within a larger entity."
+    },
     "youtubeSearchTerm": "日本語 漢字 部",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "どのクラブに**部**活入ってる？ (どの くらぶ に ぶかつ はいってる？)",
@@ -822,6 +1094,10 @@
     "story": "Pictograph of a bucket or container, implying something to be used.",
     "radicals": [ { "char": "用", "name": "use" } ],
     "readings": { "onyomi": "ヨウ", "kunyomi": "もち.いる" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 用 is a pictograph and radical itself, representing a bucket or something for 'use'."
+    },
     "youtubeSearchTerm": "日本語 漢字 用",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "これ、何に**用**いるの？ (これ、 なに に もちいる の？)",
@@ -834,6 +1110,10 @@
     "story": "A hand (扌) at a temple (寺), perhaps holding something important or maintaining the temple, signifying 'hold' or 'have'.",
     "radicals": [ { "char": "扌", "name": "hand" }, { "char": "寺", "name": "temple" } ],
     "readings": { "onyomi": "ジ", "kunyomi": "も.つ, も.ち" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 扌 (hand) on the left combines with the component 寺 (temple, phonetic/semantic) on the right, signifying 'holding' or 'having'."
+    },
     "youtubeSearchTerm": "日本語 漢字 持",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "傘、**持**ってる？ (かさ、 もってる？)",
@@ -846,6 +1126,10 @@
     "story": "A gate (門) with two hands (廾 shape below) pushing it open.",
     "radicals": [ { "char": "門", "name": "gate" }, { "char": "廾", "name": "two hands" } ],
     "readings": { "onyomi": "カイ", "kunyomi": "ひら.く, ひら.き, -びら.き, ひら.ける, あ.く, あ.ける" },
+    "kamae": {
+      "type": "Enclosure (Mongamae) with internal component",
+      "explanation": "The radical 門 (gate) encloses a component representing two hands (廾) pushing the gate 'open'."
+    },
     "youtubeSearchTerm": "日本語 漢字 開",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "ドアを**開**けてください。 (どあ を あけて ください。)",
@@ -858,6 +1142,10 @@
     "story": "Standing tree (立), axe (斤), combined perhaps suggesting cutting wood to build something new.",
     "radicals": [ { "char": "立", "name": "stand" }, { "char": "木", "name": "tree" }, { "char": "斤", "name": "axe" } ],
     "readings": { "onyomi": "シン", "kunyomi": "あたら.しい, あら.た, にい-" },
+    "kamae": {
+      "type": "Left-Right Combination",
+      "explanation": "Composed of 立 (stand) and 木 (tree) combined on the left, with the radical 斤 (axe) on the right. The structure suggests using an axe on wood (tree) to create something 'new'."
+    },
     "youtubeSearchTerm": "日本語 漢字 新",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**新**しい服を買ったんだ。 (あたらしい ふく を かった ん だ。)",
@@ -870,6 +1158,10 @@
     "story": "A shelter (广) containing a complex element (庶 phonetic/meaning 'many'), possibly measuring the extent or frequency under a roof.",
     "radicals": [ { "char": "广", "name": "dotted cliff" }, { "char": "廿", "name": "twenty" }, { "char": "又", "name": "again" } ],
     "readings": { "onyomi": "ド, ト, タク", "kunyomi": "たび" },
+    "kamae": {
+      "type": "Enclosure (Madare)",
+      "explanation": "The radical 广 (dotted cliff/shelter) encloses a complex component (庶, containing 廿 and 又), signifying 'degree', 'measure', or 'times' (frequency)."
+    },
     "youtubeSearchTerm": "日本語 漢字 度",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "今**度**、一緒に映画行こうよ。 (こんど、 いっしょ に えいが いこう よ。)",
@@ -882,6 +1174,10 @@
     "story": "The sun (日) and the moon (月) together make things bright and clear.",
     "radicals": [ { "char": "日", "name": "sun" }, { "char": "月", "name": "moon" } ],
     "readings": { "onyomi": "メイ, ミョウ", "kunyomi": "あ.かり, あか.るい, あか.るむ, あか.らむ, あき.らか, あ.ける, あ.く, あ.くる, あ.かす" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 日 (sun) on the left combines with the radical 月 (moon) on the right. Together, the sun and moon signify 'brightness' or 'clarity'."
+    },
     "youtubeSearchTerm": "日本語 漢字 明",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**明**日は晴れるといいね。 (あした は はれる と いい ね。)",
@@ -894,6 +1190,10 @@
     "story": "Movement (辶) combined with a phonetic element (甬) suggesting piercing through, meaning to pass or commute.",
     "radicals": [ { "char": "甬", "name": "bucket" }, { "char": "辶", "name": "walk" } ],
     "readings": { "onyomi": "ツウ, ツ", "kunyomi": "とお.る, とお.り, -どお.り, とお.す, -どお.し, かよ.う" },
+    "kamae": {
+      "type": "Enclosure (Shinnyō)",
+      "explanation": "The radical 辶 (walk/movement) encloses the bottom and left of the phonetic component 甬 (bucket/pierce), signifying 'passing through' or 'commuting'."
+    },
     "youtubeSearchTerm": "日本語 漢字 通",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "この道をまっすぐ**通**って。 (この みち を まっすぐ とおって。)",
@@ -906,6 +1206,10 @@
     "story": "A king (王) or jade (玉) in its village (里), implying the inherent pattern or principle of things, like polishing jade.",
     "radicals": [ { "char": "王", "name": "king" }, { "char": "里", "name": "village" } ],
     "readings": { "onyomi": "リ", "kunyomi": "ことわり" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 王 (king/jade) on the left combines with the radical 里 (village/measure) on the right. 里 acts phonetically and suggests inherent pattern, like polishing jade (王), leading to 'principle' or 'reason'."
+    },
     "youtubeSearchTerm": "日本語 漢字 理",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "彼の言うことにも一**理**ある。 (かれ の いう こと に も いちり ある。)",
@@ -918,6 +1222,10 @@
     "story": "A person (亻) and a root/origin (本), representing the physical body as the root of a person.",
     "radicals": [ { "char": "亻", "name": "person" }, { "char": "本", "name": "book/origin" } ],
     "readings": { "onyomi": "タイ, テイ", "kunyomi": "からだ" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 亻 (person) on the left combines with the radical 本 (book/origin) on the right, representing the physical 'body' as the origin/base of a person."
+    },
     "youtubeSearchTerm": "日本語 漢字 体",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**体**の調子はどう？ (からだ の ちょうし は どう？)",
@@ -930,6 +1238,10 @@
     "story": "Pictograph of a rice field divided into sections.",
     "radicals": [ { "char": "田", "name": "rice field" } ],
     "readings": { "onyomi": "デン", "kunyomi": "た" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 田 is a pictograph and radical itself, representing a 'rice field'."
+    },
     "youtubeSearchTerm": "日本語 漢字 田",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "おばあちゃんの家の**田**んぼ、広いんだ。 (おばあちゃん の いえ の たんぼ、 ひろい ん だ。)",
@@ -942,6 +1254,10 @@
     "story": "Pictograph of an eye.",
     "radicals": [ { "char": "目", "name": "eye" } ],
     "readings": { "onyomi": "モク, ボク", "kunyomi": "め, -め, ま-" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 目 is a pictograph and radical itself, representing an 'eye'."
+    },
     "youtubeSearchTerm": "日本語 漢字 目",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**目**がかゆい。 (め が かゆい。)",
@@ -954,6 +1270,10 @@
     "story": "A mouth (口) with lines coming out, representing speech or words.",
     "radicals": [ { "char": "言", "name": "say" } ],
     "readings": { "onyomi": "ゲン, ゴン", "kunyomi": "い.う, こと" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 言 is an ideograph and radical itself, depicting words coming from a mouth, representing 'say' or 'word'."
+    },
     "youtubeSearchTerm": "日本語 漢字 言",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "思ったことを**言**っていいよ。 (おもった こと を いって いい よ。)",
@@ -966,6 +1286,10 @@
     "story": "A person (亻) using their skill or craft (乍 phonetic element) to make something.",
     "radicals": [ { "char": "亻", "name": "person" }, { "char": "乍", "name": "suddenly" } ],
     "readings": { "onyomi": "サク, サ", "kunyomi": "つく.る" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 亻 (person) on the left combines with the phonetic component 乍 (suddenly/work) on the right, signifying a person engaged in 'making' or 'creating'."
+    },
     "youtubeSearchTerm": "日本語 漢字 作",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "夕食を**作**るね。 (ゆうしょく を つくる ね。)",
@@ -978,6 +1302,10 @@
     "story": "Pictograph of a pattern or tattoo, representing writing, literature, or culture.",
     "radicals": [ { "char": "文", "name": "sentence/literature" } ],
     "readings": { "onyomi": "ブン, モン", "kunyomi": "ふみ, あや" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 文 is a pictograph and radical itself, representing patterns, 'writing', or 'culture'."
+    },
     "youtubeSearchTerm": "日本語 漢字 文",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "この**文**章、ちょっと変じゃない？ (この ぶんしょう、 ちょっと へん じゃない？)",
@@ -990,6 +1318,10 @@
     "story": "Two lines spreading apart, symbolizing division or the number eight.",
     "radicals": [ { "char": "八", "name": "eight" } ],
     "readings": { "onyomi": "ハチ", "kunyomi": "や, や.つ, やっ.つ, よう" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 八 is a simple ideograph and radical itself, representing the number 'eight'."
+    },
     "youtubeSearchTerm": "日本語 漢字 八",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "りんごを**八**つください。 (りんご を やっつ ください。)",
@@ -1002,6 +1334,10 @@
     "story": "Rice (米) being measured with a dipper (斗), representing materials or fees (measured amount).",
     "radicals": [ { "char": "米", "name": "rice" }, { "char": "斗", "name": "dipper" } ],
     "readings": { "onyomi": "リョウ", "kunyomi": "" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 米 (rice/material) on the left combines with the radical 斗 (dipper/measure) on the right, signifying 'materials' or 'fees' (measured amount)."
+    },
     "youtubeSearchTerm": "日本語 漢字 料",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "今日の晩御飯の材**料**、何？ (きょう の ばんごはん の ざいりょう、 なに？)",
@@ -1014,6 +1350,10 @@
     "story": "Two (二) legs (儿) representing the base or origin.",
     "radicals": [ { "char": "二", "name": "two" }, { "char": "儿", "name": "legs" } ],
     "readings": { "onyomi": "ゲン, ガン", "kunyomi": "もと" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 二 (two) sits above the radical 儿 (legs), representing the 'base' or 'origin'."
+    },
     "youtubeSearchTerm": "日本語 漢字 元",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**元**気？ (げんき？)",
@@ -1026,6 +1366,10 @@
     "story": "A person (人) carrying a heavy load (東 simplified), representing 'heavy' or 'important'.",
     "radicals": [ { "char": "里", "name": "village" } ],
     "readings": { "onyomi": "ジュウ, チョウ", "kunyomi": "え, おも.い, おも.り, おも.なう, かさ.ねる, かさ.なる, おも" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "A complex character often analyzed with 千 (thousand) over 東 (east, simplified) or with 里 (village) as the main component in some dictionaries. Represents 'heavy' or 'important'."
+    },
     "youtubeSearchTerm": "日本語 漢字 重",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "この荷物、**重**い！ (この にもつ、 おもい！)",
@@ -1038,6 +1382,10 @@
     "story": "Movement (辶) combined with an axe (斤), perhaps suggesting chopping nearby trees, hence 'near'.",
     "radicals": [ { "char": "斤", "name": "axe" }, { "char": "辶", "name": "walk" } ],
     "readings": { "onyomi": "キン, コン", "kunyomi": "ちか.い" },
+    "kamae": {
+      "type": "Enclosure (Shinnyō)",
+      "explanation": "The radical 辶 (walk/movement) encloses the bottom and left of the radical 斤 (axe), suggesting movement towards something 'near'."
+    },
     "youtubeSearchTerm": "日本語 漢字 近",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "駅はここから**近**いよ。 (えき は ここ から ちかい よ。)",
@@ -1050,6 +1398,10 @@
     "story": "Heavy (重) combined with strength (力), representing the effort needed to move something heavy, hence 'move'.",
     "radicals": [ { "char": "重", "name": "heavy" }, { "char": "力", "name": "power" } ],
     "readings": { "onyomi": "ドウ", "kunyomi": "うご.く, うご.かす" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The component 重 (heavy) on the left combines with the radical 力 (power/strength) on the right, representing the force needed to 'move' something heavy."
+    },
     "youtubeSearchTerm": "日本語 漢字 動",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "ちょっと、それ**動**かさないで！ (ちょっと、 それ うごかさないで！)",
@@ -1062,6 +1414,10 @@
     "story": "To divide (八) private interests (厶), making something public.",
     "radicals": [ { "char": "八", "name": "eight" }, { "char": "厶", "name": "private" } ],
     "readings": { "onyomi": "コウ, ク", "kunyomi": "おおやけ" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 八 (eight/divide) sits above the radical 厶 (private), suggesting the division of private interest for the 'public' good."
+    },
     "youtubeSearchTerm": "日本語 漢字 公",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**公**園で遊ぼう！ (こうえん で あそぼう！)",
@@ -1074,6 +1430,10 @@
     "story": "A woman (女) under a roof (宀), signifying safety, peace, and therefore ease or cheapness.",
     "radicals": [ { "char": "宀", "name": "roof" }, { "char": "女", "name": "woman" } ],
     "readings": { "onyomi": "アン", "kunyomi": "やす.い, やす.まる, やす, やす.らか" },
+    "kamae": {
+      "type": "Top-Bottom (Kanmuri-Ashi)",
+      "explanation": "The radical 宀 (roof) sits above the radical 女 (woman), depicting a woman under a roof, signifying 'safety', 'peace', or 'ease' (cheap)."
+    },
     "youtubeSearchTerm": "日本語 漢字 安",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "この店、**安**いね！ (この みせ、 やすい ね！)",
@@ -1086,6 +1446,10 @@
     "story": "An enclosure (囗) containing another enclosure (口), representing something turning or revolving.",
     "radicals": [ { "char": "囗", "name": "enclosure" }, { "char": "口", "name": "mouth" } ],
     "readings": { "onyomi": "カイ, エ", "kunyomi": "まわ.る, -まわ.る, -まわ.り, まわ.す, -まわ.す, まわ.し-, -まわ.し, もとお.る, か.える" },
+    "kamae": {
+      "type": "Enclosure (Kunigamae)",
+      "explanation": "The radical 囗 (enclosure) surrounds the radical 口 (mouth/opening), representing something revolving or turning, hence 'times' or 'round'."
+    },
     "youtubeSearchTerm": "日本語 漢字 回",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "もう一**回**やってみよう。 (もう いっかい やってみよう。)",
@@ -1098,6 +1462,10 @@
     "story": "A heart (心) contemplating a rice field (田) – deep in thought.",
     "radicals": [ { "char": "田", "name": "rice field" }, { "char": "心", "name": "heart" } ],
     "readings": { "onyomi": "シ", "kunyomi": "おも.う" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 田 (rice field) sits above the radical 心 (heart), representing the heart/mind contemplating or 'thinking'."
+    },
     "youtubeSearchTerm": "日本語 漢字 思",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "君のことを**思**っているよ。 (きみ の こと を おもっている よ。)",
@@ -1110,6 +1478,10 @@
     "story": "Water (氵) combined with 'every' (毎), suggesting the vastness where all waters gather – the sea.",
     "radicals": [ { "char": "氵", "name": "water" }, { "char": "毎", "name": "every" } ],
     "readings": { "onyomi": "カイ", "kunyomi": "うみ" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 氵 (water) on the left combines with the component 毎 (every) on the right. 毎 acts phonetically and suggests the vastness where 'every' drop of water gathers: the 'sea'."
+    },
     "youtubeSearchTerm": "日本語 漢字 海",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "夏は**海**に行きたい！ (なつ は うみ に いきたい！)",
@@ -1122,6 +1494,10 @@
     "story": "A person (人) under a cover or roof (入 shape on top), with a king (王) or jade (玉) inside, signifying completeness or wholeness.",
     "radicals": [ { "char": "入", "name": "enter" }, { "char": "王", "name": "king" } ],
     "readings": { "onyomi": "ゼン", "kunyomi": "まった.く, すべ.て" },
+    "kamae": {
+      "type": "Top-Bottom (Kanmuri-Ashi)",
+      "explanation": "The component 入 (enter, modified as a roof/cover) sits above the radical 王 (king/jade), signifying completeness or 'all' under one rule/standard."
+    },
     "youtubeSearchTerm": "日本語 漢字 全",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "**全**然大丈夫だよ。 (ぜんぜん だいじょうぶ だ よ。)",
@@ -1134,6 +1510,10 @@
     "story": "Pictograph of a tool, possibly a carpenter's square, representing craft or construction.",
     "radicals": [ { "char": "工", "name": "work" } ],
     "readings": { "onyomi": "コウ, ク", "kunyomi": "" },
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 工 is a pictograph and radical itself, representing a tool or 'work'/'craft'."
+    },
     "youtubeSearchTerm": "日本語 漢字 工",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "この橋の**工**事はいつ終わるの？ (この はし の こうじ は いつ おわる の？)",
@@ -1146,6 +1526,10 @@
     "story": "A roof (冂) over a mouth (口), perhaps indicating a window or opening facing a certain direction.",
     "radicals": [ { "char": "冂", "name": "upside-down box" }, { "char": "口", "name": "mouth" } ],
     "readings": { "onyomi": "コウ", "kunyomi": "む.く, む.い, -む.き, む.ける, -む.け, む.かう, む.かい, む.こう, むこ" },
+    "kamae": {
+      "type": "Enclosure (Top/Sides)",
+      "explanation": "The radical 冂 (upside-down box/enclosure) covers the top and sides of the radical 口 (mouth/opening), suggesting an opening 'facing' a direction."
+    },
     "youtubeSearchTerm": "日本語 漢字 向",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "駅に**向**かってるよ。 (えき に むかってる よ。)",
@@ -1158,6 +1542,10 @@
     "story": "A person (亻) and their word (言), signifying that trustworthy words build faith.",
     "radicals": [ { "char": "亻", "name": "person" }, { "char": "言", "name": "say" } ],
     "readings": { "onyomi": "シン", "kunyomi": "" },
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 亻 (person) on the left combines with the radical 言 (say/word) on the right, signifying 'trust' or 'faith' based on a person's word."
+    },
     "youtubeSearchTerm": "日本語 漢字 信",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "彼のことを**信**じてる。 (かれ の こと を しんじてる。)",
@@ -1170,6 +1558,10 @@
     "story": "Two evenings (夕) stacked on top of each other signifies many evenings, hence 'many'.",
     "radicals": [ { "char": "夕", "name": "evening" } ],
     "readings": { "onyomi": "タ", "kunyomi": "おお.い" },
+    "kamae": {
+      "type": "Top-Bottom (Stacked)",
+      "explanation": "The character 多 stacks the radical 夕 (evening) upon itself, signifying repetition or abundance ('many')."
+    },
     "youtubeSearchTerm": "日本語 漢字 多",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "今日はやることが**多**い。 (きょう は やる こと が おおい。)",
@@ -1182,6 +1574,10 @@
     "story": "A mouth (口) inside a gate (門), representing asking a question at a gate or inquiry.",
     "radicals": [ { "char": "門", "name": "gate" }, { "char": "口", "name": "mouth" } ],
     "readings": { "onyomi": "モン", "kunyomi": "と.う, と.い, とん" },
+    "kamae": {
+      "type": "Enclosure (Mongamae)",
+      "explanation": "The radical 門 (gate) encloses the radical 口 (mouth), representing asking a 'question' or making an inquiry."
+    },
     "youtubeSearchTerm": "日本語 漢字 問",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "ちょっと**問**題があるんだ。 (ちょっと もんだい が ある ん だ。)",
@@ -1194,6 +1590,10 @@
     "story": "One (一) foot stopping (止) at the correct line or target, signifying 'correct'.",
     "radicals": [ { "char": "一", "name": "one" }, { "char": "止", "name": "stop" } ],
     "readings": { "onyomi": "セイ, ショウ", "kunyomi": "ただ.しい, ただ.す, まさ" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 一 (one/line) sits above the radical 止 (stop/foot), suggesting stopping at the 'correct' line or target."
+    },
     "youtubeSearchTerm": "日本語 漢字 正",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "これが**正**しい答え？ (これ が ただしい こたえ？)",
@@ -1212,6 +1612,10 @@
       { "char": "田", "name": "rice field" },
       { "char": "心", "name": "heart" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 田 (rice field) sits above the radical 心 (heart), representing the heart/mind contemplating or 'thinking'."
+    },
     "youtubeSearchTerm": "日本語 漢字 思",
     "casualSentence": "君のことを**思**っているよ。",
     "formalSentence": "将来について深く**思**考します。",
@@ -1230,6 +1634,10 @@
       { "char": "宀", "name": "roof" },
       { "char": "豕", "name": "pig" }
     ],
+    "kamae": {
+      "type": "Top-Bottom (Kanmuri-Ashi)",
+      "explanation": "The radical 宀 (roof) sits above the radical 豕 (pig), depicting a pig under a roof, representing a traditional 'house' or 'family'."
+    },
     "youtubeSearchTerm": "日本語 漢字 家",
     "casualSentence": "早く**家**に帰りたいな。",
     "formalSentence": "田中**家**は代々続く名家です。",
@@ -1247,6 +1655,10 @@
     "radicals": [
       { "char": "夕", "name": "evening" }
     ],
+    "kamae": {
+      "type": "Top-Bottom (Stacked)",
+      "explanation": "The character 多 stacks the radical 夕 (evening) upon itself, signifying repetition or abundance ('many')."
+    },
     "youtubeSearchTerm": "日本語 漢字 多",
     "casualSentence": "今日はやることが**多**い。",
     "formalSentence": "**多**くの方々にご支援いただきました。",
@@ -1264,6 +1676,10 @@
     "radicals": [
       { "char": "言", "name": "say" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 言 is an ideograph and radical itself, depicting words coming from a mouth, representing 'say' or 'word'."
+    },
     "youtubeSearchTerm": "日本語 漢字 言",
     "casualSentence": "思ったことを**言**っていいよ。",
     "formalSentence": "彼の**言**葉には重みがあります。",
@@ -1282,6 +1698,10 @@
       { "char": "日", "name": "sun" },
       { "char": "月", "name": "moon" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 日 (sun) on the left combines with the radical 月 (moon) on the right. Together, the sun and moon signify 'brightness' or 'clarity'."
+    },
     "youtubeSearchTerm": "日本語 漢字 明",
     "casualSentence": "**明**日は晴れるといいね。",
     "formalSentence": "事の真相を**明**らかにしてください。",
@@ -1300,6 +1720,10 @@
       { "char": "亻", "name": "person" },
       { "char": "乍", "name": "suddenly" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 亻 (person) on the left combines with the phonetic component 乍 (suddenly/work) on the right, signifying a person engaged in 'making' or 'creating'."
+    },
     "youtubeSearchTerm": "日本語 漢字 作",
     "casualSentence": "夕食を**作**るね。",
     "formalSentence": "新しい法律が**作**成されました。",
@@ -1317,6 +1741,10 @@
     "radicals": [
       { "char": "方", "name": "direction" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 方 is an ideograph and radical itself, representing 'direction' or 'way'."
+    },
     "youtubeSearchTerm": "日本語 漢字 方",
     "casualSentence": "こっちの**方**がいいよ。",
     "formalSentence": "あちらの**方**が田中様です。",
@@ -1334,6 +1762,10 @@
     "radicals": [
       { "char": "用", "name": "use" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 用 is a pictograph and radical itself, representing a bucket or something for 'use'."
+    },
     "youtubeSearchTerm": "日本語 漢字 用",
     "casualSentence": "これ、何に**用**いるの？",
     "formalSentence": "会議室をご利**用**いただけます。",
@@ -1352,6 +1784,10 @@
       { "char": "丶", "name": "dot" },
       { "char": "王", "name": "king" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 丶 (drop/dot) sits atop the radical 王 (king), signifying the 'main' point or the 'master'."
+    },
     "youtubeSearchTerm": "日本語 漢字 主",
     "casualSentence": "この家の**主**は誰？",
     "formalSentence": "**主**な議題は予算についてです。",
@@ -1370,6 +1806,10 @@
       { "char": "土", "name": "earth" },
       { "char": "昜", "name": "sunshine" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 土 (earth) on the left combines with the component 昜 (sunshine/positive, phonetic/semantic) on the right, indicating an open 'place' or 'location'."
+    },
     "youtubeSearchTerm": "日本語 漢字 場",
     "casualSentence": "待ち合わせの**場**所はどこ？",
     "formalSentence": "会議の**場**で意見を述べました。",
@@ -1388,6 +1828,10 @@
       { "char": "土", "name": "earth" },
       { "char": "也", "name": "also" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 土 (earth) on the left combines with the phonetic/semantic component 也 (also/scorpion shape) on the right, representing 'ground' or 'earth'."
+    },
     "youtubeSearchTerm": "日本語 漢字 地",
     "casualSentence": "**地**震があったみたい。",
     "formalSentence": "この土**地**の価格は上昇しています。",
@@ -1406,6 +1850,10 @@
       { "char": "王", "name": "king" },
       { "char": "里", "name": "village" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 王 (king/jade) on the left combines with the radical 里 (village/measure) on the right. 里 acts phonetically and suggests inherent pattern, like polishing jade (王), leading to 'principle' or 'reason'."
+    },
     "youtubeSearchTerm": "日本語 漢字 理",
     "casualSentence": "彼の言うことにも一**理**ある。",
     "formalSentence": "物事の道**理**を理解することが大切です。",
@@ -1424,6 +1872,10 @@
       { "char": "礻", "name": "altar" },
       { "char": "土", "name": "earth" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 礻 (altar, variant of 示) on the left combines with the radical 土 (earth) on the right, originally signifying an earth 'shrine', extended to 'society' or 'company'."
+    },
     "youtubeSearchTerm": "日本語 漢字 社",
     "casualSentence": "今日、**社**長に会ったよ。",
     "formalSentence": "当**社**の製品をご愛顧いただきありがとうございます。",
@@ -1442,6 +1894,10 @@
       { "char": "口", "name": "mouth" },
       { "char": "貝", "name": "shellfish" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 口 (mouth/person count) sits above the radical 貝 (shellfish/money), signifying a 'member' counted or associated with value/payment."
+    },
     "youtubeSearchTerm": "日本語 漢字 員",
     "casualSentence": "クラスの委**員**になった。",
     "formalSentence": "全社**員**が会議に参加します。",
@@ -1460,6 +1916,10 @@
       { "char": "囗", "name": "enclosure" },
       { "char": "为", "name": "do" }
     ],
+    "kamae": {
+      "type": "Enclosure (Kunigamae)",
+      "explanation": "The radical 囗 (enclosure) surrounds the component 为 (do/phonetic), representing a 'diagram', 'plan', or 'map' drawn within boundaries."
+    },
     "youtubeSearchTerm": "日本語 漢字 図",
     "casualSentence": "この地**図**、ちょっと古いね。",
     "formalSentence": "計画の概略を**図**示します。",
@@ -1477,6 +1937,10 @@
     "radicals": [
       { "char": "心", "name": "heart" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 心 is a pictograph and radical itself, representing the 'heart' or 'mind'."
+    },
     "youtubeSearchTerm": "日本語 漢字 心",
     "casualSentence": "**心**配しないで、大丈夫だよ。",
     "formalSentence": "皆様の真**心**に感謝いたします。",
@@ -1495,6 +1959,10 @@
       { "char": "孝", "name": "filial piety" },
       { "char": "攵", "name": "strike" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The component 孝 (filial piety) on the left combines with the radical 攵 (strike/action) on the right, representing the act of 'teaching' or guiding."
+    },
     "youtubeSearchTerm": "日本語 漢字 教",
     "casualSentence": "日本語を**教**えてくれる？",
     "formalSentence": "**教**育は国の未来を左右します。",
@@ -1514,6 +1982,10 @@
       { "char": "口", "name": "mouth" },
       { "char": "小", "name": "small" }
     ],
+    "kamae": {
+      "type": "Top-Middle-Bottom",
+      "explanation": "Composed of 亠 (lid) at the top, 口 (mouth) in the middle, and 小 (small) at the bottom, forming a pictograph of a tall 'capital' building."
+    },
     "youtubeSearchTerm": "日本語 漢字 京",
     "casualSentence": "来週、東**京**に行くんだ。",
     "formalSentence": "古**京**の街並みを散策しました。",
@@ -1532,6 +2004,10 @@
       { "char": "甬", "name": "bucket" },
       { "char": "辶", "name": "walk" }
     ],
+    "kamae": {
+      "type": "Enclosure (Shinnyō)",
+      "explanation": "The radical 辶 (walk/movement) encloses the bottom and left of the phonetic component 甬 (bucket/pierce), signifying 'passing through' or 'commuting'."
+    },
     "youtubeSearchTerm": "日本語 漢字 通",
     "casualSentence": "この道をまっすぐ**通**って。",
     "formalSentence": "普**通**列車は各駅に停車します。",
@@ -1550,6 +2026,10 @@
       { "char": "田", "name": "rice field" },
       { "char": "介", "name": "mediate" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 田 (rice field) sits above the component 介 (mediate/lines), suggesting 'boundaries' marked in a field, extended to mean 'world'."
+    },
     "youtubeSearchTerm": "日本語 漢字 界",
     "casualSentence": "世**界**は広いなあ。",
     "formalSentence": "科学の世**界**は常に進歩しています。",
@@ -1567,6 +2047,10 @@
     "radicals": [
       { "char": "門", "name": "gate" }
     ],
+    "kamae": {
+      "type": "Single Component (Enclosure Type)",
+      "explanation": "The character 門 is a pictograph and radical itself, representing a 'gate'. It also acts as an enclosing radical (Mongamae) in other kanji."
+    },
     "youtubeSearchTerm": "日本語 漢字 門",
     "casualSentence": "家の**門**の前で待ってるね。",
     "formalSentence": "専**門**的な知識が必要です。",
@@ -1585,6 +2069,10 @@
       { "char": "宀", "name": "roof" },
       { "char": "女", "name": "woman" }
     ],
+    "kamae": {
+      "type": "Top-Bottom (Kanmuri-Ashi)",
+      "explanation": "The radical 宀 (roof) sits above the radical 女 (woman), depicting a woman under a roof, signifying 'safety', 'peace', or 'ease' (cheap)."
+    },
     "youtubeSearchTerm": "日本語 漢字 安",
     "casualSentence": "この店、**安**いね！",
     "formalSentence": "皆様のご**安**全をお祈りします。",
@@ -1603,6 +2091,10 @@
       { "char": "重", "name": "heavy" },
       { "char": "力", "name": "power" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The component 重 (heavy) on the left combines with the radical 力 (power/strength) on the right, representing the force needed to 'move' something heavy."
+    },
     "youtubeSearchTerm": "日本語 漢字 動",
     "casualSentence": "ちょっと、それ**動**かさないで！",
     "formalSentence": "物体は外力が加わらない限り静止し続けるか等速直線運**動**を続けます。",
@@ -1621,6 +2113,10 @@
       { "char": "入", "name": "enter" },
       { "char": "王", "name": "king" }
     ],
+    "kamae": {
+      "type": "Top-Bottom (Kanmuri-Ashi)",
+      "explanation": "The component 入 (enter, modified as a roof/cover) sits above the radical 王 (king/jade), signifying completeness or 'all' under one rule/standard."
+    },
     "youtubeSearchTerm": "日本語 漢字 全",
     "casualSentence": "**全**然大丈夫だよ。",
     "formalSentence": "**全**ての書類に目を通しました。",
@@ -1639,6 +2135,10 @@
       { "char": "亻", "name": "person" },
       { "char": "言", "name": "say" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 亻 (person) on the left combines with the radical 言 (say/word) on the right, signifying 'trust' or 'faith' based on a person's word."
+    },
     "youtubeSearchTerm": "日本語 漢字 信",
     "casualSentence": "彼のことを**信**じてる。",
     "formalSentence": "相**信**頼の関係を築くことが重要です。",
@@ -1656,6 +2156,10 @@
     "radicals": [
       { "char": "工", "name": "work" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 工 is a pictograph and radical itself, representing a tool or 'work'/'craft'."
+    },
     "youtubeSearchTerm": "日本語 漢字 工",
     "casualSentence": "この橋の**工**事はいつ終わるの？",
     "formalSentence": "彼は大**工**として長年働いています。",
@@ -1674,6 +2178,10 @@
       { "char": "扌", "name": "hand" },
       { "char": "寺", "name": "temple" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 扌 (hand) on the left combines with the component 寺 (temple, phonetic/semantic) on the right, signifying 'holding' or 'having'."
+    },
     "youtubeSearchTerm": "日本語 漢字 持",
     "casualSentence": "傘、**持**ってる？",
     "formalSentence": "資格を**持**っていることが条件です。",
@@ -1691,8 +2199,11 @@
     "radicals": [
       { "char": "米", "name": "rice" },
       { "char": "攵", "name": "strike" }
-
     ],
+    "kamae": {
+      "type": "Left-Right Combination",
+      "explanation": "A complex left component (娄, related to woman/bondage, containing 米 'rice') combines with the radical 攵 (strike/action) on the right, suggesting tallying or 'counting'."
+    },
     "youtubeSearchTerm": "日本語 漢字 数",
     "casualSentence": "星の**数**をかぞえよう。",
     "formalSentence": "参加者の人**数**を確認してください。",
@@ -1712,6 +2223,10 @@
       { "char": "木", "name": "tree" },
       { "char": "斤", "name": "axe" }
     ],
+    "kamae": {
+      "type": "Left-Right Combination",
+      "explanation": "Composed of 立 (stand) and 木 (tree) combined on the left, with the radical 斤 (axe) on the right. The structure suggests using an axe on wood (tree) to create something 'new'."
+    },
     "youtubeSearchTerm": "日本語 漢字 新",
     "casualSentence": "**新**しい服を買ったんだ。",
     "formalSentence": "**新**年あけましておめでとうございます。",
@@ -1731,6 +2246,10 @@
       { "char": "廿", "name": "twenty" },
       { "char": "又", "name": "again" }
     ],
+    "kamae": {
+      "type": "Enclosure (Madare)",
+      "explanation": "The radical 广 (dotted cliff/shelter) encloses a complex component (庶, containing 廿 and 又), signifying 'degree', 'measure', or 'times' (frequency)."
+    },
     "youtubeSearchTerm": "日本語 漢字 度",
     "casualSentence": "今**度**、一緒に映画行こうよ。",
     "formalSentence": "温**度**を測定してください。",
@@ -1750,6 +2269,10 @@
       { "char": "厶", "name": "private" },
       { "char": "虫", "name": "insect" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 弓 (bow) on the left combines with a component containing 厶 (private) and 虫 (insect) on the right. The combination suggests 'strength'."
+    },
     "youtubeSearchTerm": "日本語 漢字 強",
     "casualSentence": "彼はとても**強**い人だ。",
     "formalSentence": "**強**力なリーダーシップが求められます。",
@@ -1768,6 +2291,10 @@
       { "char": "白", "name": "white" },
       { "char": "木", "name": "tree" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "A central component resembling 白 (white) with small strokes (representing bells/drums) sits above the radical 木 (tree/stand), signifying 'music', 'comfort', or 'ease'."
+    },
     "youtubeSearchTerm": "日本語 漢字 楽",
     "casualSentence": "休みの日は**楽**しいな。",
     "formalSentence": "音**楽**を聴くのが趣味です。",
@@ -1786,6 +2313,10 @@
       { "char": "亻", "name": "person" },
       { "char": "弋", "name": "ceremony" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 亻 (person) on the left combines with the radical 弋 (ceremony/shoot) on the right, suggesting substitution or representing an era/generation."
+    },
     "youtubeSearchTerm": "日本語 漢字 代",
     "casualSentence": "私の**代**わりに会議に出てくれる？",
     "formalSentence": "時**代**は常に変化しています。",
@@ -1804,6 +2335,10 @@
       { "char": "門", "name": "gate" },
       { "char": "耳", "name": "ear" }
     ],
+    "kamae": {
+      "type": "Enclosure (Mongamae)",
+      "explanation": "The radical 門 (gate) encloses the radical 耳 (ear), representing 'listening' or 'hearing' at a gate."
+    },
     "youtubeSearchTerm": "日本語 漢字 聞",
     "casualSentence": "何か変な音が**聞**こえる。",
     "formalSentence": "ご意見を**聞**かせていただけますか。",
@@ -1822,6 +2357,10 @@
       { "char": "氵", "name": "water" },
       { "char": "毎", "name": "every" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 氵 (water) on the left combines with the component 毎 (every) on the right. 毎 acts phonetically and suggests the vastness where 'every' drop of water gathers: the 'sea'."
+    },
     "youtubeSearchTerm": "日本語 漢字 海",
     "casualSentence": "夏は**海**に行きたい！",
     "formalSentence": "**海**外旅行の計画を立てています。",
@@ -1840,6 +2379,10 @@
       { "char": "言", "name": "say" },
       { "char": "己", "name": "self" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 言 (say/word) on the left combines with the radical 己 (self) on the right, signifying 'recording' words or one's thoughts."
+    },
     "youtubeSearchTerm": "日本語 漢字 記",
     "casualSentence": "大事なことはメモに**記**しておこう。",
     "formalSentence": "会議の議事録を**記**録します。",
@@ -1858,6 +2401,10 @@
       { "char": "广", "name": "dotted cliff" },
       { "char": "厶", "name": "private" }
     ],
+    "kamae": {
+      "type": "Enclosure (Madare)",
+      "explanation": "The radical 广 (dotted cliff/shelter) encloses a component derived from 黄 (yellow, containing 厶), signifying a 'wide' or 'spacious' area."
+    },
     "youtubeSearchTerm": "日本語 漢字 広",
     "casualSentence": "この部屋は**広**いね。",
     "formalSentence": "**広**告代理店に勤務しています。",
@@ -1876,6 +2423,10 @@
       { "char": "占", "name": "fortune telling" },
       { "char": "灬", "name": "fire" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The component 占 (fortune telling/occupy) sits above the radical 灬 (fire, variant of 火), often replacing the bottom of 黒 (black), signifying a 'point' or 'mark'."
+    },
     "youtubeSearchTerm": "日本語 漢字 点",
     "casualSentence": "テストで満**点**取った！",
     "formalSentence": "問題**点**をいくつか指摘させていただきます。",
@@ -1893,6 +2444,10 @@
     "radicals": [
       { "char": "小", "name": "small" }
     ],
+    "kamae": {
+      "type": "Modified Single Component",
+      "explanation": "Based on the radical 小 (small), with an added stroke to emphasize 'few' or 'little'."
+    },
     "youtubeSearchTerm": "日本語 漢字 少",
     "casualSentence": "時間が**少**ししかない。",
     "formalSentence": "参加者は**少**数でした。",
@@ -1911,6 +2466,10 @@
       { "char": "亻", "name": "person" },
       { "char": "吏", "name": "officer" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 亻 (person) on the left combines with the component 吏 (officer) on the right, signifying a person being 'used' or acting as a 'messenger'."
+    },
     "youtubeSearchTerm": "日本語 漢字 使",
     "casualSentence": "このペン、**使**ってもいい？",
     "formalSentence": "大使館は外交官を派**使**します。",
@@ -1929,6 +2488,10 @@
       { "char": "几", "name": "table" },
       { "char": "虫", "name": "insect" }
     ],
+    "kamae": {
+      "type": "Enclosure",
+      "explanation": "The radical 几 (table/wind enclosure) surrounds the radical 虫 (insect), representing the pervasive movement of 'wind'."
+    },
     "youtubeSearchTerm": "日本語 漢字 風",
     "casualSentence": "今日は**風**が強いね。",
     "formalSentence": "昔ながらの**風**習が残っています。",
@@ -1947,6 +2510,10 @@
       { "char": "七", "name": "seven" },
       { "char": "刀", "name": "knife" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 七 (seven) on the left combines with the radical 刀 (knife) on the right, signifying the action of 'cutting'."
+    },
     "youtubeSearchTerm": "日本語 漢字 切",
     "casualSentence": "紙をハサミで**切**って。",
     "formalSentence": "締め**切**りは明日です。",
@@ -1964,6 +2531,10 @@
     "radicals": [
       { "char": "口", "name": "mouth" }
     ],
+    "kamae": {
+      "type": "Stacked",
+      "explanation": "The character 品 stacks the radical 口 (mouth) three times, representing multiple items ('goods') or discussion/evaluation ('quality')."
+    },
     "youtubeSearchTerm": "日本語 漢字 品",
     "casualSentence": "この商**品**、人気あるみたい。",
     "formalSentence": "製**品**の品質管理を徹底しています。",
@@ -1982,6 +2553,10 @@
       { "char": "斤", "name": "axe" },
       { "char": "辶", "name": "walk" }
     ],
+    "kamae": {
+      "type": "Enclosure (Shinnyō)",
+      "explanation": "The radical 辶 (walk/movement) encloses the bottom and left of the radical 斤 (axe), suggesting movement towards something 'near'."
+    },
     "youtubeSearchTerm": "日本語 漢字 近",
     "casualSentence": "駅はここから**近**いよ。",
     "formalSentence": "最**近**、景気が回復しつつあります。",
@@ -2000,6 +2575,10 @@
       { "char": "一", "name": "one" },
       { "char": "小", "name": "small" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "Composed of 一 (one) at the top and a shape resembling 小 (small) below, representing negation ('not')."
+    },
     "youtubeSearchTerm": "日本語 漢字 不",
     "casualSentence": "ちょっと**不**安だな。",
     "formalSentence": "**不**明な点がございましたら、お問い合わせください。",
@@ -2018,6 +2597,10 @@
       { "char": "耂", "name": "old" },
       { "char": "日", "name": "sun" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 耂 (old) sits above the radical 日 (sun/day, here a component part), together representing 'someone' or a 'person' (often with experience)."
+    },
     "youtubeSearchTerm": "日本語 漢字 者",
     "casualSentence": "彼は医**者**なんだ。",
     "formalSentence": "関係**者**以外立ち入り禁止です。",
@@ -2038,6 +2621,10 @@
       { "char": "冂", "name": "upside-down box" },
       { "char": "口", "name": "mouth" }
     ],
+    "kamae": {
+      "type": "Single Component (Complex Pictograph)",
+      "explanation": "The character 高 is a pictograph and radical itself, resembling a tall building with multiple levels (represented by 口 and 冂 under a lid 亠), signifying 'high' or 'tall'."
+    },
     "youtubeSearchTerm": "日本語 漢字 高",
     "casualSentence": "このビル、すごく**高**いね！",
     "formalSentence": "**高**級ホテルに宿泊しました。",
@@ -2056,6 +2643,10 @@
       { "char": "亼", "name": "gather" },
       { "char": "口", "name": "mouth" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The component 亼 (gather/lid) sits above the radical 口 (mouth/opening), representing things coming together or 'fitting'."
+    },
     "youtubeSearchTerm": "日本語 漢字 合",
     "casualSentence": "これでサイズ、**合**ってる？",
     "formalSentence": "会議の時間が**合**いません。",
@@ -2073,6 +2664,10 @@
     "radicals": [
       { "char": "手", "name": "hand" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 手 is a pictograph and radical itself, depicting a hand."
+    },
     "youtubeSearchTerm": "日本語 漢字 手",
     "casualSentence": "**手**を洗ってきてね。",
     "formalSentence": "彼は歌**手**として有名です。",
@@ -2091,6 +2686,10 @@
       { "char": "音", "name": "sound" },
       { "char": "心", "name": "heart" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 音 (sound) sits above the radical 心 (heart), representing 'ideas' or 'meaning' originating from the heart/mind."
+    },
     "youtubeSearchTerm": "日本語 漢字 意",
     "casualSentence": "どういう**意**味？",
     "formalSentence": "彼の**意**見に賛成します。",
@@ -2109,6 +2708,10 @@
       { "char": "門", "name": "gate" },
       { "char": "廾", "name": "two hands" }
     ],
+    "kamae": {
+      "type": "Enclosure (Mongamae) with internal component",
+      "explanation": "The radical 門 (gate) encloses a component representing two hands (廾) pushing the gate 'open'."
+    },
     "youtubeSearchTerm": "日本語 漢字 開",
     "casualSentence": "ドアを**開**けてください。",
     "formalSentence": "会議を**開**催いたします。",
@@ -2126,6 +2729,10 @@
     "radicals": [
       { "char": "力", "name": "power" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 力 is a pictograph and radical itself, representing 'power' or 'strength'."
+    },
     "youtubeSearchTerm": "日本語 漢字 力",
     "casualSentence": "もっと**力**を入れて！",
     "formalSentence": "協**力**をお願いいたします。",
@@ -2144,6 +2751,10 @@
       { "char": "門", "name": "gate" },
       { "char": "口", "name": "mouth" }
     ],
+    "kamae": {
+      "type": "Enclosure (Mongamae)",
+      "explanation": "The radical 門 (gate) encloses the radical 口 (mouth), representing asking a 'question' or making an inquiry."
+    },
     "youtubeSearchTerm": "日本語 漢字 問",
     "casualSentence": "ちょっと**問**題があるんだ。",
     "formalSentence": "ご質**問**はございますか？",
@@ -2162,6 +2773,10 @@
       { "char": "一", "name": "one" },
       { "char": "止", "name": "stop" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 一 (one/line) sits above the radical 止 (stop/foot), suggesting stopping at the 'correct' line or target."
+    },
     "youtubeSearchTerm": "日本語 漢字 正",
     "casualSentence": "これが**正**しい答え？",
     "formalSentence": "**正**式な手続きが必要です。",
@@ -2179,6 +2794,10 @@
     "radicals": [
       { "char": "長", "name": "long" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 長 is a pictograph/ideograph and radical itself, depicting long hair or signifying length/seniority."
+    },
     "youtubeSearchTerm": "日本語 漢字 長",
     "casualSentence": "髪が**長**いね。",
     "formalSentence": "彼は会社の社**長**です。",
@@ -2197,6 +2816,10 @@
       { "char": "囗", "name": "enclosure" },
       { "char": "口", "name": "mouth" }
     ],
+    "kamae": {
+      "type": "Enclosure (Kunigamae)",
+      "explanation": "The radical 囗 (enclosure) surrounds the radical 口 (mouth/opening), representing something revolving or turning, hence 'times' or 'round'."
+    },
     "youtubeSearchTerm": "日本語 漢字 回",
     "casualSentence": "もう一**回**やってみよう。",
     "formalSentence": "次**回**の会議は来週です。",
@@ -2216,6 +2839,10 @@
       { "char": "一", "name": "one" },
       { "char": "口", "name": "mouth" }
     ],
+    "kamae": {
+      "type": "Enclosure (Top/Sides)",
+      "explanation": "The radical 冂 (upside-down box/enclosure) covers the top and sides of a component containing 一 (one) and 口 (mouth), suggesting gathering under one roof or agreement ('same')."
+    },
     "youtubeSearchTerm": "日本語 漢字 同",
     "casualSentence": "僕も**同**じ意見だよ。",
     "formalSentence": "**同**意書にご署名ください。",
@@ -2233,6 +2860,10 @@
     "radicals": [
       { "char": "自", "name": "self" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 自 is a pictograph and radical itself, originally depicting a nose, used to mean 'self'."
+    },
     "youtubeSearchTerm": "日本語 漢字 自",
     "casualSentence": "**自**分でできるよ。",
     "formalSentence": "**自**動車産業は国の基幹産業です。",
@@ -2252,6 +2883,10 @@
       { "char": "口", "name": "mouth" },
       { "char": "⺕", "name": "brush" }
     ],
+    "kamae": {
+      "type": "Complex Combination",
+      "explanation": "A complex structure often analyzed with a top component (related to a scribe or banner 史/⺕), a middle 口 (mouth), and a bottom hook 亅 (hand/action), representing a recorded 'matter' or 'thing'."
+    },
     "youtubeSearchTerm": "日本語 漢字 事",
     "casualSentence": "大**事**な話があるんだ。",
     "formalSentence": "この件に関する**事**務連絡です。",
@@ -2270,6 +2905,10 @@
       { "char": "亠", "name": "lid" },
       { "char": "巾", "name": "towel" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 亠 (lid) sits above the radical 巾 (towel), representing goods displayed at a 'market' or 'city'."
+    },
     "youtubeSearchTerm": "日本語 漢字 市",
     "casualSentence": "日曜日に**市**場に行ったよ。",
     "formalSentence": "横浜**市**に住んでいます。",
@@ -2285,9 +2924,12 @@
     },
     "story": "Complex structure involving plants (业 shape) and possibly tools, representing skilled work, craft, or business.",
     "radicals": [
-
       { "char": "业", "name": "business" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The complex component 业 (related to music/art/plants) sits above a structure related to 木 (tree/stand), representing skilled 'work', 'vocation', or 'performance'."
+    },
     "youtubeSearchTerm": "日本語 漢字 業",
     "casualSentence": "卒**業**おめでとう！",
     "formalSentence": "企**業**の社会的責任が問われています。",
@@ -2306,6 +2948,10 @@
       { "char": "目", "name": "eye" },
       { "char": "儿", "name": "legs" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 目 (eye) sits atop the radical 儿 (legs), depicting an eye on legs, signifying 'seeing' or 'looking'."
+    },
     "youtubeSearchTerm": "日本語 漢字 見",
     "casualSentence": "ほら、あれを**見**て！",
     "formalSentence": "私の意**見**を述べさせていただきます。",
@@ -2324,6 +2970,10 @@
       { "char": "宀", "name": "roof" },
       { "char": "疋", "name": "bolt of cloth" }
     ],
+    "kamae": {
+      "type": "Top-Bottom (Kanmuri-Ashi)",
+      "explanation": "The radical 宀 (roof) sits above a component resembling 正 or 疋 (correct/foot/cloth), signifying establishing or 'fixing' something under authority."
+    },
     "youtubeSearchTerm": "日本語 漢字 定",
     "casualSentence": "旅行の予**定**は決まった？",
     "formalSentence": "規**定**に従ってください。",
@@ -2341,6 +2991,10 @@
     "radicals": [
       { "char": "行", "name": "go" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 行 is a pictograph and radical itself, representing a crossroads and thus movement or 'going'."
+    },
     "youtubeSearchTerm": "日本語 漢字 行",
     "casualSentence": "どこに**行**くの？",
     "formalSentence": "計画を実**行**に移します。",
@@ -2360,6 +3014,10 @@
       { "char": "口", "name": "mouth" },
       { "char": "心", "name": "heart" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "A complex top component (咸, containing 戈 and 口, phonetic) sits above the radical 心 (heart), representing a 'feeling' or 'sensation' impacting the heart."
+    },
     "youtubeSearchTerm": "日本語 漢字 感",
     "casualSentence": "なんだかいい**感**じだね。",
     "formalSentence": "皆様のご支援に深く**感**謝いたします。",
@@ -2376,8 +3034,11 @@
     "story": "Two feet stepping out (癶) from perhaps a bow or shelter, signifying departure or starting out.",
     "radicals": [
       { "char": "癶", "name": "footsteps" }
-
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 癶 (footsteps/departure) sits above a complex lower component (related to bow/springing), signifying 'departure', 'emission', or 'starting'."
+    },
     "youtubeSearchTerm": "日本語 漢字 発",
     "casualSentence": "アイデアを**発**見した！",
     "formalSentence": "新製品を**発**売します。",
@@ -2396,6 +3057,10 @@
       { "char": "門", "name": "gate" },
       { "char": "日", "name": "sun" }
     ],
+    "kamae": {
+      "type": "Enclosure (Mongamae)",
+      "explanation": "The radical 門 (gate) encloses the radical 日 (sun), representing the sun seen through a gate, indicating the 'space' or 'interval' between."
+    },
     "youtubeSearchTerm": "日本語 漢字 間",
     "casualSentence": "少しの**間**、待っていてください。",
     "formalSentence": "人間関係は複雑です。",
@@ -2414,6 +3079,10 @@
       { "char": "咅", "name": "spit" },
       { "char": "阝", "name": "village" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The phonetic component 咅 (stand/spit) on the left combines with the radical 阝 (village/city) on the right, signifying a 'section' or 'department' within a larger entity."
+    },
     "youtubeSearchTerm": "日本語 漢字 部",
     "casualSentence": "どのクラブに**部**活入ってる？",
     "formalSentence": "営業**部**に所属しています。",
@@ -2429,9 +3098,12 @@
     },
     "story": "Originally depicted a person dancing with ornaments, later used phonetically for 'nothingness'. Often visualized as a forest (林 shape) being burned away (灬).",
     "radicals": [
-
       { "char": "灬", "name": "fire" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "A complex top component (related to dancing or forest) sits above the radical 灬 (fire), representing absence or 'nothingness'."
+    },
     "youtubeSearchTerm": "日本語 漢字 無",
     "casualSentence": "**無**理しないでね。",
     "formalSentence": "**無**料でご利用いただけます。",
@@ -2451,6 +3123,10 @@
       { "char": "月", "name": "moon" },
       { "char": "刂", "name": "knife" }
     ],
+    "kamae": {
+      "type": "Top-Bottom Combination",
+      "explanation": "Composed of 丷 (horns/top) above 月 (moon/flesh/boat) which sits to the left of 刂 (knife radical, variant of 刀). The combination signifies 'front' or 'before'."
+    },
     "youtubeSearchTerm": "日本語 漢字 前",
     "casualSentence": "駅の**前**で会おう。",
     "formalSentence": "以**前**にも同じ問題がありました。",
@@ -2469,6 +3145,10 @@
       { "char": "木", "name": "tree" },
       { "char": "目", "name": "eye" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 木 (tree) on the left combines with the radical 目 (eye) on the right, representing looking closely ('aspect') or looking at each other ('mutual')."
+    },
     "youtubeSearchTerm": "日本語 漢字 相",
     "casualSentence": "**相**手は誰だったの？",
     "formalSentence": "首**相**が会見を行いました。",
@@ -2487,6 +3167,10 @@
       { "char": "聿", "name": "brush" },
       { "char": "曰", "name": "say" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 聿 (brush) sits above the radical 曰 (say), representing the act of 'writing' words with a brush."
+    },
     "youtubeSearchTerm": "日本語 漢字 書",
     "casualSentence": "手紙を**書**いたよ。",
     "formalSentence": "図**書**館で本を借りました。",
@@ -2505,6 +3189,10 @@
       { "char": "雨", "name": "rain" },
       { "char": "申", "name": "monkey" }
     ],
+    "kamae": {
+      "type": "Top-Bottom (Kanmuri-Ashi)",
+      "explanation": "The radical 雨 (rain) sits above the component 申 (speak/monkey sign, phonetic/lightning shape), representing 'electricity' associated with thunderstorms."
+    },
     "youtubeSearchTerm": "日本語 漢字 電",
     "casualSentence": "**電**話してもいい？",
     "formalSentence": "**電**気製品の取り扱いには注意してください。",
@@ -2521,8 +3209,11 @@
     "story": "A roof (宀) over strung coins or valuables (貫 simplified), representing something substantial, real, or fruitful.",
     "radicals": [
       { "char": "宀", "name": "roof" }
-
     ],
+    "kamae": {
+      "type": "Top-Bottom (Kanmuri-Ashi)",
+      "explanation": "The radical 宀 (roof) sits above a complex component (related to 貫 - strung coins/valuables), signifying 'reality', 'truth', or 'fruit' (something substantial)."
+    },
     "youtubeSearchTerm": "日本語 漢字 実",
     "casualSentence": "それは**実**話なの？",
     "formalSentence": "事**実**に基づいて判断します。",
@@ -2541,6 +3232,10 @@
       { "char": "亠", "name": "lid" },
       { "char": "生", "name": "life" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "A top component (产, related to cliff/production, containing 亠) sits above the radical 生 (life), representing 'birth' or 'production'."
+    },
     "youtubeSearchTerm": "日本語 漢字 産",
     "casualSentence": "赤ちゃんが**産**まれた！",
     "formalSentence": "国内**産**の野菜を使っています。",
@@ -2558,6 +3253,10 @@
     "radicals": [
       { "char": "入", "name": "enter" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 入 is a pictograph and radical itself, depicting something entering or going inwards."
+    },
     "youtubeSearchTerm": "日本語 漢字 入",
     "casualSentence": "どうぞ、**入**って。",
     "formalSentence": "会員に**入**会しませんか？",
@@ -2576,6 +3275,10 @@
       { "char": "首", "name": "neck" },
       { "char": "辶", "name": "walk" }
     ],
+    "kamae": {
+      "type": "Enclosure (Shinnyō)",
+      "explanation": "The radical 辶 (walk/movement) encloses the bottom and left of the radical 首 (neck/head), representing the 'path' or 'way' one travels."
+    },
     "youtubeSearchTerm": "日本語 漢字 道",
     "casualSentence": "この**道**をまっすぐ行って。",
     "formalSentence": "武士**道**は日本の伝統的な精神です。",
@@ -2594,6 +3297,10 @@
       { "char": "禾", "name": "grain" },
       { "char": "斗", "name": "dipper" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 禾 (grain) on the left combines with the radical 斗 (dipper/measure) on the right, suggesting sorting or classification ('section', 'department')."
+    },
     "youtubeSearchTerm": "日本語 漢字 科",
     "casualSentence": "理**科**の実験、楽しかったね。",
     "formalSentence": "彼は外**科**医です。",
@@ -2612,6 +3319,10 @@
       { "char": "夕", "name": "evening" },
       { "char": "口", "name": "mouth" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 夕 (evening) sits above the radical 口 (mouth), representing calling someone's 'name' in the dim light of evening."
+    },
     "youtubeSearchTerm": "日本語 漢字 名",
     "casualSentence": "あなたの**名**前は何ですか？",
     "formalSentence": "著**名**な作家の講演会があります。",
@@ -2629,6 +3340,10 @@
     "radicals": [
       { "char": "金", "name": "gold" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 金 is a complex pictograph and radical itself, representing metal (especially gold) found under the earth (土) with nuggets (dots)."
+    },
     "youtubeSearchTerm": "日本語 漢字 金",
     "casualSentence": "お**金**が足りない！",
     "formalSentence": "**金**曜日に会議があります。",
@@ -2647,6 +3362,10 @@
       { "char": "周", "name": "circumference" },
       { "char": "辶", "name": "walk" }
     ],
+    "kamae": {
+      "type": "Enclosure (Shinnyō)",
+      "explanation": "The radical 辶 (walk/movement) encloses the bottom and left of the component 周 (circumference/cycle, phonetic), representing the cycle of a 'week'."
+    },
     "youtubeSearchTerm": "日本語 漢字 週",
     "casualSentence": "来**週**、テストがある。",
     "formalSentence": "一**週**間の予定を確認します。",
@@ -2665,6 +3384,10 @@
       { "char": "氵", "name": "water" },
       { "char": "舌", "name": "tongue" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 氵 (water) on the left combines with the radical 舌 (tongue, phonetic) on the right, suggesting 'lively' movement like flowing water or active speech."
+    },
     "youtubeSearchTerm": "日本語 漢字 活",
     "casualSentence": "もっと生**活**を楽しもう！",
     "formalSentence": "地域経済の**活**性化が課題です。",
@@ -2682,6 +3405,10 @@
     "radicals": [
       { "char": "山", "name": "mountain" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 山 is a pictograph and radical itself, representing a 'mountain'."
+    },
     "youtubeSearchTerm": "日本語 漢字 山",
     "casualSentence": "**山**登りは楽しいよ。",
     "formalSentence": "富士**山**は日本の象徴です。",
@@ -2700,6 +3427,10 @@
       { "char": "隹", "name": "old bird" },
       { "char": "木", "name": "tree" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 隹 (old bird) sits above the radical 木 (tree), depicting birds 'gathering' on a tree."
+    },
     "youtubeSearchTerm": "日本語 漢字 集",
     "casualSentence": "みんなで**集**まろう！",
     "formalSentence": "情報を収**集**しています。",
@@ -2718,6 +3449,10 @@
       { "char": "冎", "name": "bone" },
       { "char": "刂", "name": "knife" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "A component related to bone (冎) and mouth (口) on the left combines with the radical 刂 (knife) on the right, signifying 'separation' or distinction."
+    },
     "youtubeSearchTerm": "日本語 漢字 別",
     "casualSentence": "これは**別**の問題だよ。",
     "formalSentence": "特**別**な配慮が必要です。",
@@ -2736,6 +3471,10 @@
       { "char": "牛", "name": "cow" },
       { "char": "勿", "name": "not" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 牛 (cow) on the left combines with the phonetic component 勿 (not/variety) on the right, representing tangible 'things' or 'objects'."
+    },
     "youtubeSearchTerm": "日本語 漢字 物",
     "casualSentence": "忘れ**物**ない？",
     "formalSentence": "この建**物**は歴史があります。",
@@ -2754,6 +3493,10 @@
       { "char": "女", "name": "woman" },
       { "char": "台", "name": "platform" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 女 (woman) on the left combines with the component 台 (platform/stand, phonetic) on the right, signifying the 'beginning' or 'start'."
+    },
     "youtubeSearchTerm": "日本語 漢字 始",
     "casualSentence": "さあ、**始**めよう！",
     "formalSentence": "会議は午後一時に開**始**します。",
@@ -2774,6 +3517,10 @@
       { "char": "十", "name": "ten" },
       { "char": "月", "name": "moon" }
     ],
+    "kamae": {
+      "type": "Left-Right Combination",
+      "explanation": "A complex left side (十, 日, 十 representing sun through grass/mist) combines with the radical 月 (moon) on the right, depicting the transition from night (moon) to day (sun), signifying 'morning'."
+    },
     "youtubeSearchTerm": "日本語 漢字 朝",
     "casualSentence": "明日の**朝**、早く起きなきゃ。",
     "formalSentence": "毎**朝**、新聞を読みます。",
@@ -2791,6 +3538,10 @@
     "radicals": [
       { "char": "首", "name": "neck" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 首 is a pictograph and radical itself, representing a 'head' or 'neck'."
+    },
     "youtubeSearchTerm": "日本語 漢字 首",
     "casualSentence": "**首**が痛い。",
     "formalSentence": "彼はチームの**首**領です。",
@@ -2808,6 +3559,10 @@
     "radicals": [
       { "char": "目", "name": "eye" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 目 is a pictograph and radical itself, representing an 'eye'."
+    },
     "youtubeSearchTerm": "日本語 漢字 目",
     "casualSentence": "**目**がかゆい。",
     "formalSentence": "会議の**目**的は何ですか？",
@@ -2825,6 +3580,10 @@
     "radicals": [
       { "char": "立", "name": "stand" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 立 is a pictograph and radical itself, depicting a person standing on the ground, signifying 'stand'."
+    },
     "youtubeSearchTerm": "日本語 漢字 立",
     "casualSentence": "そこに**立**ってて。",
     "formalSentence": "新しい会社を設**立**しました。",
@@ -2841,8 +3600,11 @@
     "story": "An old person (耂) leaning on a stick, deep in thought or consideration.",
     "radicals": [
       { "char": "耂", "name": "old" }
-
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The radical 耂 (old) sits above a phonetic component (丂), representing an old person leaning or thinking, signifying 'consider' or 'think'."
+    },
     "youtubeSearchTerm": "日本語 漢字 考",
     "casualSentence": "ちょっと**考**えさせて。",
     "formalSentence": "この問題を深く**考**察する必要があります。",
@@ -2860,6 +3622,10 @@
     "radicals": [
       { "char": "米", "name": "rice" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 米 is a pictograph and radical itself, representing a 'rice' plant."
+    },
     "youtubeSearchTerm": "日本語 漢字 米",
     "casualSentence": "今晩は**米**を炊こう。",
     "formalSentence": "**米**国との貿易交渉が行われています。",
@@ -2877,6 +3643,10 @@
     "radicals": [
       { "char": "色", "name": "color" }
     ],
+    "kamae": {
+      "type": "Top-Bottom Combination",
+      "explanation": "The character 色 combines a top component resembling 人 (person) and a bottom component 巴 (bending shape), representing 'color' or 'appearance'."
+    },
     "youtubeSearchTerm": "日本語 漢字 色",
     "casualSentence": "好きな**色**は何？",
     "formalSentence": "様**々**な意見があります。",
@@ -2895,6 +3665,10 @@
       { "char": "亻", "name": "person" },
       { "char": "可", "name": "possible" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 亻 (person) on the left combines with the phonetic component 可 (possible) on the right, forming the interrogative 'what'."
+    },
     "youtubeSearchTerm": "日本語 漢字 何",
     "casualSentence": "これは**何**？",
     "formalSentence": "**何**かご不明な点はございますか？",
@@ -2913,6 +3687,10 @@
       { "char": "亻", "name": "person" },
       { "char": "本", "name": "book" }
     ],
+    "kamae": {
+      "type": "Left-Right (Hen-Tsukuri)",
+      "explanation": "The radical 亻 (person) on the left combines with the radical 本 (book/origin) on the right, representing the physical 'body' as the origin/base of a person."
+    },
     "youtubeSearchTerm": "日本語 漢字 体",
     "casualSentence": "**体**の調子はどう？",
     "formalSentence": "具体的に説明してください。",
@@ -2930,6 +3708,10 @@
     "radicals": [
       { "char": "音", "name": "sound" }
     ],
+    "kamae": {
+      "type": "Top-Bottom",
+      "explanation": "The character 音 combines 立 (stand) and 日 (sun/day, originally 曰 'say') within it, representing 'sound'."
+    },
     "youtubeSearchTerm": "日本語 漢字 音",
     "casualSentence": "何の**音**？",
     "formalSentence": "音楽を聴くのが好きです。",
@@ -2948,6 +3730,10 @@
       { "char": "冂", "name": "upside-down box" },
       { "char": "人", "name": "person" }
     ],
+    "kamae": {
+      "type": "Enclosure",
+      "explanation": "The radical 冂 (upside-down box/enclosure) contains the radical 人 (person, entering 入), signifying 'inside'."
+    },
     "youtubeSearchTerm": "日本語 漢字 内",
     "casualSentence": "家の中にいるよ。",
     "formalSentence": "詳細については、案**内**をご覧ください。",
@@ -2965,6 +3751,10 @@
     "radicals": [
       { "char": "止", "name": "stop" }
     ],
+    "kamae": {
+      "type": "Single Component",
+      "explanation": "The character 止 is a pictograph and radical itself, representing a foot or the action of 'stopping'."
+    },
     "youtubeSearchTerm": "日本語 漢字 止",
     "casualSentence": "ここで**止**まって！",
     "formalSentence": "作業を中**止**してください。",
@@ -2982,6 +3772,10 @@
     "radicals": [
       { "char": "木", "name": "tree" }
     ],
+    "kamae": {
+      "type": "Left-Right (Stacked)",
+      "explanation": "The character 林 places the radical 木 (tree) side-by-side, representing multiple trees, hence 'woods' or 'grove'."
+    },
     "youtubeSearchTerm": "日本語 漢字 林",
     "casualSentence": "**林**の中を散歩しよう。",
     "formalSentence": "小**林**さんにお伝えください。",

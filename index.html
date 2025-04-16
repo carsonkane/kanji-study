@@ -40,6 +40,24 @@
         .sentence-example p strong {
             font-weight: 700; /* Or 600 if you prefer */
         }
+        /* Kamae section styling */
+        #modalKamaeInfo {
+            margin-bottom: 1rem; /* Consistent spacing */
+        }
+        #modalKamaeInfo h4 {
+            font-weight: 600; /* Semibold */
+            margin-bottom: 0.25rem; /* Space below heading */
+            color: #4a5568; /* Gray-700 */
+        }
+        #modalKamaeInfo p {
+            color: #4a5568; /* Gray-700 */
+            font-size: 0.875rem; /* text-sm */
+            line-height: 1.4; /* Slightly increased line height */
+        }
+         #modalKamaeInfo p strong {
+             font-weight: 600; /* Semibold */
+             color: #2d3748; /* Gray-800 */
+         }
     </style>
 </head>
 <body class="antialiased text-gray-800">
@@ -98,6 +116,14 @@
                         <div id="modalRadicals" class="flex flex-wrap gap-2"></div>
                     </div>
 
+                    <!-- START: Added Kamae Section -->
+                    <div id="modalKamaeInfo" class="mb-4">
+                         <h4>構え (Structure)</h4>
+                         <p><strong id="modalKamaeType"></strong></p>
+                         <p id="modalKamaeExplanation" class="text-sm"></p>
+                    </div>
+                    <!-- END: Added Kamae Section -->
+
                     <!-- Example Sentences Section -->
                     <div id="sentenceSection" class="mt-4 pt-4 border-t">
                         <h4 class="font-semibold mb-2 text-gray-700">Example Sentences:</h4>
@@ -145,6 +171,11 @@
         const sentenceSection = document.getElementById('sentenceSection');
         const modalCasualSentence = document.getElementById('modalCasualSentence');
         const modalFormalSentence = document.getElementById('modalFormalSentence');
+        // Added Kamae elements
+        const modalKamaeInfo = document.getElementById('modalKamaeInfo');
+        const modalKamaeType = document.getElementById('modalKamaeType');
+        const modalKamaeExplanation = document.getElementById('modalKamaeExplanation');
+
 
         // --- Global Variable ---
         let allKanjiData = [];
@@ -210,6 +241,19 @@
                 modalRadicals.innerHTML = '<span class="text-sm text-gray-500">No radical info</span>';
             }
 
+            // --- START: Populate Kamae Info ---
+            if (kanjiItem.kamae && kanjiItem.kamae.type) {
+                modalKamaeType.textContent = kanjiItem.kamae.type;
+                modalKamaeExplanation.textContent = kanjiItem.kamae.explanation || '';
+                modalKamaeInfo.classList.remove('hidden'); // Show the section
+            } else {
+                modalKamaeType.textContent = ''; // Clear previous content
+                modalKamaeExplanation.textContent = '';
+                modalKamaeInfo.classList.add('hidden'); // Hide the section if no data
+            }
+            // --- END: Populate Kamae Info ---
+
+
             // Populate YouTube link
             const searchTerm = kanjiItem.youtubeSearchTerm || `日本語 漢字 ${kanjiItem.kanji}`;
             const youtubeUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(searchTerm)}`;
@@ -227,11 +271,6 @@
             let casualSentenceText = kanjiItem.casualSentence || '';
             let formalSentenceText = kanjiItem.formalSentence || '';
 
-            // REVERTED: Removed the lines that stripped Hiragana
-            // const hiraganaRegex = /\s*\([^)]*\)/g;
-            // casualSentenceText = casualSentenceText.replace(hiraganaRegex, '').trim();
-            // formalSentenceText = formalSentenceText.replace(hiraganaRegex, '').trim();
-
             // Function to convert markdown bold (**text**) to HTML strong tags
             const formatSentence = (text) => {
                  return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
@@ -240,7 +279,6 @@
             // Use innerHTML to render the strong tags
             modalCasualSentence.innerHTML = casualSentenceText ? formatSentence(casualSentenceText) : 'N/A';
             modalFormalSentence.innerHTML = formalSentenceText ? formatSentence(formalSentenceText) : 'N/A';
-
 
             // Optionally hide the entire sentence section if both are empty
             if (!casualSentenceText && !formalSentenceText) {
@@ -293,17 +331,19 @@
         // --- Initial Data Load ---
         async function loadKanjiData() {
              try {
-                const response = await fetch('kanji-data.json');
+                const response = await fetch('kanji-data.json'); // Ensure this path is correct
                 if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
                 allKanjiData = await response.json();
                 renderKanjiGrid(allKanjiData);
 
+                // Handle direct linking via URL parameter
                 const urlParams = new URLSearchParams(window.location.search);
                 const kanjiParam = urlParams.get('kanji');
                 if (kanjiParam) {
                     const decodedKanji = decodeURIComponent(kanjiParam);
                     const kanjiToShow = allKanjiData.find(item => item.kanji === decodedKanji);
                     if (kanjiToShow) {
+                        // Use setTimeout to ensure the grid is rendered before showing modal
                         setTimeout(() => showModal(kanjiToShow), 100);
                     } else {
                         console.warn(`Kanji "${decodedKanji}" not found in data.`);
