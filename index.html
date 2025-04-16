@@ -255,8 +255,8 @@
 
 
             // Populate YouTube link
-            const searchTerm = kanjiItem.youtubeSearchTerm || `日本語 漢字 ${kanjiItem.kanji}`;
-            const youtubeUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(searchTerm)}`;
+            const searchTerm = kanjiItem.youtubeSearchTerm || `${kanjiItem.kanji}`;
+            const youtubeUrl = `https://youglish.com/pronounce/${encodeURIComponent(searchTerm)}/japanese`;
             modalYoutubeLink.href = youtubeUrl;
 
             // Set data for pronounce button
