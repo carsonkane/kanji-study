@@ -581,5 +581,228 @@
         "kunyomi": "て, て-, -て, た-"
       },
       "youtubeSearchTerm": "日本語 漢字 手"
+    },
+    {
+      "kanji": "員",
+      "frequencyRank": 41,
+      "meaning": "Member, Employee",
+      "story": "A mouth/person (口) over a shell/money (貝), representing a person who handles money or is counted as part of a group - a member.",
+      "radicals": [
+        { "char": "口", "name": "mouth" },
+        { "char": "貝", "name": "shell" }
+      ],
+      "readings": {
+        "onyomi": "イン",
+        "kunyomi": ""
+      },
+      "youtubeSearchTerm": "日本語 漢字 員"
+    },
+    {
+      "kanji": "下",
+      "frequencyRank": 42,
+      "meaning": "Below, Down, Under, Give",
+      "story": "A horizontal line (一) with a vertical line pointing down (卜) from it, indicating 'below'.",
+      "radicals": [
+        { "char": "一", "name": "one" },
+        { "char": "卜", "name": "divination" }
+      ],
+      "readings": {
+        "onyomi": "カ, ゲ",
+        "kunyomi": "した, しも, もと, さ.げる, さ.がる, くだ.る, くだ.す, くだ.さる, お.ろす, お.りる"
+      },
+      "youtubeSearchTerm": "日本語 漢字 下"
+    },
+    {
+      "kanji": "地",
+      "frequencyRank": 43,
+      "meaning": "Ground, Earth",
+      "story": "Earth/soil (土) combined with a scorpion (也 - phonetic/semantic element), representing the ground or earth itself.",
+      "radicals": [
+        { "char": "土", "name": "earth" },
+        { "char": "也", "name": "also/scorpion" }
+      ],
+      "readings": {
+        "onyomi": "チ, ジ",
+        "kunyomi": ""
+      },
+      "youtubeSearchTerm": "日本語 漢字 地"
+    },
+    {
+      "kanji": "主",
+      "frequencyRank": 44,
+      "meaning": "Master, Lord, Main Thing",
+      "story": "A drop (丶) above 'king' (王), signifying the main point or the master/lord.",
+      "radicals": [
+        { "char": "丶", "name": "drop" },
+        { "char": "王", "name": "king" }
+      ],
+      "readings": {
+        "onyomi": "シュ, ス, シュウ",
+        "kunyomi": "ぬし, おも, あるじ"
+      },
+      "youtubeSearchTerm": "日本語 漢字 主"
+    },
+    {
+      "kanji": "小",
+      "frequencyRank": 45,
+      "meaning": "Small, Little",
+      "story": "Three small strokes, representing something divided into small parts or just 'small'.",
+      "radicals": [
+        { "char": "小", "name": "small" }
+      ],
+      "readings": {
+        "onyomi": "ショウ",
+        "kunyomi": "ちい.さい, こ-, お-, さ-"
+      },
+      "youtubeSearchTerm": "日本語 漢字 小"
+    },
+    {
+      "kanji": "場",
+      "frequencyRank": 46,
+      "meaning": "Location, Place, Scene",
+      "story": "Earth/ground (土) where the sun (日) shines brightly (昜 - phonetic/semantic), indicating a specific location or place.",
+      "radicals": [
+        { "char": "土", "name": "earth" },
+        { "char": "昜", "name": "sunshine/positive" }
+      ],
+      "readings": {
+        "onyomi": "ジョウ, チョウ",
+        "kunyomi": "ば"
+      },
+      "youtubeSearchTerm": "日本語 漢字 場"
+    },
+    {
+      "kanji": "方",
+      "frequencyRank": 47,
+      "meaning": "Direction, Way, Person (polite)",
+      "story": "A person (亠 + 人 simplified) carrying a plow (万 simplified), indicating direction or method ('way').",
+      "radicals": [
+        { "char": "方", "name": "direction" }
+      ],
+      "readings": {
+        "onyomi": "ホウ",
+        "kunyomi": "かた, -かた, -がた"
+      },
+      "youtubeSearchTerm": "日本語 漢字 方"
+    },
+    {
+      "kanji": "者",
+      "frequencyRank": 48,
+      "meaning": "Someone, Person (suffix)",
+      "story": "An old man (耂) holding something (日 - possibly a container or symbol), representing 'someone' or 'person'.",
+      "radicals": [
+        { "char": "耂", "name": "old" },
+        { "char": "日", "name": "sun/day" }
+      ],
+      "readings": {
+        "onyomi": "シャ",
+        "kunyomi": "もの"
+      },
+      "youtubeSearchTerm": "日本語 漢字 者"
+    },
+    {
+      "kanji": "上",
+      "frequencyRank": 49,
+      "meaning": "Above, Up, Top",
+      "story": "A vertical line (卜) above a horizontal line (一), indicating 'above' or 'up'.",
+      "radicals": [
+        { "char": "卜", "name": "divination" },
+        { "char": "一", "name": "one" }
+      ],
+      "readings": {
+        "onyomi": "ジョウ, ショウ, シャン",
+        "kunyomi": "うえ, -うえ, うわ-, かみ, あ.げる, -あ.げる, あ.がる, -あ.がる, あ.がり, -あ.がり, のぼ.る, のぼ.り, のぼ.せる, のぼ.す, よ.す"
+      },
+      "youtubeSearchTerm": "日本語 漢字 上"
+    },
+    {
+      "kanji": "市",
+      "frequencyRank": 50,
+      "meaning": "Market, City",
+      "story": "A lid (亠) over a towel (巾), perhaps representing goods covered in a market stall, hence 'market' or 'city'.",
+      "radicals": [
+        { "char": "亠", "name": "lid" },
+        { "char": "巾", "name": "towel" }
+      ],
+      "readings": {
+        "onyomi": "シ",
+        "kunyomi": "いち"
+      },
+      "youtubeSearchTerm": "日本語 漢字 市"
+    },
+    {
+      "kanji": "業",
+      "frequencyRank": 51,
+      "meaning": "Business, Vocation, Arts, Performance",
+      "story": "Looks like musical instruments (业 - top part) on a stand (木 simplified), representing performance, arts, or skilled work (business/vocation).",
+      "radicals": [
+        { "char": "业", "name": "business/art" },
+        { "char": "木", "name": "tree" }
+      ],
+      "readings": {
+        "onyomi": "ギョウ, ゴウ",
+        "kunyomi": "わざ"
+      },
+      "youtubeSearchTerm": "日本語 漢字 業"
+    },
+    {
+      "kanji": "代",
+      "frequencyRank": 52,
+      "meaning": "Substitute, Change, Period, Age, Fee",
+      "story": "A person (亻) using a ceremonial weapon or tool (弋), perhaps indicating taking someone's place (substitute) or marking a change or period.",
+      "radicals": [
+        { "char": "亻", "name": "person radical" },
+        { "char": "弋", "name": "ceremony/shoot" }
+      ],
+      "readings": {
+        "onyomi": "ダイ, タイ",
+        "kunyomi": "か.わる, かわ.る, かわ.り, か.わり, -がわ.り, -が.わり, か.える, よ, しろ"
+      },
+      "youtubeSearchTerm": "日本語 漢字 代"
+    },
+    {
+      "kanji": "西",
+      "frequencyRank": 53,
+      "meaning": "West",
+      "story": "Originally a bird (酉 without the bottom line) returning to its nest (enclosure 囗), symbolizing the direction the sun sets - West.",
+      "radicals": [
+        { "char": "西", "name": "west" }
+      ],
+      "readings": {
+        "onyomi": "セイ, サイ, ス",
+        "kunyomi": "にし"
+      },
+      "youtubeSearchTerm": "日本語 漢字 西"
+    },
+    {
+      "kanji": "事",
+      "frequencyRank": 54,
+      "meaning": "Matter, Thing, Fact, Business",
+      "story": "A flag or banner (彐) held by a hand (亅) over a mouth (口), representing an official declaration or matter.",
+      "radicals": [
+        { "char": "亅", "name": "hook" },
+        { "char": "口", "name": "mouth" },
+        { "char": "彐", "name": "pig snout/banner" }
+      ],
+      "readings": {
+        "onyomi": "ジ, ズ",
+        "kunyomi": "こと, つか.う, つか.える"
+      },
+      "youtubeSearchTerm": "日本語 漢字 事"
+    },
+    {
+      "kanji": "電",
+      "frequencyRank": 55,
+      "meaning": "Electricity",
+      "story": "Rain (雨) causing lightning (申 extended), representing electricity.",
+      "radicals": [
+        { "char": "雨", "name": "rain" },
+        { "char": "申", "name": "speak/sign of monkey" }
+      ],
+      "readings": {
+        "onyomi": "デン",
+        "kunyomi": ""
+      },
+      "youtubeSearchTerm": "日本語 漢字 電"
     }
   ]
