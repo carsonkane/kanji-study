@@ -55,3 +55,6 @@
 
     To add more Kanji or improve existing entries, edit the `kanji-data.json` file, ensuring each entry follows the specified format.
     ```
+
+to do:
+add https://youglish.com/ to kanji.
