@@ -4,9 +4,7 @@
     "frequencyRank": 1,
     "meaning": "Sun, Day",
     "story": "Imagine the sun, a perfect circle with a line inside representing its radiant energy.",
-    "radicals": [
-      { "char": "日", "name": "sun/day", "jpName": "ひ, にち, ひへん" }
-    ],
+    "radicals": ["日"],
     "readings": { "onyomi": "ニチ, ジツ", "kunyomi": "ひ, -び, -か" },
     "kamae": {
       "type": "Single Component",
@@ -23,9 +21,7 @@
     "frequencyRank": 2,
     "meaning": "One",
     "story": "A single horizontal stroke, representing the number one, like laying one finger flat.",
-    "radicals": [
-      { "char": "一", "name": "one", "jpName": "いち" }
-    ],
+    "radicals": ["一"],
     "readings": { "onyomi": "イチ, イツ", "kunyomi": "ひと-, ひと.つ" },
     "kamae": {
       "type": "Single Component",
@@ -42,10 +38,7 @@
     "frequencyRank": 3,
     "meaning": "Country",
     "story": "Inside a boundary (囗), there's a jewel (玉) representing the treasure or sovereignty of a nation.",
-    "radicals": [
-      { "char": "囗", "name": "enclosure", "jpName": "くにがまえ" },
-      { "char": "玉", "name": "jewel", "jpName": "たま" }
-    ],
+    "radicals": ["囗", "玉"],
     "readings": { "onyomi": "コク", "kunyomi": "くに" },
     "kamae": {
       "type": "Enclosure",
@@ -62,9 +55,7 @@
     "frequencyRank": 4,
     "meaning": "Person",
     "story": "Looks like a person walking, with two legs.",
-    "radicals": [
-      { "char": "人", "name": "person", "jpName": "ひと, にんべん, ひとやね" }
-    ],
+    "radicals": ["人"],
     "readings": { "onyomi": "ジン, ニン", "kunyomi": "ひと, -り, -と" },
     "kamae": {
       "type": "Single Component",
@@ -81,9 +72,7 @@
     "frequencyRank": 5,
     "meaning": "Year",
     "story": "A person (人 modified) carrying a shield (干 modified), perhaps marking the passage of a year or a harvest cycle.",
-    "radicals": [
-      { "char": "干", "name": "dry", "jpName": "かん" }
-    ],
+    "radicals": ["干"],
     "readings": { "onyomi": "ネン", "kunyomi": "とし" },
     "kamae": {
       "type": "Top-Bottom",
@@ -100,9 +89,7 @@
     "frequencyRank": 6,
     "meaning": "Big, Large",
     "story": "A person (人) stretching their arms out wide to show how big something is.",
-    "radicals": [
-      { "char": "大", "name": "big", "jpName": "だい" }
-    ],
+    "radicals": ["大"],
     "readings": { "onyomi": "ダイ, タイ", "kunyomi": "おお-, おお.きい, -おお.いに" },
     "kamae": {
       "type": "Single Component",
@@ -119,9 +106,7 @@
     "frequencyRank": 7,
     "meaning": "Ten",
     "story": "A vertical stroke crossing a horizontal one, like crossing off ten items or forming a plus sign.",
-    "radicals": [
-      { "char": "十", "name": "ten", "jpName": "じゅう" }
-    ],
+    "radicals": ["十"],
     "readings": { "onyomi": "ジュウ, ジッ", "kunyomi": "とお, と" },
     "kamae": {
       "type": "Single Component",
@@ -138,9 +123,7 @@
     "frequencyRank": 8,
     "meaning": "Two",
     "story": "Two horizontal strokes, representing the number two.",
-    "radicals": [
-      { "char": "一", "name": "one", "jpName": "いち" }
-    ],
+    "radicals": ["一"],
     "readings": { "onyomi": "ニ, ジ", "kunyomi": "ふた, ふた.つ, ふたた.び" },
     "kamae": {
       "type": "Single Component",
@@ -157,9 +140,7 @@
     "frequencyRank": 9,
     "meaning": "Book, Origin, Root",
     "story": "A tree (木) with a line marking its base or root (本), signifying origin or the source (like a book).",
-    "radicals": [
-      { "char": "木", "name": "tree", "jpName": "き, きへん" }
-    ],
+    "radicals": ["木"],
     "readings": { "onyomi": "ホン", "kunyomi": "もと" },
     "kamae": {
       "type": "Modified Single Component",
@@ -176,10 +157,7 @@
     "frequencyRank": 10,
     "meaning": "Middle, Inside",
     "story": "A line (丨) passing through the exact center of a mouth or box (口).",
-    "radicals": [
-      { "char": "口", "name": "mouth", "jpName": "くち, くちへん" },
-      { "char": "丨", "name": "vertical stroke", "jpName": "ぼう" }
-    ],
+    "radicals": ["口", "丨"],
     "readings": { "onyomi": "チュウ", "kunyomi": "なか, うち, あた.る" },
     "kamae": {
       "type": "Combination",
@@ -196,9 +174,7 @@
     "frequencyRank": 11,
     "meaning": "Long, Leader",
     "story": "Depicts long hair flowing down, symbolizing length or seniority (leader).",
-    "radicals": [
-      { "char": "長", "name": "long", "jpName": "ながい" }
-    ],
+    "radicals": ["長"],
     "readings": { "onyomi": "チョウ", "kunyomi": "なが.い, おさ" },
     "kamae": {
       "type": "Single Component",
@@ -214,16 +190,13 @@
     "kanji": "出",
     "frequencyRank": 12,
     "meaning": "Exit, Go out",
-    "story": "Two mountains (山) stacked, perhaps representing emerging or going out from between them.",
-    "radicals": [
-      { "char": "凵", "name": "container", "jpName": "かんにょう, うけばこ" },
-      { "char": "山", "name": "mountain", "jpName": "やま, やまへん, やまかんむり" }
-    ],
+    "story": "Two mountains (山) stacked, perhaps representing emerging or going out from between them. OR Footsteps (止) leaving a container (凵).",
+    "radicals": ["凵", "山"],
     "readings": { "onyomi": "シュツ, スイ", "kunyomi": "で.る, -で, だ.す, -だ.す, い.でる" },
     "kamae": {
       "type": "Top-Bottom",
       "jpName": "じょうげ (かんむり + あし)",
-      "explanation": "Stacks two 山-like shapes vertically (top 'kanmuri', bottom 'ashi')."
+      "explanation": "Stacks two 山-like shapes vertically (top 'kanmuri', bottom 'ashi'). Sometimes analyzed as 止 over 凵."
     },
     "youtubeSearchTerm": "日本語 漢字 出",
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
@@ -235,9 +208,7 @@
     "frequencyRank": 13,
     "meaning": "Three",
     "story": "Three horizontal strokes, representing the number three.",
-    "radicals": [
-      { "char": "一", "name": "one", "jpName": "いち" }
-    ],
+    "radicals": ["一"],
     "readings": { "onyomi": "サン, ゾウ", "kunyomi": "み, み.つ, みっ.つ" },
     "kamae": {
       "type": "Single Component",
@@ -254,10 +225,7 @@
     "frequencyRank": 14,
     "meaning": "Time, Hour",
     "story": "The sun (日) moving over a temple (寺), marking the passage of time.",
-    "radicals": [
-      { "char": "日", "name": "sun", "jpName": "ひへん" },
-      { "char": "寺", "name": "temple", "jpName": "てら" }
-    ],
+    "radicals": ["日", "寺"],
     "readings": { "onyomi": "ジ", "kunyomi": "とき, -どき" },
     "kamae": {
       "type": "Left-Right",
@@ -274,9 +242,7 @@
     "frequencyRank": 15,
     "meaning": "Go, Journey, Conduct",
     "story": "Depicts intersecting roads or a crossroads, symbolizing movement or action.",
-    "radicals": [
-      { "char": "行", "name": "go", "jpName": "ぎょうがまえ, ゆきがまえ" }
-    ],
+    "radicals": ["行"],
     "readings": { "onyomi": "コウ, ギョウ, アン", "kunyomi": "い.く, ゆ.く, -ゆ.き, -い.き, おこな.う" },
     "kamae": {
       "type": "Single Component",
@@ -293,10 +259,7 @@
     "frequencyRank": 16,
     "meaning": "See, Look",
     "story": "An eye (目) on legs (儿), representing the act of seeing or looking around.",
-    "radicals": [
-      { "char": "目", "name": "eye", "jpName": "め, めへん" },
-      { "char": "儿", "name": "legs", "jpName": "ひとあし" }
-    ],
+    "radicals": ["目", "儿"],
     "readings": { "onyomi": "ケン", "kunyomi": "み.る, み.える, み.せる" },
     "kamae": {
       "type": "Top-Bottom",
@@ -313,9 +276,7 @@
     "frequencyRank": 17,
     "meaning": "Month, Moon",
     "story": "Picture of a crescent moon.",
-    "radicals": [
-      { "char": "月", "name": "moon/month/flesh", "jpName": "つき, つきへん, にくづき" }
-    ],
+    "radicals": ["月"],
     "readings": { "onyomi": "ゲツ, ガツ", "kunyomi": "つき" },
     "kamae": {
       "type": "Single Component",
@@ -332,10 +293,7 @@
     "frequencyRank": 18,
     "meaning": "Minute, Understand, Divide",
     "story": "A knife (刀) dividing something in half (八), representing division or understanding (breaking down).",
-    "radicals": [
-      { "char": "八", "name": "eight", "jpName": "はち, はちがしら" },
-      { "char": "刀", "name": "sword/knife", "jpName": "かたな, りっとう" }
-    ],
+    "radicals": ["八", "刀"],
     "readings": { "onyomi": "ブン, フン, ブ", "kunyomi": "わ.ける, わ.け, わ.かれる, わ.かる, わ.かつ" },
     "kamae": {
       "type": "Top-Bottom",
@@ -352,11 +310,7 @@
     "frequencyRank": 19,
     "meaning": "Behind, After",
     "story": "Walking (彳) with a thread (幺) trailing behind, ending with 'go slowly' (夂), indicating 'after' or 'behind'.",
-    "radicals": [
-      { "char": "彳", "name": "step", "jpName": "ぎょうにんべん" },
-      { "char": "幺", "name": "thread", "jpName": "いとがしら" },
-      { "char": "夂", "name": "go slowly", "jpName": "ふゆがしら, ちいさい" }
-    ],
+    "radicals": ["彳", "幺", "夂"],
     "readings": { "onyomi": "ゴ, コウ", "kunyomi": "のち, うし.ろ, うしろ, あと, おく.れる" },
     "kamae": {
       "type": "Left-Right",
@@ -373,11 +327,7 @@
     "frequencyRank": 20,
     "meaning": "Before, Front",
     "story": "Horns (丷) over a moon/flesh (月) being cut by a knife (刀刂), perhaps preparing something *beforehand*.",
-    "radicals": [
-      { "char": "丷", "name": "horns", "jpName": "はちがしら" },
-      { "char": "月", "name": "flesh", "jpName": "にくづき" },
-      { "char": "刀", "name": "knife", "jpName": "りっとう" }
-    ],
+    "radicals": ["丷", "月", "刂"],
     "readings": { "onyomi": "ゼン", "kunyomi": "まえ, -まえ" },
     "kamae": {
       "type": "Top-Left-Right Combination",
@@ -388,5 +338,805 @@
     "kunyomiAudioUrl": "", "onyomiAudioUrl": "",
     "casualSentence": "駅の**前**で待ってるね。 (えき の まえ で まってる ね。)",
     "formalSentence": "午**前**（ごぜん）中にご連絡いたします。 (ごぜんちゅう に ごれんらく いたします。)"
+  },
+  {
+    "kanji": "気",
+    "frequencyRank": 21,
+    "meaning": "Spirit, Energy",
+    "story": "Steam (气) rising from rice (米), symbolizing energy or life force.",
+    "radicals": ["气", "米"],
+    "readings": { "onyomi": "キ, ケ", "kunyomi": "き" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "jpName": "じょうげ",
+      "explanation": "Steam (气) above rice (米)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 気",
+    "casualSentence": "元**気**？ (げんき？)",
+    "formalSentence": "お**気**に入りの場所です。(おきにいり の ばしょ です。)"
+  },
+  {
+    "kanji": "小",
+    "frequencyRank": 22,
+    "meaning": "Small, Little",
+    "story": "Three small dots or strokes.",
+    "radicals": ["小"],
+    "readings": { "onyomi": "ショウ", "kunyomi": "ちい.さい, こ-, お-" },
+    "kamae": {
+      "type": "Single Component",
+      "jpName": null,
+      "explanation": "The character 小 is a simple ideograph and radical itself."
+    },
+    "youtubeSearchTerm": "日本語 漢字 小",
+    "casualSentence": "**小**さい頃から知ってるよ。(ちいさい ころ から しってる よ。)",
+    "formalSentence": "縮**小**（しゅくしょう）しないでください。(しゅくしょう しないで ください。)"
+  },
+  {
+    "kanji": "会",
+    "frequencyRank": 23,
+    "meaning": "Meeting, Meet",
+    "story": "A roof (人 modified, looks like 亼) over people (云, originally mouths 口), gathering for a meeting.",
+    "radicals": ["人", "云"],
+    "readings": { "onyomi": "カイ, エ", "kunyomi": "あ.う, あ.わせる, あつ.まる" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "jpName": "じょうげ",
+      "explanation": "Top component (亼) over bottom component (云)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 会",
+    "casualSentence": "また**会**おうね！(また あおう ね！)",
+    "formalSentence": "今度**会**議で。(こんど かいぎ で。)"
+  },
+  {
+    "kanji": "入",
+    "frequencyRank": 24,
+    "meaning": "Enter, Insert",
+    "story": "Looks like a wedge or arrow pointing inwards, signifying entry.",
+    "radicals": ["入"],
+    "readings": { "onyomi": "ニュウ", "kunyomi": "い.る, -い.る, -い, い.れる, はいる" },
+    "kamae": {
+      "type": "Single Component",
+      "jpName": null,
+      "explanation": "The character 入 is a pictograph and radical itself."
+    },
+    "youtubeSearchTerm": "日本語 漢字 入",
+    "casualSentence": "どうぞお**入**りください。(どうぞ おはいり ください。)",
+    "formalSentence": "新入生を迎え**入**れます。(しんにゅうせい を むかえ いれます。)"
+  },
+  {
+    "kanji": "出",
+    "frequencyRank": 25,
+    "meaning": "Exit, Leave",
+    "story": "Footsteps (止) leaving a container (凵). OR Two mountains (山) stacked.",
+    "radicals": ["凵", "山"],
+    "readings": { "onyomi": "シュツ, スイ", "kunyomi": "で.る, -で, だ.す, -だ.す, い.でる" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "jpName": "じょうげ",
+      "explanation": "Stacks two 山-like shapes vertically. Can also be seen as 止 over 凵."
+    },
+    "youtubeSearchTerm": "日本語 漢字 出",
+    "casualSentence": "ちょっと**出**かけてくる。(ちょっと でかけて くる。)",
+    "formalSentence": "明日の**出**席をお願いします。(あした の しゅっせき を おねがいします。)"
+  },
+  {
+    "kanji": "分",
+    "frequencyRank": 26,
+    "meaning": "Part, Minute, Understand",
+    "story": "Dividing (八) with a knife (刀).",
+    "radicals": ["八", "刀"],
+    "readings": { "onyomi": "ブン, フン, ブ", "kunyomi": "わ.ける, わ.け, わ.かれる, わ.かる, わ.かつ" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "jpName": "じょうげ",
+      "explanation": "Dividing (八) with a knife (刀)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 分",
+    "casualSentence": "５**分**待って。(ごふん まって。)",
+    "formalSentence": "部**分**（ぶぶん）を説明します。(ぶぶん を せつめい します。)"
+  },
+  {
+    "kanji": "前",
+    "frequencyRank": 27,
+    "meaning": "Before, Front",
+    "story": "Horns (丷) over flesh/moon (月) cut by knife (刂). OR Stopping (止) before cutting (刂).",
+    "radicals": ["丷", "月", "刂"],
+    "readings": { "onyomi": "ゼン", "kunyomi": "まえ, -まえ" },
+    "kamae": {
+      "type": "Top-Left-Right Combination",
+      "jpName": null,
+      "explanation": "Complex structure combining elements at the top (丷), bottom-left (月), and bottom-right (刂)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 前",
+    "casualSentence": "**前**に進め。(まえ に すすめ。)",
+    "formalSentence": "会**議**の**前**に。(かいぎ の まえ に。)"
+  },
+  {
+    "kanji": "後",
+    "frequencyRank": 28,
+    "meaning": "Behind, After",
+    "story": "Walking (彳) slowly (夂), perhaps with a thread (幺) binding things.",
+    "radicals": ["彳", "幺", "夂"],
+    "readings": { "onyomi": "ゴ, コウ", "kunyomi": "あと, のち, うし.ろ, うしろ" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Combines a left part (hen へん - 彳) and a right part (tsukuri つくり - 幺 over 夂)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 後",
+    "casualSentence": "**後**でね。(あとで ね。)",
+    "formalSentence": "**後**ろから失礼します。(うしろ から しつれい します。)"
+  },
+  {
+    "kanji": "午",
+    "frequencyRank": 29,
+    "meaning": "Noon",
+    "story": "A pestle (干 with extra stroke) or similar shape, maybe related to noon activities.",
+    "radicals": ["干"],
+    "readings": { "onyomi": "ゴ", "kunyomi": "うま" },
+    "kamae": {
+      "type": "Modified Single Component",
+      "jpName": null,
+      "explanation": "Often depicted as related to 干 or 十. Analysis varies."
+    },
+    "youtubeSearchTerm": "日本語 漢字 午",
+    "casualSentence": "**午**ご飯食べよう。(ひるごはん たべよう。)",
+    "formalSentence": "**午**前中に。(ごぜんちゅう に。)"
+  },
+  {
+    "kanji": "半",
+    "frequencyRank": 30,
+    "meaning": "Half",
+    "story": "Dividing (八) something (干), cutting it in half.",
+    "radicals": ["八", "干"],
+    "readings": { "onyomi": "ハン", "kunyomi": "なか.ば" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "jpName": "じょうげ",
+      "explanation": "Dividing (八) over Dry/Shield (干)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 半",
+    "casualSentence": "**半**分ちょうだい。(はんぶん ちょうだい。)",
+    "formalSentence": "午**後**（ごご）一時**半**です。(ごご いちじ はん です。)"
+  },
+  {
+    "kanji": "毎",
+    "frequencyRank": 31,
+    "meaning": "Every",
+    "story": "A person (人 simplified) under lush foliage (艹 simplified), possibly representing growth or recurrence every time.",
+    "radicals": ["人", "母"],
+    "readings": { "onyomi": "マイ", "kunyomi": "ごと, -ごと.に" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "jpName": "じょうげ",
+      "explanation": "Top part resembles 毋 (do not) or simplified foliage over 母 (mother)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 毎",
+    "casualSentence": "**毎**日暑いね。(まいにち あつい ね。)",
+    "formalSentence": "**毎**回ありがとうございます。(まいかい ありがとう ございます。)"
+  },
+  {
+    "kanji": "何",
+    "frequencyRank": 32,
+    "meaning": "What",
+    "story": "A person (亻) carrying a burden (可), asking 'what' is this?",
+    "radicals": ["亻", "可"],
+    "readings": { "onyomi": "カ", "kunyomi": "なに, なん" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Person radical (亻) on the left, 'possible' component (可) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 何",
+    "casualSentence": "**何**してるの？(なにしてる の？)",
+    "formalSentence": "**何**かご質問は？(なにか ごしつもん は？)"
+  },
+  {
+    "kanji": "語",
+    "frequencyRank": 33,
+    "meaning": "Language, Word",
+    "story": "Words (言) spoken by oneself (吾 - composed of five 五 and mouth 口).",
+    "radicals": ["言", "吾"],
+    "readings": { "onyomi": "ゴ", "kunyomi": "かた.る, かた.らう" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Words radical (言) on the left, 'I/oneself' component (吾) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 語",
+    "casualSentence": "日本**語**上手だね。(にほんご じょうず だ ね。)",
+    "formalSentence": "専門用**語**（せんもんようご）を用いて説明します。(せんもんようご を もちいて せつめい します。)"
+  },
+  {
+    "kanji": "多",
+    "frequencyRank": 34,
+    "meaning": "Many, Much",
+    "story": "Repeating 'evening' (夕) implies many evenings, hence 'many'.",
+    "radicals": ["夕"],
+    "readings": { "onyomi": "タ", "kunyomi": "おお.い, まさ.に, まさ.る" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "jpName": "じょうげ",
+      "explanation": "Stacking two evening (夕) components."
+    },
+    "youtubeSearchTerm": "日本語 漢字 多",
+    "casualSentence": "人が**多**いね。(ひと が おおい ね。)",
+    "formalSentence": "ご多忙（たぼう）の折とは存じますが。(ごたぼう の おり とは ぞんじますが。)"
+  },
+  {
+    "kanji": "少",
+    "frequencyRank": 35,
+    "meaning": "Few, Little",
+    "story": "A small (小) amount, with a slash (丿) perhaps emphasizing the smallness or reduction.",
+    "radicals": ["小", "丿"],
+    "readings": { "onyomi": "ショウ", "kunyomi": "すく.ない, すこ.し" },
+    "kamae": {
+      "type": "Modified Single Component",
+      "jpName": null,
+      "explanation": "Based on the 'small' radical (小) with an added slash (丿)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 少",
+    "casualSentence": "**少**し待って。(すこし まって。)",
+    "formalSentence": "人**口**が**少**なくなっています。(じんこう が すくなく なって います。)"
+  },
+  {
+    "kanji": "行",
+    "frequencyRank": 36,
+    "meaning": "Go, Do, Line",
+    "story": "A person (彳) on a journey at a crossroads.",
+    "radicals": ["彳"],
+    "readings": { "onyomi": "コウ, ギョウ, アン", "kunyomi": "い.く, ゆ.く, おこな.う" },
+    "kamae": {
+      "type": "Single Component",
+      "jpName": null,
+      "explanation": "Represents crossroads or movement. The left part 彳 is the 'step' radical."
+    },
+    "youtubeSearchTerm": "日本語 漢字 行",
+    "casualSentence": "どこへ**行**くの？(どこへ いく の？)",
+    "formalSentence": "銀**行**へ**行**きます。(ぎんこう へ いきます。)"
+  },
+  {
+    "kanji": "来",
+    "frequencyRank": 37,
+    "meaning": "Come, Next",
+    "story": "Originally depicted wheat (來), signifying its arrival or harvest. Simplified to 木 with extra dots.",
+    "radicals": ["木"],
+    "readings": { "onyomi": "ライ, タイ", "kunyomi": "く.る, き.たす, き.たる, き, こ" },
+    "kamae": {
+      "type": "Modified Single Component",
+      "jpName": null,
+      "explanation": "Simplified form of 來 (wheat)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 来",
+    "casualSentence": "明日**来**るね。(あした くる ね。)",
+    "formalSentence": "将**来**（しょうらい）の計画について。(しょうらい の けいかく について。)"
+  },
+  {
+    "kanji": "高",
+    "frequencyRank": 38,
+    "meaning": "High, Tall, Expensive",
+    "story": "A tall building with a roof (亠), multiple stories (口 over 冂), and a base (口).",
+    "radicals": ["亠", "口", "冂"],
+    "readings": { "onyomi": "コウ", "kunyomi": "たか.い, たか, -だか, たか.まる, たか.める" },
+    "kamae": {
+      "type": "Complex Combination",
+      "jpName": null,
+      "explanation": "Represents a tall structure."
+    },
+    "youtubeSearchTerm": "日本語 漢字 高",
+    "casualSentence": "**高**いね！(たかい ね！)",
+    "formalSentence": "**高**級品です。(こうきゅうひん です。)"
+  },
+  {
+    "kanji": "円",
+    "frequencyRank": 39,
+    "meaning": "Circle, Yen, Round",
+    "story": "An enclosure (囗) containing a component (冂 over 二), perhaps representing a round coin.",
+    "radicals": ["囗"],
+    "readings": { "onyomi": "エン", "kunyomi": "まる.い, まる, まど, まど.か, まろ.やか" },
+    "kamae": {
+      "type": "Enclosure",
+      "jpName": "かまえ (くにがまえ)",
+      "explanation": "The enclosure radical (囗) surrounds the inner component."
+    },
+    "youtubeSearchTerm": "日本語 漢字 円",
+    "casualSentence": "100**円**。(ひゃくえん。)",
+    "formalSentence": "**円**満な解決。(えんまん な かいけつ。)"
+  },
+  {
+    "kanji": "思",
+    "frequencyRank": 40,
+    "meaning": "Think",
+    "story": "The mind/heart (心) contemplating a field (田) or perhaps the top part represents the brain/skull.",
+    "radicals": ["田", "心"],
+    "readings": { "onyomi": "シ", "kunyomi": "おも.う, おもえら.く, おぼ.す" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "jpName": "じょうげ",
+      "explanation": "Rice field (田) component over heart (心) component."
+    },
+    "youtubeSearchTerm": "日本語 漢字 思",
+    "casualSentence": "そう**思**う？(そう おもう？)",
+    "formalSentence": "熟**思**（じゅくし）の上、結論を出しました。(じゅくし の うえ、 けつろん を だしました。)"
+  },
+  {
+    "kanji": "方",
+    "frequencyRank": 41,
+    "meaning": "Direction, Way, Person (polite)",
+    "story": "A person carrying a pole or plank, indicating direction or method.",
+    "radicals": ["方"],
+    "readings": { "onyomi": "ホウ", "kunyomi": "かた, -かた, -がた" },
+    "kamae": {
+      "type": "Single Component",
+      "jpName": null,
+      "explanation": "The character 方 is often used as a radical itself."
+    },
+    "youtubeSearchTerm": "日本語 漢字 方",
+    "casualSentence": "どっちの**方**？(どっち の ほう？)",
+    "formalSentence": "失礼のない**方**法で。(しつれい の ない ほうほう で。)"
+  },
+  {
+    "kanji": "知",
+    "frequencyRank": 42,
+    "meaning": "Know, Wisdom",
+    "story": "An arrow (矢) hitting the target of understanding (口 - mouth, representing speech or knowledge).",
+    "radicals": ["矢", "口"],
+    "readings": { "onyomi": "チ", "kunyomi": "し.る, し.らせる" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Arrow radical (矢) on the left, mouth radical (口) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 知",
+    "casualSentence": "**知**ってるよ。(しってる よ。)",
+    "formalSentence": "事実をご存**知**ですか。(じじつ を ごぞんじ です か。)"
+  },
+  {
+    "kanji": "地",
+    "frequencyRank": 43,
+    "meaning": "Ground, Earth",
+    "story": "Earth/soil (土) combined with a phonetic component (也).",
+    "radicals": ["土", "也"],
+    "readings": { "onyomi": "チ, ジ", "kunyomi": "つち" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Earth radical (土) on the left, component 也 on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 地",
+    "casualSentence": "**地**震だ！(じしん だ！)",
+    "formalSentence": "現**地**集合でお願いします。(げんち しゅうごう で おねがいします。)"
+  },
+  {
+    "kanji": "同",
+    "frequencyRank": 44,
+    "meaning": "Same, Agree",
+    "story": "An enclosure (冂) covering a mouth (口), implying people gathered in one place saying the same thing.",
+    "radicals": ["冂", "口"],
+    "readings": { "onyomi": "ドウ", "kunyomi": "おな.じ" },
+    "kamae": {
+      "type": "Enclosure (partial)",
+      "jpName": "かまえ (どうがまえ)",
+      "explanation": "Enclosure (冂) over One (一) and Mouth (口)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 同",
+    "casualSentence": "**同**じだね。(おなじ だ ね。)",
+    "formalSentence": "ご**同**意いただけますか。(ごどうい いただけます か。)"
+  },
+  {
+    "kanji": "問",
+    "frequencyRank": 45,
+    "meaning": "Question, Ask",
+    "story": "A mouth (口) inside a gate (門), like someone asking a question at a doorway.",
+    "radicals": ["門", "口"],
+    "readings": { "onyomi": "モン", "kunyomi": "と.う, と.い, とん" },
+    "kamae": {
+      "type": "Enclosure",
+      "jpName": "かまえ (もんがまえ)",
+      "explanation": "Gate radical (門) enclosing the mouth radical (口)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 問",
+    "casualSentence": "**問**題ないよ。(もんだい ない よ。)",
+    "formalSentence": "ご質**問**はありませんか。(ごしつもん は ありません か。)"
+  },
+  {
+    "kanji": "題",
+    "frequencyRank": 46,
+    "meaning": "Topic, Title, Problem",
+    "story": "The head/topic (是) that is spoken (頁 - head/page, derived from head). Simplified right side is 頁.",
+    "radicals": ["是", "頁"],
+    "readings": { "onyomi": "ダイ", "kunyomi": null },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Component 是 on the left, page/head radical (頁) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 題",
+    "casualSentence": "宿**題**終わった？(しゅくだい おわった？)",
+    "formalSentence": "本日の議**題**（ぎだい）について。(ほんじつ の ぎだい について。)"
+  },
+  {
+    "kanji": "意",
+    "frequencyRank": 47,
+    "meaning": "Meaning, Mind, Will",
+    "story": "Sound (音) coming from the heart/mind (心), representing thoughts or intentions.",
+    "radicals": ["音", "心"],
+    "readings": { "onyomi": "イ", "kunyomi": null },
+    "kamae": {
+      "type": "Top-Bottom",
+      "jpName": "じょうげ",
+      "explanation": "Sound radical (音) over heart radical (心)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 意",
+    "casualSentence": "**意**味わかる？(いみ わかる？)",
+    "formalSentence": "ご**意**見をお聞かせください。(ごいけん を おきかせ ください。)"
+  },
+  {
+    "kanji": "不",
+    "frequencyRank": 48,
+    "meaning": "Not, Negative, Bad",
+    "story": "Pictograph of a bird flying downwards, symbolizing negation or 'not'.",
+    "radicals": ["一", "小"],
+    "readings": { "onyomi": "フ, ブ", "kunyomi": null },
+    "kamae": {
+      "type": "Single Component",
+      "jpName": null,
+      "explanation": "Represents negation. Structure sometimes analyzed as One (一) over Small (小)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 不",
+    "casualSentence": "**不**要です。(ふよう です。)",
+    "formalSentence": "**不**安を感じています。(ふあん を かんじて います。)"
+  },
+  {
+    "kanji": "用",
+    "frequencyRank": 49,
+    "meaning": "Use, Business, Task",
+    "story": "Pictograph of a bell or tool being used.",
+    "radicals": ["用"],
+    "readings": { "onyomi": "ヨウ", "kunyomi": "もち.いる" },
+    "kamae": {
+       "type": "Single Component",
+       "jpName": null,
+       "explanation": "The character 用 is often used as a radical itself."
+    },
+    "youtubeSearchTerm": "日本語 漢字 用",
+    "casualSentence": "**用**がある。(よう が ある。)",
+    "formalSentence": "ご**用**件は何ですか。(ごようけん は なんですか。)"
+  },
+  {
+    "kanji": "開",
+    "frequencyRank": 50,
+    "meaning": "Open, Unfold",
+    "story": "Opening (开 - simplified gate) a gate (門) with hands (廾 - two hands, bottom part of 开).",
+    "radicals": ["門", "开"],
+    "readings": { "onyomi": "カイ", "kunyomi": "ひら.く, ひら.き, -びら.き, ひら.ける, あ.く, あ.ける" },
+    "kamae": {
+      "type": "Enclosure",
+      "jpName": "かまえ (もんがまえ)",
+      "explanation": "Gate radical (門) enclosing the component 开 (open)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 開",
+    "casualSentence": "ドアを**開**けて。(どあ を あけて。)",
+    "formalSentence": "新店舗を**開**店します。(しんてんぽ を かいてん します。)"
+  },
+  {
+    "kanji": "悪",
+    "frequencyRank": 51,
+    "meaning": "Bad, Evil, Wrong",
+    "story": "Sub-par (亜) state of the heart/mind (心).",
+    "radicals": ["亜", "心"],
+    "readings": { "onyomi": "アク, オ", "kunyomi": "わる.い, わる-, あ.し, にく.む, -にく.い, ああ, いずくに, いずくんぞ" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "jpName": "じょうげ",
+      "explanation": "Component 亜 (asia/sub-) over heart radical (心)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 悪",
+    "casualSentence": "**気**分が**悪**い。(きぶん が わるい。)",
+    "formalSentence": "事態が**悪**化しています。(じたい が あっか して います。)"
+  },
+  {
+    "kanji": "体",
+    "frequencyRank": 52,
+    "meaning": "Body, Substance, Object",
+    "story": "A person (亻) and their foundation/origin (本).",
+    "radicals": ["亻", "本"],
+    "readings": { "onyomi": "タイ, テイ", "kunyomi": "からだ, かたち" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Person radical (亻) on the left, root/book radical (本) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 体",
+    "casualSentence": "**体**調どう？(たいちょう どう？)",
+    "formalSentence": "お**体**ご自愛ください。(おからだ ごじあい ください。)"
+  },
+  {
+    "kanji": "使",
+    "frequencyRank": 53,
+    "meaning": "Use, Messenger, Order",
+    "story": "A person (亻) acting as an official or scribe (史).",
+    "radicals": ["亻", "史"],
+    "readings": { "onyomi": "シ", "kunyomi": "つか.う, つか.い, -つか.い, -づか.い" },
+    "kamae": {
+        "type": "Left-Right",
+        "jpName": "へんつくり",
+        "explanation": "Person radical (亻) on the left, history/scribe component (史) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 使",
+    "casualSentence": "**使**ってみて。(つかって みて。)",
+    "formalSentence": "大**使**館に行きます。(たいしかん に いきます。)"
+  },
+  {
+    "kanji": "始",
+    "frequencyRank": 54,
+    "meaning": "Begin, Start",
+    "story": "A woman (女) on a platform (台), perhaps signifying the beginning of a performance or ceremony.",
+    "radicals": ["女", "台"],
+    "readings": { "onyomi": "シ", "kunyomi": "はじ.める, -はじ.める, はじ.まる" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Woman radical (女) on the left, platform component (台) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 始",
+    "casualSentence": "ここから**始**まる。(ここ から はじまる。)",
+    "formalSentence": "会**議**を**始**めます。(かいぎ を はじめます。)"
+  },
+  {
+    "kanji": "終",
+    "frequencyRank": 55,
+    "meaning": "End, Finish",
+    "story": "A thread (糸) tied off at the end, associated with winter (冬) perhaps signifying the end of the year.",
+    "radicals": ["糸", "冬"],
+    "readings": { "onyomi": "シュウ", "kunyomi": "お.わる, -お.わる, おわ.る, お.える, つい, つひに" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Thread radical (糸) on the left, winter component (冬) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 終",
+    "casualSentence": "もう**終**わり？(もう おわり？)",
+    "formalSentence": "授**業**を**終**えます。(じゅぎょう を おえます。)"
+  },
+  {
+    "kanji": "考",
+    "frequencyRank": 56,
+    "meaning": "Think, Consider",
+    "story": "An old person (老 simplified - top part 土 + 丿) using their wisdom (丂 - possibly related to skillful).",
+    "radicals": ["老", "丂"],
+    "readings": { "onyomi": "コウ", "kunyomi": "かんが.える, かんが.え" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "jpName": "じょうげ",
+      "explanation": "Simplified 'old' radical (老) top part over component 丂."
+    },
+    "youtubeSearchTerm": "日本語 漢字 考",
+    "casualSentence": "ちょっと**考**えるね。(ちょっと かんがえる ね。)",
+    "formalSentence": "よくお**考**えください。(よく おかんがえ ください。)"
+  },
+  {
+    "kanji": "歩",
+    "frequencyRank": 57,
+    "meaning": "Walk, Pace",
+    "story": "Stopping (止) and then taking a small (少 without 丿) step forward.",
+    "radicals": ["止", "少"],
+    "readings": { "onyomi": "ホ, ブ, フ", "kunyomi": "ある.く, あゆ.む" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "jpName": "じょうげ",
+      "explanation": "Stop radical (止) over a variation of the Small radical (少)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 歩",
+    "casualSentence": "一緒に**歩**こう。(いっしょに あるこう。)",
+    "formalSentence": "一**歩**（いっぽ）ずつ進む。(いっぽ ずつ すすむ。)"
+  },
+  {
+    "kanji": "止",
+    "frequencyRank": 58,
+    "meaning": "Stop, Halt",
+    "story": "Pictograph of a foot coming to a stop.",
+    "radicals": ["止"],
+    "readings": { "onyomi": "シ", "kunyomi": "と.まる, -ど.まり, と.める, -と.める, -ど.め, とど.める, とど.め, -とど.め, や.める, や.む, -や.む, よ.す, -さ.す, -さ.し" },
+    "kamae": {
+      "type": "Single Component",
+      "jpName": null,
+      "explanation": "The character 止 is a pictograph of a foot and a radical itself."
+    },
+    "youtubeSearchTerm": "日本語 漢字 止",
+    "casualSentence": "ここで**止**まって。(ここで とまって。)",
+    "formalSentence": "一時停**止**（いちじていし）してください。(いちじていし して ください。)"
+  },
+  {
+    "kanji": "死",
+    "frequencyRank": 59,
+    "meaning": "Die, Death",
+    "story": "Decay/bones (歹) next to a person (匕 - spoon/person variant), representing death.",
+    "radicals": ["歹", "匕"],
+    "readings": { "onyomi": "シ", "kunyomi": "し.ぬ, し.なせる" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Death radical (歹) on the left, person/spoon radical (匕) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 死",
+    "casualSentence": "**死**ぬかと思った。(しぬ か と おもった。)",
+    "formalSentence": "ご冥福をお祈りします。(ごめいふく を おいのり します。)"
+  },
+  {
+    "kanji": "味",
+    "frequencyRank": 60,
+    "meaning": "Taste, Flavor",
+    "story": "The mouth (口) experiencing something not yet (未) fully known - its taste.",
+    "radicals": ["口", "未"],
+    "readings": { "onyomi": "ミ", "kunyomi": "あじ, あじ.わう" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Mouth radical (口) on the left, 'not yet' radical (未) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 味",
+    "casualSentence": "どんな**味**？(どんな あじ？)",
+    "formalSentence": "お**味**はいかがですか。(おあじ は いかが です か。)"
+  },
+  {
+    "kanji": "注",
+    "frequencyRank": 61,
+    "meaning": "Pour, Inject, Annotate, Attention",
+    "story": "Water (氵) being directed by the master (主).",
+    "radicals": ["氵", "主"],
+    "readings": { "onyomi": "チュウ", "kunyomi": "そそ.ぐ, さ.す, つ.ぐ" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Water radical (氵) on the left, master radical (主) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 注",
+    "casualSentence": "ビールを**注**ぐ。(びーる を そそぐ。)",
+    "formalSentence": "ご**注**文をお願いします。(ごちゅうもん を おねがいします。)"
+  },
+  {
+    "kanji": "決",
+    "frequencyRank": 62,
+    "meaning": "Decide, Fix, Conclude",
+    "story": "Water (氵) breaking through a dam (夬), signifying a decisive moment.",
+    "radicals": ["氵", "夬"],
+    "readings": { "onyomi": "ケツ", "kunyomi": "き.める, -ぎ.め, き.まる, さ.く" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Water radical (氵) on the left, 'decisive' component (夬) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 決",
+    "casualSentence": "もう**決**めた？(もう きめた？)",
+    "formalSentence": "最終**決**定をします。(さいしゅう けってい を します。)"
+  },
+  {
+    "kanji": "流",
+    "frequencyRank": 63,
+    "meaning": "Flow, Current, Style",
+    "story": "Water (氵) flowing around a baby (㐬 - variant form of 子 in a stream).",
+    "radicals": ["氵", "㐬"],
+    "readings": { "onyomi": "リュウ, ル", "kunyomi": "なが.れる, なが.れ, なが.す, -なが.す" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Water radical (氵) on the left, flowing component (㐬) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 流",
+    "casualSentence": "川が**流**れる。(かわ が ながれる。)",
+    "formalSentence": "時代は**流**れる。(じだい は ながれる。)"
+  },
+  {
+    "kanji": "消",
+    "frequencyRank": 64,
+    "meaning": "Extinguish, Disappear, Turn off",
+    "story": "Using water (氵) to make something resemble (肖) nothingness, i.e., extinguish it.",
+    "radicals": ["氵", "肖"],
+    "readings": { "onyomi": "ショウ", "kunyomi": "き.える, け.す" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Water radical (氵) on the left, 'resemble' component (肖) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 消",
+    "casualSentence": "火を**消**す。(ひ を けす。)",
+    "formalSentence": "電気が**消**えました。(でんき が きえ ました。)"
+  },
+  {
+    "kanji": "油",
+    "frequencyRank": 65,
+    "meaning": "Oil, Fat",
+    "story": "Watery (氵) substance derived from a source/reason (由).",
+    "radicals": ["氵", "由"],
+    "readings": { "onyomi": "ユ, ユウ", "kunyomi": "あぶら" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Water radical (氵) on the left, 'reason' radical (由) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 油",
+    "casualSentence": "**油**っぽい。(あぶらっぽい。)",
+    "formalSentence": "原**油**価格。(げんゆ かかく。)"
+  },
+  {
+    "kanji": "深",
+    "frequencyRank": 66,
+    "meaning": "Deep, Profound",
+    "story": "Water (氵) covering a forest (木 under 宀) or going into a cave (穴) with hands (手 variation at bottom).",
+    "radicals": ["氵", "穴", "木"],
+    "readings": { "onyomi": "シン", "kunyomi": "ふか.い, -ぶか.い, ふか.まる, ふか.める, み-" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Water radical (氵) on the left, complex component ( involving 穴, 木, 手) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 深",
+    "casualSentence": "ここ**深**いよ！(ここ ふかい よ！)",
+    "formalSentence": "印象**深**く残っています。(いんしょう ぶかく のこって います。)"
+  },
+  {
+    "kanji": "温",
+    "frequencyRank": 67,
+    "meaning": "Warm, Gentle",
+    "story": "Water (氵) in a bowl (皿) being heated (日 at top).",
+    "radicals": ["氵", "日", "皿"],
+    "readings": { "onyomi": "オン, ウン", "kunyomi": "あたた.か, あたた.かい, あたた.まる, あたた.める, ぬく" },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Water radical (氵) on the left, component 昷 (日 over 皿) on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 温",
+    "casualSentence": "お**湯**、**温**かい？(おゆ、 あたたかい？)",
+    "formalSentence": "気**温**が上がります。(きおん が あがります。)"
+  },
+  {
+    "kanji": "漢",
+    "frequencyRank": 68,
+    "meaning": "China, Chinese, Han dynasty",
+    "story": "Water (氵) next to a component representing something difficult/fiery (難 without隹), associated with the Han Chinese people near rivers.",
+    "radicals": ["氵", "難"],
+    "readings": { "onyomi": "カン", "kunyomi": null },
+    "kamae": {
+      "type": "Left-Right",
+      "jpName": "へんつくり",
+      "explanation": "Water radical (氵) on the left, complex component related to 難 on the right."
+    },
+    "youtubeSearchTerm": "日本語 漢字 漢",
+    "casualSentence": "**漢**字。(かんじ。)",
+    "formalSentence": "**漢**語の勉強。(かんご の べんきょう。)"
+  },
+  {
+    "kanji": "炭",
+    "frequencyRank": 69,
+    "meaning": "Coal, Charcoal, Carbon",
+    "story": "Fire (火) contained under a cliff/mountain (山), representing charcoal or coal.",
+    "radicals": ["山", "火"],
+    "readings": { "onyomi": "タン", "kunyomi": "すみ" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "jpName": "じょうげ",
+      "explanation": "Mountain radical (山) over fire radical (火)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 炭",
+    "casualSentence": "**炭**火焼き。(すみびやき。)",
+    "formalSentence": "石**炭**（せきたん）を使用します。(せきたん を しよう します。)"
+  },
+  {
+    "kanji": "岩",
+    "frequencyRank": 70,
+    "meaning": "Rock, Boulder",
+    "story": "Stone (石) found on a mountain (山).",
+    "radicals": ["山", "石"],
+    "readings": { "onyomi": "ガン", "kunyomi": "いわ" },
+    "kamae": {
+      "type": "Top-Bottom",
+      "jpName": "じょうげ",
+      "explanation": "Mountain radical (山) over stone radical (石)."
+    },
+    "youtubeSearchTerm": "日本語 漢字 岩",
+    "casualSentence": "**岩**場。(いわば。)",
+    "formalSentence": "溶**岩**地**帯**。(ようがんちたい。)"
   }
 ]

@@ -50,6 +50,14 @@
         .sort-label:hover {
             color: #0d9488; /* teal-600 */
         }
+        /* Style for Japanese names (used for radicals and positions) */
+         .jp-name {
+            font-family: 'Noto Sans JP', sans-serif;
+            color: #5a67d8; /* Indigo-500 */
+            font-style: italic;
+            margin-left: 0.25rem; /* Add small space */
+            font-size: 0.9em; /* Slightly smaller */
+         }
     </style>
 </head>
 <body class="antialiased text-gray-800">
@@ -78,7 +86,7 @@
             </label>
         </div>
 
-        <div id="loadingMessage" class="text-lg font-semibold">Loading and processing radical data...</div>
+        <div id="loadingMessage" class="text-lg font-semibold">Loading radical and Kanji data...</div>
         <div id="errorMessage" class="hidden font-medium"></div>
         <section id="radicalGrid" class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-4 md:gap-6"></section>
     </main>
@@ -93,7 +101,7 @@
                 <h2 id="modalRadicalName" class="text-2xl font-semibold text-gray-900 text-center"></h2>
 
                 <div class="text-sm text-gray-600 text-center space-y-1 mb-3">
-                    <p><span class="font-medium text-gray-800">Japanese Name(s):</span> <span id="modalRadicalJpName" class="italic">N/A</span></p>
+                    <p><span class="font-medium text-gray-800">Japanese Name(s):</span> <span id="modalRadicalJpName" class="jp-name">N/A</span></p>
                     <p><span class="font-medium text-gray-800">Kangxi Strokes:</span> <span id="modalRadicalStrokes" class="font-medium">N/A</span></p>
                     <p><span class="font-medium text-gray-800">Frequency Count:</span> <span id="modalRadicalCount" class="font-medium">N/A</span></p>
                 </div>
@@ -115,38 +123,22 @@
         const closeModalBtn = document.getElementById('closeRadicalModal');
         const modalRadicalChar = document.getElementById('modalRadicalChar');
         const modalRadicalName = document.getElementById('modalRadicalName');
-        const modalRadicalJpName = document.getElementById('modalRadicalJpName'); // Added for Japanese Name
-        const modalRadicalStrokes = document.getElementById('modalRadicalStrokes'); // Added for Stroke Count
+        const modalRadicalJpName = document.getElementById('modalRadicalJpName');
+        const modalRadicalStrokes = document.getElementById('modalRadicalStrokes');
         const modalRadicalCount = document.getElementById('modalRadicalCount');
         const modalKanjiList = document.getElementById('modalKanjiList');
         const modalRadicalVariants = document.getElementById('modalRadicalVariants');
         const loadingMessage = document.getElementById('loadingMessage');
         const errorMessage = document.getElementById('errorMessage');
-        const pageSubtitle = document.getElementById('pageSubtitle'); // Added for dynamic subtitle
+        const pageSubtitle = document.getElementById('pageSubtitle');
         const sortRadios = document.querySelectorAll('input[name="sortOrder"]');
 
         // --- Global Variables ---
         let allKanjiData = [];
-        let uniqueRadicalsData = [];
+        let allRadicalDefinitions = []; // Holds data from radicals.json
+        let radicalDefinitionsMap = new Map(); // For quick lookup by char
+        let uniqueRadicalsData = []; // Holds processed data {char, name, jpName, strokeCount, variants, count, kanjiList}
         let currentSortOrder = 'frequency'; // Default sort order
-
-        // --- Radical Data Mappings ---
-        const radicalVariantsMap = {
-            '人': ['亻'], '水': ['氵'], '心': ['忄', '⺗'], '手': ['扌'], '犬': ['犭'],
-            '示': ['礻'], '食': ['飠'], '艸': ['艹'], '刀': ['刂'], '邑': ['阝'],
-            '阜': ['阝'], '衣': ['衤'], '玉': ['王'], '言': ['訁'], '金': ['釒'],
-            // Add more variants as needed
-        };
-
-        // Kangxi Stroke Counts for radicals found in the initial dataset
-        // Source: Standard Kangxi radical charts (simplified for this dataset)
-        const kangxiStrokeCounts = {
-            '日': 4, '一': 1, '囗': 3, '玉': 5, '人': 2, '干': 3, '大': 3, '十': 2,
-            '木': 4, '口': 3, '丨': 1, '長': 8, '凵': 2, '山': 3, '寺': 6, // Treat 寺 as 6 strokes based on character form
-            '行': 6, '目': 5, '儿': 2, '月': 4, '八': 2, '刀': 2, '彳': 3, '幺': 3,
-            '丷': 2, '刂': 2, '夂': 4, // Variant of 刀
-            // Add more as needed if kanji-data expands
-        };
 
         // --- Functions ---
         function displayError(message) {
@@ -156,49 +148,81 @@
             radicalGrid.innerHTML = '';
         }
 
-        // Process radicals: Extract unique radicals, count frequency, add stroke count and Japanese name
-        function processRadicals(kanjiData) {
-            const radicalsMap = new Map(); // Key: radical char, Value: { name: '...', jpName: '...', kanjiList: Set<string>, count: number, strokeCount: number }
+        // Fetch radical definitions from radicals.json
+        async function loadRadicalDefinitions() {
+            try {
+                const response = await fetch('radicals.json');
+                if (!response.ok) throw new Error(`HTTP error fetching radicals! Status: ${response.status}`);
+                allRadicalDefinitions = await response.json();
+                // Create lookup map
+                radicalDefinitionsMap = new Map(allRadicalDefinitions.map(r => [r.char, r]));
+            } catch (error) {
+                console.error("Failed to load radicals.json:", error);
+                displayError(`Could not load radical definitions. Error: ${error.message}`);
+                throw error; // Re-throw to stop further processing
+            }
+        }
+
+        // Process radicals: Count frequency and associate Kanji, using loaded definitions for details
+        function processRadicals(kanjiData, definitionsMap) {
+            const radicalsUsageMap = new Map(); // Key: radical char, Value: { kanjiList: Set<string>, count: number }
+
             if (!kanjiData || kanjiData.length === 0) return [];
+            if (!definitionsMap || definitionsMap.size === 0) {
+                 console.warn("Radical definitions map is empty. Cannot process radicals accurately.");
+                 return [];
+            }
 
             kanjiData.forEach(kanjiItem => {
                 if (kanjiItem && kanjiItem.kanji && Array.isArray(kanjiItem.radicals)) {
-                    kanjiItem.radicals.forEach(rad => {
-                        if (rad && rad.char) {
-                            if (!radicalsMap.has(rad.char)) {
-                                // Initialize new radical entry
-                                radicalsMap.set(rad.char, {
-                                    name: rad.name || 'Unknown',
-                                    jpName: rad.jpName || '', // Get Japanese name from JSON
-                                    kanjiList: new Set(),
-                                    count: 0,
-                                    strokeCount: kangxiStrokeCounts[rad.char] !== undefined ? kangxiStrokeCounts[rad.char] : null // Add stroke count
-                                });
-                            }
-                            // Add Kanji to the list and increment count
-                            const radicalEntry = radicalsMap.get(rad.char);
-                            radicalEntry.kanjiList.add(kanjiItem.kanji);
-                            radicalEntry.count++;
-                            // Update Japanese name if a more specific one is found later (e.g., 'つきへん' vs 'つき')
-                            if (rad.jpName && (!radicalEntry.jpName || rad.jpName.length > radicalEntry.jpName.length)) {
-                                radicalEntry.jpName = rad.jpName;
+                    // kanji-data.json now contains an array of radical characters, e.g., ["日", "月"]
+                    kanjiItem.radicals.forEach(radChar => {
+                        if (radChar) {
+                             // Find the primary radical definition even if radChar is a variant
+                             let primaryRadicalChar = radChar;
+                             let definition = definitionsMap.get(primaryRadicalChar);
+
+                             if (!definition) {
+                                 // Check if it's a variant of a defined radical
+                                 for (const [primaryChar, def] of definitionsMap.entries()) {
+                                     if (def.variants && def.variants.includes(radChar)) {
+                                         primaryRadicalChar = primaryChar;
+                                         definition = def;
+                                         break;
+                                     }
+                                 }
+                             }
+
+                            if (definition) { // Use the found primary radical char
+                                if (!radicalsUsageMap.has(primaryRadicalChar)) {
+                                    radicalsUsageMap.set(primaryRadicalChar, { kanjiList: new Set(), count: 0 });
+                                }
+                                const usageEntry = radicalsUsageMap.get(primaryRadicalChar);
+                                usageEntry.kanjiList.add(kanjiItem.kanji);
+                                usageEntry.count++;
+                            } else if (radChar) {
+                                console.warn(`Kanji "${kanjiItem.kanji}" lists radical/component "${radChar}" which is not defined as a primary radical or known variant in radicals.json.`);
                             }
                         }
                     });
                 }
             });
 
-            // Convert Map to array
-            return Array.from(radicalsMap.entries()).map(([char, data]) => ({
-                char: char,
-                name: data.name,
-                jpName: data.jpName,
-                kanjiList: Array.from(data.kanjiList).sort(),
-                count: data.count,
-                strokeCount: data.strokeCount
-            }));
-            // Initial sort will be done later based on user selection
+            // Combine usage data with definition data for the final array
+            return Array.from(radicalsUsageMap.entries()).map(([char, usageData]) => {
+                const definition = definitionsMap.get(char); // Get full definition using the primary char
+                return {
+                    char: char,
+                    name: definition?.name || 'Unknown',
+                    jpName: definition?.jpName || '',
+                    kanjiList: Array.from(usageData.kanjiList).sort(),
+                    count: usageData.count,
+                    strokeCount: definition?.strokeCount !== undefined ? definition.strokeCount : null,
+                    variants: definition?.variants || [] // Get variants from definition
+                };
+            });
         }
+
 
         // Sort the processed radical data based on the current sort order
         function sortRadicals() {
@@ -232,7 +256,7 @@
         // Render the radical grid based on the currently sorted data
         function renderRadicalGrid() {
              if (!uniqueRadicalsData || uniqueRadicalsData.length === 0) {
-                 displayError("No unique radicals found or data is empty.");
+                 displayError("No unique radicals found to display. Check data files.");
                  return;
              }
             radicalGrid.innerHTML = ''; // Clear previous grid
@@ -258,9 +282,12 @@
                     badgeTitle = `Kangxi Stroke Count: ${item.strokeCount !== null ? item.strokeCount : 'Unknown'}`;
                 }
 
+                // Display Japanese name if available, otherwise English name
+                const displayName = item.jpName ? `<span class="jp-name">${item.jpName.split(',')[0]}</span>` : item.name; // Show first JP name or Eng name
+
                 card.innerHTML = `
                     <span class="kanji-font text-4xl md:text-5xl text-gray-800">${item.char}</span>
-                    <span class="text-xs text-gray-500 mt-1 text-center truncate w-full px-1" title="${item.name}">${item.name}</span>
+                    <span class="text-xs text-gray-500 mt-1 text-center truncate w-full px-1" title="${item.name} / ${item.jpName || ''}">${displayName}</span>
                     <span class="radical-count-badge" title="${badgeTitle}">${badgeText}</span>
                 `;
                 card.addEventListener('click', () => showModal(item));
@@ -272,17 +299,17 @@
         function showModal(radicalItem) {
             modalRadicalChar.textContent = radicalItem.char || '?';
             modalRadicalName.textContent = radicalItem.name || 'Unknown Radical';
-            modalRadicalJpName.textContent = radicalItem.jpName || 'N/A';
+            modalRadicalJpName.innerHTML = radicalItem.jpName ? `<span class="jp-name">${radicalItem.jpName}</span>` : 'N/A'; // Use innerHTML for span
             modalRadicalStrokes.textContent = radicalItem.strokeCount !== null ? radicalItem.strokeCount : 'N/A';
             modalRadicalCount.textContent = radicalItem.count !== undefined ? radicalItem.count : 'N/A';
 
-            // Display Variants
+            // Display Variants (Data now comes directly from radicalItem)
             modalRadicalVariants.innerHTML = ''; // Clear previous variants
-            const variants = radicalVariantsMap[radicalItem.char];
+            const variants = radicalItem.variants; // Get variants from the processed item
             if (variants && variants.length > 0) {
                 const variantsTitle = document.createElement('h5');
                 variantsTitle.className = 'text-sm font-semibold text-gray-600 mb-1';
-                variantsTitle.textContent = 'Common Forms:';
+                variantsTitle.textContent = 'Common Forms / Variants:';
                 modalRadicalVariants.appendChild(variantsTitle);
 
                 const variantsList = document.createElement('div');
@@ -308,7 +335,7 @@
                     modalKanjiList.appendChild(kanjiLink);
                 });
             } else {
-                modalKanjiList.innerHTML = '<span class="text-sm text-gray-500 italic">Not found in loaded Kanji data.</span>';
+                modalKanjiList.innerHTML = '<span class="text-sm text-gray-500 italic">No associated Kanji found in loaded data.</span>';
             }
 
             // Show the modal
@@ -335,15 +362,20 @@
         document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && modal.classList.contains('modal-visible')) hideModal(); }); // Close with Escape key
         sortRadios.forEach(radio => radio.addEventListener('change', handleSortChange)); // Listen for sort changes
 
-        // --- Initial Data Load ---
-        async function loadDataAndProcessRadicals() {
+        // --- Initial Data Load and Processing ---
+        async function loadDataAndProcess() {
             try {
+                loadingMessage.textContent = 'Loading radical definitions...';
+                await loadRadicalDefinitions(); // Load definitions first
+
+                loadingMessage.textContent = 'Loading Kanji data...';
                 const response = await fetch('kanji-data.json'); // Ensure this path is correct
-                if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+                if (!response.ok) throw new Error(`HTTP error loading Kanji data! Status: ${response.status}`);
                 allKanjiData = await response.json();
 
-                // Process radicals (includes counting, adding strokes/jpName)
-                uniqueRadicalsData = processRadicals(allKanjiData);
+                loadingMessage.textContent = 'Processing radicals...';
+                // Process radicals (count freq, associate kanji, get details from definitions)
+                uniqueRadicalsData = processRadicals(allKanjiData, radicalDefinitionsMap);
 
                 // Sort based on the default or selected order
                 sortRadicals();
@@ -359,15 +391,17 @@
                      // Find the radical either by its primary character or its variant
                      let radicalToShow = uniqueRadicalsData.find(item => item.char === decodedRadical);
                      if (!radicalToShow) {
-                         // Check if it's a known variant
+                         // Check if it's a known variant by searching the definitions
                          let primaryRadicalChar = null;
-                         for (const [primary, variants] of Object.entries(radicalVariantsMap)) {
-                             if (variants.includes(decodedRadical)) {
-                                 primaryRadicalChar = primary;
+                         // Use the pre-built definitions map for efficiency
+                         for (const definition of allRadicalDefinitions) {
+                             if (definition.variants && definition.variants.includes(decodedRadical)) {
+                                 primaryRadicalChar = definition.char;
                                  break;
                              }
                          }
                          if(primaryRadicalChar) {
+                             // Find the processed data using the primary character
                              radicalToShow = uniqueRadicalsData.find(item => item.char === primaryRadicalChar);
                          }
                      }
@@ -376,18 +410,28 @@
                          // Use setTimeout to ensure the grid is rendered before showing modal
                          setTimeout(() => showModal(radicalToShow), 100);
                      } else {
-                         console.warn(`Radical or variant "${decodedRadical}" not found.`);
+                         console.warn(`Radical or variant "${decodedRadical}" not found in processed data.`);
                      }
                  }
 
             } catch (error) {
                 console.error("Failed to load or process data:", error);
-                displayError(`Could not load or process data. Error: ${error.message}`);
+                // displayError might have already been called by loadRadicalDefinitions
+                if (!errorMessage.classList.contains('hidden')) {
+                    // Error already displayed
+                } else {
+                   displayError(`Could not load or process data. Error: ${error.message}`);
+                }
+            } finally {
+                 // Hide loading message regardless of success or failure if it wasn't already hidden
+                 if (!loadingMessage.classList.contains('hidden')) {
+                    loadingMessage.classList.add('hidden');
+                 }
             }
         }
 
         // --- Initialize ---
-        document.addEventListener('DOMContentLoaded', loadDataAndProcessRadicals);
+        document.addEventListener('DOMContentLoaded', loadDataAndProcess); // Use the combined loading function
 
     </script>
 

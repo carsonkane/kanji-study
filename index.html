@@ -64,6 +64,7 @@
             color: #5a67d8; /* Indigo-500 */
             font-style: italic;
             margin-left: 0.25rem; /* Add small space */
+            font-size: 0.9em; /* Slightly smaller */
          }
          /* Style for position terms */
          .position-term {
@@ -93,7 +94,7 @@
     </header>
 
     <main class="container mx-auto p-4 md:p-8">
-        <div id="loadingMessage" class="text-lg font-semibold">Loading Kanji data...</div>
+        <div id="loadingMessage" class="text-lg font-semibold">Loading Kanji and Radical data...</div>
         <div id="errorMessage" class="hidden font-medium"></div>
         <section id="kanjiGrid" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 md:gap-6"></section>
     </main>
@@ -147,7 +148,7 @@
                     <div class="mt-4 pt-4 border-t">
                         <h4 class="font-semibold mb-1 text-gray-700">See it in action:</h4>
                         <a id="modalYoutubeLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-block bg-red-600 hover:bg-red-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 shadow hover:shadow-md">
-                            Watch on YouTube
+                            Watch on YouGlish
                         </a>
                     </div>
                 </div>
@@ -166,7 +167,7 @@
         const modalOnyomi = document.getElementById('modalOnyomi');
         const modalKunyomi = document.getElementById('modalKunyomi');
         const modalStory = document.getElementById('modalStory');
-        const modalRadicals = document.getElementById('modalRadicals'); // Container for radical links
+        const modalRadicals = document.getElementById('modalRadicals');
         const modalYoutubeLink = document.getElementById('modalYoutubeLink');
         const pronounceButton = document.getElementById('pronounceButton');
         const loadingMessage = document.getElementById('loadingMessage');
@@ -174,14 +175,13 @@
         const sentenceSection = document.getElementById('sentenceSection');
         const modalCasualSentence = document.getElementById('modalCasualSentence');
         const modalFormalSentence = document.getElementById('modalFormalSentence');
-        // Structure/Position elements (renamed from Kamae)
         const modalStructureInfo = document.getElementById('modalStructureInfo');
-        const modalStructureType = document.getElementById('modalStructureType'); // Was modalKamaeType
-        const modalStructureExplanation = document.getElementById('modalStructureExplanation'); // Was modalKamaeExplanation
+        const modalStructureType = document.getElementById('modalStructureType');
+        const modalStructureExplanation = document.getElementById('modalStructureExplanation');
 
-
-        // --- Global Variable ---
+        // --- Global Variables ---
         let allKanjiData = [];
+        let radicalDefinitionsMap = new Map(); // To store loaded radical definitions
 
         // --- Functions ---
         function displayError(message) {
@@ -190,6 +190,21 @@
             errorMessage.classList.remove('hidden');
             kanjiGrid.innerHTML = '';
         }
+
+        // Fetch radical definitions from radicals.json
+        async function loadRadicalDefinitions() {
+            try {
+                const response = await fetch('radicals.json'); // Assuming it's in the same directory
+                if (!response.ok) throw new Error(`HTTP error fetching radicals! Status: ${response.status}`);
+                const definitions = await response.json();
+                radicalDefinitionsMap = new Map(definitions.map(r => [r.char, r]));
+            } catch (error) {
+                console.error("Failed to load radicals.json in index.html:", error);
+                // Non-fatal error: Radical display in modal might be less detailed
+                // displayError(`Could not load radical definitions. Radical details may be missing. Error: ${error.message}`);
+            }
+        }
+
 
         function renderKanjiGrid(data) {
             if (!data || data.length === 0) {
@@ -200,8 +215,24 @@
             errorMessage.classList.add('hidden');
             loadingMessage.classList.add('hidden');
 
+            // Check for duplicate ranks and log warnings
+            const ranks = new Set();
+            const duplicates = new Set();
+            data.forEach(item => {
+                if (item.frequencyRank) {
+                    if (ranks.has(item.frequencyRank)) {
+                        duplicates.add(item.frequencyRank);
+                    }
+                    ranks.add(item.frequencyRank);
+                }
+            });
+            if (duplicates.size > 0) {
+                console.warn(`Duplicate frequency ranks found: ${Array.from(duplicates).join(', ')}. Sorting might be inconsistent for these ranks.`);
+            }
+
+
             data
-                .sort((a, b) => a.frequencyRank - b.frequencyRank)
+                .sort((a, b) => (a.frequencyRank || Infinity) - (b.frequencyRank || Infinity)) // Handle potential null ranks
                 .forEach(item => {
                     if (!item.kanji || !item.frequencyRank) {
                         console.warn("Skipping item due to missing kanji or frequencyRank:", item);
@@ -220,11 +251,10 @@
 
         // Function to get positional information based on kamae type
         function getPositionalInfo(kamae) {
-            let typeDesc = kamae.type || "Unknown Structure";
-            let explanation = ""; // Start with empty explanation, build based on type
+            let typeDesc = kamae?.type || "Unknown Structure";
+            let explanation = "";
             let positionInfo = "";
 
-            // Define styled positional terms
             const hen = `<span class="position-term">Left (hen <span class="position-jp">へん</span>)</span>`;
             const tsukuri = `<span class="position-term">Right (tsukuri <span class="position-jp">つくり</span>)</span>`;
             const kanmuri = `<span class="position-term">Top (kanmuri <span class="position-jp">かんむり</span>)</span>`;
@@ -233,46 +263,46 @@
             const tare = `<span class="position-term">Top-Left Enclosure (tare <span class="position-jp">たれ</span>)</span>`;
             const nyo = `<span class="position-term">Left-Bottom Enclosure (nyō <span class="position-jp">にょう</span>)</span>`;
 
-            // Generate description based on kamae.type
-            if (kamae.type) {
+            if (kamae?.type) {
                 const lowerCaseType = kamae.type.toLowerCase();
+                let jpNamePart = kamae.jpName ? `(<span class="jp-name">${kamae.jpName}</span>)` : '';
+
                 if (lowerCaseType.includes("left-right")) {
                     positionInfo = `Combines ${hen} and ${tsukuri} components.`;
-                    typeDesc = `Left-Right Structure (${kamae.jpName || 'へんつくり'})`;
+                    typeDesc = `Left-Right Structure ${jpNamePart || '(<span class="jp-name">へんつくり</span>)'}`;
                 } else if (lowerCaseType.includes("top-bottom")) {
                     positionInfo = `Stacks ${kanmuri} and ${ashi} components.`;
-                     typeDesc = `Top-Bottom Structure (${kamae.jpName || 'じょうげ'})`;
+                     typeDesc = `Top-Bottom Structure ${jpNamePart || '(<span class="jp-name">じょうげ</span>)'}`;
                 } else if (lowerCaseType.includes("enclosure")) {
-                     // Check for more specific enclosure types if data allows, otherwise use general kamae
                      if (kamae.jpName && kamae.jpName.includes("たれ")) {
                          positionInfo = `Features a ${tare}.`;
-                         typeDesc = `Tare Enclosure Structure (${kamae.jpName})`;
+                         typeDesc = `Tare Enclosure Structure ${jpNamePart}`;
                      } else if (kamae.jpName && kamae.jpName.includes("にょう")) {
                          positionInfo = `Features a ${nyo}.`;
-                          typeDesc = `Nyō Enclosure Structure (${kamae.jpName})`;
+                          typeDesc = `Nyō Enclosure Structure ${jpNamePart}`;
                      } else {
                          positionInfo = `Features an ${kamaePos}.`;
-                         typeDesc = `Enclosure Structure (${kamae.jpName || 'かまえ'})`;
+                         typeDesc = `Enclosure Structure ${jpNamePart || '(<span class="jp-name">かまえ</span>)'}`;
                      }
                 } else if (lowerCaseType.includes("single component")) {
                      positionInfo = "Consists of a single primary component or radical.";
                      typeDesc = "Single Component Structure";
                 } else if (lowerCaseType.includes("combination")) {
                      positionInfo = "Combines multiple components in a complex arrangement.";
-                     typeDesc = "Complex Combination Structure";
-                     // Add specific explanation for known complex types like '前'
-                     if (kamae.type.includes("Top-Left-Right Combination")) {
+                     typeDesc = `Complex Combination Structure ${jpNamePart}`;
+                     if (lowerCaseType.includes("top-left-right")) {
                          positionInfo += ` Typically involves ${kanmuri}, bottom-left, and bottom-right parts.`
                      }
                 } else {
                      positionInfo = kamae.explanation || "General structure description."; // Fallback
+                     typeDesc = kamae.type; // Use original type if not matched
                 }
             }
 
-            // Set the final explanation focusing on positions
-            explanation = positionInfo;
+            explanation = positionInfo + (kamae?.explanation && positionInfo !== kamae.explanation ? ` ${kamae.explanation}` : '');
 
-            return { typeDesc, explanation };
+            // Use innerHTML for typeDesc to render the jp-name span
+            return { typeDescHTML: typeDesc, explanation };
         }
 
 
@@ -285,51 +315,60 @@
             modalKunyomi.textContent = kanjiItem.readings?.kunyomi || 'N/A';
             modalStory.textContent = kanjiItem.story || 'Story coming soon!';
 
-            // --- Populate Radicals with Japanese Names (including positional ones) ---
+            // --- Populate Radicals using radicalDefinitionsMap ---
             modalRadicals.innerHTML = ''; // Clear previous radicals
             if (kanjiItem.radicals && kanjiItem.radicals.length > 0) {
-                kanjiItem.radicals.forEach(rad => {
-                    if (rad && rad.char) {
-                        const radicalLink = document.createElement('a');
-                        radicalLink.className = 'kanji-font bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded clickable-char no-underline inline-block';
+                kanjiItem.radicals.forEach(radChar => { // Iterate through radical characters from kanji-data.json
+                    if (radChar) {
+                        const definition = radicalDefinitionsMap.get(radChar); // Look up definition in the map
+                        const name = definition?.name || 'Component'; // Fallback name
+                        const jpName = definition?.jpName || ''; // Get Japanese name from definition
+                        const isDefinedRadical = !!definition; // Check if it was found in radicals.json
 
-                        // Build the text content, including JP name if available
-                        let radicalText = `${rad.char} (${rad.name || 'unknown'}`;
-                        if (rad.jpName) {
-                            radicalText += ` / <span class="jp-name">${rad.jpName}</span>`;
+                        const radicalLink = document.createElement('a');
+                        radicalLink.className = `kanji-font text-xs px-2 py-1 rounded no-underline inline-block ${isDefinedRadical ? 'bg-indigo-100 text-indigo-700 clickable-char' : 'bg-gray-100 text-gray-600 cursor-default'}`;
+
+                        // Build the text content using looked-up data
+                        let radicalText = `${radChar} (${name}`;
+                        if (jpName) {
+                             radicalText += ` / <span class="jp-name">${jpName.split(',')[0]}</span>`; // Show first JP name
                         }
                         radicalText += ')';
 
                         radicalLink.innerHTML = radicalText;
-                        radicalLink.title = `${rad.name || 'Unknown Radical'}${rad.jpName ? ' (' + rad.jpName + ')' : ''}`;
-                        radicalLink.href = `radicals.html?radical=${encodeURIComponent(rad.char)}`;
+                        radicalLink.title = `${name}${jpName ? ' (' + jpName + ')' : ''}${isDefinedRadical ? ' - Click to explore radical' : ' - Component info'}`;
+
+                        if (isDefinedRadical) {
+                            radicalLink.href = `radicals.html?radical=${encodeURIComponent(radChar)}`;
+                        } else {
+                            radicalLink.href = '#'; // Make it non-navigable if not a defined radical
+                             radicalLink.onclick = (e) => e.preventDefault(); // Prevent navigation
+                        }
                         modalRadicals.appendChild(radicalLink);
                     }
                 });
             } else {
-                modalRadicals.innerHTML = '<span class="text-sm text-gray-500">No radical info</span>';
+                modalRadicals.innerHTML = '<span class="text-sm text-gray-500">No components listed</span>';
             }
             // --- END Populate Radicals ---
 
 
             // --- Populate Structure / Position Info ---
             if (kanjiItem.kamae) {
-                // Get the descriptions focused on position
-                const { typeDesc, explanation } = getPositionalInfo(kanjiItem.kamae);
-                modalStructureType.textContent = typeDesc; // Display the structure type name
-                modalStructureExplanation.innerHTML = explanation; // Display the explanation focusing on positions
-                modalStructureInfo.classList.remove('hidden'); // Show the section
+                const { typeDescHTML, explanation } = getPositionalInfo(kanjiItem.kamae);
+                modalStructureType.innerHTML = typeDescHTML; // Use innerHTML to render spans
+                modalStructureExplanation.innerHTML = explanation; // Use innerHTML for potential spans
+                modalStructureInfo.classList.remove('hidden');
             } else {
-                // Hide the section if no kamae info
-                modalStructureType.textContent = '';
+                modalStructureType.innerHTML = '';
                 modalStructureExplanation.innerHTML = '';
                 modalStructureInfo.classList.add('hidden');
             }
             // --- END Populate Structure / Position Info ---
 
 
-            // Populate YouTube link
-            const searchTerm = `${kanjiItem.kanji}`;
+            // Populate YouTube link (using YouGlish)
+            const searchTerm = kanjiItem.kanji; // Use just the kanji for YouGlish
             const youtubeUrl = `https://youglish.com/pronounce/${encodeURIComponent(searchTerm)}/japanese`;
             modalYoutubeLink.href = youtubeUrl;
 
@@ -337,8 +376,9 @@
             pronounceButton.dataset.kanji = kanjiItem.kanji || '';
             const kunReadings = (kanjiItem.readings?.kunyomi || '').split(',');
             const onReadings = (kanjiItem.readings?.onyomi || '').split(',');
-            const firstKun = kunReadings[0]?.split('.')[0]?.trim();
+            const firstKun = kunReadings[0]?.split('.')[0]?.trim(); // Get base reading before '.'
             const firstOn = onReadings[0]?.split('.')[0]?.trim();
+             // Prefer Kun'yomi if available for single character pronunciation
             pronounceButton.dataset.reading = firstKun || firstOn || '';
 
             // --- Populate Sentences ---
@@ -347,6 +387,7 @@
             const formatSentence = (text) => text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
             modalCasualSentence.innerHTML = casualSentenceText ? formatSentence(casualSentenceText) : 'N/A';
             modalFormalSentence.innerHTML = formalSentenceText ? formatSentence(formalSentenceText) : 'N/A';
+
             if (!casualSentenceText && !formalSentenceText) {
                 sentenceSection.classList.add('hidden');
             } else {
@@ -370,15 +411,16 @@
         function pronounceKanji() {
             const kanjiToSpeak = pronounceButton.dataset.kanji;
             const readingToSpeak = pronounceButton.dataset.reading;
+             // Use the reading if available, otherwise fall back to the kanji character itself
             const textToSpeak = readingToSpeak || kanjiToSpeak;
             if (!textToSpeak || !window.speechSynthesis) {
                 console.warn("Speech synthesis not available or no text to speak.");
                 return;
             }
-            window.speechSynthesis.cancel();
+            window.speechSynthesis.cancel(); // Clear queue
             const utterance = new SpeechSynthesisUtterance(textToSpeak);
             utterance.lang = 'ja-JP';
-            utterance.rate = 0.8;
+            utterance.rate = 0.8; // Slightly slower for clarity
             window.speechSynthesis.speak(utterance);
             pronounceButton.classList.add('animate-pulse-simple');
             const removePulse = () => pronounceButton.classList.remove('animate-pulse-simple');
@@ -387,6 +429,7 @@
                 console.error('SpeechSynthesisUtterance.onerror', event);
                 removePulse();
             };
+            // Fallback timer to remove pulse in case onend doesn't fire
             setTimeout(removePulse, 2000);
         }
 
@@ -397,31 +440,42 @@
         pronounceButton.addEventListener('click', pronounceKanji);
 
         // --- Initial Data Load ---
-        async function loadKanjiData() {
+        async function loadData() { // Renamed function
              try {
+                loadingMessage.textContent = 'Loading radical definitions...';
+                await loadRadicalDefinitions(); // Load radicals first
+
+                loadingMessage.textContent = 'Loading Kanji data...';
                 const response = await fetch('kanji-data.json');
-                if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+                if (!response.ok) throw new Error(`HTTP error loading Kanji data! Status: ${response.status}`);
                 allKanjiData = await response.json();
+
                 renderKanjiGrid(allKanjiData);
+
+                // Handle direct linking via URL parameter
                 const urlParams = new URLSearchParams(window.location.search);
                 const kanjiParam = urlParams.get('kanji');
                 if (kanjiParam) {
                     const decodedKanji = decodeURIComponent(kanjiParam);
                     const kanjiToShow = allKanjiData.find(item => item.kanji === decodedKanji);
                     if (kanjiToShow) {
+                        // Use setTimeout to ensure the grid is rendered before showing modal
                         setTimeout(() => showModal(kanjiToShow), 100);
                     } else {
                         console.warn(`Kanji "${decodedKanji}" from URL parameter not found in data.`);
                     }
                 }
             } catch (error) {
-                console.error("Failed to load or parse kanji-data.json:", error);
-                displayError(`Could not load Kanji data. Please check if 'kanji-data.json' is available. Error: ${error.message}`);
+                console.error("Failed to load or parse data:", error);
+                displayError(`Could not load data. Please check file availability and format. Error: ${error.message}`);
+            } finally {
+                // Ensure loading message is hidden
+                loadingMessage.classList.add('hidden');
             }
         }
 
         // --- Initialize ---
-        document.addEventListener('DOMContentLoaded', loadKanjiData);
+        document.addEventListener('DOMContentLoaded', loadData); // Call the main loading function
 
     </script>
 

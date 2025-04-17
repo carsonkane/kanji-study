@@ -1,0 +1,576 @@
+[
+    {
+      "char": "日",
+      "name": "sun/day",
+      "jpName": "ひ, にち, ひへん, にちへん",
+      "strokeCount": 4,
+      "variants": []
+    },
+    {
+      "char": "一",
+      "name": "one",
+      "jpName": "いち",
+      "strokeCount": 1,
+      "variants": []
+    },
+    {
+      "char": "囗",
+      "name": "enclosure",
+      "jpName": "くにがまえ",
+      "strokeCount": 3,
+      "variants": []
+    },
+    {
+      "char": "玉",
+      "name": "jewel",
+      "jpName": "たま, たまへん, おうへん",
+      "strokeCount": 5,
+      "variants": ["王"]
+    },
+    {
+      "char": "人",
+      "name": "person",
+      "jpName": "ひと, にんべん, ひとやね",
+      "strokeCount": 2,
+      "variants": ["亻"]
+    },
+    {
+      "char": "干",
+      "name": "dry/shield",
+      "jpName": "かん, いちじゅう",
+      "strokeCount": 3,
+      "variants": []
+    },
+    {
+      "char": "大",
+      "name": "big",
+      "jpName": "だい, だいかんむり, だいがしら",
+      "strokeCount": 3,
+      "variants": []
+    },
+    {
+      "char": "十",
+      "name": "ten",
+      "jpName": "じゅう",
+      "strokeCount": 2,
+      "variants": []
+    },
+    {
+      "char": "木",
+      "name": "tree",
+      "jpName": "き, きへん",
+      "strokeCount": 4,
+      "variants": []
+    },
+    {
+      "char": "口",
+      "name": "mouth",
+      "jpName": "くち, くちへん",
+      "strokeCount": 3,
+      "variants": []
+    },
+    {
+      "char": "丨",
+      "name": "vertical stroke",
+      "jpName": "ぼう, たてぼう",
+      "strokeCount": 1,
+      "variants": []
+    },
+    {
+      "char": "長",
+      "name": "long/leader",
+      "jpName": "ながい",
+      "strokeCount": 8,
+      "variants": []
+    },
+    {
+      "char": "凵",
+      "name": "container/open box",
+      "jpName": "かんにょう, うけばこ",
+      "strokeCount": 2,
+      "variants": []
+    },
+    {
+      "char": "山",
+      "name": "mountain",
+      "jpName": "やま, やまへん, やまかんむり",
+      "strokeCount": 3,
+      "variants": []
+    },
+    {
+      "char": "寺",
+      "name": "temple",
+      "jpName": "てら",
+      "strokeCount": 6,
+      "variants": []
+    },
+    {
+      "char": "行",
+      "name": "go/journey",
+      "jpName": "ぎょうがまえ, ゆきがまえ",
+      "strokeCount": 6,
+      "variants": []
+    },
+    {
+      "char": "目",
+      "name": "eye",
+      "jpName": "め, めへん",
+      "strokeCount": 5,
+      "variants": []
+    },
+    {
+      "char": "儿",
+      "name": "legs/human",
+      "jpName": "ひとあし, にんにょう",
+      "strokeCount": 2,
+      "variants": []
+    },
+    {
+      "char": "月",
+      "name": "moon/month/flesh",
+      "jpName": "つき, つきへん, にくづき",
+      "strokeCount": 4,
+      "variants": []
+    },
+    {
+      "char": "八",
+      "name": "eight/divide",
+      "jpName": "はち, はちがしら",
+      "strokeCount": 2,
+      "variants": ["丷"]
+    },
+    {
+      "char": "刀",
+      "name": "sword/knife",
+      "jpName": "かたな, りっとう",
+      "strokeCount": 2,
+      "variants": ["刂"]
+    },
+    {
+      "char": "彳",
+      "name": "step/walk",
+      "jpName": "ぎょうにんべん",
+      "strokeCount": 3,
+      "variants": []
+    },
+    {
+      "char": "幺",
+      "name": "thread/tiny",
+      "jpName": "いとがしら, よう",
+      "strokeCount": 3,
+      "variants": []
+    },
+    {
+      "char": "夂",
+      "name": "go slowly/winter",
+      "jpName": "ふゆがしら, ちいさい, なつあし",
+      "strokeCount": 3,
+      "variants": []
+    },
+    {
+      "char": "丷",
+      "name": "horns/eight variant",
+      "jpName": "はちがしら",
+      "strokeCount": 2,
+      "variants": []
+    },
+    {
+      "char": "刂",
+      "name": "knife variant",
+      "jpName": "りっとう",
+      "strokeCount": 2,
+      "variants": []
+    },
+    {
+      "char": "气",
+      "name": "steam/spirit",
+      "jpName": "きがまえ",
+      "strokeCount": 4,
+      "variants": []
+    },
+    {
+      "char": "米",
+      "name": "rice",
+      "jpName": "こめ, こめへん",
+      "strokeCount": 6,
+      "variants": []
+    },
+    {
+      "char": "小",
+      "name": "small",
+      "jpName": "しょう, ちいさい, しょうがしら",
+      "strokeCount": 3,
+      "variants": []
+    },
+    {
+      "char": "入",
+      "name": "enter",
+      "jpName": "いる, いりやね, にゅう",
+      "strokeCount": 2,
+      "variants": []
+    },
+    {
+      "char": "止",
+      "name": "stop",
+      "jpName": "とめる, とまる",
+      "strokeCount": 4,
+      "variants": []
+    },
+    {
+      "char": "牛",
+      "name": "cow",
+      "jpName": "うし, うしへん",
+      "strokeCount": 4,
+      "variants": []
+    },
+    {
+      "char": "亠",
+      "name": "lid/top",
+      "jpName": "なべぶた, けいさんかんむり",
+      "strokeCount": 2,
+      "variants": []
+    },
+    {
+      "char": "母",
+      "name": "mother",
+      "jpName": "はは, ははのかん",
+      "strokeCount": 5,
+      "variants": []
+    },
+    {
+      "char": "可",
+      "name": "possible",
+      "jpName": "か",
+      "strokeCount": 5,
+      "variants": []
+    },
+    {
+      "char": "言",
+      "name": "say/words",
+      "jpName": "げん, ことば, ごんべん",
+      "strokeCount": 7,
+      "variants": ["訁"]
+    },
+    {
+      "char": "五",
+      "name": "five",
+      "jpName": "ご",
+      "strokeCount": 4,
+      "variants": []
+    },
+    {
+      "char": "夕",
+      "name": "evening",
+      "jpName": "ゆう, ゆうべ, た",
+      "strokeCount": 3,
+      "variants": []
+    },
+    {
+      "char": "高",
+      "name": "tall/high",
+      "jpName": "たかい",
+      "strokeCount": 10,
+      "variants": []
+    },
+    {
+      "char": "田",
+      "name": "rice field",
+      "jpName": "た, たへん",
+      "strokeCount": 5,
+      "variants": []
+    },
+    {
+      "char": "心",
+      "name": "heart/mind",
+      "jpName": "こころ, したごころ, りっしんべん",
+      "strokeCount": 4,
+      "variants": ["忄", "⺗"]
+    },
+    {
+      "char": "方",
+      "name": "direction/way",
+      "jpName": "ほう, ほうへん, かた",
+      "strokeCount": 4,
+      "variants": []
+    },
+    {
+      "char": "矢",
+      "name": "arrow",
+      "jpName": "や, やへん",
+      "strokeCount": 5,
+      "variants": []
+    },
+    {
+      "char": "土",
+      "name": "earth/ground",
+      "jpName": "つち, つちへん, どへん",
+      "strokeCount": 3,
+      "variants": []
+    },
+    {
+      "char": "也",
+      "name": "also",
+      "jpName": "なり",
+      "strokeCount": 3,
+      "variants": []
+    },
+    {
+      "char": "冂",
+      "name": "wide/border",
+      "jpName": "まきがまえ, どうがまえ, えんがまえ",
+      "strokeCount": 2,
+      "variants": []
+    },
+    {
+      "char": "一口",
+      "name": "one mouth",
+      "jpName": "ひとくち",
+      "strokeCount": 4,
+      "variants": []
+    },
+    {
+      "char": "門",
+      "name": "gate",
+      "jpName": "もん, もんがまえ",
+      "strokeCount": 8,
+      "variants": []
+    },
+    {
+      "char": "是",
+      "name": "this/correct",
+      "jpName": "これ, ひ",
+      "strokeCount": 9,
+      "variants": []
+    },
+    {
+      "char": "音",
+      "name": "sound",
+      "jpName": "おと, おとへん",
+      "strokeCount": 9,
+      "variants": []
+    },
+    {
+      "char": "不",
+      "name": "not/negative",
+      "jpName": "ふ, ぶ",
+      "strokeCount": 4,
+      "variants": []
+    },
+    {
+      "char": "丿",
+      "name": "slash/bend",
+      "jpName": "の, はらいぼう",
+      "strokeCount": 1,
+      "variants": []
+    },
+    {
+      "char": "用",
+      "name": "use/business",
+      "jpName": "よう, もちいる",
+      "strokeCount": 5,
+      "variants": []
+    },
+    {
+      "char": "亜",
+      "name": "asia/sub-",
+      "jpName": "あ",
+      "strokeCount": 7,
+      "variants": []
+    },
+    {
+      "char": "史",
+      "name": "history",
+      "jpName": "ふみ, し",
+      "strokeCount": 5,
+      "variants": []
+    },
+    {
+      "char": "女",
+      "name": "woman",
+      "jpName": "おんな, おんなへん",
+      "strokeCount": 3,
+      "variants": []
+    },
+    {
+      "char": "台",
+      "name": "platform/pedestal",
+      "jpName": "だい, うてな",
+      "strokeCount": 5,
+      "variants": []
+    },
+    {
+      "char": "糸",
+      "name": "thread",
+      "jpName": "いと, いとへん",
+      "strokeCount": 6,
+      "variants": []
+    },
+    {
+      "char": "冬",
+      "name": "winter",
+      "jpName": "ふゆ",
+      "strokeCount": 5,
+      "variants": []
+    },
+    {
+      "char": "丂",
+      "name": "skillful/clever",
+      "jpName": "こう, かぎ",
+      "strokeCount": 1,
+      "variants": []
+    },
+    {
+      "char": "歹",
+      "name": "death/decay",
+      "jpName": "がつ, がつへん, かばねへん",
+      "strokeCount": 4,
+      "variants": []
+    },
+    {
+      "char": "未",
+      "name": "not yet",
+      "jpName": "まだ, ひつじ",
+      "strokeCount": 5,
+      "variants": []
+    },
+    {
+      "char": "氵",
+      "name": "water variant",
+      "jpName": "さんずい",
+      "strokeCount": 3,
+      "variants": []
+    },
+    {
+      "char": "主",
+      "name": "master/lord",
+      "jpName": "しゅ, あるじ",
+      "strokeCount": 5,
+      "variants": []
+    },
+    {
+      "char": "夬",
+      "name": "decisive/part",
+      "jpName": "かい, けつ",
+      "strokeCount": 4,
+      "variants": []
+    },
+    {
+      "char": "㐬",
+      "name": "flow/scattered",
+      "jpName": "りゅう",
+      "strokeCount": 7,
+      "variants": []
+    },
+    {
+      "char": "肖",
+      "name": "resemble",
+      "jpName": "しょう, あやか.る",
+      "strokeCount": 7,
+      "variants": []
+    },
+    {
+      "char": "由",
+      "name": "reason/wherefore",
+      "jpName": "ゆう, よし",
+      "strokeCount": 5,
+      "variants": []
+    },
+    {
+      "char": "昷",
+      "name": "warm/gentle (variant)",
+      "jpName": "おん",
+      "strokeCount": 9,
+      "variants": []
+    },
+    {
+      "char": "難",
+      "name": "difficult",
+      "jpName": "むずかしい, なん",
+      "strokeCount": 19,
+      "variants": []
+    },
+    {
+      "char": "灰",
+      "name": "ash",
+      "jpName": "はい",
+      "strokeCount": 6,
+      "variants": []
+    },
+    {
+      "char": "石",
+      "name": "stone",
+      "jpName": "いし, いしへん",
+      "strokeCount": 5,
+      "variants": []
+    },
+     {
+       "char": "水",
+       "name": "water",
+       "jpName": "みず, したみず, みず",
+       "strokeCount": 4,
+       "variants": ["氵"]
+     },
+     {
+       "char": "艸",
+       "name": "grass",
+       "jpName": "くさ, くさかんむり",
+       "strokeCount": 6,
+       "variants": ["艹"]
+     },
+     {
+       "char": "食",
+       "name": "eat/food",
+       "jpName": "しょく, しょくへん, くう",
+       "strokeCount": 9,
+       "variants": ["飠"]
+     },
+     {
+       "char": "示",
+       "name": "show/altar",
+       "jpName": "しめす, しめすへん, ね",
+       "strokeCount": 5,
+       "variants": ["礻"]
+     },
+     {
+       "char": "犬",
+       "name": "dog",
+       "jpName": "いぬ, けものへん",
+       "strokeCount": 4,
+       "variants": ["犭"]
+     },
+     {
+       "char": "手",
+       "name": "hand",
+       "jpName": "て, てへん",
+       "strokeCount": 4,
+       "variants": ["扌"]
+     },
+     {
+       "char": "邑",
+       "name": "town/village (right)",
+       "jpName": "おおざと",
+       "strokeCount": 7,
+       "variants": ["阝"]
+     },
+     {
+       "char": "阜",
+       "name": "mound/hill (left)",
+       "jpName": "こざとへん",
+       "strokeCount": 8,
+       "variants": ["阝"]
+     },
+     {
+       "char": "衣",
+       "name": "clothes",
+       "jpName": "ころも, ころもへん",
+       "strokeCount": 6,
+       "variants": ["衤"]
+     },
+     {
+       "char": "金",
+       "name": "gold/metal",
+       "jpName": "かね, かねへん",
+       "strokeCount": 8,
+       "variants": ["釒"]
+     }
+  ]
