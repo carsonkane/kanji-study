@@ -34,8 +34,8 @@
              margin-bottom: 0.5rem;
              border-radius: 0 0.25rem 0.25rem 0; /* Rounded corners except top-left */
         }
-        .sentence-casual { border-color: #a78bfa; } /* Purple */
-        .sentence-formal { border-color: #2dd4bf; } /* Teal */
+        .sentence-onyomi { border-color: #a78bfa; } /* Purple */
+        .sentence-kunyomi { border-color: #2dd4bf; } /* Teal */
         /* Ensure strong tags within sentences are bold */
         .sentence-example p strong {
             font-weight: 700; /* Or 600 if you prefer */
@@ -76,6 +76,35 @@
              color: #5a67d8;
              font-style: italic;
          }
+         /* Styles for the drawing canvas */
+        #kanjiCanvas {
+            border: 1px solid #ccc;
+            cursor: crosshair;
+            background-color: #f9f9f9;
+        }
+        #kanjiWritingControls {
+            margin-top: 0.5rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #kanjiWritingControls button {
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            font-weight: 500;
+            color: white;
+            background-color: #4f46e5; /* Indigo-500 */
+            transition: background-color 0.2s ease;
+            border: none;
+            cursor: pointer;
+        }
+        #kanjiWritingControls button:hover {
+            background-color: #4338ca; /* Indigo-600 */
+        }
+        #kanjiWritingControls button:disabled {
+            background-color: #a5b4fc; /* Indigo-200 */
+            cursor: not-allowed;
+        }
     </style>
 </head>
 <body class="antialiased text-gray-800">
@@ -135,13 +164,13 @@
                     <div id="sentenceSection" class="mt-4 pt-4 border-t">
                         <h4 class="font-semibold mb-2 text-gray-700">Example Sentences:</h4>
                         <div class="space-y-2 text-sm">
-                            <div class="sentence-example sentence-casual">
-                                <span class="font-medium text-purple-700">Casual:</span>
-                                <p id="modalCasualSentence" class="kanji-font text-gray-700 leading-relaxed inline"></p>
+                            <div class="sentence-example sentence-onyomi">
+                                <span class="font-medium text-purple-700">Onyomi:</span>
+                                <p id="modalOnyomiSentence" class="kanji-font text-gray-700 leading-relaxed inline"></p>
                             </div>
-                            <div class="sentence-example sentence-formal">
-                                <span class="font-medium text-teal-700">Formal:</span>
-                                <p id="modalFormalSentence" class="kanji-font text-gray-700 leading-relaxed inline"></p>
+                            <div class="sentence-example sentence-kunyomi">
+                                <span class="font-medium text-teal-700">Kunyomi:</span>
+                                <p id="modalKunyomiSentence" class="kanji-font text-gray-700 leading-relaxed inline"></p>
                             </div>
                         </div>
                     </div>
@@ -151,11 +180,18 @@
                             Watch on YouGlish
                         </a>
                     </div>
+                    <div id="kanjiWritingSection" class="mt-4 pt-4 border-t">
+                        <h4 class="font-semibold mb-2 text-gray-700">Write it yourself:</h4>
+                        <canvas id="kanjiCanvas" width="200" height="200"></canvas>
+                        <div id="kanjiWritingControls">
+                            <button id="clearCanvas">Clear</button>
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
     <script>
         // --- DOM Elements ---
         const kanjiGrid = document.getElementById('kanjiGrid');
@@ -173,11 +209,17 @@
         const loadingMessage = document.getElementById('loadingMessage');
         const errorMessage = document.getElementById('errorMessage');
         const sentenceSection = document.getElementById('sentenceSection');
-        const modalCasualSentence = document.getElementById('modalCasualSentence');
-        const modalFormalSentence = document.getElementById('modalFormalSentence');
+        const modalOnyomiSentence = document.getElementById('modalOnyomiSentence');
+        const modalKunyomiSentence = document.getElementById('modalKunyomiSentence');
         const modalStructureInfo = document.getElementById('modalStructureInfo');
         const modalStructureType = document.getElementById('modalStructureType');
         const modalStructureExplanation = document.getElementById('modalStructureExplanation');
+
+        // Canvas elements
+        const kanjiCanvas = document.getElementById('kanjiCanvas');
+        const clearCanvasBtn = document.getElementById('clearCanvas');
+        let canvasContext;
+        let isDrawing = false;
 
         // --- Global Variables ---
         let allKanjiData = [];
@@ -382,21 +424,23 @@
             pronounceButton.dataset.reading = firstKun || firstOn || '';
 
             // --- Populate Sentences ---
-            let casualSentenceText = kanjiItem.casualSentence || '';
-            let formalSentenceText = kanjiItem.formalSentence || '';
+            let onyomiSentenceText = kanjiItem.onyomiSentence || '';
+            let kunyomiSentenceText = kanjiItem.kunyomiSentence || '';
             const formatSentence = (text) => text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-            modalCasualSentence.innerHTML = casualSentenceText ? formatSentence(casualSentenceText) : 'N/A';
-            modalFormalSentence.innerHTML = formalSentenceText ? formatSentence(formalSentenceText) : 'N/A';
+            modalOnyomiSentence.innerHTML = onyomiSentenceText ? formatSentence(onyomiSentenceText) : 'N/A';
+            modalKunyomiSentence.innerHTML = kunyomiSentenceText ? formatSentence(kunyomiSentenceText) : 'N/A';
 
-            if (!casualSentenceText && !formalSentenceText) {
+            if (!onyomiSentenceText && !kunyomiSentenceText) {
                 sentenceSection.classList.add('hidden');
             } else {
                 sentenceSection.classList.remove('hidden');
-                 modalCasualSentence.closest('.sentence-example').style.display = casualSentenceText ? '' : 'none';
-                 modalFormalSentence.closest('.sentence-example').style.display = formalSentenceText ? '' : 'none';
+                 modalOnyomiSentence.closest('.sentence-example').style.display = onyomiSentenceText ? '' : 'none';
+                 modalKunyomiSentence.closest('.sentence-example').style.display = kunyomiSentenceText ? '' : 'none';
             }
             // --- END Populate Sentences ---
 
+             // Clear the canvas
+            clearCanvas();
 
             // Show modal
             modal.classList.remove('modal-hidden');
@@ -433,11 +477,51 @@
             setTimeout(removePulse, 2000);
         }
 
+        // Canvas drawing functions
+        function startDrawing(e) {
+            isDrawing = true;
+            draw(e);
+        }
+
+        function draw(e) {
+            if (!isDrawing) return;
+
+            const rect = kanjiCanvas.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            canvasContext.lineWidth = 5;
+            canvasContext.lineCap = 'round';
+            canvasContext.strokeStyle = '#2d3748'; // Gray-800
+
+            canvasContext.lineTo(x, y);
+            canvasContext.stroke();
+            canvasContext.beginPath();
+            canvasContext.moveTo(x, y);
+        }
+
+        function stopDrawing() {
+            isDrawing = false;
+            canvasContext.beginPath();
+        }
+
+        function clearCanvas() {
+            canvasContext.clearRect(0, 0, kanjiCanvas.width, kanjiCanvas.height);
+        }
+
         // --- Event Listeners ---
         closeModalBtn.addEventListener('click', hideModal);
         modal.addEventListener('click', (event) => { if (event.target === modal) hideModal(); });
         document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && modal.classList.contains('modal-visible')) hideModal(); });
         pronounceButton.addEventListener('click', pronounceKanji);
+
+        // Canvas event listeners
+        kanjiCanvas.addEventListener('mousedown', startDrawing);
+        kanjiCanvas.addEventListener('mouseup', stopDrawing);
+        kanjiCanvas.addEventListener('mouseout', stopDrawing);
+        kanjiCanvas.addEventListener('mousemove', draw);
+
+        clearCanvasBtn.addEventListener('click', clearCanvas);
 
         // --- Initial Data Load ---
         async function loadData() { // Renamed function
@@ -475,7 +559,13 @@
         }
 
         // --- Initialize ---
-        document.addEventListener('DOMContentLoaded', loadData); // Call the main loading function
+        document.addEventListener('DOMContentLoaded', () => {
+            loadData(); // Call the main loading function
+
+            // Initialize canvas context after the DOM is fully loaded
+            canvasContext = kanjiCanvas.getContext('2d');
+            canvasContext.lineJoin = canvasContext.lineCap = 'round'; // Ensure rounded line endings
+        });
 
     </script>
 
